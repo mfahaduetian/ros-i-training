@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tesseract_msgs/msg/KinematicsInformation.msg
+// generated code does not contain a copyright notice
+
+#include "tesseract_msgs/msg/ChainGroup.idl"
+#include "tesseract_msgs/msg/GroupsJointStates.idl"
+#include "tesseract_msgs/msg/GroupsTCPs.idl"
+#include "tesseract_msgs/msg/JointGroup.idl"
+#include "tesseract_msgs/msg/KinematicsPluginInfo.idl"
+#include "tesseract_msgs/msg/LinkGroup.idl"
+
+module tesseract_msgs {
+  module msg {
+    struct KinematicsInformation {
+      sequence<string> group_names;
+
+      sequence<tesseract_msgs::msg::GroupsJointStates> group_joint_states;
+
+      sequence<tesseract_msgs::msg::GroupsTCPs> group_tcps;
+
+      sequence<tesseract_msgs::msg::ChainGroup> chain_groups;
+
+      sequence<tesseract_msgs::msg::JointGroup> joint_groups;
+
+      sequence<tesseract_msgs::msg::LinkGroup> link_groups;
+
+      tesseract_msgs::msg::KinematicsPluginInfo kinematics_plugin_info;
+    };
+  };
+};

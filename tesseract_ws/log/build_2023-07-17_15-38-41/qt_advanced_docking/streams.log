@@ -1,0 +1,59 @@
+[0.065s] Invoking command in '/home/ubuntu/tesseract_ws/build/qt_advanced_docking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/tesseract_ws/install/industrial_reconstruction:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/tesseract_ws/build/qt_advanced_docking -- -j4 -l4
+[0.417s] [  1%] [34m[1mAutomatic MOC for target qtadvanceddocking[0m
+[0.570s] [  1%] Built target qtadvanceddocking_autogen
+[0.750s] [ 33%] Built target qtadvanceddocking
+[0.944s] [ 34%] [34m[1mAutomatic MOC and UIC for target HideShowExample[0m
+[0.947s] [ 36%] [34m[1mAutomatic MOC and UIC for target SimpleExample[0m
+[0.949s] [ 37%] [34m[1mAutomatic MOC for target DeleteOnCloseTest[0m
+[0.978s] [ 39%] [34m[1mAutomatic MOC and UIC for target SidebarExample[0m
+[1.072s] [ 39%] Built target HideShowExample_autogen
+[1.100s] [ 39%] Built target DeleteOnCloseTest_autogen
+[1.136s] [ 39%] Built target SimpleExample_autogen
+[1.160s] [ 39%] Built target SidebarExample_autogen
+[1.289s] [ 40%] [34m[1mAutomatic MOC and UIC for target CentralWidgetExample[0m
+[1.315s] [ 42%] [34m[1mAutomatic MOC and UIC for target EmptyDockAreaExample[0m
+[1.344s] [ 43%] [34m[1mAutomatic MOC and UIC for target DockInDockExample[0m
+[1.383s] [ 44%] [34m[1mAutomatic MOC and UIC for target AdvancedDockingSystemDemo[0m
+[1.479s] [ 44%] Built target CentralWidgetExample_autogen
+[1.479s] [ 44%] Built target EmptyDockAreaExample_autogen
+[1.493s] [ 44%] Built target DockInDockExample_autogen
+[1.532s] [ 44%] Built target AdvancedDockingSystemDemo_autogen
+[1.664s] [ 50%] Built target HideShowExample
+[1.676s] [ 56%] Built target SidebarExample
+[1.700s] [ 60%] Built target DeleteOnCloseTest
+[1.712s] [ 66%] Built target SimpleExample
+[1.847s] [ 72%] Built target CentralWidgetExample
+[1.849s] [ 78%] Built target EmptyDockAreaExample
+[1.901s] [100%] Built target AdvancedDockingSystemDemo
+[1.902s] [ 89%] Built target DockInDockExample
+[1.929s] Invoked command in '/home/ubuntu/tesseract_ws/build/qt_advanced_docking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/tesseract_ws/install/industrial_reconstruction:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/tesseract_ws/build/qt_advanced_docking -- -j4 -l4
+[2.448s] Invoking command in '/home/ubuntu/tesseract_ws/build/qt_advanced_docking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/tesseract_ws/install/industrial_reconstruction:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/tesseract_ws/build/qt_advanced_docking
+[2.473s] -- Install configuration: ""
+[2.474s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/FloatingWidgetTitleBar.h
+[2.474s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/ads_globals.h
+[2.474s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/DockAreaTabBar.h
+[2.474s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/DockAreaTitleBar.h
+[2.475s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/DockAreaTitleBar_p.h
+[2.475s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/DockAreaWidget.h
+[2.475s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/DockContainerWidget.h
+[2.475s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/DockManager.h
+[2.475s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/DockOverlay.h
+[2.476s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/DockSplitter.h
+[2.476s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/DockWidget.h
+[2.476s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/DockWidgetTab.h
+[2.476s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/DockingStateReader.h
+[2.476s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/DockFocusController.h
+[2.477s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/ElidingLabel.h
+[2.477s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/FloatingDockContainer.h
+[2.477s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/FloatingDragPreview.h
+[2.477s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/IconProvider.h
+[2.477s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/DockComponentsFactory.h
+[2.478s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/license/LICENSE
+[2.478s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/license/gnu-lgpl-v2.1.md
+[2.479s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/lib/libqtadvanceddocking.so.3.8.2
+[2.480s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/lib/libqtadvanceddocking.so
+[2.481s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/lib/cmake/qtadvanceddocking/adsTargets.cmake
+[2.481s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/lib/cmake/qtadvanceddocking/adsTargets-noconfig.cmake
+[2.481s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/lib/cmake/qtadvanceddocking/qtadvanceddockingConfig.cmake
+[2.482s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/lib/cmake/qtadvanceddocking/qtadvanceddockingConfigVersion.cmake
+[2.486s] Invoked command in '/home/ubuntu/tesseract_ws/build/qt_advanced_docking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/tesseract_ws/install/industrial_reconstruction:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/tesseract_ws/build/qt_advanced_docking

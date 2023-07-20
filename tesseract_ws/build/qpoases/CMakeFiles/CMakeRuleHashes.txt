@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+b159548978d3dd03878b709168841774 CMakeFiles/qpoases
+b4bf6b4395f1d07334bfedba445e5599 CMakeFiles/qpoases-complete
+48c3c28fec4d9b62d7d5507189e4a1b0 qpoases-prefix/src/qpoases-stamp/qpoases-build
+c0201efccdde651a036ae4a3970ab782 qpoases-prefix/src/qpoases-stamp/qpoases-configure
+f88da4223eee9ab5f2e226ecdc49934a qpoases-prefix/src/qpoases-stamp/qpoases-download
+ff9c618177e15ee82ee70dc03e7d944e qpoases-prefix/src/qpoases-stamp/qpoases-install
+f74d800c9b1686e22ff11fa201afce08 qpoases-prefix/src/qpoases-stamp/qpoases-mkdir
+516617662fb84ef313502b73c8fbbc11 qpoases-prefix/src/qpoases-stamp/qpoases-patch
+b6dd5cef1e5b30e77e8e3def931162ca qpoases-prefix/src/qpoases-stamp/qpoases-update

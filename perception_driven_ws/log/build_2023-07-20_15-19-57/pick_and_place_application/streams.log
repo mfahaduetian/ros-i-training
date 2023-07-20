@@ -1,0 +1,60 @@
+[0.013s] Invoking command in '/home/ubuntu/perception_driven_ws/build/pick_and_place_application': AMENT_PREFIX_PATH=/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs:/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/perception_driven_ws/build/pick_and_place_application -- -j4 -l4
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target fake_grasp_server_node[0m
+[0.079s] [35m[1mConsolidate compiler generated dependencies of target generate_cloud_node[0m
+[0.102s] [ 11%] Built target fake_grasp_server_node
+[0.115s] [35m[1mConsolidate compiler generated dependencies of target pick_and_place_node[0m
+[0.121s] [ 22%] Built target generate_cloud_node
+[0.248s] [ 27%] [32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/set_attached_object.cpp.o[0m
+[0.248s] [ 33%] [32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/place_box.cpp.o[0m
+[0.249s] [ 38%] [32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/pickup_box.cpp.o[0m
+[0.259s] [ 44%] [32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/create_motion_plan.cpp.o[0m
+[0.266s] In file included from [01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/set_attached_object.cpp:1[m[K:
+[0.266s] [01m[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[0.266s]    32 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead
+[0.266s]       |  [01;35m[K^~~~~~~[m[K
+[14.609s] [01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/pickup_box.cpp:[m[K In member function ‘[01m[Kvoid pick_and_place_application::PickAndPlaceApp::doBoxPickup(std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, const Pose&)[m[K’:
+[14.609s] [01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/pickup_box.cpp:15:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbox_pose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[14.609s]    15 |                                                               [01;35m[Kconst geometry_msgs::msg::Pose& box_pose[m[K)
+[14.609s]       |                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[14.617s] [01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/set_attached_object.cpp:[m[K In member function ‘[01m[Kvoid pick_and_place_application::PickAndPlaceApp::setAttachedObject(bool, const Pose&, moveit_msgs::msg::RobotState&)[m[K’:
+[14.617s] [01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/set_attached_object.cpp:34:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::core::RobotState::attachBody(std::string&, std::vector<std::shared_ptr<const shapes::Shape> >&, EigenSTL::vector_Isometry3d&, std::vector<std::__cxx11::basic_string<char> >&, std::string&)[m[K’
+[14.617s]    34 |     [01;31m[Kcurrent_state->attachBody([m[K
+[14.617s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[14.618s]    35 | [01;31m[K        cfg.ATTACHED_OBJECT_LINK_NAME, shapes_array, pose_array, cfg.TOUCH_LINKS, cfg.TCP_LINK_NAME)[m[K;
+[14.618s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.618s] In file included from [01m[K/opt/ros/humble/include/moveit/planning_scene/planning_scene.h:40[m[K,
+[14.619s]                  from [01m[K/opt/ros/humble/include/moveit/planning_scene_monitor/planning_scene_monitor.h:43[m[K,
+[14.619s]                  from [01m[K/opt/ros/humble/include/moveit/moveit_cpp/moveit_cpp.h:44[m[K,
+[14.619s]                  from [01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/include/pick_and_place_application/pick_and_place.h:9[m[K,
+[14.619s]                  from [01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/set_attached_object.cpp:2[m[K:
+[14.619s] [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1594:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::core::RobotState::attachBody(std::unique_ptr<moveit::core::AttachedBody>)[m[K’
+[14.620s]  1594 |   void [01;36m[KattachBody[m[K(std::unique_ptr<AttachedBody> attached_body);
+[14.620s]       |        [01;36m[K^~~~~~~~~~[m[K
+[14.620s] [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1594:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 5 provided
+[14.620s] [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1615:64:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::core::RobotState::attachBody(moveit::core::AttachedBody*)[m[K’
+[14.620s]  1615 | [deprecated("Deprecated. Pass a unique_ptr instead")]] void [01;36m[KattachBody[m[K(AttachedBody* attached_body);
+[14.621s]       |                                                             [01;36m[K^~~~~~~~~~[m[K
+[14.621s] 
+[14.621s] [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1615:64:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 5 provided
+[14.621s] [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1634:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::core::RobotState::attachBody(const string&, const Isometry3d&, const std::vector<std::shared_ptr<const shapes::Shape> >&, const vector_Isometry3d&, const std::set<std::__cxx11::basic_string<char> >&, const string&, const JointTrajectory&, const FixedTransformsMap&)[m[K’
+[14.621s]  1634 |   void [01;36m[KattachBody[m[K(const std::string& id, const Eigen::Isometry3d& pose,
+[14.622s]       |        [01;36m[K^~~~~~~~~~[m[K
+[14.622s] [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1634:8:[m[K [01;36m[Knote: [m[K  candidate expects 8 arguments, 5 provided
+[14.622s] [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1657:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::core::RobotState::attachBody(const string&, const Isometry3d&, const std::vector<std::shared_ptr<const shapes::Shape> >&, const vector_Isometry3d&, const std::vector<std::__cxx11::basic_string<char> >&, const string&, const JointTrajectory&, const FixedTransformsMap&)[m[K’
+[14.622s]  1657 |   void [01;36m[KattachBody[m[K(const std::string& id, const Eigen::Isometry3d& pose,
+[14.623s]       |        [01;36m[K^~~~~~~~~~[m[K
+[14.623s] [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1657:8:[m[K [01;36m[Knote: [m[K  candidate expects 8 arguments, 5 provided
+[14.624s] [01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/set_attached_object.cpp:16:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[14.624s]    16 |                                   [01;35m[Kconst geometry_msgs::msg::Pose& pose[m[K,
+[14.624s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[14.624s] 
+[19.591s] [ 50%] [32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/utilities/pick_and_place_utilities.cpp.o[0m
+[20.114s] In file included from [01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/utilities/pick_and_place_utilities.cpp:12[m[K:
+[20.114s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[20.114s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[20.115s]       |  [01;35m[K^~~~~~~[m[K
+[20.430s] gmake[2]: *** [CMakeFiles/pick_and_place_node.dir/build.make:146: CMakeFiles/pick_and_place_node.dir/src/tasks/set_attached_object.cpp.o] Error 1
+[20.430s] gmake[2]: *** Waiting for unfinished jobs....
+[27.075s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/pick_and_place_node.dir/all] Error 2
+[27.075s] gmake: *** [Makefile:146: all] Error 2
+[27.077s] Invoked command in '/home/ubuntu/perception_driven_ws/build/pick_and_place_application' returned '2': AMENT_PREFIX_PATH=/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs:/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/perception_driven_ws/build/pick_and_place_application -- -j4 -l4

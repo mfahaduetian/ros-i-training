@@ -1,0 +1,5 @@
+if(EXISTS "/home/ubuntu/tesseract_ws/build/Taskflow/unittests/sorting_tests-b858cb2.cmake")
+  include("/home/ubuntu/tesseract_ws/build/Taskflow/unittests/sorting_tests-b858cb2.cmake")
+else()
+  add_test(sorting_NOT_BUILT-b858cb2 sorting_NOT_BUILT-b858cb2)
+endif()

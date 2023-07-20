@@ -1,0 +1,16 @@
+[ 93%] Built target tesseract_urdf
+[100%] Built target tesseract_urdf_load_urdf_example
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_urdf/share/tesseract_urdf/package.xml
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_urdf/lib/libtesseract_urdf.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-targets.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-targets-noconfig.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config-version.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_urdf/share/ament_index/resource_index/packages/tesseract_urdf
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_urdf/share/tesseract_urdf/hook/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_urdf/share/tesseract_urdf/hook/ros_package_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_urdf/share/tesseract_urdf/hook/python_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_urdf/include/tesseract_urdf/urdf_parser.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_urdf/include/tesseract_urdf/utils.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_urdf/bin/tesseract_urdf_load_urdf_example

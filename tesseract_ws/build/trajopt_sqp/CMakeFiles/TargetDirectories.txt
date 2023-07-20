@@ -1,0 +1,8 @@
+/home/ubuntu/tesseract_ws/build/trajopt_sqp/CMakeFiles/trajopt_sqp.dir
+/home/ubuntu/tesseract_ws/build/trajopt_sqp/CMakeFiles/trajopt_sqp_callbacks.dir
+/home/ubuntu/tesseract_ws/build/trajopt_sqp/CMakeFiles/edit_cache.dir
+/home/ubuntu/tesseract_ws/build/trajopt_sqp/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/tesseract_ws/build/trajopt_sqp/CMakeFiles/list_install_components.dir
+/home/ubuntu/tesseract_ws/build/trajopt_sqp/CMakeFiles/install.dir
+/home/ubuntu/tesseract_ws/build/trajopt_sqp/CMakeFiles/install/local.dir
+/home/ubuntu/tesseract_ws/build/trajopt_sqp/CMakeFiles/install/strip.dir

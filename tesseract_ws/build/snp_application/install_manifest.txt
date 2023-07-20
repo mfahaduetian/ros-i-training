@@ -1,0 +1,4 @@
+/home/ubuntu/tesseract_ws/install/snp_application/lib/libsnp_application_widget.so
+/home/ubuntu/tesseract_ws/install/snp_application/lib/libsnp_application_panel.so
+/home/ubuntu/tesseract_ws/install/snp_application/share/snp_application/cmake/snp_application-targetsExport.cmake
+/home/ubuntu/tesseract_ws/install/snp_application/share/snp_application/cmake/snp_application-targetsExport-noconfig.cmake

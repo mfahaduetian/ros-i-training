@@ -1,0 +1,4 @@
+source;share/rviz_polygon_selection_tool/environment/ament_prefix_path.sh
+source;share/rviz_polygon_selection_tool/environment/library_path.sh
+source;share/rviz_polygon_selection_tool/environment/path.sh
+source;share/rviz_polygon_selection_tool/environment/pythonpath.sh

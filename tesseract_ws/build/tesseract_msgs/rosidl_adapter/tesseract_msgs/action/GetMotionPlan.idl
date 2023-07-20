@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from tesseract_msgs/action/GetMotionPlan.action
+// generated code does not contain a copyright notice
+
+#include "tesseract_msgs/msg/PlanningRequest.idl"
+#include "tesseract_msgs/msg/PlanningResponse.idl"
+
+module tesseract_msgs {
+  module action {
+    struct GetMotionPlan_Goal {
+      tesseract_msgs::msg::PlanningRequest request;
+    };
+    struct GetMotionPlan_Result {
+      tesseract_msgs::msg::PlanningResponse response;
+    };
+    @verbatim (language="comment", text=
+      "Currently No Feedback")
+    struct GetMotionPlan_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

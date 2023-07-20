@@ -1,0 +1,30 @@
+[ 50%] Built target tesseract_planning_server
+[100%] Built target tesseract_planning_server_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_planning_server/lib/tesseract_planning_server/tesseract_planning_server_node
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_planning_server/include/tesseract_planning_server/tesseract_planning_server.h
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_planning_server/share/tesseract_planning_server/launch/planning_server.launch
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_planning_server/share/tesseract_planning_server/launch/raster_example.launch
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_planning_server/share/tesseract_planning_server/environment/library_path.sh
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_planning_server/share/tesseract_planning_server/environment/library_path.dsv
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_planning_server/share/ament_index/resource_index/package_run_dependencies/tesseract_planning_server
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_planning_server/share/ament_index/resource_index/parent_prefix_path/tesseract_planning_server
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_planning_server/share/tesseract_planning_server/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_planning_server/share/tesseract_planning_server/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_planning_server/share/tesseract_planning_server/environment/path.sh
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_planning_server/share/tesseract_planning_server/environment/path.dsv
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_planning_server/share/tesseract_planning_server/local_setup.bash
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_planning_server/share/tesseract_planning_server/local_setup.sh
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_planning_server/share/tesseract_planning_server/local_setup.zsh
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_planning_server/share/tesseract_planning_server/local_setup.dsv
+-- Symlinking: /home/ubuntu/tesseract_ws/install/tesseract_planning_server/share/tesseract_planning_server/package.dsv
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_planning_server/share/ament_index/resource_index/packages/tesseract_planning_server
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_planning_server/share/tesseract_planning_server/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_planning_server/share/tesseract_planning_server/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_planning_server/share/tesseract_planning_server/cmake/tesseract_planning_serverConfig.cmake
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_planning_server/share/tesseract_planning_server/cmake/tesseract_planning_serverConfig-version.cmake
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_planning_server/share/tesseract_planning_server/package.xml
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_planning_server/lib/libtesseract_planning_server.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_planning_server/share/tesseract_planning_server/cmake/tesseract_planning_server-targetsExport.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_planning_server/share/tesseract_planning_server/cmake/tesseract_planning_server-targetsExport-noconfig.cmake

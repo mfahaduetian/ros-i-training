@@ -1,0 +1,1 @@
+/home/ubuntu/tesseract_ws/build/snp_automate_2022/ament_cmake_core/snp_automate_2022Config.cmake

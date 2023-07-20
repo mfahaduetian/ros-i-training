@@ -1,0 +1,4 @@
+Invoking command in '/home/ubuntu/perception_driven_ws/build/robot_workcell_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/perception_driven_ws/build/robot_workcell_support -- -j4 -l4
+Invoked command in '/home/ubuntu/perception_driven_ws/build/robot_workcell_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/perception_driven_ws/build/robot_workcell_support -- -j4 -l4
+Invoking command in '/home/ubuntu/perception_driven_ws/build/robot_workcell_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/perception_driven_ws/build/robot_workcell_support
+Invoked command in '/home/ubuntu/perception_driven_ws/build/robot_workcell_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/perception_driven_ws/build/robot_workcell_support

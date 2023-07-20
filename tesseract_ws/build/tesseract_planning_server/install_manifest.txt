@@ -1,0 +1,3 @@
+/home/ubuntu/tesseract_ws/install/tesseract_planning_server/lib/libtesseract_planning_server.so
+/home/ubuntu/tesseract_ws/install/tesseract_planning_server/share/tesseract_planning_server/cmake/tesseract_planning_server-targetsExport.cmake
+/home/ubuntu/tesseract_ws/install/tesseract_planning_server/share/tesseract_planning_server/cmake/tesseract_planning_server-targetsExport-noconfig.cmake

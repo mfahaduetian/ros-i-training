@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tesseract_msgs/msg/PlanningResponse.msg
+// generated code does not contain a copyright notice
+
+#include "tesseract_msgs/msg/StringDoublePair.idl"
+
+module tesseract_msgs {
+  module msg {
+    struct PlanningResponse {
+      @verbatim (language="comment", text=
+        "This should an xml string of the command language results")
+      string results;
+
+      @verbatim (language="comment", text=
+        "The initial state of the environment when planning started")
+      sequence<tesseract_msgs::msg::StringDoublePair> initial_state;
+
+      @verbatim (language="comment", text=
+        "The DOT Graph if requested")
+      string dotgraph;
+
+      boolean successful;
+
+      @verbatim (language="comment", text=
+        "This will status description")
+      string status_string;
+    };
+  };
+};

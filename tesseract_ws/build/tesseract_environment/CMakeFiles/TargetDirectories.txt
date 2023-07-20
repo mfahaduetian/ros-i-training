@@ -1,0 +1,8 @@
+/home/ubuntu/tesseract_ws/build/tesseract_environment/CMakeFiles/tesseract_environment.dir
+/home/ubuntu/tesseract_ws/build/tesseract_environment/CMakeFiles/tesseract_environment_commands.dir
+/home/ubuntu/tesseract_ws/build/tesseract_environment/CMakeFiles/edit_cache.dir
+/home/ubuntu/tesseract_ws/build/tesseract_environment/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/tesseract_ws/build/tesseract_environment/CMakeFiles/list_install_components.dir
+/home/ubuntu/tesseract_ws/build/tesseract_environment/CMakeFiles/install.dir
+/home/ubuntu/tesseract_ws/build/tesseract_environment/CMakeFiles/install/local.dir
+/home/ubuntu/tesseract_ws/build/tesseract_environment/CMakeFiles/install/strip.dir

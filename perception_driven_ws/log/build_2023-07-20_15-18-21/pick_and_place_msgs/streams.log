@@ -1,0 +1,235 @@
+[0.033s] Invoking command in '/home/ubuntu/perception_driven_ws/build/pick_and_place_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/perception_driven_ws/src/pick_and_place_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs
+[0.108s] -- The C compiler identification is GNU 11.3.0
+[0.197s] -- The CXX compiler identification is GNU 11.3.0
+[0.208s] -- Detecting C compiler ABI info
+[0.295s] -- Detecting C compiler ABI info - done
+[0.311s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.311s] -- Detecting C compile features
+[0.312s] -- Detecting C compile features - done
+[0.317s] -- Detecting CXX compiler ABI info
+[0.435s] -- Detecting CXX compiler ABI info - done
+[0.452s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.453s] -- Detecting CXX compile features
+[0.454s] -- Detecting CXX compile features - done
+[0.457s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.654s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.722s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.756s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.800s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.809s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.824s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.850s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.887s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.922s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.939s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[1.020s] -- Found shape_msgs: 4.2.3 (/opt/ros/humble/share/shape_msgs/cmake)
+[1.737s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.308s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.504s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.533s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[2.535s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.563s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[2.563s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.563s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.563s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.585s] -- Found PythonExtra: .so  
+[2.665s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.689s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.690s] -- Added test 'lint_cmake' to check CMake code style
+[2.691s] -- Added test 'xmllint' to check XML markup files
+[2.695s] -- Configuring done
+[2.739s] -- Generating done
+[2.742s] -- Build files have been written to: /home/ubuntu/perception_driven_ws/build/pick_and_place_msgs
+[2.756s] Invoked command in '/home/ubuntu/perception_driven_ws/build/pick_and_place_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/perception_driven_ws/src/pick_and_place_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs
+[2.757s] Invoking command in '/home/ubuntu/perception_driven_ws/build/pick_and_place_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/perception_driven_ws/build/pick_and_place_msgs -- -j4 -l4
+[2.799s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.808s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.818s] [  5%] Built target ament_cmake_python_symlink_pick_and_place_msgs
+[3.249s] running egg_info
+[3.250s] creating pick_and_place_msgs.egg-info
+[3.250s] writing pick_and_place_msgs.egg-info/PKG-INFO
+[3.250s] writing dependency_links to pick_and_place_msgs.egg-info/dependency_links.txt
+[3.250s] writing top-level names to pick_and_place_msgs.egg-info/top_level.txt
+[3.251s] writing manifest file 'pick_and_place_msgs.egg-info/SOURCES.txt'
+[3.254s] reading manifest file 'pick_and_place_msgs.egg-info/SOURCES.txt'
+[3.255s] writing manifest file 'pick_and_place_msgs.egg-info/SOURCES.txt'
+[3.294s] [  5%] Built target ament_cmake_python_build_pick_and_place_msgs_egg
+[3.533s] [  7%] [32mBuilding C object CMakeFiles/pick_and_place_msgs__rosidl_generator_c.dir/rosidl_generator_c/pick_and_place_msgs/action/detail/execute_grasp_move__functions.c.o[0m
+[3.533s] [ 10%] [32mBuilding C object CMakeFiles/pick_and_place_msgs__rosidl_generator_c.dir/rosidl_generator_c/pick_and_place_msgs/srv/detail/get_target_pose__functions.c.o[0m
+[3.709s] [ 10%] Built target pick_and_place_msgs__cpp
+[3.715s] [ 12%] [32m[1mLinking C shared library libpick_and_place_msgs__rosidl_generator_c.so[0m
+[3.722s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.723s] [ 20%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.723s] [ 20%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.773s] [ 20%] Built target pick_and_place_msgs__rosidl_generator_c
+[3.789s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.532s] [ 25%] [32mBuilding CXX object CMakeFiles/pick_and_place_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pick_and_place_msgs/srv/get_target_pose__type_support.cpp.o[0m
+[4.741s] [ 28%] [32mBuilding CXX object CMakeFiles/pick_and_place_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pick_and_place_msgs/srv/detail/get_target_pose__type_support.cpp.o[0m
+[4.802s] [ 30%] [32mBuilding CXX object CMakeFiles/pick_and_place_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pick_and_place_msgs/srv/detail/dds_fastrtps/get_target_pose__type_support.cpp.o[0m
+[4.897s] [ 33%] [32mBuilding CXX object CMakeFiles/pick_and_place_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pick_and_place_msgs/srv/detail/get_target_pose__type_support_c.cpp.o[0m
+[4.993s] [ 35%] [32mBuilding CXX object CMakeFiles/pick_and_place_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pick_and_place_msgs/action/execute_grasp_move__type_support.cpp.o[0m
+[5.502s] [ 38%] [32mBuilding CXX object CMakeFiles/pick_and_place_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pick_and_place_msgs/action/detail/execute_grasp_move__type_support.cpp.o[0m
+[5.505s] [ 41%] [32mBuilding CXX object CMakeFiles/pick_and_place_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pick_and_place_msgs/action/detail/execute_grasp_move__type_support_c.cpp.o[0m
+[5.605s] [ 43%] [32mBuilding CXX object CMakeFiles/pick_and_place_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pick_and_place_msgs/action/detail/dds_fastrtps/execute_grasp_move__type_support.cpp.o[0m
+[5.818s] [ 46%] [32m[1mLinking CXX shared library libpick_and_place_msgs__rosidl_typesupport_cpp.so[0m
+[5.887s] [ 46%] Built target pick_and_place_msgs__rosidl_typesupport_cpp
+[5.901s] [ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.155s] [ 51%] [32m[1mLinking CXX shared library libpick_and_place_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[6.272s] [ 51%] Built target pick_and_place_msgs__rosidl_typesupport_fastrtps_c
+[6.286s] [ 53%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.471s] [ 56%] [32m[1mLinking CXX shared library libpick_and_place_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[6.584s] [ 56%] Built target pick_and_place_msgs__rosidl_typesupport_introspection_cpp
+[6.610s] [ 58%] [32m[1mLinking CXX shared library libpick_and_place_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.698s] [ 58%] Built target pick_and_place_msgs__rosidl_typesupport_fastrtps_cpp
+[6.831s] [ 61%] [32mBuilding C object CMakeFiles/pick_and_place_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pick_and_place_msgs/srv/detail/get_target_pose__type_support.c.o[0m
+[6.832s] [ 64%] [32mBuilding C object CMakeFiles/pick_and_place_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pick_and_place_msgs/action/detail/execute_grasp_move__type_support.c.o[0m
+[6.911s] [ 66%] [32m[1mLinking C shared library libpick_and_place_msgs__rosidl_typesupport_introspection_c.so[0m
+[6.946s] [ 66%] Built target pick_and_place_msgs__rosidl_typesupport_introspection_c
+[6.954s] [ 69%] [32mBuilding CXX object CMakeFiles/pick_and_place_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/pick_and_place_msgs/srv/get_target_pose__type_support.cpp.o[0m
+[6.955s] [ 71%] [32mBuilding CXX object CMakeFiles/pick_and_place_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/pick_and_place_msgs/action/execute_grasp_move__type_support.cpp.o[0m
+[7.011s] [ 74%] [32m[1mLinking CXX shared library libpick_and_place_msgs__rosidl_typesupport_c.so[0m
+[7.057s] [ 74%] Built target pick_and_place_msgs__rosidl_typesupport_c
+[7.076s] [ 74%] Built target pick_and_place_msgs
+[7.095s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.275s] [ 76%] Built target pick_and_place_msgs__py
+[8.292s] [ 79%] [32mBuilding C object CMakeFiles/pick_and_place_msgs__rosidl_generator_py.dir/rosidl_generator_py/pick_and_place_msgs/srv/_get_target_pose_s.c.o[0m
+[8.293s] [ 82%] [32mBuilding C object CMakeFiles/pick_and_place_msgs__rosidl_generator_py.dir/rosidl_generator_py/pick_and_place_msgs/action/_execute_grasp_move_s.c.o[0m
+[8.453s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/pick_and_place_msgs/libpick_and_place_msgs__rosidl_generator_py.so[0m
+[8.501s] [ 84%] Built target pick_and_place_msgs__rosidl_generator_py
+[8.525s] [ 89%] [32mBuilding C object CMakeFiles/pick_and_place_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pick_and_place_msgs/_pick_and_place_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[8.525s] [ 89%] [32mBuilding C object CMakeFiles/pick_and_place_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pick_and_place_msgs/_pick_and_place_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.527s] [ 92%] [32mBuilding C object CMakeFiles/pick_and_place_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pick_and_place_msgs/_pick_and_place_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.681s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/pick_and_place_msgs/pick_and_place_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.733s] [ 94%] Built target pick_and_place_msgs__rosidl_typesupport_c__pyext
+[8.758s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/pick_and_place_msgs/pick_and_place_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.760s] [100%] [32m[1mLinking C shared library rosidl_generator_py/pick_and_place_msgs/pick_and_place_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.809s] [100%] Built target pick_and_place_msgs__rosidl_typesupport_introspection_c__pyext
+[8.809s] [100%] Built target pick_and_place_msgs__rosidl_typesupport_fastrtps_c__pyext
+[8.820s] Invoked command in '/home/ubuntu/perception_driven_ws/build/pick_and_place_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/perception_driven_ws/build/pick_and_place_msgs -- -j4 -l4
+[8.895s] Invoking command in '/home/ubuntu/perception_driven_ws/build/pick_and_place_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/perception_driven_ws/build/pick_and_place_msgs
+[8.904s] -- Install configuration: ""
+[8.904s] -- Execute custom install script
+[8.905s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/ament_index/resource_index/rosidl_interfaces/pick_and_place_msgs
+[8.914s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/action/detail/execute_grasp_move__functions.h
+[8.923s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/action/detail/execute_grasp_move__struct.h
+[8.931s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/action/detail/execute_grasp_move__type_support.h
+[8.939s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/action/execute_grasp_move.h
+[8.949s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/msg/rosidl_generator_c__visibility_control.h
+[8.957s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/srv/detail/get_target_pose__functions.h
+[8.965s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/srv/detail/get_target_pose__struct.h
+[8.973s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/srv/detail/get_target_pose__type_support.h
+[8.981s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/srv/get_target_pose.h
+[8.989s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/environment/library_path.sh
+[8.998s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/environment/library_path.dsv
+[9.007s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/action/detail/execute_grasp_move__rosidl_typesupport_fastrtps_c.h
+[9.016s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.025s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/srv/detail/get_target_pose__rosidl_typesupport_fastrtps_c.h
+[9.033s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/action/detail/execute_grasp_move__builder.hpp
+[9.041s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/action/detail/execute_grasp_move__struct.hpp
+[9.050s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/action/detail/execute_grasp_move__traits.hpp
+[9.058s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/action/execute_grasp_move.hpp
+[9.066s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/srv/detail/get_target_pose__builder.hpp
+[9.074s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/srv/detail/get_target_pose__struct.hpp
+[9.082s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/srv/detail/get_target_pose__traits.hpp
+[9.089s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/srv/get_target_pose.hpp
+[9.097s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/action/detail/execute_grasp_move__rosidl_typesupport_fastrtps_cpp.hpp
+[9.105s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.113s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/srv/detail/get_target_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[9.121s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/action/detail/execute_grasp_move__rosidl_typesupport_introspection_c.h
+[9.129s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.136s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/srv/detail/get_target_pose__rosidl_typesupport_introspection_c.h
+[9.144s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/action/detail/execute_grasp_move__rosidl_typesupport_introspection_cpp.hpp
+[9.153s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/srv/detail/get_target_pose__rosidl_typesupport_introspection_cpp.hpp
+[9.161s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/environment/pythonpath.sh
+[9.168s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/environment/pythonpath.dsv
+[9.177s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[9.184s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[9.192s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[9.199s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[9.208s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/__init__.py
+[9.215s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/_pick_and_place_msgs_s.ep.rosidl_typesupport_c.c
+[9.222s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/_pick_and_place_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.230s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/_pick_and_place_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[9.238s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/action/__init__.py
+[9.246s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/action/_execute_grasp_move.py
+[9.254s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/action/_execute_grasp_move_s.c
+[9.262s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/libpick_and_place_msgs__rosidl_generator_py.so
+[9.270s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/pick_and_place_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.277s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/pick_and_place_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.284s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/pick_and_place_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.292s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/srv/__init__.py
+[9.299s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/srv/_get_target_pose.py
+[9.306s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/srv/_get_target_pose_s.c
+[9.314s] -- Up-to-date symlink: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/pick_and_place_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.314s] -- Up-to-date symlink: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/pick_and_place_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.314s] -- Up-to-date symlink: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/pick_and_place_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.314s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/srv/GetTargetPose.idl
+[9.322s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/action/ExecuteGraspMove.idl
+[9.329s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/srv/GetTargetPose.srv
+[9.336s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/srv/GetTargetPose_Request.msg
+[9.344s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/srv/GetTargetPose_Response.msg
+[9.353s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/action/ExecuteGraspMove.action
+[9.361s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/ament_index/resource_index/package_run_dependencies/pick_and_place_msgs
+[9.369s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/ament_index/resource_index/parent_prefix_path/pick_and_place_msgs
+[9.376s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/environment/ament_prefix_path.sh
+[9.384s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/environment/ament_prefix_path.dsv
+[9.392s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/environment/path.sh
+[9.399s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/environment/path.dsv
+[9.407s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/local_setup.bash
+[9.414s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/local_setup.sh
+[9.425s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/local_setup.zsh
+[9.433s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/local_setup.dsv
+[9.440s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/package.dsv
+[9.448s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/ament_index/resource_index/packages/pick_and_place_msgs
+[9.456s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/rosidl_cmake-extras.cmake
+[9.463s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.470s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.477s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[9.484s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[9.491s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.498s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.506s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/pick_and_place_msgsConfig.cmake
+[9.513s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/pick_and_place_msgsConfig-version.cmake
+[9.520s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/package.xml
+[9.527s] -- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_generator_c.so
+[9.528s] -- Set runtime path of "/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_generator_c.so" to ""
+[9.528s] -- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_typesupport_fastrtps_c.so
+[9.528s] -- Set runtime path of "/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[9.528s] -- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_typesupport_fastrtps_cpp.so
+[9.529s] -- Set runtime path of "/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.529s] -- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_typesupport_introspection_c.so
+[9.529s] -- Set runtime path of "/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_typesupport_introspection_c.so" to ""
+[9.529s] -- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_typesupport_c.so
+[9.530s] -- Set runtime path of "/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_typesupport_c.so" to ""
+[9.530s] -- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_typesupport_introspection_cpp.so
+[9.530s] -- Set runtime path of "/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[9.530s] -- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_typesupport_cpp.so
+[9.531s] -- Set runtime path of "/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_typesupport_cpp.so" to ""
+[9.574s] Listing '/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs'...
+[9.574s] Compiling '/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/__init__.py'...
+[9.574s] Listing '/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/action'...
+[9.574s] Compiling '/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/action/__init__.py'...
+[9.574s] Compiling '/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/action/_execute_grasp_move.py'...
+[9.574s] Listing '/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/srv'...
+[9.575s] Compiling '/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/srv/__init__.py'...
+[9.575s] Compiling '/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/srv/_get_target_pose.py'...
+[9.579s] -- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_generator_py.so
+[9.579s] -- Set runtime path of "/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_generator_py.so" to ""
+[9.579s] -- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/export_pick_and_place_msgs__rosidl_generator_cExport.cmake
+[9.580s] -- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/export_pick_and_place_msgs__rosidl_generator_cExport-noconfig.cmake
+[9.580s] -- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/export_pick_and_place_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[9.580s] -- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/export_pick_and_place_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.580s] -- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/export_pick_and_place_msgs__rosidl_generator_cppExport.cmake
+[9.580s] -- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/export_pick_and_place_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.580s] -- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/export_pick_and_place_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.580s] -- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/pick_and_place_msgs__rosidl_typesupport_introspection_cExport.cmake
+[9.581s] -- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/pick_and_place_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.581s] -- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/pick_and_place_msgs__rosidl_typesupport_cExport.cmake
+[9.581s] -- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/pick_and_place_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[9.581s] -- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/pick_and_place_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[9.581s] -- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/pick_and_place_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.581s] -- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/pick_and_place_msgs__rosidl_typesupport_cppExport.cmake
+[9.581s] -- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/pick_and_place_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[9.582s] -- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/export_pick_and_place_msgs__rosidl_generator_pyExport.cmake
+[9.582s] -- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/export_pick_and_place_msgs__rosidl_generator_pyExport-noconfig.cmake
+[9.586s] Invoked command in '/home/ubuntu/perception_driven_ws/build/pick_and_place_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/perception_driven_ws/build/pick_and_place_msgs

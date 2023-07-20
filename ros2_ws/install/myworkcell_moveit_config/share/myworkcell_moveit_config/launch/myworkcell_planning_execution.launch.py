@@ -1,0 +1,1 @@
+/home/ubuntu/ros2_ws/src/myworkcell_moveit_config/launch/myworkcell_planning_execution.launch.py

@@ -1,0 +1,14 @@
+source;share/noether_tpp/hook/cmake_prefix_path.ps1
+source;share/noether_tpp/hook/cmake_prefix_path.dsv
+source;share/noether_tpp/hook/cmake_prefix_path.sh
+source;share/noether_tpp/hook/ld_library_path_lib.ps1
+source;share/noether_tpp/hook/ld_library_path_lib.dsv
+source;share/noether_tpp/hook/ld_library_path_lib.sh
+source;share/noether_tpp/hook/pkg_config_path.ps1
+source;share/noether_tpp/hook/pkg_config_path.dsv
+source;share/noether_tpp/hook/pkg_config_path.sh
+source;share/noether_tpp/hook/pkg_config_path_multiarch.ps1
+source;share/noether_tpp/hook/pkg_config_path_multiarch.dsv
+source;share/noether_tpp/hook/pkg_config_path_multiarch.sh
+source;share/noether_tpp/hook/ament_prefix_path.dsv
+source;share/noether_tpp/hook/ros_package_path.dsv

@@ -1,0 +1,33 @@
+[ 25%] Built target tesseract_time_parameterization_core
+[ 50%] Built target tesseract_time_parameterization_isp
+[ 75%] Built target tesseract_time_parameterization_totg
+[100%] Built target tesseract_time_parameterization_ruckig
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/share/tesseract_time_parameterization/package.xml
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/lib/cmake/tesseract_time_parameterization/tesseract_time_parameterization-targets.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/lib/cmake/tesseract_time_parameterization/tesseract_time_parameterization-targets-noconfig.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/lib/cmake/tesseract_time_parameterization/tesseract_time_parameterization-config.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/lib/cmake/tesseract_time_parameterization/tesseract_time_parameterization-config-version.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/share/ament_index/resource_index/packages/tesseract_time_parameterization
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/share/tesseract_time_parameterization/hook/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/share/tesseract_time_parameterization/hook/ros_package_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/share/tesseract_time_parameterization/hook/python_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/include/tesseract_time_parameterization
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/include/tesseract_time_parameterization/core
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/include/tesseract_time_parameterization/core/instructions_trajectory.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/include/tesseract_time_parameterization/core/tesseract_common_trajectory.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/include/tesseract_time_parameterization/core/trajectory_container.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/include/tesseract_time_parameterization/core/utils.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/lib/libtesseract_time_parameterization_core.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/include/tesseract_time_parameterization
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/include/tesseract_time_parameterization/isp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/include/tesseract_time_parameterization/isp/iterative_spline_parameterization.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/lib/libtesseract_time_parameterization_isp.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/include/tesseract_time_parameterization
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/include/tesseract_time_parameterization/totg
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/include/tesseract_time_parameterization/totg/time_optimal_trajectory_generation.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/lib/libtesseract_time_parameterization_totg.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/include/tesseract_time_parameterization
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/include/tesseract_time_parameterization/ruckig
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/include/tesseract_time_parameterization/ruckig/ruckig_trajectory_smoothing.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/lib/libtesseract_time_parameterization_ruckig.so

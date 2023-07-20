@@ -1,0 +1,10 @@
+{
+  "package_name": "industrial_reconstruction_msgs",
+  "non_idl_tuples": [
+    "/home/ubuntu/tesseract_ws/src/industrial_reconstruction/industrial_reconstruction_msgs:msg/RGBDImageParams.msg",
+    "/home/ubuntu/tesseract_ws/src/industrial_reconstruction/industrial_reconstruction_msgs:msg/TSDFVolumeParams.msg",
+    "/home/ubuntu/tesseract_ws/src/industrial_reconstruction/industrial_reconstruction_msgs:msg/NormalFilterParams.msg",
+    "/home/ubuntu/tesseract_ws/src/industrial_reconstruction/industrial_reconstruction_msgs:srv/StartReconstruction.srv",
+    "/home/ubuntu/tesseract_ws/src/industrial_reconstruction/industrial_reconstruction_msgs:srv/StopReconstruction.srv"
+  ]
+}

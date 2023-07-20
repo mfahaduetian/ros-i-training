@@ -1,0 +1,3 @@
+/home/ubuntu/tesseract_ws/install/tesseract_rosutils/lib/libtesseract_rosutils.so
+/home/ubuntu/tesseract_ws/install/tesseract_rosutils/share/tesseract_rosutils/cmake/tesseract_rosutils-targetsExport.cmake
+/home/ubuntu/tesseract_ws/install/tesseract_rosutils/share/tesseract_rosutils/cmake/tesseract_rosutils-targetsExport-noconfig.cmake

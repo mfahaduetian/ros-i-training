@@ -1,0 +1,188 @@
+[0.036s] Invoking command in '/home/ubuntu/tesseract_ws/build/industrial_reconstruction_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/tesseract_ws/install/industrial_reconstruction:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/tesseract_ws/build/industrial_reconstruction_msgs -- -j4 -l4
+[0.194s] [  1%] Built target industrial_reconstruction_msgs__cpp
+[0.228s] [ 12%] Built target industrial_reconstruction_msgs__rosidl_generator_c
+[0.253s] [ 12%] Built target ament_cmake_python_symlink_industrial_reconstruction_msgs
+[0.348s] [ 23%] Built target industrial_reconstruction_msgs__rosidl_typesupport_introspection_cpp
+[0.355s] [ 34%] Built target industrial_reconstruction_msgs__rosidl_typesupport_fastrtps_cpp
+[0.366s] [ 46%] Built target industrial_reconstruction_msgs__rosidl_typesupport_cpp
+[0.388s] [ 57%] Built target industrial_reconstruction_msgs__rosidl_typesupport_fastrtps_c
+[0.435s] [ 68%] Built target industrial_reconstruction_msgs__rosidl_typesupport_c
+[0.453s] [ 79%] Built target industrial_reconstruction_msgs__rosidl_typesupport_introspection_c
+[0.540s] [ 79%] Built target industrial_reconstruction_msgs
+[0.598s] [ 80%] Built target industrial_reconstruction_msgs__py
+[0.673s] [ 90%] Built target industrial_reconstruction_msgs__rosidl_generator_py
+[0.780s] [ 93%] Built target industrial_reconstruction_msgs__rosidl_typesupport_introspection_c__pyext
+[0.809s] [ 96%] Built target industrial_reconstruction_msgs__rosidl_typesupport_c__pyext
+[0.819s] [100%] Built target industrial_reconstruction_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.938s] running egg_info
+[0.939s] writing industrial_reconstruction_msgs.egg-info/PKG-INFO
+[0.939s] writing dependency_links to industrial_reconstruction_msgs.egg-info/dependency_links.txt
+[0.940s] writing top-level names to industrial_reconstruction_msgs.egg-info/top_level.txt
+[0.944s] reading manifest file 'industrial_reconstruction_msgs.egg-info/SOURCES.txt'
+[0.945s] writing manifest file 'industrial_reconstruction_msgs.egg-info/SOURCES.txt'
+[1.001s] [100%] Built target ament_cmake_python_build_industrial_reconstruction_msgs_egg
+[1.028s] Invoked command in '/home/ubuntu/tesseract_ws/build/industrial_reconstruction_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/tesseract_ws/install/industrial_reconstruction:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/tesseract_ws/build/industrial_reconstruction_msgs -- -j4 -l4
+[1.839s] Invoking command in '/home/ubuntu/tesseract_ws/build/industrial_reconstruction_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/tesseract_ws/install/industrial_reconstruction:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/tesseract_ws/build/industrial_reconstruction_msgs
+[1.858s] -- Install configuration: ""
+[1.859s] -- Execute custom install script
+[1.860s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/ament_index/resource_index/rosidl_interfaces/industrial_reconstruction_msgs
+[1.861s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/detail/normal_filter_params__functions.h
+[1.861s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/detail/normal_filter_params__struct.h
+[1.862s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/detail/normal_filter_params__type_support.h
+[1.862s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/detail/rgbd_image_params__functions.h
+[1.862s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/detail/rgbd_image_params__struct.h
+[1.862s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/detail/rgbd_image_params__type_support.h
+[1.862s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/detail/tsdf_volume_params__functions.h
+[1.862s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/detail/tsdf_volume_params__struct.h
+[1.863s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/detail/tsdf_volume_params__type_support.h
+[1.863s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/normal_filter_params.h
+[1.863s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/rgbd_image_params.h
+[1.863s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.863s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/tsdf_volume_params.h
+[1.863s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/srv/detail/start_reconstruction__functions.h
+[1.864s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/srv/detail/start_reconstruction__struct.h
+[1.864s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/srv/detail/start_reconstruction__type_support.h
+[1.864s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/srv/detail/stop_reconstruction__functions.h
+[1.864s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/srv/detail/stop_reconstruction__struct.h
+[1.864s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/srv/detail/stop_reconstruction__type_support.h
+[1.865s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/srv/start_reconstruction.h
+[1.865s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/srv/stop_reconstruction.h
+[1.865s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/environment/library_path.sh
+[1.865s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/environment/library_path.dsv
+[1.866s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/detail/normal_filter_params__rosidl_typesupport_fastrtps_c.h
+[1.867s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/detail/rgbd_image_params__rosidl_typesupport_fastrtps_c.h
+[1.867s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/detail/tsdf_volume_params__rosidl_typesupport_fastrtps_c.h
+[1.867s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.867s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/srv/detail/start_reconstruction__rosidl_typesupport_fastrtps_c.h
+[1.867s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/srv/detail/stop_reconstruction__rosidl_typesupport_fastrtps_c.h
+[1.868s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/detail/normal_filter_params__rosidl_typesupport_introspection_c.h
+[1.868s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/detail/rgbd_image_params__rosidl_typesupport_introspection_c.h
+[1.869s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/detail/tsdf_volume_params__rosidl_typesupport_introspection_c.h
+[1.869s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.869s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/srv/detail/start_reconstruction__rosidl_typesupport_introspection_c.h
+[1.869s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/srv/detail/stop_reconstruction__rosidl_typesupport_introspection_c.h
+[1.870s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/detail/normal_filter_params__builder.hpp
+[1.870s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/detail/normal_filter_params__struct.hpp
+[1.870s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/detail/normal_filter_params__traits.hpp
+[1.871s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/detail/rgbd_image_params__builder.hpp
+[1.871s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/detail/rgbd_image_params__struct.hpp
+[1.871s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/detail/rgbd_image_params__traits.hpp
+[1.871s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/detail/tsdf_volume_params__builder.hpp
+[1.872s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/detail/tsdf_volume_params__struct.hpp
+[1.872s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/detail/tsdf_volume_params__traits.hpp
+[1.872s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/normal_filter_params.hpp
+[1.873s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/rgbd_image_params.hpp
+[1.873s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/tsdf_volume_params.hpp
+[1.873s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/srv/detail/start_reconstruction__builder.hpp
+[1.873s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/srv/detail/start_reconstruction__struct.hpp
+[1.873s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/srv/detail/start_reconstruction__traits.hpp
+[1.874s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/srv/detail/stop_reconstruction__builder.hpp
+[1.874s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/srv/detail/stop_reconstruction__struct.hpp
+[1.874s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/srv/detail/stop_reconstruction__traits.hpp
+[1.874s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/srv/start_reconstruction.hpp
+[1.874s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/srv/stop_reconstruction.hpp
+[1.875s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/detail/normal_filter_params__rosidl_typesupport_fastrtps_cpp.hpp
+[1.876s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/detail/rgbd_image_params__rosidl_typesupport_fastrtps_cpp.hpp
+[1.876s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/detail/tsdf_volume_params__rosidl_typesupport_fastrtps_cpp.hpp
+[1.876s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.876s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/srv/detail/start_reconstruction__rosidl_typesupport_fastrtps_cpp.hpp
+[1.876s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/srv/detail/stop_reconstruction__rosidl_typesupport_fastrtps_cpp.hpp
+[1.877s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/detail/normal_filter_params__rosidl_typesupport_introspection_cpp.hpp
+[1.877s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/detail/rgbd_image_params__rosidl_typesupport_introspection_cpp.hpp
+[1.877s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/msg/detail/tsdf_volume_params__rosidl_typesupport_introspection_cpp.hpp
+[1.878s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/srv/detail/start_reconstruction__rosidl_typesupport_introspection_cpp.hpp
+[1.878s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/include/industrial_reconstruction_msgs/industrial_reconstruction_msgs/srv/detail/stop_reconstruction__rosidl_typesupport_introspection_cpp.hpp
+[1.878s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/environment/pythonpath.sh
+[1.878s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/environment/pythonpath.dsv
+[1.879s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages/industrial_reconstruction_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[1.879s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages/industrial_reconstruction_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.879s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages/industrial_reconstruction_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.880s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages/industrial_reconstruction_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[1.883s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages/industrial_reconstruction_msgs/__init__.py
+[1.883s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages/industrial_reconstruction_msgs/_industrial_reconstruction_msgs_s.ep.rosidl_typesupport_c.c
+[1.883s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages/industrial_reconstruction_msgs/_industrial_reconstruction_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.883s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages/industrial_reconstruction_msgs/_industrial_reconstruction_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.883s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages/industrial_reconstruction_msgs/industrial_reconstruction_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.884s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages/industrial_reconstruction_msgs/industrial_reconstruction_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.884s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages/industrial_reconstruction_msgs/industrial_reconstruction_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.884s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages/industrial_reconstruction_msgs/libindustrial_reconstruction_msgs__rosidl_generator_py.so
+[1.884s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages/industrial_reconstruction_msgs/msg/__init__.py
+[1.885s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages/industrial_reconstruction_msgs/msg/_normal_filter_params.py
+[1.889s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages/industrial_reconstruction_msgs/msg/_normal_filter_params_s.c
+[1.889s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages/industrial_reconstruction_msgs/msg/_rgbd_image_params.py
+[1.889s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages/industrial_reconstruction_msgs/msg/_rgbd_image_params_s.c
+[1.889s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages/industrial_reconstruction_msgs/msg/_tsdf_volume_params.py
+[1.889s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages/industrial_reconstruction_msgs/msg/_tsdf_volume_params_s.c
+[1.889s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages/industrial_reconstruction_msgs/srv/__init__.py
+[1.890s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages/industrial_reconstruction_msgs/srv/_start_reconstruction.py
+[1.890s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages/industrial_reconstruction_msgs/srv/_start_reconstruction_s.c
+[1.890s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages/industrial_reconstruction_msgs/srv/_stop_reconstruction.py
+[1.890s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages/industrial_reconstruction_msgs/srv/_stop_reconstruction_s.c
+[1.890s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages/industrial_reconstruction_msgs/industrial_reconstruction_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.890s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages/industrial_reconstruction_msgs/industrial_reconstruction_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.890s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages/industrial_reconstruction_msgs/industrial_reconstruction_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.891s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/msg/RGBDImageParams.idl
+[1.891s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/msg/TSDFVolumeParams.idl
+[1.891s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/msg/NormalFilterParams.idl
+[1.891s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/srv/StartReconstruction.idl
+[1.891s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/srv/StopReconstruction.idl
+[1.891s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/msg/RGBDImageParams.msg
+[1.892s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/msg/TSDFVolumeParams.msg
+[1.892s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/msg/NormalFilterParams.msg
+[1.892s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/srv/StartReconstruction.srv
+[1.892s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/srv/StartReconstruction_Request.msg
+[1.892s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/srv/StartReconstruction_Response.msg
+[1.892s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/srv/StopReconstruction.srv
+[1.892s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/srv/StopReconstruction_Request.msg
+[1.893s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/srv/StopReconstruction_Response.msg
+[1.893s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/ament_index/resource_index/package_run_dependencies/industrial_reconstruction_msgs
+[1.893s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/ament_index/resource_index/parent_prefix_path/industrial_reconstruction_msgs
+[1.893s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/environment/ament_prefix_path.sh
+[1.893s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/environment/ament_prefix_path.dsv
+[1.893s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/environment/path.sh
+[1.896s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/environment/path.dsv
+[1.896s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/local_setup.bash
+[1.896s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/local_setup.sh
+[1.896s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/local_setup.zsh
+[1.896s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/local_setup.dsv
+[1.897s] -- Symlinking: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/package.dsv
+[1.918s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/ament_index/resource_index/packages/industrial_reconstruction_msgs
+[1.918s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/cmake/rosidl_cmake-extras.cmake
+[1.918s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.919s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.919s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.919s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.920s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.920s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.920s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/cmake/industrial_reconstruction_msgsConfig.cmake
+[1.920s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/cmake/industrial_reconstruction_msgsConfig-version.cmake
+[1.920s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/package.xml
+[1.921s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/lib/libindustrial_reconstruction_msgs__rosidl_generator_c.so
+[1.921s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/lib/libindustrial_reconstruction_msgs__rosidl_typesupport_fastrtps_c.so
+[1.922s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/lib/libindustrial_reconstruction_msgs__rosidl_typesupport_introspection_c.so
+[1.923s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/lib/libindustrial_reconstruction_msgs__rosidl_typesupport_c.so
+[1.923s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/lib/libindustrial_reconstruction_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.924s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/lib/libindustrial_reconstruction_msgs__rosidl_typesupport_introspection_cpp.so
+[1.924s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/lib/libindustrial_reconstruction_msgs__rosidl_typesupport_cpp.so
+[1.984s] Listing '/home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages/industrial_reconstruction_msgs'...
+[1.985s] Listing '/home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages/industrial_reconstruction_msgs/msg'...
+[1.985s] Listing '/home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages/industrial_reconstruction_msgs/srv'...
+[1.992s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/lib/libindustrial_reconstruction_msgs__rosidl_generator_py.so
+[1.992s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/cmake/export_industrial_reconstruction_msgs__rosidl_generator_cExport.cmake
+[1.993s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/cmake/export_industrial_reconstruction_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.993s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/cmake/export_industrial_reconstruction_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.993s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/cmake/export_industrial_reconstruction_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.993s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/cmake/industrial_reconstruction_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.994s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/cmake/industrial_reconstruction_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.994s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/cmake/industrial_reconstruction_msgs__rosidl_typesupport_cExport.cmake
+[1.994s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/cmake/industrial_reconstruction_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.994s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/cmake/export_industrial_reconstruction_msgs__rosidl_generator_cppExport.cmake
+[1.994s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/cmake/export_industrial_reconstruction_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.995s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/cmake/export_industrial_reconstruction_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.995s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/cmake/industrial_reconstruction_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.995s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/cmake/industrial_reconstruction_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.997s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/cmake/industrial_reconstruction_msgs__rosidl_typesupport_cppExport.cmake
+[1.997s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/cmake/industrial_reconstruction_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.997s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/cmake/export_industrial_reconstruction_msgs__rosidl_generator_pyExport.cmake
+[1.997s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/share/industrial_reconstruction_msgs/cmake/export_industrial_reconstruction_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.005s] Invoked command in '/home/ubuntu/tesseract_ws/build/industrial_reconstruction_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/tesseract_ws/install/industrial_reconstruction:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/tesseract_ws/build/industrial_reconstruction_msgs

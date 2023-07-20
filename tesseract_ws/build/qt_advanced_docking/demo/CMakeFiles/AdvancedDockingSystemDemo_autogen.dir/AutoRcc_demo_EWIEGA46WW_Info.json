@@ -1,0 +1,38 @@
+{
+	"BUILD_DIR" : "/home/ubuntu/tesseract_ws/build/qt_advanced_docking/demo/AdvancedDockingSystemDemo_autogen",
+	"CMAKE_BINARY_DIR" : "/home/ubuntu/tesseract_ws/build/qt_advanced_docking",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/ubuntu/tesseract_ws/build/qt_advanced_docking/demo",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/demo",
+	"CMAKE_SOURCE_DIR" : "/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System",
+	"INCLUDE_DIR" : "/home/ubuntu/tesseract_ws/build/qt_advanced_docking/demo/AdvancedDockingSystemDemo_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/demo/app.css",
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/demo/images/folder_open.svg",
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/demo/images/picture_in_picture.svg",
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/demo/images/create_floating_table.svg",
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/demo/images/note_add.svg",
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/demo/images/restore.svg",
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/demo/images/help_outline.svg",
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/demo/images/folder.svg",
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/demo/images/save.svg",
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/demo/images/date_range.svg",
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/demo/images/edit.svg",
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/demo/images/grid_on.svg",
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/demo/images/docked_editor.svg",
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/demo/images/custom-menu-button.svg",
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/demo/images/create_floating_editor.svg",
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/demo/images/plus.svg",
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/demo/images/fullscreen.svg"
+	],
+	"LOCK_FILE" : "/home/ubuntu/tesseract_ws/build/qt_advanced_docking/demo/CMakeFiles/AdvancedDockingSystemDemo_autogen.dir/AutoRcc_demo_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "demo" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_demo.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/ubuntu/tesseract_ws/build/qt_advanced_docking/demo/CMakeFiles/AdvancedDockingSystemDemo_autogen.dir/AutoRcc_demo_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/demo/demo.qrc",
+	"VERBOSITY" : 0
+}

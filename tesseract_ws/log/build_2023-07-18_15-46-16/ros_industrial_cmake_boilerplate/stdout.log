@@ -1,0 +1,19 @@
+-- clang-tidy not found!
+-- include-what-you-use found: /usr/bin/include-what-you-use
+-- cppcheck found: /usr/bin/cppcheck
+-- No package config template file found, creating default one
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/tesseract_ws/build/ros_industrial_cmake_boilerplate
+-- Install configuration: "RelWithDebInfo"
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate/share/ros_industrial_cmake_boilerplate/package.xml
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate/lib/cmake/ros_industrial_cmake_boilerplate/ros_industrial_cmake_boilerplate-config.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate/lib/cmake/ros_industrial_cmake_boilerplate/ros_industrial_cmake_boilerplate-config-version.cmake
+-- Installing: /home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate/share/ament_index/resource_index/packages/ros_industrial_cmake_boilerplate
+-- Installing: /home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate/share/ros_industrial_cmake_boilerplate/hook/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate/share/ros_industrial_cmake_boilerplate/hook/ros_package_path.dsv
+-- Installing: /home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate/share/ros_industrial_cmake_boilerplate/hook/python_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate/lib/cmake/ros_industrial_cmake_boilerplate/cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate/lib/cmake/ros_industrial_cmake_boilerplate/cmake/code_coverage.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate/lib/cmake/ros_industrial_cmake_boilerplate/cmake/extract_package_metadata.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate/lib/cmake/ros_industrial_cmake_boilerplate/cmake/cmake_tools.cmake

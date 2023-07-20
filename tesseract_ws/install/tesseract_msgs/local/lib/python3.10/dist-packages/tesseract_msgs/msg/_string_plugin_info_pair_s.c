@@ -1,0 +1,1 @@
+/home/ubuntu/tesseract_ws/build/tesseract_msgs/rosidl_generator_py/tesseract_msgs/msg/_string_plugin_info_pair_s.c

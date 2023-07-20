@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ifopt"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\ifopt_core\;CMake Files\ifopt_core\cmake\;CMake Files\ifopt_ipopt\;CMake Files\ifopt_ipopt\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ubuntu/tesseract_ws/build/ifopt"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/home/ubuntu/tesseract_ws/build/ifopt"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ubuntu/tesseract_ws/build/ifopt"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ubuntu/tesseract_ws/build/ifopt"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/ubuntu/tesseract_ws/build/ifopt"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/ubuntu/tesseract_ws/build/ifopt"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/ubuntu/tesseract_ws/build/ifopt"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/ubuntu/tesseract_ws/build/ifopt"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ifopt_core">
+				<Option output="/home/ubuntu/tesseract_ws/build/ifopt/ifopt_core/libifopt_core.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/tesseract_ws/build/ifopt/ifopt_core"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_core/include"/>
+					<Add directory="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_core/test"/>
+					<Add directory="/usr/include/eigen3"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_core/Makefile&quot;  VERBOSE=1 ifopt_core"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ifopt_core/fast">
+				<Option output="/home/ubuntu/tesseract_ws/build/ifopt/ifopt_core/libifopt_core.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/tesseract_ws/build/ifopt/ifopt_core"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_core/include"/>
+					<Add directory="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_core/test"/>
+					<Add directory="/usr/include/eigen3"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_core/Makefile&quot;  VERBOSE=1 ifopt_core/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ifopt_core-test">
+				<Option output="/home/ubuntu/tesseract_ws/build/ifopt/ifopt_core/ifopt_core-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/tesseract_ws/build/ifopt/ifopt_core"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_core/include"/>
+					<Add directory="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_core/test"/>
+					<Add directory="/usr/include/eigen3"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_core/Makefile&quot;  VERBOSE=1 ifopt_core-test"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ifopt_core-test/fast">
+				<Option output="/home/ubuntu/tesseract_ws/build/ifopt/ifopt_core/ifopt_core-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/tesseract_ws/build/ifopt/ifopt_core"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_core/include"/>
+					<Add directory="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_core/test"/>
+					<Add directory="/usr/include/eigen3"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_core/Makefile&quot;  VERBOSE=1 ifopt_core-test/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ifopt_ipopt">
+				<Option output="/home/ubuntu/tesseract_ws/build/ifopt/ifopt_ipopt/libifopt_ipopt.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/tesseract_ws/build/ifopt/ifopt_ipopt"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CSTDDEF"/>
+					<Add directory="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_ipopt/include"/>
+					<Add directory="/usr/include/coin"/>
+					<Add directory="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_core/include"/>
+					<Add directory="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_core/test"/>
+					<Add directory="/usr/include/eigen3"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_ipopt/Makefile&quot;  VERBOSE=1 ifopt_ipopt"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_ipopt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_ipopt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_ipopt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ifopt_ipopt/fast">
+				<Option output="/home/ubuntu/tesseract_ws/build/ifopt/ifopt_ipopt/libifopt_ipopt.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/tesseract_ws/build/ifopt/ifopt_ipopt"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CSTDDEF"/>
+					<Add directory="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_ipopt/include"/>
+					<Add directory="/usr/include/coin"/>
+					<Add directory="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_core/include"/>
+					<Add directory="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_core/test"/>
+					<Add directory="/usr/include/eigen3"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_ipopt/Makefile&quot;  VERBOSE=1 ifopt_ipopt/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_ipopt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_ipopt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_ipopt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ifopt_ipopt-example">
+				<Option output="/home/ubuntu/tesseract_ws/build/ifopt/ifopt_ipopt/ifopt_ipopt-example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/tesseract_ws/build/ifopt/ifopt_ipopt"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_ipopt/include"/>
+					<Add directory="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_core/include"/>
+					<Add directory="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_core/test"/>
+					<Add directory="/usr/include/eigen3"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_ipopt/Makefile&quot;  VERBOSE=1 ifopt_ipopt-example"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_ipopt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_ipopt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_ipopt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ifopt_ipopt-example/fast">
+				<Option output="/home/ubuntu/tesseract_ws/build/ifopt/ifopt_ipopt/ifopt_ipopt-example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/tesseract_ws/build/ifopt/ifopt_ipopt"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_ipopt/include"/>
+					<Add directory="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_core/include"/>
+					<Add directory="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_core/test"/>
+					<Add directory="/usr/include/eigen3"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_ipopt/Makefile&quot;  VERBOSE=1 ifopt_ipopt-example/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_ipopt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_ipopt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/ubuntu/tesseract_ws/build/ifopt/ifopt_ipopt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_core/src/composite.cc">
+			<Option target="ifopt_core"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_core/src/leaves.cc">
+			<Option target="ifopt_core"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_core/src/problem.cc">
+			<Option target="ifopt_core"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_core/test/composite_test.cc">
+			<Option target="ifopt_core-test"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_core/test/problem_test.cc">
+			<Option target="ifopt_core-test"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_ipopt/src/ipopt_adapter.cc">
+			<Option target="ifopt_ipopt"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_ipopt/src/ipopt_solver.cc">
+			<Option target="ifopt_ipopt"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_ipopt/test/ex_test_ipopt.cc">
+			<Option target="ifopt_ipopt-example"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/tesseract_ws/src/ifopt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ifopt_core\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_core/cmake/FindEigen3.cmake">
+			<Option virtualFolder="CMake Files\ifopt_core\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_core/cmake/FindGTest.cmake">
+			<Option virtualFolder="CMake Files\ifopt_core\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_ipopt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ifopt_ipopt\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/tesseract_ws/src/ifopt/ifopt_ipopt/cmake/FindIPOPT.cmake">
+			<Option virtualFolder="CMake Files\ifopt_ipopt\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

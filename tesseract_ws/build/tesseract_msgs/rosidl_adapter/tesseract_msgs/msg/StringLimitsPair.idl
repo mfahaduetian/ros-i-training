@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tesseract_msgs/msg/StringLimitsPair.msg
+// generated code does not contain a copyright notice
+
+
+module tesseract_msgs {
+  module msg {
+    typedef double double__2[2];
+    struct StringLimitsPair {
+      string first;
+
+      double__2 second;
+    };
+  };
+};

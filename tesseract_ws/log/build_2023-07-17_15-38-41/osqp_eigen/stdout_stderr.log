@@ -1,0 +1,34 @@
+[ 12%] [34m[1mPerforming update step for 'OsqpEigen'[0m
+[ 25%] [34m[1mNo patch step for 'OsqpEigen'[0m
+[ 37%] [34m[1mPerforming configure step for 'OsqpEigen'[0m
+loading initial cache file /home/ubuntu/tesseract_ws/build/osqp_eigen/OsqpEigen-prefix/tmp/OsqpEigen-cache-.cmake
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/tesseract_ws/build/osqp_eigen-build
+[ 50%] [34m[1mPerforming build step for 'OsqpEigen'[0m
+[35m[1mConsolidate compiler generated dependencies of target OsqpEigen[0m
+[100%] Built target OsqpEigen
+[ 62%] [34m[1mPerforming install step for 'OsqpEigen'[0m
+[100%] Built target OsqpEigen
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp_eigen/lib/libOsqpEigen.so.0.6.3
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp_eigen/lib/libOsqpEigen.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp_eigen/include/OsqpEigen/OsqpEigen.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp_eigen/include/OsqpEigen/Constants.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp_eigen/include/OsqpEigen/SparseMatrixHelper.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp_eigen/include/OsqpEigen/SparseMatrixHelper.tpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp_eigen/include/OsqpEigen/Data.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp_eigen/include/OsqpEigen/Data.tpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp_eigen/include/OsqpEigen/Settings.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp_eigen/include/OsqpEigen/Solver.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp_eigen/include/OsqpEigen/Solver.tpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp_eigen/include/OsqpEigen/Debug.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp_eigen/lib/cmake/OsqpEigen/OsqpEigenConfigVersion.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp_eigen/lib/cmake/OsqpEigen/OsqpEigenConfig.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp_eigen/lib/cmake/OsqpEigen/OsqpEigenTargets.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp_eigen/lib/cmake/OsqpEigen/OsqpEigenTargets-release.cmake
+[ 75%] [34m[1mCompleted 'OsqpEigen'[0m
+[100%] Built target OsqpEigen
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp_eigen/share/OsqpEigen/package.xml

@@ -1,0 +1,35 @@
+[ 77%] Built target tesseract_geometry
+[ 88%] Built target tesseract_geometry_parse_mesh_example
+[100%] Built target tesseract_geometry_create_geometries_example
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/share/tesseract_geometry/package.xml
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/lib/libtesseract_geometry.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/lib/cmake/tesseract_geometry/tesseract_geometry-targets.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/lib/cmake/tesseract_geometry/tesseract_geometry-targets-noconfig.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/lib/cmake/tesseract_geometry/tesseract_geometry-config.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/lib/cmake/tesseract_geometry/tesseract_geometry-config-version.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/share/ament_index/resource_index/packages/tesseract_geometry
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/share/tesseract_geometry/hook/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/share/tesseract_geometry/hook/ros_package_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/share/tesseract_geometry/hook/python_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/include/tesseract_geometry
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/include/tesseract_geometry/mesh_parser.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/include/tesseract_geometry/geometries.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/include/tesseract_geometry/utils.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/include/tesseract_geometry/geometry.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/include/tesseract_geometry/impl
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/include/tesseract_geometry/impl/cylinder.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/include/tesseract_geometry/impl/sphere.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/include/tesseract_geometry/impl/box.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/include/tesseract_geometry/impl/polygon_mesh.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/include/tesseract_geometry/impl/mesh.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/include/tesseract_geometry/impl/mesh_material.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/include/tesseract_geometry/impl/capsule.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/include/tesseract_geometry/impl/convex_mesh.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/include/tesseract_geometry/impl/octree.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/include/tesseract_geometry/impl/plane.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/include/tesseract_geometry/impl/cone.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/include/tesseract_geometry/impl/sdf_mesh.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/lib/cmake/tesseract_geometry/Findassimp.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/bin/tesseract_geometry_create_geometries_example
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_geometry/bin/tesseract_geometry_parse_mesh_example

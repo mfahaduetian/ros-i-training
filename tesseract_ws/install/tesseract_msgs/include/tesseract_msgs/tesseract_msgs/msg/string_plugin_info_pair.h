@@ -1,0 +1,1 @@
+/home/ubuntu/tesseract_ws/build/tesseract_msgs/rosidl_generator_c/tesseract_msgs/msg/string_plugin_info_pair.h

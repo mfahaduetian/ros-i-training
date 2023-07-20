@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ubuntu/tesseract_ws/build/osqp/CMakeFiles/osqp"
+		},
+		{
+			"file" : "/home/ubuntu/tesseract_ws/build/osqp/CMakeFiles/osqp.rule"
+		},
+		{
+			"file" : "/home/ubuntu/tesseract_ws/build/osqp/CMakeFiles/osqp-complete.rule"
+		},
+		{
+			"file" : "/home/ubuntu/tesseract_ws/build/osqp/osqp-prefix/src/osqp-stamp/osqp-build.rule"
+		},
+		{
+			"file" : "/home/ubuntu/tesseract_ws/build/osqp/osqp-prefix/src/osqp-stamp/osqp-configure.rule"
+		},
+		{
+			"file" : "/home/ubuntu/tesseract_ws/build/osqp/osqp-prefix/src/osqp-stamp/osqp-download.rule"
+		},
+		{
+			"file" : "/home/ubuntu/tesseract_ws/build/osqp/osqp-prefix/src/osqp-stamp/osqp-install.rule"
+		},
+		{
+			"file" : "/home/ubuntu/tesseract_ws/build/osqp/osqp-prefix/src/osqp-stamp/osqp-mkdir.rule"
+		},
+		{
+			"file" : "/home/ubuntu/tesseract_ws/build/osqp/osqp-prefix/src/osqp-stamp/osqp-patch.rule"
+		},
+		{
+			"file" : "/home/ubuntu/tesseract_ws/build/osqp/osqp-prefix/src/osqp-stamp/osqp-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"osqp"
+		],
+		"name" : "osqp"
+	}
+}

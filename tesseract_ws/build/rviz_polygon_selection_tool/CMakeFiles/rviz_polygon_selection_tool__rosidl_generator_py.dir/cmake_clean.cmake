@@ -1,0 +1,16 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/rviz_polygon_selection_tool__rosidl_generator_py_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/rviz_polygon_selection_tool__rosidl_generator_py_autogen.dir/ParseCache.txt"
+  "rviz_polygon_selection_tool__rosidl_generator_py_autogen"
+  "CMakeFiles/rviz_polygon_selection_tool__rosidl_generator_py.dir/rosidl_generator_py/rviz_polygon_selection_tool/srv/_get_selection_s.c.o"
+  "CMakeFiles/rviz_polygon_selection_tool__rosidl_generator_py.dir/rosidl_generator_py/rviz_polygon_selection_tool/srv/_get_selection_s.c.o.d"
+  "CMakeFiles/rviz_polygon_selection_tool__rosidl_generator_py.dir/rviz_polygon_selection_tool__rosidl_generator_py_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/rviz_polygon_selection_tool__rosidl_generator_py.dir/rviz_polygon_selection_tool__rosidl_generator_py_autogen/mocs_compilation.cpp.o.d"
+  "rosidl_generator_py/rviz_polygon_selection_tool/librviz_polygon_selection_tool__rosidl_generator_py.pdb"
+  "rosidl_generator_py/rviz_polygon_selection_tool/librviz_polygon_selection_tool__rosidl_generator_py.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C CXX)
+  include(CMakeFiles/rviz_polygon_selection_tool__rosidl_generator_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,48 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tesseract_msgs/msg/TaskComposerNodeInfo.msg
+// generated code does not contain a copyright notice
+
+
+module tesseract_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message corresponds to tesseract_planning::TaskComposerNodeInfo")
+    struct TaskComposerNodeInfo {
+      @verbatim (language="comment", text=
+        "Name of the Task")
+      string name;
+
+      @verbatim (language="comment", text=
+        "Unique ID generated for the Task by Taskflow")
+      string uuid;
+
+      @verbatim (language="comment", text=
+        "Inbound Edges")
+      sequence<string> inbound_edges;
+
+      @verbatim (language="comment", text=
+        "Outbound Edges")
+      sequence<string> outbound_edges;
+
+      @verbatim (language="comment", text=
+        "Input keys")
+      sequence<string> input_keys;
+
+      @verbatim (language="comment", text=
+        "Output keys")
+      sequence<string> output_keys;
+
+      @verbatim (language="comment", text=
+        "Value returned from the Task on completion")
+      int32 return_value;
+
+      @verbatim (language="comment", text=
+        "Debug message")
+      string message;
+
+      @verbatim (language="comment", text=
+        "Time elapsed")
+      double elapsed_time;
+    };
+  };
+};

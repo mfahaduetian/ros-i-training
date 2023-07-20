@@ -1,0 +1,1407 @@
+[0.000000] (-) TimerEvent: {}
+[0.000184] (-) JobUnselected: {'identifier': 'Taskflow'}
+[0.000215] (-) JobUnselected: {'identifier': 'boost_plugin_loader'}
+[0.000236] (-) JobUnselected: {'identifier': 'descartes_light'}
+[0.000254] (-) JobUnselected: {'identifier': 'ifopt'}
+[0.000272] (-) JobUnselected: {'identifier': 'industrial_reconstruction'}
+[0.000290] (-) JobUnselected: {'identifier': 'industrial_reconstruction_msgs'}
+[0.000307] (-) JobUnselected: {'identifier': 'motoman_hc10_support'}
+[0.000324] (-) JobUnselected: {'identifier': 'motoman_resources'}
+[0.000341] (-) JobUnselected: {'identifier': 'noether_filtering'}
+[0.000358] (-) JobUnselected: {'identifier': 'noether_gui'}
+[0.000375] (-) JobUnselected: {'identifier': 'noether_tpp'}
+[0.000392] (-) JobUnselected: {'identifier': 'opw_kinematics'}
+[0.000409] (-) JobUnselected: {'identifier': 'osqp'}
+[0.000426] (-) JobUnselected: {'identifier': 'osqp_eigen'}
+[0.000443] (-) JobUnselected: {'identifier': 'qpoases'}
+[0.000460] (-) JobUnselected: {'identifier': 'qt_advanced_docking'}
+[0.000477] (-) JobUnselected: {'identifier': 'ros_industrial_cmake_boilerplate'}
+[0.000498] (-) JobUnselected: {'identifier': 'rviz_polygon_selection_tool'}
+[0.000518] (-) JobUnselected: {'identifier': 'snp_application'}
+[0.000535] (-) JobUnselected: {'identifier': 'snp_automate_2022'}
+[0.000552] (-) JobUnselected: {'identifier': 'snp_motion_execution'}
+[0.000569] (-) JobUnselected: {'identifier': 'snp_msgs'}
+[0.000586] (-) JobUnselected: {'identifier': 'snp_scanning'}
+[0.000603] (-) JobUnselected: {'identifier': 'snp_tpp'}
+[0.000620] (-) JobUnselected: {'identifier': 'tesseract_collision'}
+[0.000637] (-) JobUnselected: {'identifier': 'tesseract_command_language'}
+[0.000654] (-) JobUnselected: {'identifier': 'tesseract_common'}
+[0.000671] (-) JobUnselected: {'identifier': 'tesseract_environment'}
+[0.000688] (-) JobUnselected: {'identifier': 'tesseract_examples'}
+[0.000704] (-) JobUnselected: {'identifier': 'tesseract_geometry'}
+[0.000721] (-) JobUnselected: {'identifier': 'tesseract_kinematics'}
+[0.000738] (-) JobUnselected: {'identifier': 'tesseract_monitoring'}
+[0.000755] (-) JobUnselected: {'identifier': 'tesseract_motion_planners'}
+[0.000772] (-) JobUnselected: {'identifier': 'tesseract_msgs'}
+[0.000788] (-) JobUnselected: {'identifier': 'tesseract_planning_server'}
+[0.000805] (-) JobUnselected: {'identifier': 'tesseract_qt'}
+[0.000822] (-) JobUnselected: {'identifier': 'tesseract_ros_examples'}
+[0.000839] (-) JobUnselected: {'identifier': 'tesseract_rosutils'}
+[0.000856] (-) JobUnselected: {'identifier': 'tesseract_rviz'}
+[0.000873] (-) JobUnselected: {'identifier': 'tesseract_scene_graph'}
+[0.000890] (-) JobUnselected: {'identifier': 'tesseract_srdf'}
+[0.000907] (-) JobUnselected: {'identifier': 'tesseract_state_solver'}
+[0.000924] (-) JobUnselected: {'identifier': 'tesseract_support'}
+[0.000941] (-) JobUnselected: {'identifier': 'tesseract_task_composer'}
+[0.000957] (-) JobUnselected: {'identifier': 'tesseract_time_parameterization'}
+[0.000974] (-) JobUnselected: {'identifier': 'tesseract_urdf'}
+[0.000991] (-) JobUnselected: {'identifier': 'tesseract_visualization'}
+[0.001008] (-) JobUnselected: {'identifier': 'trajopt'}
+[0.001025] (-) JobUnselected: {'identifier': 'trajopt_common'}
+[0.001042] (-) JobUnselected: {'identifier': 'trajopt_ifopt'}
+[0.001059] (-) JobUnselected: {'identifier': 'trajopt_sco'}
+[0.001076] (-) JobUnselected: {'identifier': 'trajopt_sqp'}
+[0.001093] (-) JobUnselected: {'identifier': 'vhacd'}
+[0.001112] (snp_motion_planning) JobQueued: {'identifier': 'snp_motion_planning', 'dependencies': OrderedDict([('ifopt', '/home/ubuntu/tesseract_ws/install/ifopt'), ('snp_msgs', '/home/ubuntu/tesseract_ws/install/snp_msgs'), ('descartes_light', '/home/ubuntu/tesseract_ws/install/descartes_light'), ('opw_kinematics', '/home/ubuntu/tesseract_ws/install/opw_kinematics'), ('osqp', '/home/ubuntu/tesseract_ws/install/osqp'), ('qpoases', '/home/ubuntu/tesseract_ws/install/qpoases'), ('tesseract_common', '/home/ubuntu/tesseract_ws/install/tesseract_common'), ('tesseract_msgs', '/home/ubuntu/tesseract_ws/install/tesseract_msgs'), ('osqp_eigen', '/home/ubuntu/tesseract_ws/install/osqp_eigen'), ('tesseract_command_language', '/home/ubuntu/tesseract_ws/install/tesseract_command_language'), ('tesseract_support', '/home/ubuntu/tesseract_ws/install/tesseract_support'), ('trajopt_common', '/home/ubuntu/tesseract_ws/install/trajopt_common'), ('tesseract_geometry', '/home/ubuntu/tesseract_ws/install/tesseract_geometry'), ('tesseract_time_parameterization', '/home/ubuntu/tesseract_ws/install/tesseract_time_parameterization'), ('trajopt_sco', '/home/ubuntu/tesseract_ws/install/trajopt_sco'), ('tesseract_scene_graph', '/home/ubuntu/tesseract_ws/install/tesseract_scene_graph'), ('tesseract_collision', '/home/ubuntu/tesseract_ws/install/tesseract_collision'), ('tesseract_srdf', '/home/ubuntu/tesseract_ws/install/tesseract_srdf'), ('tesseract_urdf', '/home/ubuntu/tesseract_ws/install/tesseract_urdf'), ('tesseract_state_solver', '/home/ubuntu/tesseract_ws/install/tesseract_state_solver'), ('tesseract_kinematics', '/home/ubuntu/tesseract_ws/install/tesseract_kinematics'), ('tesseract_environment', '/home/ubuntu/tesseract_ws/install/tesseract_environment'), ('tesseract_visualization', '/home/ubuntu/tesseract_ws/install/tesseract_visualization'), ('trajopt', '/home/ubuntu/tesseract_ws/install/trajopt'), ('trajopt_ifopt', '/home/ubuntu/tesseract_ws/install/trajopt_ifopt'), ('trajopt_sqp', '/home/ubuntu/tesseract_ws/install/trajopt_sqp'), ('tesseract_motion_planners', '/home/ubuntu/tesseract_ws/install/tesseract_motion_planners'), ('tesseract_task_composer', '/home/ubuntu/tesseract_ws/install/tesseract_task_composer'), ('tesseract_rosutils', '/home/ubuntu/tesseract_ws/install/tesseract_rosutils'), ('tesseract_monitoring', '/home/ubuntu/tesseract_ws/install/tesseract_monitoring')])}
+[0.001439] (snp_motion_planning) JobStarted: {'identifier': 'snp_motion_planning'}
+[0.099563] (-) TimerEvent: {}
+[0.123863] (snp_motion_planning) JobProgress: {'identifier': 'snp_motion_planning', 'progress': 'cmake'}
+[0.125918] (snp_motion_planning) JobProgress: {'identifier': 'snp_motion_planning', 'progress': 'build'}
+[0.125977] (snp_motion_planning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/tesseract_ws/build/snp_motion_planning', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/tesseract_ws/build/snp_motion_planning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VNCDESKTOP', 'ip-172-31-18-146.ec2.internal:1 (ubuntu)'), ('SSH_CLIENT', '129.162.113.222 36478 22'), ('USER', 'ubuntu'), ('ROS_PACKAGE_PATH', '/home/ubuntu/tesseract_ws/install/vhacd:/home/ubuntu/tesseract_ws/install/tesseract_examples:/home/ubuntu/tesseract_ws/install/tesseract_task_composer:/home/ubuntu/tesseract_ws/install/tesseract_motion_planners:/home/ubuntu/tesseract_ws/install/trajopt_sqp:/home/ubuntu/tesseract_ws/install/trajopt:/home/ubuntu/tesseract_ws/install/trajopt_sco:/home/ubuntu/tesseract_ws/install/trajopt_ifopt:/home/ubuntu/tesseract_ws/install/trajopt_common:/home/ubuntu/tesseract_ws/install/tesseract_visualization:/home/ubuntu/tesseract_ws/install/tesseract_environment:/home/ubuntu/tesseract_ws/install/tesseract_urdf:/home/ubuntu/tesseract_ws/install/tesseract_time_parameterization:/home/ubuntu/tesseract_ws/install/tesseract_collision:/home/ubuntu/tesseract_ws/install/tesseract_support:/home/ubuntu/tesseract_ws/install/tesseract_kinematics:/home/ubuntu/tesseract_ws/install/tesseract_srdf:/home/ubuntu/tesseract_ws/install/tesseract_scene_graph:/home/ubuntu/tesseract_ws/install/tesseract_geometry:/home/ubuntu/tesseract_ws/install/tesseract_command_language:/home/ubuntu/tesseract_ws/install/tesseract_common:/home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate:/home/ubuntu/tesseract_ws/install/noether_gui:/home/ubuntu/tesseract_ws/install/noether_tpp:/home/ubuntu/tesseract_ws/install/noether_filtering:/home/ubuntu/tesseract_ws/install/boost_plugin_loader'), ('SSH_AGENT_PID', '1721'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/ubuntu/tesseract_ws/install/tesseract_monitoring/lib:/home/ubuntu/tesseract_ws/install/tesseract_rosutils/lib:/home/ubuntu/tesseract_ws/install/tesseract_task_composer/lib:/home/ubuntu/tesseract_ws/install/tesseract_motion_planners/lib:/home/ubuntu/tesseract_ws/install/trajopt_sqp/lib:/home/ubuntu/tesseract_ws/install/trajopt_ifopt/lib:/home/ubuntu/tesseract_ws/install/trajopt/lib:/home/ubuntu/tesseract_ws/install/tesseract_visualization/lib:/home/ubuntu/tesseract_ws/install/tesseract_environment/lib:/home/ubuntu/tesseract_ws/install/tesseract_kinematics/lib:/home/ubuntu/tesseract_ws/install/tesseract_state_solver/lib:/home/ubuntu/tesseract_ws/install/tesseract_urdf/lib:/home/ubuntu/tesseract_ws/install/tesseract_srdf/lib:/home/ubuntu/tesseract_ws/install/tesseract_collision/lib:/home/ubuntu/tesseract_ws/install/tesseract_scene_graph/lib:/home/ubuntu/tesseract_ws/install/trajopt_sco/lib:/home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/lib:/home/ubuntu/tesseract_ws/install/tesseract_geometry/lib:/home/ubuntu/tesseract_ws/install/trajopt_common/lib:/home/ubuntu/tesseract_ws/install/tesseract_support/lib:/home/ubuntu/tesseract_ws/install/tesseract_command_language/lib:/home/ubuntu/tesseract_ws/install/osqp_eigen/lib:/home/ubuntu/tesseract_ws/install/tesseract_msgs/lib:/home/ubuntu/tesseract_ws/install/tesseract_common/lib:/home/ubuntu/tesseract_ws/install/qpoases/lib:/home/ubuntu/tesseract_ws/install/osqp/lib:/home/ubuntu/tesseract_ws/install/descartes_light/lib:/home/ubuntu/tesseract_ws/install/snp_msgs/lib:/home/ubuntu/tesseract_ws/install/ifopt/lib:/home/ubuntu/tesseract_ws/install/vhacd/lib:/home/ubuntu/tesseract_ws/install/tesseract_rviz/lib:/home/ubuntu/tesseract_ws/install/tesseract_planning_server/lib:/home/ubuntu/tesseract_ws/install/snp_motion_planning/lib:/home/ubuntu/tesseract_ws/install/tesseract_qt/lib:/home/ubuntu/tesseract_ws/install/tesseract_examples/lib:/home/ubuntu/tesseract_ws/install/snp_tpp/lib:/home/ubuntu/tesseract_ws/install/snp_application/lib:/home/ubuntu/tesseract_ws/install/rviz_polygon_selection_tool/lib:/home/ubuntu/tesseract_ws/install/qt_advanced_docking/lib:/home/ubuntu/tesseract_ws/install/noether_gui/lib:/home/ubuntu/tesseract_ws/install/noether_tpp/lib:/home/ubuntu/tesseract_ws/install/noether_filtering/lib:/home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/lib:/home/ubuntu/tesseract_ws/install/boost_plugin_loader/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '13'), ('HOME', '/home/ubuntu'), ('MOTD_SHOWN', 'pam'), ('QTDIR', '/usr/lib/x86_64-linux-gnu/qt5'), ('SSH_TTY', '/dev/pts/0'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/.local/share/applications/QtProject-qtcreator-ros-latest.desktop'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1455'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SYSTEMD_EXEC_PID', '1860'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4908'), ('COLCON_PREFIX_PATH', '/home/ubuntu/tesseract_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:23937'), ('_', '/usr/bin/env'), ('PKG_CONFIG_PATH', '/home/ubuntu/tesseract_ws/install/tesseract_task_composer/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_task_composer/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_motion_planners/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_motion_planners/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/trajopt_sqp/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/trajopt_sqp/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/trajopt_ifopt/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/trajopt_ifopt/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/trajopt/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/trajopt/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_visualization/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_visualization/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_environment/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_environment/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_kinematics/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_kinematics/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_state_solver/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_state_solver/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_urdf/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_urdf/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_srdf/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_srdf/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_collision/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_collision/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_scene_graph/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_scene_graph/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/trajopt_sco/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/trajopt_sco/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_geometry/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_geometry/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/trajopt_common/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/trajopt_common/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_support/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_support/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_command_language/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_command_language/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/osqp_eigen/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/osqp_eigen/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_common/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_common/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/qpoases/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/qpoases/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/osqp/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/osqp/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/opw_kinematics/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/opw_kinematics/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/descartes_light/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/descartes_light/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/ifopt/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/ifopt/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/vhacd/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/vhacd/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_qt/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_qt/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_examples/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_examples/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/qt_advanced_docking/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/qt_advanced_docking/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/noether_gui/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/noether_gui/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/noether_tpp/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/noether_tpp/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/noether_filtering/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/noether_filtering/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/boost_plugin_loader/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/boost_plugin_loader/lib/pkgconfig'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/tesseract_ws/install/tesseract_task_composer/bin:/home/ubuntu/tesseract_ws/install/tesseract_motion_planners/bin:/home/ubuntu/tesseract_ws/install/tesseract_urdf/bin:/home/ubuntu/tesseract_ws/install/tesseract_srdf/bin:/home/ubuntu/tesseract_ws/install/tesseract_collision/bin:/home/ubuntu/tesseract_ws/install/tesseract_scene_graph/bin:/home/ubuntu/tesseract_ws/install/trajopt_sco/bin:/home/ubuntu/tesseract_ws/install/tesseract_geometry/bin:/home/ubuntu/tesseract_ws/install/tesseract_qt/bin:/home/ubuntu/tesseract_ws/install/tesseract_examples/bin:/home/ubuntu/tesseract_ws/install/noether_gui/bin:/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', 'e3dee3f77dde4309b13fffdd732ad9fb'), ('SESSION_MANAGER', 'local/ip-172-31-18-146:@/tmp/.ICE-unix/1798,unix/ip-172-31-18-146:/tmp/.ICE-unix/1798'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XMODIFIERS', '@im=ibus'), ('AMENT_PREFIX_PATH', '/home/ubuntu/tesseract_ws/install/vhacd:/home/ubuntu/tesseract_ws/install/tesseract_ros_examples:/home/ubuntu/tesseract_ws/install/tesseract_rviz:/home/ubuntu/tesseract_ws/install/tesseract_planning_server:/home/ubuntu/tesseract_ws/install/snp_motion_planning:/home/ubuntu/tesseract_ws/install/tesseract_monitoring:/home/ubuntu/tesseract_ws/install/tesseract_rosutils:/home/ubuntu/tesseract_ws/install/tesseract_examples:/home/ubuntu/tesseract_ws/install/tesseract_task_composer:/home/ubuntu/tesseract_ws/install/tesseract_motion_planners:/home/ubuntu/tesseract_ws/install/trajopt_sqp:/home/ubuntu/tesseract_ws/install/trajopt:/home/ubuntu/tesseract_ws/install/trajopt_sco:/home/ubuntu/tesseract_ws/install/trajopt_ifopt:/home/ubuntu/tesseract_ws/install/trajopt_common:/home/ubuntu/tesseract_ws/install/tesseract_visualization:/home/ubuntu/tesseract_ws/install/tesseract_environment:/home/ubuntu/tesseract_ws/install/tesseract_urdf:/home/ubuntu/tesseract_ws/install/tesseract_time_parameterization:/home/ubuntu/tesseract_ws/install/tesseract_collision:/home/ubuntu/tesseract_ws/install/tesseract_support:/home/ubuntu/tesseract_ws/install/tesseract_kinematics:/home/ubuntu/tesseract_ws/install/tesseract_state_solver:/home/ubuntu/tesseract_ws/install/tesseract_srdf:/home/ubuntu/tesseract_ws/install/tesseract_scene_graph:/home/ubuntu/tesseract_ws/install/tesseract_msgs:/home/ubuntu/tesseract_ws/install/tesseract_geometry:/home/ubuntu/tesseract_ws/install/tesseract_command_language:/home/ubuntu/tesseract_ws/install/tesseract_common:/home/ubuntu/tesseract_ws/install/snp_automate_2022:/home/ubuntu/tesseract_ws/install/snp_tpp:/home/ubuntu/tesseract_ws/install/snp_scanning:/home/ubuntu/tesseract_ws/install/snp_motion_execution:/home/ubuntu/tesseract_ws/install/snp_application:/home/ubuntu/tesseract_ws/install/rviz_polygon_selection_tool:/home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate:/home/ubuntu/tesseract_ws/install/noether_gui:/home/ubuntu/tesseract_ws/install/noether_tpp:/home/ubuntu/tesseract_ws/install/noether_filtering:/home/ubuntu/tesseract_ws/install/motoman_hc10_support:/home/ubuntu/tesseract_ws/install/motoman_resources:/home/ubuntu/tesseract_ws/install/industrial_reconstruction:/home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs:/home/ubuntu/tesseract_ws/install/boost_plugin_loader:/opt/ros/humble'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CMAKE_MODULE_PATH', '/home/ubuntu/tesseract_ws/install/tesseract_qt/lib/cmake/tesseract_qt:/home/ubuntu/tesseract_ws/install/trajopt_sco/lib/cmake/trajopt_sco:/home/ubuntu/tesseract_ws/install/tesseract_geometry/lib/cmake/tesseract_geometry:/home/ubuntu/tesseract_ws/install/tesseract_common/lib/cmake/tesseract_common'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'C'), ('PWD', '/home/ubuntu/tesseract_ws/build/snp_motion_planning'), ('CLUTTER_IM_MODULE', 'ibus'), ('SSH_CONNECTION', '129.162.113.222 36478 172.31.18.146 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/tesseract_ws/install/tesseract_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/tesseract_ws/install/rviz_polygon_selection_tool/local/lib/python3.10/dist-packages:/home/ubuntu/tesseract_ws/build/industrial_reconstruction:/home/ubuntu/tesseract_ws/install/industrial_reconstruction/lib/python3.10/site-packages:/home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/tesseract_ws/install/tesseract_monitoring:/home/ubuntu/tesseract_ws/install/tesseract_rosutils:/home/ubuntu/tesseract_ws/install/tesseract_task_composer:/home/ubuntu/tesseract_ws/install/tesseract_motion_planners:/home/ubuntu/tesseract_ws/install/trajopt_sqp:/home/ubuntu/tesseract_ws/install/trajopt_ifopt:/home/ubuntu/tesseract_ws/install/trajopt:/home/ubuntu/tesseract_ws/install/tesseract_visualization:/home/ubuntu/tesseract_ws/install/tesseract_environment:/home/ubuntu/tesseract_ws/install/tesseract_kinematics:/home/ubuntu/tesseract_ws/install/tesseract_state_solver:/home/ubuntu/tesseract_ws/install/tesseract_urdf:/home/ubuntu/tesseract_ws/install/tesseract_srdf:/home/ubuntu/tesseract_ws/install/tesseract_collision:/home/ubuntu/tesseract_ws/install/tesseract_scene_graph:/home/ubuntu/tesseract_ws/install/trajopt_sco:/home/ubuntu/tesseract_ws/install/tesseract_time_parameterization:/home/ubuntu/tesseract_ws/install/tesseract_geometry:/home/ubuntu/tesseract_ws/install/trajopt_common:/home/ubuntu/tesseract_ws/install/tesseract_support:/home/ubuntu/tesseract_ws/install/tesseract_command_language:/home/ubuntu/tesseract_ws/install/osqp_eigen:/home/ubuntu/tesseract_ws/install/tesseract_msgs:/home/ubuntu/tesseract_ws/install/tesseract_common:/home/ubuntu/tesseract_ws/install/qpoases:/home/ubuntu/tesseract_ws/install/osqp:/home/ubuntu/tesseract_ws/install/opw_kinematics:/home/ubuntu/tesseract_ws/install/descartes_light:/home/ubuntu/tesseract_ws/install/snp_msgs:/home/ubuntu/tesseract_ws/install/ifopt:/home/ubuntu/tesseract_ws/install/vhacd:/home/ubuntu/tesseract_ws/install/tesseract_ros_examples:/home/ubuntu/tesseract_ws/install/tesseract_rviz:/home/ubuntu/tesseract_ws/install/tesseract_planning_server:/home/ubuntu/tesseract_ws/install/snp_motion_planning:/home/ubuntu/tesseract_ws/install/tesseract_qt:/home/ubuntu/tesseract_ws/install/tesseract_examples:/home/ubuntu/tesseract_ws/install/snp_automate_2022:/home/ubuntu/tesseract_ws/install/snp_tpp:/home/ubuntu/tesseract_ws/install/snp_scanning:/home/ubuntu/tesseract_ws/install/snp_motion_execution:/home/ubuntu/tesseract_ws/install/snp_application:/home/ubuntu/tesseract_ws/install/rviz_polygon_selection_tool:/home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate:/home/ubuntu/tesseract_ws/install/qt_advanced_docking:/home/ubuntu/tesseract_ws/install/noether_gui:/home/ubuntu/tesseract_ws/install/noether_tpp:/home/ubuntu/tesseract_ws/install/noether_filtering:/home/ubuntu/tesseract_ws/install/motoman_hc10_support:/home/ubuntu/tesseract_ws/install/motoman_resources:/home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs:/home/ubuntu/tesseract_ws/install/boost_plugin_loader:/home/ubuntu/tesseract_ws/install/Taskflow:/home/ubuntu/tesseract_ws/install/industrial_reconstruction:/opt/ros/humble')]), 'shell': False}
+[0.172113] (snp_motion_planning) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199685] (-) TimerEvent: {}
+[0.299895] (-) TimerEvent: {}
+[0.342131] (snp_motion_planning) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.350078] (snp_motion_planning) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.385958] (snp_motion_planning) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.388713] (snp_motion_planning) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.395801] (snp_motion_planning) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.399985] (-) TimerEvent: {}
+[0.410324] (snp_motion_planning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.430625] (snp_motion_planning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500088] (-) TimerEvent: {}
+[0.502489] (snp_motion_planning) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.505460] (snp_motion_planning) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600196] (-) TimerEvent: {}
+[0.686804] (snp_motion_planning) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700294] (-) TimerEvent: {}
+[0.800499] (-) TimerEvent: {}
+[0.882381] (snp_motion_planning) StdoutLine: {'line': b'-- Found snp_msgs: 0.0.0 (/home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/cmake)\n'}
+[0.900613] (-) TimerEvent: {}
+[1.000829] (-) TimerEvent: {}
+[1.101062] (-) TimerEvent: {}
+[1.201258] (-) TimerEvent: {}
+[1.226702] (snp_motion_planning) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.246954] (snp_motion_planning) StdoutLine: {'line': b'-- Found tesseract_monitoring: 0.18.0 (/home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/tesseract_monitoring/cmake)\n'}
+[1.301369] (-) TimerEvent: {}
+[1.401561] (-) TimerEvent: {}
+[1.501752] (-) TimerEvent: {}
+[1.601942] (-) TimerEvent: {}
+[1.702135] (-) TimerEvent: {}
+[1.802360] (-) TimerEvent: {}
+[1.902551] (-) TimerEvent: {}
+[2.002744] (-) TimerEvent: {}
+[2.102933] (-) TimerEvent: {}
+[2.150508] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[2.150691] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[2.150754] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[2.150811] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[2.150865] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[2.150917] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[2.150969] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[2.203037] (-) TimerEvent: {}
+[2.303226] (-) TimerEvent: {}
+[2.403418] (-) TimerEvent: {}
+[2.503622] (-) TimerEvent: {}
+[2.603816] (-) TimerEvent: {}
+[2.612669] (snp_motion_planning) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.638670] (snp_motion_planning) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.647450] (snp_motion_planning) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.703922] (-) TimerEvent: {}
+[2.804119] (-) TimerEvent: {}
+[2.904343] (-) TimerEvent: {}
+[3.004579] (-) TimerEvent: {}
+[3.104826] (-) TimerEvent: {}
+[3.164136] (snp_motion_planning) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[3.204935] (-) TimerEvent: {}
+[3.305140] (-) TimerEvent: {}
+[3.402831] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[3.403085] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[3.403191] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[3.403287] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[3.403380] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[3.403472] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[3.403578] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[3.405253] (-) TimerEvent: {}
+[3.505457] (-) TimerEvent: {}
+[3.605680] (-) TimerEvent: {}
+[3.609465] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[3.609636] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[3.609710] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[3.609767] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[3.609821] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[3.610059] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[3.610121] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[3.705781] (-) TimerEvent: {}
+[3.797843] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[3.798285] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[3.798424] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[3.798524] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[3.798617] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[3.798706] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[3.798796] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[3.805876] (-) TimerEvent: {}
+[3.906080] (-) TimerEvent: {}
+[4.006302] (-) TimerEvent: {}
+[4.106497] (-) TimerEvent: {}
+[4.206682] (-) TimerEvent: {}
+[4.279316] (snp_motion_planning) StderrLine: {'line': b'CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package):\n'}
+[4.279598] (snp_motion_planning) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[4.279706] (snp_motion_planning) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[4.279800] (snp_motion_planning) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[4.279893] (snp_motion_planning) StderrLine: {'line': b'\n'}
+[4.279986] (snp_motion_planning) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[4.280079] (snp_motion_planning) StderrLine: {'line': b'\n'}
+[4.280170] (snp_motion_planning) StderrLine: {'line': b'    /usr\n'}
+[4.280262] (snp_motion_planning) StderrLine: {'line': b'\n'}
+[4.280351] (snp_motion_planning) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[4.280448] (snp_motion_planning) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.280544] (snp_motion_planning) StderrLine: {'line': b'  /home/ubuntu/tesseract_ws/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:32 (find_dependency)\n'}
+[4.280645] (snp_motion_planning) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)\n'}
+[4.280736] (snp_motion_planning) StderrLine: {'line': b'  /home/ubuntu/tesseract_ws/install/tesseract_environment/lib/cmake/tesseract_environment/tesseract_environment-config.cmake:29 (find_dependency)\n'}
+[4.280829] (snp_motion_planning) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)\n'}
+[4.280918] (snp_motion_planning) StderrLine: {'line': b'  /home/ubuntu/tesseract_ws/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake:31 (find_dependency)\n'}
+[4.281008] (snp_motion_planning) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)\n'}
+[4.281097] (snp_motion_planning) StderrLine: {'line': b'  /home/ubuntu/tesseract_ws/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:42 (find_dependency)\n'}
+[4.281211] (snp_motion_planning) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)\n'}
+[4.281311] (snp_motion_planning) StderrLine: {'line': b'  /home/ubuntu/tesseract_ws/install/tesseract_task_composer/lib/cmake/tesseract_task_composer/tesseract_task_composer-config.cmake:33 (find_dependency)\n'}
+[4.281401] (snp_motion_planning) StderrLine: {'line': b'  /home/ubuntu/tesseract_ws/install/tesseract_rosutils/share/tesseract_rosutils/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[4.281490] (snp_motion_planning) StderrLine: {'line': b'  /home/ubuntu/tesseract_ws/install/tesseract_rosutils/share/tesseract_rosutils/cmake/tesseract_rosutilsConfig.cmake:41 (include)\n'}
+[4.281579] (snp_motion_planning) StderrLine: {'line': b'  /home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/tesseract_monitoring/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[4.281672] (snp_motion_planning) StderrLine: {'line': b'  /home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/tesseract_monitoring/cmake/tesseract_monitoringConfig.cmake:41 (include)\n'}
+[4.281767] (snp_motion_planning) StderrLine: {'line': b'  CMakeLists.txt:20 (find_package)\n'}
+[4.281858] (snp_motion_planning) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[4.281931] (snp_motion_planning) StderrLine: {'line': b'\n'}
+[4.306802] (-) TimerEvent: {}
+[4.407001] (-) TimerEvent: {}
+[4.483001] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[4.483245] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[4.483346] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[4.483443] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[4.483549] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[4.483664] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[4.483761] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[4.507133] (-) TimerEvent: {}
+[4.585607] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[4.585860] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[4.585966] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[4.586062] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[4.586155] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[4.586247] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[4.586340] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[4.607255] (-) TimerEvent: {}
+[4.688492] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[4.688735] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[4.688840] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[4.688937] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[4.689031] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[4.689124] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[4.689263] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[4.707386] (-) TimerEvent: {}
+[4.807607] (-) TimerEvent: {}
+[4.907799] (-) TimerEvent: {}
+[5.007987] (-) TimerEvent: {}
+[5.108175] (-) TimerEvent: {}
+[5.208361] (-) TimerEvent: {}
+[5.308548] (-) TimerEvent: {}
+[5.399460] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[5.399722] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[5.399825] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[5.399920] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[5.400014] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[5.400106] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[5.400199] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[5.408661] (-) TimerEvent: {}
+[5.508870] (-) TimerEvent: {}
+[5.609096] (-) TimerEvent: {}
+[5.709337] (-) TimerEvent: {}
+[5.809575] (-) TimerEvent: {}
+[5.864403] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[5.864667] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[5.864787] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[5.864896] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[5.865019] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[5.865135] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[5.865256] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[5.909681] (-) TimerEvent: {}
+[6.009875] (-) TimerEvent: {}
+[6.110070] (-) TimerEvent: {}
+[6.210281] (-) TimerEvent: {}
+[6.311027] (-) TimerEvent: {}
+[6.411240] (-) TimerEvent: {}
+[6.511454] (-) TimerEvent: {}
+[6.611676] (-) TimerEvent: {}
+[6.711881] (-) TimerEvent: {}
+[6.729742] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[6.729916] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[6.729978] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[6.730036] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[6.730089] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[6.730142] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[6.730194] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[6.811981] (-) TimerEvent: {}
+[6.896097] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[6.896274] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[6.896337] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[6.896404] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[6.896458] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[6.896510] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[6.896563] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[6.912071] (-) TimerEvent: {}
+[7.012249] (-) TimerEvent: {}
+[7.112440] (-) TimerEvent: {}
+[7.212632] (-) TimerEvent: {}
+[7.312823] (-) TimerEvent: {}
+[7.413014] (-) TimerEvent: {}
+[7.513219] (-) TimerEvent: {}
+[7.613407] (-) TimerEvent: {}
+[7.653090] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[7.653347] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[7.653451] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[7.653543] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[7.653635] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[7.653726] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[7.653815] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[7.713514] (-) TimerEvent: {}
+[7.813705] (-) TimerEvent: {}
+[7.837656] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[7.837903] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[7.838014] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[7.838130] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[7.838230] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[7.838329] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[7.838438] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[7.913816] (-) TimerEvent: {}
+[7.955954] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[7.956193] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[7.956303] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[7.956404] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[7.956503] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[7.956598] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[7.956694] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[8.013923] (-) TimerEvent: {}
+[8.114113] (-) TimerEvent: {}
+[8.214305] (-) TimerEvent: {}
+[8.314496] (-) TimerEvent: {}
+[8.414692] (-) TimerEvent: {}
+[8.514887] (-) TimerEvent: {}
+[8.615073] (-) TimerEvent: {}
+[8.718216] (-) TimerEvent: {}
+[8.726152] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[8.726387] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[8.726491] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[8.726587] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[8.726680] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[8.726773] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[8.726868] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[8.818412] (-) TimerEvent: {}
+[8.918605] (-) TimerEvent: {}
+[9.018831] (-) TimerEvent: {}
+[9.119033] (-) TimerEvent: {}
+[9.219227] (-) TimerEvent: {}
+[9.280056] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[9.280227] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[9.280289] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[9.280345] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[9.280399] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[9.280466] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[9.280563] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[9.319327] (-) TimerEvent: {}
+[9.419523] (-) TimerEvent: {}
+[9.519710] (-) TimerEvent: {}
+[9.619900] (-) TimerEvent: {}
+[9.720091] (-) TimerEvent: {}
+[9.820284] (-) TimerEvent: {}
+[9.920475] (-) TimerEvent: {}
+[10.020666] (-) TimerEvent: {}
+[10.080854] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[10.081122] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[10.081279] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[10.081383] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[10.081477] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[10.081571] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[10.081666] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[10.120795] (-) TimerEvent: {}
+[10.201101] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[10.201368] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[10.201476] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[10.201571] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[10.201665] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[10.201755] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[10.201847] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[10.220903] (-) TimerEvent: {}
+[10.319925] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[10.320103] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[10.320166] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[10.320232] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[10.320286] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[10.320338] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[10.320389] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[10.320960] (-) TimerEvent: {}
+[10.421099] (-) TimerEvent: {}
+[10.521258] (-) TimerEvent: {}
+[10.621450] (-) TimerEvent: {}
+[10.721639] (-) TimerEvent: {}
+[10.821830] (-) TimerEvent: {}
+[10.922019] (-) TimerEvent: {}
+[11.022211] (-) TimerEvent: {}
+[11.122404] (-) TimerEvent: {}
+[11.143714] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[11.143980] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[11.144074] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[11.144143] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[11.144205] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[11.144266] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[11.144327] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[11.222510] (-) TimerEvent: {}
+[11.322699] (-) TimerEvent: {}
+[11.392785] (snp_motion_planning) StdoutLine: {'line': b'-- Taskflow found. Headers: /home/ubuntu/tesseract_ws/install/Taskflow/include/\n'}
+[11.422809] (-) TimerEvent: {}
+[11.522999] (-) TimerEvent: {}
+[11.623192] (-) TimerEvent: {}
+[11.723386] (-) TimerEvent: {}
+[11.791135] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: serialization \n'}
+[11.823329] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[11.823588] (-) TimerEvent: {}
+[11.832172] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: serialization \n'}
+[11.864102] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[11.872321] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: serialization \n'}
+[11.886107] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system serialization \n'}
+[11.918524] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[11.923696] (-) TimerEvent: {}
+[11.962040] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[11.962266] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[11.962369] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[11.962464] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[11.962556] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[11.962646] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[11.962737] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[11.966019] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[11.966682] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[11.973971] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[12.011927] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[12.023807] (-) TimerEvent: {}
+[12.062913] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[12.100325] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[12.123928] (-) TimerEvent: {}
+[12.176621] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[12.209597] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[12.218700] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[12.224019] (-) TimerEvent: {}
+[12.256470] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[12.308600] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[12.324128] (-) TimerEvent: {}
+[12.348205] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[12.400762] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[12.424251] (-) TimerEvent: {}
+[12.440869] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[12.524369] (-) TimerEvent: {}
+[12.555614] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[12.609268] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[12.624462] (-) TimerEvent: {}
+[12.654669] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[12.693742] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[12.724570] (-) TimerEvent: {}
+[12.738421] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system serialization \n'}
+[12.773771] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[12.820637] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[12.820814] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[12.820890] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[12.820949] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[12.821005] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[12.821059] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[12.821113] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[12.824668] (-) TimerEvent: {}
+[12.825115] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[12.826009] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[12.924777] (-) TimerEvent: {}
+[12.940268] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: serialization \n'}
+[12.952038] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[12.964169] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system serialization \n'}
+[12.998576] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[13.024880] (-) TimerEvent: {}
+[13.048805] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[13.048982] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[13.049044] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[13.049101] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[13.049156] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[13.049236] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[13.049301] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[13.052788] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[13.053448] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[13.062597] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[13.075063] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options \n'}
+[13.106594] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[13.115367] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[13.119964] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[13.120590] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[13.124959] (-) TimerEvent: {}
+[13.131762] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options \n'}
+[13.162274] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[13.177149] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system serialization \n'}
+[13.211330] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[13.225071] (-) TimerEvent: {}
+[13.257425] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[13.257615] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[13.257677] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[13.257739] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[13.257792] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[13.257845] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[13.257896] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[13.261964] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[13.262588] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[13.270492] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[13.309646] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[13.325208] (-) TimerEvent: {}
+[13.362113] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[13.400992] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[13.425286] (-) TimerEvent: {}
+[13.479364] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[13.511910] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[13.521175] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[13.525386] (-) TimerEvent: {}
+[13.560293] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[13.614917] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[13.625513] (-) TimerEvent: {}
+[13.655195] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[13.711042] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[13.725644] (-) TimerEvent: {}
+[13.752029] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[13.825776] (-) TimerEvent: {}
+[13.871148] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[13.925899] (-) TimerEvent: {}
+[13.926477] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[13.972416] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[14.012899] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[14.026015] (-) TimerEvent: {}
+[14.062166] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system serialization \n'}
+[14.097811] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[14.126115] (-) TimerEvent: {}
+[14.145268] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[14.145439] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[14.145501] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[14.145559] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[14.145613] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[14.145677] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[14.145731] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[14.149806] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[14.150481] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[14.198437] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system serialization \n'}
+[14.226243] (-) TimerEvent: {}
+[14.234745] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[14.282113] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[14.282290] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[14.282353] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[14.282410] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[14.282477] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[14.282540] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[14.282593] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[14.286435] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[14.287099] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[14.326358] (-) TimerEvent: {}
+[14.332995] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system serialization \n'}
+[14.368064] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[14.414517] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[14.414693] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[14.414754] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[14.414811] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[14.414864] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[14.414915] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[14.414968] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[14.418619] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[14.419214] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[14.426455] (-) TimerEvent: {}
+[14.428069] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[14.468543] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[14.522645] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[14.526565] (-) TimerEvent: {}
+[14.563520] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[14.626698] (-) TimerEvent: {}
+[14.641585] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[14.674319] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[14.684543] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[14.724962] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[14.726780] (-) TimerEvent: {}
+[14.779148] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[14.819286] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[14.826892] (-) TimerEvent: {}
+[14.883135] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[14.923625] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[14.927040] (-) TimerEvent: {}
+[15.027253] (-) TimerEvent: {}
+[15.047518] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[15.104170] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[15.127361] (-) TimerEvent: {}
+[15.152749] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[15.194869] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[15.227473] (-) TimerEvent: {}
+[15.242029] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system serialization \n'}
+[15.278072] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[15.326349] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[15.326580] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[15.326708] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[15.326812] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[15.326909] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[15.327011] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[15.327108] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[15.327589] (-) TimerEvent: {}
+[15.331355] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[15.332056] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[15.374362] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[15.416564] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[15.427709] (-) TimerEvent: {}
+[15.472926] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[15.514010] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[15.527838] (-) TimerEvent: {}
+[15.600864] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options \n'}
+[15.627962] (-) TimerEvent: {}
+[15.633078] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[15.640653] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[15.646489] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[15.647181] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[15.664231] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options \n'}
+[15.695539] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[15.712343] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system serialization \n'}
+[15.728075] (-) TimerEvent: {}
+[15.747548] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[15.796058] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[15.796301] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[15.796405] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[15.796502] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[15.796594] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[15.796686] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[15.796776] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[15.800679] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[15.801458] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[15.810244] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[15.828185] (-) TimerEvent: {}
+[15.851460] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[15.906508] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[15.928311] (-) TimerEvent: {}
+[15.948906] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[16.028431] (-) TimerEvent: {}
+[16.030114] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[16.064272] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[16.074145] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[16.115684] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[16.128557] (-) TimerEvent: {}
+[16.169854] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[16.211150] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[16.228661] (-) TimerEvent: {}
+[16.266228] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[16.307240] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[16.328782] (-) TimerEvent: {}
+[16.429006] (-) TimerEvent: {}
+[16.431565] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[16.487837] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[16.529141] (-) TimerEvent: {}
+[16.536848] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[16.579054] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[16.627915] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system serialization \n'}
+[16.629236] (-) TimerEvent: {}
+[16.664306] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[16.713216] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[16.713442] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[16.713564] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[16.713656] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[16.713748] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[16.713838] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[16.713930] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[16.718552] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[16.719343] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[16.729344] (-) TimerEvent: {}
+[16.760038] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[16.786599] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options \n'}
+[16.818130] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[16.829462] (-) TimerEvent: {}
+[16.834557] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system serialization \n'}
+[16.870595] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[16.919740] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[16.919977] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[16.920083] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[16.920178] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[16.920270] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[16.920374] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[16.920471] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[16.924651] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[16.925712] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[16.929536] (-) TimerEvent: {}
+[16.934661] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[16.977990] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[17.029647] (-) TimerEvent: {}
+[17.034089] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[17.075714] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[17.129755] (-) TimerEvent: {}
+[17.160642] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[17.194595] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[17.204620] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[17.229850] (-) TimerEvent: {}
+[17.246945] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[17.302569] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[17.329959] (-) TimerEvent: {}
+[17.345445] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[17.402994] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[17.430083] (-) TimerEvent: {}
+[17.448411] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[17.530189] (-) TimerEvent: {}
+[17.575019] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[17.630297] (-) TimerEvent: {}
+[17.631577] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[17.680800] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[17.723220] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[17.730386] (-) TimerEvent: {}
+[17.773648] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system serialization \n'}
+[17.812703] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[17.830499] (-) TimerEvent: {}
+[17.863508] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[17.863675] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[17.863736] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[17.863793] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[17.863846] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[17.863897] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[17.863949] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[17.868547] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[17.869239] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[17.912476] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[17.924791] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options \n'}
+[17.930627] (-) TimerEvent: {}
+[17.959117] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[18.014207] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system serialization \n'}
+[18.030732] (-) TimerEvent: {}
+[18.052492] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[18.102678] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[18.102845] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[18.102907] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[18.102962] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[18.103015] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[18.103077] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[18.103129] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[18.107588] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[18.108441] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[18.130831] (-) TimerEvent: {}
+[18.158501] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system serialization \n'}
+[18.195378] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[18.230960] (-) TimerEvent: {}
+[18.245732] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[18.245972] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[18.246076] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[18.246189] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[18.246282] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[18.246372] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[18.246461] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[18.250914] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[18.251756] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[18.260949] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[18.304656] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[18.331076] (-) TimerEvent: {}
+[18.363532] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[18.406538] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[18.431181] (-) TimerEvent: {}
+[18.490363] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[18.525518] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[18.531275] (-) TimerEvent: {}
+[18.536789] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[18.580473] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[18.631383] (-) TimerEvent: {}
+[18.639354] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[18.683440] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[18.731487] (-) TimerEvent: {}
+[18.742136] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[18.785803] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[18.831600] (-) TimerEvent: {}
+[18.914499] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[18.931706] (-) TimerEvent: {}
+[18.972532] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[19.028463] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[19.031774] (-) TimerEvent: {}
+[19.073201] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[19.124644] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system serialization \n'}
+[19.131915] (-) TimerEvent: {}
+[19.162677] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[19.214684] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[19.214928] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[19.215051] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[19.215147] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[19.215237] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[19.215332] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[19.215422] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[19.220180] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[19.220990] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[19.232027] (-) TimerEvent: {}
+[19.266058] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[19.310454] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[19.332150] (-) TimerEvent: {}
+[19.370606] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[19.415832] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[19.432284] (-) TimerEvent: {}
+[19.532530] (-) TimerEvent: {}
+[19.579781] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: serialization \n'}
+[19.595159] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[19.611277] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options \n'}
+[19.632613] (-) TimerEvent: {}
+[19.644049] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[19.651968] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[19.657412] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[19.658176] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[19.669360] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options \n'}
+[19.702830] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[19.720720] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system serialization \n'}
+[19.732717] (-) TimerEvent: {}
+[19.758569] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[19.812718] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[19.812881] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[19.812941] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[19.812997] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[19.813049] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[19.813110] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[19.813162] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[19.817766] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[19.818737] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[19.827946] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[19.832779] (-) TimerEvent: {}
+[19.872373] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[19.932899] (-) TimerEvent: {}
+[19.934326] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[19.979511] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[20.033006] (-) TimerEvent: {}
+[20.066805] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[20.103344] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[20.114666] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[20.133097] (-) TimerEvent: {}
+[20.160483] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[20.219411] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[20.233211] (-) TimerEvent: {}
+[20.264751] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[20.324401] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[20.333312] (-) TimerEvent: {}
+[20.369494] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[20.433434] (-) TimerEvent: {}
+[20.502709] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[20.533561] (-) TimerEvent: {}
+[20.562925] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[20.614907] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[20.633673] (-) TimerEvent: {}
+[20.660061] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[20.712058] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system serialization \n'}
+[20.733769] (-) TimerEvent: {}
+[20.749380] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[20.801670] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[20.801835] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[20.801896] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[20.801951] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[20.802004] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[20.802055] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[20.802105] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[20.807112] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[20.807875] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[20.833870] (-) TimerEvent: {}
+[20.860065] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system serialization \n'}
+[20.897687] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[20.933972] (-) TimerEvent: {}
+[20.950042] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[20.950194] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[20.950254] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[20.950320] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[20.950374] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[20.950425] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[20.950476] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[20.955143] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[20.955890] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[21.006618] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system serialization \n'}
+[21.034070] (-) TimerEvent: {}
+[21.044860] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[21.097479] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[21.097640] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[21.097700] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[21.097756] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[21.097809] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[21.097860] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[21.097911] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[21.102532] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[21.103269] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[21.112556] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[21.134147] (-) TimerEvent: {}
+[21.157343] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[21.218699] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[21.234247] (-) TimerEvent: {}
+[21.263900] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[21.334358] (-) TimerEvent: {}
+[21.350197] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[21.386488] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[21.398135] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[21.434457] (-) TimerEvent: {}
+[21.444055] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[21.504742] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[21.534565] (-) TimerEvent: {}
+[21.550430] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[21.612468] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[21.634658] (-) TimerEvent: {}
+[21.657651] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[21.734770] (-) TimerEvent: {}
+[21.791330] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[21.834877] (-) TimerEvent: {}
+[21.851520] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[21.903315] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[21.934981] (-) TimerEvent: {}
+[21.949423] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[22.001830] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system serialization \n'}
+[22.035085] (-) TimerEvent: {}
+[22.040431] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[22.094786] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=LinearMath-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so\n'}
+[22.094953] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=Bullet3Common-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so\n'}
+[22.095013] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletInverseDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so\n'}
+[22.095067] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletCollision-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so\n'}
+[22.095120] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletDynamics-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so\n'}
+[22.095171] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIB=BulletSoftBody-float64 BULLET_LIB_ABS=/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[22.095222] (snp_motion_planning) StdoutLine: {'line': b'-- BULLET_LIBRARIES_ABS=/usr/lib/x86_64-linux-gnu/libLinearMath-float64.so;/usr/lib/x86_64-linux-gnu/libBullet3Common-float64.so;/usr/lib/x86_64-linux-gnu/libBulletInverseDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletCollision-float64.so;/usr/lib/x86_64-linux-gnu/libBulletDynamics-float64.so;/usr/lib/x86_64-linux-gnu/libBulletSoftBody-float64.so\n'}
+[22.100455] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[22.101253] (snp_motion_planning) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[22.135186] (-) TimerEvent: {}
+[22.147450] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[22.196038] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[22.235291] (-) TimerEvent: {}
+[22.258313] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[22.304286] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[22.335392] (-) TimerEvent: {}
+[22.394621] (snp_motion_planning) StdoutLine: {'line': b'-- Taskflow found. Headers: /home/ubuntu/tesseract_ws/install/Taskflow/include/\n'}
+[22.410443] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[22.435486] (-) TimerEvent: {}
+[22.456884] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[22.519273] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: graph \n'}
+[22.535583] (-) TimerEvent: {}
+[22.566277] (snp_motion_planning) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem serialization \n'}
+[22.635690] (-) TimerEvent: {}
+[22.735875] (-) TimerEvent: {}
+[22.836062] (-) TimerEvent: {}
+[22.848604] (snp_motion_planning) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[22.936160] (-) TimerEvent: {}
+[22.940844] (snp_motion_planning) StdoutLine: {'line': b'-- Configuring done\n'}
+[23.036268] (-) TimerEvent: {}
+[23.094002] (snp_motion_planning) StdoutLine: {'line': b'-- Generating done\n'}
+[23.106402] (snp_motion_planning) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/tesseract_ws/build/snp_motion_planning\n'}
+[23.136371] (-) TimerEvent: {}
+[23.236585] (-) TimerEvent: {}
+[23.285712] (snp_motion_planning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target snp_motion_planning_plugins\n'}
+[23.313068] (snp_motion_planning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target snp_motion_planning_tasks\n'}
+[23.316552] (snp_motion_planning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target snp_motion_planning_node\n'}
+[23.328348] (snp_motion_planning) StdoutLine: {'line': b'[ 14%] Building CXX object CMakeFiles/snp_motion_planning_plugins.dir/src/plugins/kinematics/motoman_hc10_ikfast_plugin.cpp.o\n'}
+[23.336684] (-) TimerEvent: {}
+[23.373005] (snp_motion_planning) StdoutLine: {'line': b'[ 28%] Building CXX object CMakeFiles/snp_motion_planning_tasks.dir/src/plugins/tasks/kinematic_limits_check_task.cpp.o\n'}
+[23.373858] (snp_motion_planning) StdoutLine: {'line': b'[ 42%] Building CXX object CMakeFiles/snp_motion_planning_tasks.dir/src/plugins/tasks/constant_tcp_speed_time_parameterization_task.cpp.o\n'}
+[23.378574] (snp_motion_planning) StdoutLine: {'line': b'[ 57%] Building CXX object CMakeFiles/snp_motion_planning_node.dir/src/planning_server.cpp.o\n'}
+[23.436815] (-) TimerEvent: {}
+[23.537050] (-) TimerEvent: {}
+[23.637279] (-) TimerEvent: {}
+[23.737500] (-) TimerEvent: {}
+[23.837720] (-) TimerEvent: {}
+[23.937941] (-) TimerEvent: {}
+[24.038179] (-) TimerEvent: {}
+[24.138443] (-) TimerEvent: {}
+[24.238686] (-) TimerEvent: {}
+[24.339674] (-) TimerEvent: {}
+[24.439916] (-) TimerEvent: {}
+[24.540140] (-) TimerEvent: {}
+[24.640382] (-) TimerEvent: {}
+[24.740613] (-) TimerEvent: {}
+[24.840840] (-) TimerEvent: {}
+[24.943341] (-) TimerEvent: {}
+[25.043584] (-) TimerEvent: {}
+[25.143833] (-) TimerEvent: {}
+[25.244080] (-) TimerEvent: {}
+[25.344320] (-) TimerEvent: {}
+[25.444545] (-) TimerEvent: {}
+[25.544772] (-) TimerEvent: {}
+[25.645000] (-) TimerEvent: {}
+[25.745257] (-) TimerEvent: {}
+[25.845480] (-) TimerEvent: {}
+[25.945708] (-) TimerEvent: {}
+[26.046185] (-) TimerEvent: {}
+[26.146405] (-) TimerEvent: {}
+[26.246631] (-) TimerEvent: {}
+[26.346858] (-) TimerEvent: {}
+[26.447087] (-) TimerEvent: {}
+[26.547319] (-) TimerEvent: {}
+[26.647559] (-) TimerEvent: {}
+[26.747785] (-) TimerEvent: {}
+[26.848014] (-) TimerEvent: {}
+[26.948248] (-) TimerEvent: {}
+[27.048484] (-) TimerEvent: {}
+[27.148717] (-) TimerEvent: {}
+[27.248951] (-) TimerEvent: {}
+[27.349178] (-) TimerEvent: {}
+[27.449418] (-) TimerEvent: {}
+[27.549643] (-) TimerEvent: {}
+[27.649881] (-) TimerEvent: {}
+[27.750131] (-) TimerEvent: {}
+[27.850371] (-) TimerEvent: {}
+[27.950613] (-) TimerEvent: {}
+[28.050872] (-) TimerEvent: {}
+[28.151105] (-) TimerEvent: {}
+[28.251354] (-) TimerEvent: {}
+[28.351600] (-) TimerEvent: {}
+[28.451826] (-) TimerEvent: {}
+[28.552069] (-) TimerEvent: {}
+[28.652319] (-) TimerEvent: {}
+[28.752556] (-) TimerEvent: {}
+[28.852806] (-) TimerEvent: {}
+[28.953066] (-) TimerEvent: {}
+[29.053278] (-) TimerEvent: {}
+[29.153523] (-) TimerEvent: {}
+[29.253786] (-) TimerEvent: {}
+[29.354020] (-) TimerEvent: {}
+[29.454251] (-) TimerEvent: {}
+[29.554491] (-) TimerEvent: {}
+[29.654724] (-) TimerEvent: {}
+[29.754964] (-) TimerEvent: {}
+[29.855215] (-) TimerEvent: {}
+[29.956381] (-) TimerEvent: {}
+[30.056612] (-) TimerEvent: {}
+[30.156845] (-) TimerEvent: {}
+[30.257080] (-) TimerEvent: {}
+[30.357275] (-) TimerEvent: {}
+[30.457507] (-) TimerEvent: {}
+[30.557735] (-) TimerEvent: {}
+[30.657960] (-) TimerEvent: {}
+[30.758187] (-) TimerEvent: {}
+[30.858410] (-) TimerEvent: {}
+[30.958644] (-) TimerEvent: {}
+[30.970690] (snp_motion_planning) StderrLine: {'line': b'In file included from /home/ubuntu/tesseract_ws/install/tesseract_geometry/include/tesseract_geometry/mesh_parser.h:52,\n'}
+[30.970934] (snp_motion_planning) StderrLine: {'line': b'                 from /home/ubuntu/tesseract_ws/src/snp_motion_planning/src/planning_server.cpp:10:\n'}
+[30.971061] (snp_motion_planning) StderrLine: {'line': b'/usr/include/assimp/pbrmaterial.h:51:5: warning: #warning pbrmaterial.h is deprecated. Please update to PBR materials in materials.h and glTF-specific items in GltfMaterial.h [-Wcpp]\n'}
+[30.971160] (snp_motion_planning) StderrLine: {'line': b'   51 | #   warning pbrmaterial.h is deprecated. Please update to PBR materials in materials.h and glTF-specific items in GltfMaterial.h\n'}
+[30.971254] (snp_motion_planning) StderrLine: {'line': b'      |     ^~~~~~~\n'}
+[30.979987] (snp_motion_planning) StderrLine: {'line': b'In file included from /home/ubuntu/tesseract_ws/src/snp_motion_planning/src/planning_server.cpp:14:\n'}
+[30.980200] (snp_motion_planning) StderrLine: {'line': b'/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.h:32:2: warning: #warning This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead [-Wcpp]\n'}
+[30.980318] (snp_motion_planning) StderrLine: {'line': b'   32 | #warning This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead\n'}
+[30.980419] (snp_motion_planning) StderrLine: {'line': b'      |  ^~~~~~~\n'}
+[31.058765] (-) TimerEvent: {}
+[31.158995] (-) TimerEvent: {}
+[31.259226] (-) TimerEvent: {}
+[31.359465] (-) TimerEvent: {}
+[31.459713] (-) TimerEvent: {}
+[31.560208] (-) TimerEvent: {}
+[31.660444] (-) TimerEvent: {}
+[31.760689] (-) TimerEvent: {}
+[31.860945] (-) TimerEvent: {}
+[31.961207] (-) TimerEvent: {}
+[32.061446] (-) TimerEvent: {}
+[32.161681] (-) TimerEvent: {}
+[32.261932] (-) TimerEvent: {}
+[32.280655] (snp_motion_planning) StderrLine: {'line': b'In file included from /home/ubuntu/tesseract_ws/src/snp_motion_planning/src/plugins/kinematics/motoman_hc10_ikfast_plugin.cpp:25:\n'}
+[32.280902] (snp_motion_planning) StderrLine: {'line': b"/home/ubuntu/tesseract_ws/src/snp_motion_planning/src/plugins/kinematics/motoman_hc10_ikfast_solver.hpp:32:38: warning: ISO C++ forbids zero-size array '__dummy' [-Wpedantic]\n"}
+[32.281031] (snp_motion_planning) StderrLine: {'line': b'   32 | IKFAST_COMPILE_ASSERT(IKFAST_VERSION == 0x1000004a);\n'}
+[32.281119] (snp_motion_planning) StderrLine: {'line': b'      |                                      ^\n'}
+[32.281235] (snp_motion_planning) StderrLine: {'line': b"/home/ubuntu/tesseract_ws/src/snp_motion_planning/src/plugins/kinematics/motoman_hc10_ikfast_solver.hpp:31:58: note: in definition of macro 'IKFAST_COMPILE_ASSERT'\n"}
+[32.281336] (snp_motion_planning) StderrLine: {'line': b'   31 | #define IKFAST_COMPILE_ASSERT(x) extern int __dummy[(int)x]\n'}
+[32.281418] (snp_motion_planning) StderrLine: {'line': b'      |                                                          ^\n'}
+[32.362043] (-) TimerEvent: {}
+[32.462276] (-) TimerEvent: {}
+[32.562508] (-) TimerEvent: {}
+[32.662748] (-) TimerEvent: {}
+[32.762982] (-) TimerEvent: {}
+[32.863220] (-) TimerEvent: {}
+[32.963451] (-) TimerEvent: {}
+[33.063691] (-) TimerEvent: {}
+[33.163925] (-) TimerEvent: {}
+[33.264167] (-) TimerEvent: {}
+[33.364403] (-) TimerEvent: {}
+[33.464641] (-) TimerEvent: {}
+[33.564876] (-) TimerEvent: {}
+[33.665116] (-) TimerEvent: {}
+[33.765370] (-) TimerEvent: {}
+[33.865601] (-) TimerEvent: {}
+[33.965839] (-) TimerEvent: {}
+[34.066071] (-) TimerEvent: {}
+[34.166307] (-) TimerEvent: {}
+[34.266545] (-) TimerEvent: {}
+[34.366781] (-) TimerEvent: {}
+[34.467021] (-) TimerEvent: {}
+[34.567265] (-) TimerEvent: {}
+[34.667509] (-) TimerEvent: {}
+[34.767743] (-) TimerEvent: {}
+[34.867979] (-) TimerEvent: {}
+[34.972123] (-) TimerEvent: {}
+[35.072357] (-) TimerEvent: {}
+[35.172606] (-) TimerEvent: {}
+[35.272835] (-) TimerEvent: {}
+[35.373069] (-) TimerEvent: {}
+[35.473277] (-) TimerEvent: {}
+[35.573502] (-) TimerEvent: {}
+[35.673732] (-) TimerEvent: {}
+[35.773965] (-) TimerEvent: {}
+[35.874198] (-) TimerEvent: {}
+[35.974433] (-) TimerEvent: {}
+[36.074668] (-) TimerEvent: {}
+[36.174902] (-) TimerEvent: {}
+[36.275138] (-) TimerEvent: {}
+[36.375375] (-) TimerEvent: {}
+[36.475612] (-) TimerEvent: {}
+[36.575853] (-) TimerEvent: {}
+[36.676087] (-) TimerEvent: {}
+[36.776326] (-) TimerEvent: {}
+[36.876563] (-) TimerEvent: {}
+[36.976798] (-) TimerEvent: {}
+[37.078629] (-) TimerEvent: {}
+[37.178871] (-) TimerEvent: {}
+[37.279112] (-) TimerEvent: {}
+[37.379352] (-) TimerEvent: {}
+[37.479589] (-) TimerEvent: {}
+[37.579826] (-) TimerEvent: {}
+[37.680064] (-) TimerEvent: {}
+[37.780295] (-) TimerEvent: {}
+[37.880518] (-) TimerEvent: {}
+[37.980747] (-) TimerEvent: {}
+[38.080978] (-) TimerEvent: {}
+[38.181226] (-) TimerEvent: {}
+[38.281453] (-) TimerEvent: {}
+[38.381682] (-) TimerEvent: {}
+[38.481910] (-) TimerEvent: {}
+[38.582138] (-) TimerEvent: {}
+[38.682362] (-) TimerEvent: {}
+[38.782588] (-) TimerEvent: {}
+[38.882811] (-) TimerEvent: {}
+[38.983036] (-) TimerEvent: {}
+[39.083260] (-) TimerEvent: {}
+[39.183489] (-) TimerEvent: {}
+[39.283720] (-) TimerEvent: {}
+[39.383948] (-) TimerEvent: {}
+[39.484172] (-) TimerEvent: {}
+[39.584397] (-) TimerEvent: {}
+[39.684623] (-) TimerEvent: {}
+[39.784852] (-) TimerEvent: {}
+[39.885088] (-) TimerEvent: {}
+[39.986103] (-) TimerEvent: {}
+[40.086338] (-) TimerEvent: {}
+[40.186566] (-) TimerEvent: {}
+[40.286796] (-) TimerEvent: {}
+[40.387030] (-) TimerEvent: {}
+[40.487260] (-) TimerEvent: {}
+[40.587492] (-) TimerEvent: {}
+[40.687733] (-) TimerEvent: {}
+[40.787967] (-) TimerEvent: {}
+[40.888195] (-) TimerEvent: {}
+[40.988416] (-) TimerEvent: {}
+[41.088641] (-) TimerEvent: {}
+[41.188865] (-) TimerEvent: {}
+[41.289087] (-) TimerEvent: {}
+[41.389274] (-) TimerEvent: {}
+[41.489496] (-) TimerEvent: {}
+[41.589725] (-) TimerEvent: {}
+[41.689952] (-) TimerEvent: {}
+[41.790184] (-) TimerEvent: {}
+[41.890419] (-) TimerEvent: {}
+[41.990647] (-) TimerEvent: {}
+[42.090875] (-) TimerEvent: {}
+[42.191108] (-) TimerEvent: {}
+[42.291347] (-) TimerEvent: {}
+[42.391587] (-) TimerEvent: {}
+[42.491814] (-) TimerEvent: {}
+[42.592048] (-) TimerEvent: {}
+[42.692295] (-) TimerEvent: {}
+[42.792525] (-) TimerEvent: {}
+[42.892750] (-) TimerEvent: {}
+[42.992981] (-) TimerEvent: {}
+[43.093231] (-) TimerEvent: {}
+[43.193500] (-) TimerEvent: {}
+[43.293732] (-) TimerEvent: {}
+[43.393968] (-) TimerEvent: {}
+[43.494215] (-) TimerEvent: {}
+[43.594459] (-) TimerEvent: {}
+[43.694700] (-) TimerEvent: {}
+[43.794941] (-) TimerEvent: {}
+[43.895180] (-) TimerEvent: {}
+[43.995411] (-) TimerEvent: {}
+[44.095644] (-) TimerEvent: {}
+[44.195876] (-) TimerEvent: {}
+[44.296107] (-) TimerEvent: {}
+[44.396341] (-) TimerEvent: {}
+[44.496574] (-) TimerEvent: {}
+[44.596813] (-) TimerEvent: {}
+[44.697055] (-) TimerEvent: {}
+[44.771208] (snp_motion_planning) StderrLine: {'line': b"/home/ubuntu/tesseract_ws/src/snp_motion_planning/src/planning_server.cpp: In constructor 'PlanningServer::PlanningServer(rclcpp::Node::SharedPtr)':\n"}
+[44.771635] (snp_motion_planning) StderrLine: {'line': b"/home/ubuntu/tesseract_ws/src/snp_motion_planning/src/planning_server.cpp:139:55: warning: converting to 'const ParameterDescriptor' {aka 'const rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >'} from initializer list would use explicit constructor 'rcl_interfaces::msg::ParameterDescriptor_<ContainerAllocator>::ParameterDescriptor_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>]'\n"}
+[44.771806] (snp_motion_planning) StderrLine: {'line': b'  139 |     node_->declare_parameter<std::vector<std::string>>(TOUCH_LINKS_PARAM, {});\n'}
+[44.771912] (snp_motion_planning) StderrLine: {'line': b'      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~\n'}
+[44.772009] (snp_motion_planning) StderrLine: {'line': b'/home/ubuntu/tesseract_ws/src/snp_motion_planning/src/planning_server.cpp:139:55: note: in C++11 and above a default constructor can be explicit\n'}
+[44.797200] (-) TimerEvent: {}
+[44.897431] (-) TimerEvent: {}
+[44.997674] (-) TimerEvent: {}
+[45.097906] (-) TimerEvent: {}
+[45.198140] (-) TimerEvent: {}
+[45.298378] (-) TimerEvent: {}
+[45.398610] (-) TimerEvent: {}
+[45.498843] (-) TimerEvent: {}
+[45.599082] (-) TimerEvent: {}
+[45.699316] (-) TimerEvent: {}
+[45.799558] (-) TimerEvent: {}
+[45.900246] (-) TimerEvent: {}
+[46.001031] (-) TimerEvent: {}
+[46.101273] (-) TimerEvent: {}
+[46.201497] (-) TimerEvent: {}
+[46.301725] (-) TimerEvent: {}
+[46.401959] (-) TimerEvent: {}
+[46.502195] (-) TimerEvent: {}
+[46.602430] (-) TimerEvent: {}
+[46.702663] (-) TimerEvent: {}
+[46.802901] (-) TimerEvent: {}
+[46.903135] (-) TimerEvent: {}
+[47.003373] (-) TimerEvent: {}
+[47.103607] (-) TimerEvent: {}
+[47.203839] (-) TimerEvent: {}
+[47.304075] (-) TimerEvent: {}
+[47.404309] (-) TimerEvent: {}
+[47.504543] (-) TimerEvent: {}
+[47.604771] (-) TimerEvent: {}
+[47.705009] (-) TimerEvent: {}
+[47.805260] (-) TimerEvent: {}
+[47.905493] (-) TimerEvent: {}
+[48.005732] (-) TimerEvent: {}
+[48.105957] (-) TimerEvent: {}
+[48.206191] (-) TimerEvent: {}
+[48.306431] (-) TimerEvent: {}
+[48.406666] (-) TimerEvent: {}
+[48.506896] (-) TimerEvent: {}
+[48.607128] (-) TimerEvent: {}
+[48.707367] (-) TimerEvent: {}
+[48.807598] (-) TimerEvent: {}
+[48.907828] (-) TimerEvent: {}
+[49.008059] (-) TimerEvent: {}
+[49.108289] (-) TimerEvent: {}
+[49.208524] (-) TimerEvent: {}
+[49.308757] (-) TimerEvent: {}
+[49.408992] (-) TimerEvent: {}
+[49.509240] (-) TimerEvent: {}
+[49.609466] (-) TimerEvent: {}
+[49.709701] (-) TimerEvent: {}
+[49.809944] (-) TimerEvent: {}
+[49.910183] (-) TimerEvent: {}
+[50.010424] (-) TimerEvent: {}
+[50.110667] (-) TimerEvent: {}
+[50.210902] (-) TimerEvent: {}
+[50.311139] (-) TimerEvent: {}
+[50.411373] (-) TimerEvent: {}
+[50.511609] (-) TimerEvent: {}
+[50.611848] (-) TimerEvent: {}
+[50.712088] (-) TimerEvent: {}
+[50.812322] (-) TimerEvent: {}
+[50.912561] (-) TimerEvent: {}
+[51.012800] (-) TimerEvent: {}
+[51.113035] (-) TimerEvent: {}
+[51.213267] (-) TimerEvent: {}
+[51.313487] (-) TimerEvent: {}
+[51.413711] (-) TimerEvent: {}
+[51.513932] (-) TimerEvent: {}
+[51.614157] (-) TimerEvent: {}
+[51.714381] (-) TimerEvent: {}
+[51.814633] (-) TimerEvent: {}
+[51.914865] (-) TimerEvent: {}
+[52.015094] (-) TimerEvent: {}
+[52.115326] (-) TimerEvent: {}
+[52.215565] (-) TimerEvent: {}
+[52.315794] (-) TimerEvent: {}
+[52.416019] (-) TimerEvent: {}
+[52.516248] (-) TimerEvent: {}
+[52.616470] (-) TimerEvent: {}
+[52.716697] (-) TimerEvent: {}
+[52.816926] (-) TimerEvent: {}
+[52.917149] (-) TimerEvent: {}
+[53.017380] (-) TimerEvent: {}
+[53.117610] (-) TimerEvent: {}
+[53.217831] (-) TimerEvent: {}
+[53.318062] (-) TimerEvent: {}
+[53.418291] (-) TimerEvent: {}
+[53.518528] (-) TimerEvent: {}
+[53.618761] (-) TimerEvent: {}
+[53.718996] (-) TimerEvent: {}
+[53.819224] (-) TimerEvent: {}
+[53.919451] (-) TimerEvent: {}
+[54.019696] (-) TimerEvent: {}
+[54.119922] (-) TimerEvent: {}
+[54.220162] (-) TimerEvent: {}
+[54.320395] (-) TimerEvent: {}
+[54.420626] (-) TimerEvent: {}
+[54.520848] (-) TimerEvent: {}
+[54.621076] (-) TimerEvent: {}
+[54.638875] (snp_motion_planning) StdoutLine: {'line': b'[ 71%] Linking CXX shared library libsnp_motion_planning_plugins.so\n'}
+[54.721218] (-) TimerEvent: {}
+[54.821448] (-) TimerEvent: {}
+[54.921676] (-) TimerEvent: {}
+[55.004649] (snp_motion_planning) StdoutLine: {'line': b'[ 71%] Built target snp_motion_planning_plugins\n'}
+[55.021799] (-) TimerEvent: {}
+[55.122023] (-) TimerEvent: {}
+[55.222257] (-) TimerEvent: {}
+[55.322490] (-) TimerEvent: {}
+[55.422718] (-) TimerEvent: {}
+[55.522967] (-) TimerEvent: {}
+[55.623393] (-) TimerEvent: {}
+[55.723632] (-) TimerEvent: {}
+[55.823861] (-) TimerEvent: {}
+[55.924098] (-) TimerEvent: {}
+[56.024336] (-) TimerEvent: {}
+[56.124567] (-) TimerEvent: {}
+[56.224805] (-) TimerEvent: {}
+[56.325043] (-) TimerEvent: {}
+[56.425279] (-) TimerEvent: {}
+[56.525508] (-) TimerEvent: {}
+[56.625739] (-) TimerEvent: {}
+[56.725975] (-) TimerEvent: {}
+[56.826205] (-) TimerEvent: {}
+[56.926439] (-) TimerEvent: {}
+[57.026670] (-) TimerEvent: {}
+[57.126910] (-) TimerEvent: {}
+[57.227147] (-) TimerEvent: {}
+[57.327380] (-) TimerEvent: {}
+[57.427618] (-) TimerEvent: {}
+[57.527864] (-) TimerEvent: {}
+[57.628100] (-) TimerEvent: {}
+[57.728328] (-) TimerEvent: {}
+[57.829367] (-) TimerEvent: {}
+[57.929668] (-) TimerEvent: {}
+[58.029901] (-) TimerEvent: {}
+[58.130131] (-) TimerEvent: {}
+[58.203303] (snp_motion_planning) StdoutLine: {'line': b'[ 85%] Linking CXX shared library libsnp_motion_planning_tasks.so\n'}
+[58.230253] (-) TimerEvent: {}
+[58.330482] (-) TimerEvent: {}
+[58.430708] (-) TimerEvent: {}
+[58.530941] (-) TimerEvent: {}
+[58.631172] (-) TimerEvent: {}
+[58.731401] (-) TimerEvent: {}
+[58.831640] (-) TimerEvent: {}
+[58.931868] (-) TimerEvent: {}
+[59.032105] (-) TimerEvent: {}
+[59.132341] (-) TimerEvent: {}
+[59.232580] (-) TimerEvent: {}
+[59.332819] (-) TimerEvent: {}
+[59.433054] (-) TimerEvent: {}
+[59.512725] (snp_motion_planning) StdoutLine: {'line': b'[ 85%] Built target snp_motion_planning_tasks\n'}
+[59.533178] (-) TimerEvent: {}
+[59.633417] (-) TimerEvent: {}
+[59.733637] (-) TimerEvent: {}
+[59.833822] (-) TimerEvent: {}
+[59.934003] (-) TimerEvent: {}
+[60.034181] (-) TimerEvent: {}
+[60.134367] (-) TimerEvent: {}
+[60.234548] (-) TimerEvent: {}
+[60.334730] (-) TimerEvent: {}
+[60.434914] (-) TimerEvent: {}
+[60.535091] (-) TimerEvent: {}
+[60.635272] (-) TimerEvent: {}
+[60.735460] (-) TimerEvent: {}
+[60.835649] (-) TimerEvent: {}
+[60.935831] (-) TimerEvent: {}
+[61.036012] (-) TimerEvent: {}
+[61.136194] (-) TimerEvent: {}
+[61.236380] (-) TimerEvent: {}
+[61.336565] (-) TimerEvent: {}
+[61.436752] (-) TimerEvent: {}
+[61.536937] (-) TimerEvent: {}
+[61.637126] (-) TimerEvent: {}
+[61.737336] (-) TimerEvent: {}
+[61.837523] (-) TimerEvent: {}
+[61.937710] (-) TimerEvent: {}
+[62.037900] (-) TimerEvent: {}
+[62.138084] (-) TimerEvent: {}
+[62.238267] (-) TimerEvent: {}
+[62.338451] (-) TimerEvent: {}
+[62.438637] (-) TimerEvent: {}
+[62.538818] (-) TimerEvent: {}
+[62.639001] (-) TimerEvent: {}
+[62.739184] (-) TimerEvent: {}
+[62.839369] (-) TimerEvent: {}
+[62.939563] (-) TimerEvent: {}
+[63.039755] (-) TimerEvent: {}
+[63.139952] (-) TimerEvent: {}
+[63.240158] (-) TimerEvent: {}
+[63.340352] (-) TimerEvent: {}
+[63.440545] (-) TimerEvent: {}
+[63.540740] (-) TimerEvent: {}
+[63.640941] (-) TimerEvent: {}
+[63.741164] (-) TimerEvent: {}
+[63.841406] (-) TimerEvent: {}
+[63.941654] (-) TimerEvent: {}
+[64.041884] (-) TimerEvent: {}
+[64.142114] (-) TimerEvent: {}
+[64.188600] (snp_motion_planning) StdoutLine: {'line': b'[100%] Linking CXX executable snp_motion_planning_node\n'}
+[64.242238] (-) TimerEvent: {}
+[64.342470] (-) TimerEvent: {}
+[64.442701] (-) TimerEvent: {}
+[64.542932] (-) TimerEvent: {}
+[64.643164] (-) TimerEvent: {}
+[64.743388] (-) TimerEvent: {}
+[64.843580] (-) TimerEvent: {}
+[64.943787] (-) TimerEvent: {}
+[65.044013] (-) TimerEvent: {}
+[65.144236] (-) TimerEvent: {}
+[65.244457] (-) TimerEvent: {}
+[65.344668] (-) TimerEvent: {}
+[65.444855] (-) TimerEvent: {}
+[65.545043] (-) TimerEvent: {}
+[65.645252] (-) TimerEvent: {}
+[65.745442] (-) TimerEvent: {}
+[65.845648] (-) TimerEvent: {}
+[65.945854] (-) TimerEvent: {}
+[66.046042] (-) TimerEvent: {}
+[66.146232] (-) TimerEvent: {}
+[66.246423] (-) TimerEvent: {}
+[66.346631] (-) TimerEvent: {}
+[66.446860] (-) TimerEvent: {}
+[66.547091] (-) TimerEvent: {}
+[66.647318] (-) TimerEvent: {}
+[66.747550] (-) TimerEvent: {}
+[66.847777] (-) TimerEvent: {}
+[66.948016] (-) TimerEvent: {}
+[67.048250] (-) TimerEvent: {}
+[67.148478] (-) TimerEvent: {}
+[67.248704] (-) TimerEvent: {}
+[67.348914] (-) TimerEvent: {}
+[67.449100] (-) TimerEvent: {}
+[67.549256] (-) TimerEvent: {}
+[67.649446] (-) TimerEvent: {}
+[67.749636] (-) TimerEvent: {}
+[67.849828] (-) TimerEvent: {}
+[67.950018] (-) TimerEvent: {}
+[68.050204] (-) TimerEvent: {}
+[68.150389] (-) TimerEvent: {}
+[68.250577] (-) TimerEvent: {}
+[68.350765] (-) TimerEvent: {}
+[68.402827] (snp_motion_planning) StdoutLine: {'line': b'[100%] Built target snp_motion_planning_node\n'}
+[68.419858] (snp_motion_planning) CommandEnded: {'returncode': 0}
+[68.450880] (-) TimerEvent: {}
+[68.541702] (snp_motion_planning) JobProgress: {'identifier': 'snp_motion_planning', 'progress': 'install'}
+[68.550990] (-) TimerEvent: {}
+[68.561225] (snp_motion_planning) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/tesseract_ws/build/snp_motion_planning'], 'cwd': '/home/ubuntu/tesseract_ws/build/snp_motion_planning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VNCDESKTOP', 'ip-172-31-18-146.ec2.internal:1 (ubuntu)'), ('SSH_CLIENT', '129.162.113.222 36478 22'), ('USER', 'ubuntu'), ('ROS_PACKAGE_PATH', '/home/ubuntu/tesseract_ws/install/vhacd:/home/ubuntu/tesseract_ws/install/tesseract_examples:/home/ubuntu/tesseract_ws/install/tesseract_task_composer:/home/ubuntu/tesseract_ws/install/tesseract_motion_planners:/home/ubuntu/tesseract_ws/install/trajopt_sqp:/home/ubuntu/tesseract_ws/install/trajopt:/home/ubuntu/tesseract_ws/install/trajopt_sco:/home/ubuntu/tesseract_ws/install/trajopt_ifopt:/home/ubuntu/tesseract_ws/install/trajopt_common:/home/ubuntu/tesseract_ws/install/tesseract_visualization:/home/ubuntu/tesseract_ws/install/tesseract_environment:/home/ubuntu/tesseract_ws/install/tesseract_urdf:/home/ubuntu/tesseract_ws/install/tesseract_time_parameterization:/home/ubuntu/tesseract_ws/install/tesseract_collision:/home/ubuntu/tesseract_ws/install/tesseract_support:/home/ubuntu/tesseract_ws/install/tesseract_kinematics:/home/ubuntu/tesseract_ws/install/tesseract_srdf:/home/ubuntu/tesseract_ws/install/tesseract_scene_graph:/home/ubuntu/tesseract_ws/install/tesseract_geometry:/home/ubuntu/tesseract_ws/install/tesseract_command_language:/home/ubuntu/tesseract_ws/install/tesseract_common:/home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate:/home/ubuntu/tesseract_ws/install/noether_gui:/home/ubuntu/tesseract_ws/install/noether_tpp:/home/ubuntu/tesseract_ws/install/noether_filtering:/home/ubuntu/tesseract_ws/install/boost_plugin_loader'), ('SSH_AGENT_PID', '1721'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/ubuntu/tesseract_ws/install/tesseract_monitoring/lib:/home/ubuntu/tesseract_ws/install/tesseract_rosutils/lib:/home/ubuntu/tesseract_ws/install/tesseract_task_composer/lib:/home/ubuntu/tesseract_ws/install/tesseract_motion_planners/lib:/home/ubuntu/tesseract_ws/install/trajopt_sqp/lib:/home/ubuntu/tesseract_ws/install/trajopt_ifopt/lib:/home/ubuntu/tesseract_ws/install/trajopt/lib:/home/ubuntu/tesseract_ws/install/tesseract_visualization/lib:/home/ubuntu/tesseract_ws/install/tesseract_environment/lib:/home/ubuntu/tesseract_ws/install/tesseract_kinematics/lib:/home/ubuntu/tesseract_ws/install/tesseract_state_solver/lib:/home/ubuntu/tesseract_ws/install/tesseract_urdf/lib:/home/ubuntu/tesseract_ws/install/tesseract_srdf/lib:/home/ubuntu/tesseract_ws/install/tesseract_collision/lib:/home/ubuntu/tesseract_ws/install/tesseract_scene_graph/lib:/home/ubuntu/tesseract_ws/install/trajopt_sco/lib:/home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/lib:/home/ubuntu/tesseract_ws/install/tesseract_geometry/lib:/home/ubuntu/tesseract_ws/install/trajopt_common/lib:/home/ubuntu/tesseract_ws/install/tesseract_support/lib:/home/ubuntu/tesseract_ws/install/tesseract_command_language/lib:/home/ubuntu/tesseract_ws/install/osqp_eigen/lib:/home/ubuntu/tesseract_ws/install/tesseract_msgs/lib:/home/ubuntu/tesseract_ws/install/tesseract_common/lib:/home/ubuntu/tesseract_ws/install/qpoases/lib:/home/ubuntu/tesseract_ws/install/osqp/lib:/home/ubuntu/tesseract_ws/install/descartes_light/lib:/home/ubuntu/tesseract_ws/install/snp_msgs/lib:/home/ubuntu/tesseract_ws/install/ifopt/lib:/home/ubuntu/tesseract_ws/install/vhacd/lib:/home/ubuntu/tesseract_ws/install/tesseract_rviz/lib:/home/ubuntu/tesseract_ws/install/tesseract_planning_server/lib:/home/ubuntu/tesseract_ws/install/snp_motion_planning/lib:/home/ubuntu/tesseract_ws/install/tesseract_qt/lib:/home/ubuntu/tesseract_ws/install/tesseract_examples/lib:/home/ubuntu/tesseract_ws/install/snp_tpp/lib:/home/ubuntu/tesseract_ws/install/snp_application/lib:/home/ubuntu/tesseract_ws/install/rviz_polygon_selection_tool/lib:/home/ubuntu/tesseract_ws/install/qt_advanced_docking/lib:/home/ubuntu/tesseract_ws/install/noether_gui/lib:/home/ubuntu/tesseract_ws/install/noether_tpp/lib:/home/ubuntu/tesseract_ws/install/noether_filtering/lib:/home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/lib:/home/ubuntu/tesseract_ws/install/boost_plugin_loader/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '13'), ('HOME', '/home/ubuntu'), ('MOTD_SHOWN', 'pam'), ('QTDIR', '/usr/lib/x86_64-linux-gnu/qt5'), ('SSH_TTY', '/dev/pts/0'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/.local/share/applications/QtProject-qtcreator-ros-latest.desktop'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1455'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SYSTEMD_EXEC_PID', '1860'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4908'), ('COLCON_PREFIX_PATH', '/home/ubuntu/tesseract_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:23937'), ('_', '/usr/bin/env'), ('PKG_CONFIG_PATH', '/home/ubuntu/tesseract_ws/install/tesseract_task_composer/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_task_composer/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_motion_planners/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_motion_planners/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/trajopt_sqp/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/trajopt_sqp/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/trajopt_ifopt/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/trajopt_ifopt/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/trajopt/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/trajopt/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_visualization/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_visualization/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_environment/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_environment/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_kinematics/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_kinematics/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_state_solver/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_state_solver/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_urdf/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_urdf/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_srdf/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_srdf/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_collision/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_collision/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_scene_graph/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_scene_graph/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/trajopt_sco/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/trajopt_sco/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_time_parameterization/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_geometry/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_geometry/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/trajopt_common/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/trajopt_common/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_support/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_support/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_command_language/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_command_language/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/osqp_eigen/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/osqp_eigen/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_common/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_common/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/qpoases/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/qpoases/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/osqp/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/osqp/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/opw_kinematics/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/opw_kinematics/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/descartes_light/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/descartes_light/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/ifopt/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/ifopt/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/vhacd/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/vhacd/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_qt/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_qt/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_examples/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/tesseract_examples/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/qt_advanced_docking/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/qt_advanced_docking/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/noether_gui/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/noether_gui/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/noether_tpp/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/noether_tpp/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/noether_filtering/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/noether_filtering/lib/pkgconfig:/home/ubuntu/tesseract_ws/install/boost_plugin_loader/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/tesseract_ws/install/boost_plugin_loader/lib/pkgconfig'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/tesseract_ws/install/tesseract_task_composer/bin:/home/ubuntu/tesseract_ws/install/tesseract_motion_planners/bin:/home/ubuntu/tesseract_ws/install/tesseract_urdf/bin:/home/ubuntu/tesseract_ws/install/tesseract_srdf/bin:/home/ubuntu/tesseract_ws/install/tesseract_collision/bin:/home/ubuntu/tesseract_ws/install/tesseract_scene_graph/bin:/home/ubuntu/tesseract_ws/install/trajopt_sco/bin:/home/ubuntu/tesseract_ws/install/tesseract_geometry/bin:/home/ubuntu/tesseract_ws/install/tesseract_qt/bin:/home/ubuntu/tesseract_ws/install/tesseract_examples/bin:/home/ubuntu/tesseract_ws/install/noether_gui/bin:/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', 'e3dee3f77dde4309b13fffdd732ad9fb'), ('SESSION_MANAGER', 'local/ip-172-31-18-146:@/tmp/.ICE-unix/1798,unix/ip-172-31-18-146:/tmp/.ICE-unix/1798'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XMODIFIERS', '@im=ibus'), ('AMENT_PREFIX_PATH', '/home/ubuntu/tesseract_ws/install/vhacd:/home/ubuntu/tesseract_ws/install/tesseract_ros_examples:/home/ubuntu/tesseract_ws/install/tesseract_rviz:/home/ubuntu/tesseract_ws/install/tesseract_planning_server:/home/ubuntu/tesseract_ws/install/snp_motion_planning:/home/ubuntu/tesseract_ws/install/tesseract_monitoring:/home/ubuntu/tesseract_ws/install/tesseract_rosutils:/home/ubuntu/tesseract_ws/install/tesseract_examples:/home/ubuntu/tesseract_ws/install/tesseract_task_composer:/home/ubuntu/tesseract_ws/install/tesseract_motion_planners:/home/ubuntu/tesseract_ws/install/trajopt_sqp:/home/ubuntu/tesseract_ws/install/trajopt:/home/ubuntu/tesseract_ws/install/trajopt_sco:/home/ubuntu/tesseract_ws/install/trajopt_ifopt:/home/ubuntu/tesseract_ws/install/trajopt_common:/home/ubuntu/tesseract_ws/install/tesseract_visualization:/home/ubuntu/tesseract_ws/install/tesseract_environment:/home/ubuntu/tesseract_ws/install/tesseract_urdf:/home/ubuntu/tesseract_ws/install/tesseract_time_parameterization:/home/ubuntu/tesseract_ws/install/tesseract_collision:/home/ubuntu/tesseract_ws/install/tesseract_support:/home/ubuntu/tesseract_ws/install/tesseract_kinematics:/home/ubuntu/tesseract_ws/install/tesseract_state_solver:/home/ubuntu/tesseract_ws/install/tesseract_srdf:/home/ubuntu/tesseract_ws/install/tesseract_scene_graph:/home/ubuntu/tesseract_ws/install/tesseract_msgs:/home/ubuntu/tesseract_ws/install/tesseract_geometry:/home/ubuntu/tesseract_ws/install/tesseract_command_language:/home/ubuntu/tesseract_ws/install/tesseract_common:/home/ubuntu/tesseract_ws/install/snp_automate_2022:/home/ubuntu/tesseract_ws/install/snp_tpp:/home/ubuntu/tesseract_ws/install/snp_scanning:/home/ubuntu/tesseract_ws/install/snp_motion_execution:/home/ubuntu/tesseract_ws/install/snp_application:/home/ubuntu/tesseract_ws/install/rviz_polygon_selection_tool:/home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate:/home/ubuntu/tesseract_ws/install/noether_gui:/home/ubuntu/tesseract_ws/install/noether_tpp:/home/ubuntu/tesseract_ws/install/noether_filtering:/home/ubuntu/tesseract_ws/install/motoman_hc10_support:/home/ubuntu/tesseract_ws/install/motoman_resources:/home/ubuntu/tesseract_ws/install/industrial_reconstruction:/home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs:/home/ubuntu/tesseract_ws/install/boost_plugin_loader:/opt/ros/humble'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CMAKE_MODULE_PATH', '/home/ubuntu/tesseract_ws/install/tesseract_qt/lib/cmake/tesseract_qt:/home/ubuntu/tesseract_ws/install/trajopt_sco/lib/cmake/trajopt_sco:/home/ubuntu/tesseract_ws/install/tesseract_geometry/lib/cmake/tesseract_geometry:/home/ubuntu/tesseract_ws/install/tesseract_common/lib/cmake/tesseract_common'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'C'), ('PWD', '/home/ubuntu/tesseract_ws/build/snp_motion_planning'), ('CLUTTER_IM_MODULE', 'ibus'), ('SSH_CONNECTION', '129.162.113.222 36478 172.31.18.146 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/tesseract_ws/install/tesseract_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/tesseract_ws/install/rviz_polygon_selection_tool/local/lib/python3.10/dist-packages:/home/ubuntu/tesseract_ws/build/industrial_reconstruction:/home/ubuntu/tesseract_ws/install/industrial_reconstruction/lib/python3.10/site-packages:/home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/tesseract_ws/install/tesseract_monitoring:/home/ubuntu/tesseract_ws/install/tesseract_rosutils:/home/ubuntu/tesseract_ws/install/tesseract_task_composer:/home/ubuntu/tesseract_ws/install/tesseract_motion_planners:/home/ubuntu/tesseract_ws/install/trajopt_sqp:/home/ubuntu/tesseract_ws/install/trajopt_ifopt:/home/ubuntu/tesseract_ws/install/trajopt:/home/ubuntu/tesseract_ws/install/tesseract_visualization:/home/ubuntu/tesseract_ws/install/tesseract_environment:/home/ubuntu/tesseract_ws/install/tesseract_kinematics:/home/ubuntu/tesseract_ws/install/tesseract_state_solver:/home/ubuntu/tesseract_ws/install/tesseract_urdf:/home/ubuntu/tesseract_ws/install/tesseract_srdf:/home/ubuntu/tesseract_ws/install/tesseract_collision:/home/ubuntu/tesseract_ws/install/tesseract_scene_graph:/home/ubuntu/tesseract_ws/install/trajopt_sco:/home/ubuntu/tesseract_ws/install/tesseract_time_parameterization:/home/ubuntu/tesseract_ws/install/tesseract_geometry:/home/ubuntu/tesseract_ws/install/trajopt_common:/home/ubuntu/tesseract_ws/install/tesseract_support:/home/ubuntu/tesseract_ws/install/tesseract_command_language:/home/ubuntu/tesseract_ws/install/osqp_eigen:/home/ubuntu/tesseract_ws/install/tesseract_msgs:/home/ubuntu/tesseract_ws/install/tesseract_common:/home/ubuntu/tesseract_ws/install/qpoases:/home/ubuntu/tesseract_ws/install/osqp:/home/ubuntu/tesseract_ws/install/opw_kinematics:/home/ubuntu/tesseract_ws/install/descartes_light:/home/ubuntu/tesseract_ws/install/snp_msgs:/home/ubuntu/tesseract_ws/install/ifopt:/home/ubuntu/tesseract_ws/install/vhacd:/home/ubuntu/tesseract_ws/install/tesseract_ros_examples:/home/ubuntu/tesseract_ws/install/tesseract_rviz:/home/ubuntu/tesseract_ws/install/tesseract_planning_server:/home/ubuntu/tesseract_ws/install/snp_motion_planning:/home/ubuntu/tesseract_ws/install/tesseract_qt:/home/ubuntu/tesseract_ws/install/tesseract_examples:/home/ubuntu/tesseract_ws/install/snp_automate_2022:/home/ubuntu/tesseract_ws/install/snp_tpp:/home/ubuntu/tesseract_ws/install/snp_scanning:/home/ubuntu/tesseract_ws/install/snp_motion_execution:/home/ubuntu/tesseract_ws/install/snp_application:/home/ubuntu/tesseract_ws/install/rviz_polygon_selection_tool:/home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate:/home/ubuntu/tesseract_ws/install/qt_advanced_docking:/home/ubuntu/tesseract_ws/install/noether_gui:/home/ubuntu/tesseract_ws/install/noether_tpp:/home/ubuntu/tesseract_ws/install/noether_filtering:/home/ubuntu/tesseract_ws/install/motoman_hc10_support:/home/ubuntu/tesseract_ws/install/motoman_resources:/home/ubuntu/tesseract_ws/install/industrial_reconstruction_msgs:/home/ubuntu/tesseract_ws/install/boost_plugin_loader:/home/ubuntu/tesseract_ws/install/Taskflow:/home/ubuntu/tesseract_ws/install/industrial_reconstruction:/opt/ros/humble')]), 'shell': False}
+[68.578563] (snp_motion_planning) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[68.579259] (snp_motion_planning) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[68.579705] (snp_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_motion_planning/lib/snp_motion_planning/snp_motion_planning_node\n'}
+[68.579975] (snp_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_motion_planning/share/snp_motion_planning/environment/library_path.sh\n'}
+[68.580216] (snp_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_motion_planning/share/snp_motion_planning/environment/library_path.dsv\n'}
+[68.580488] (snp_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_motion_planning/share/ament_index/resource_index/package_run_dependencies/snp_motion_planning\n'}
+[68.580762] (snp_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_motion_planning/share/ament_index/resource_index/parent_prefix_path/snp_motion_planning\n'}
+[68.581026] (snp_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_motion_planning/share/snp_motion_planning/environment/ament_prefix_path.sh\n'}
+[68.581304] (snp_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_motion_planning/share/snp_motion_planning/environment/ament_prefix_path.dsv\n'}
+[68.581537] (snp_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_motion_planning/share/snp_motion_planning/environment/path.sh\n'}
+[68.581779] (snp_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_motion_planning/share/snp_motion_planning/environment/path.dsv\n'}
+[68.582011] (snp_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_motion_planning/share/snp_motion_planning/local_setup.bash\n'}
+[68.582243] (snp_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_motion_planning/share/snp_motion_planning/local_setup.sh\n'}
+[68.582475] (snp_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_motion_planning/share/snp_motion_planning/local_setup.zsh\n'}
+[68.582700] (snp_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_motion_planning/share/snp_motion_planning/local_setup.dsv\n'}
+[68.582883] (snp_motion_planning) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_motion_planning/share/snp_motion_planning/package.dsv\n'}
+[68.601951] (snp_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_motion_planning/share/ament_index/resource_index/packages/snp_motion_planning\n'}
+[68.602399] (snp_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_motion_planning/share/snp_motion_planning/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[68.602713] (snp_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_motion_planning/share/snp_motion_planning/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[68.602829] (snp_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_motion_planning/share/snp_motion_planning/cmake/snp_motion_planningConfig.cmake\n'}
+[68.602928] (snp_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_motion_planning/share/snp_motion_planning/cmake/snp_motion_planningConfig-version.cmake\n'}
+[68.603150] (snp_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_motion_planning/share/snp_motion_planning/package.xml\n'}
+[68.603439] (snp_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_motion_planning/share/snp_motion_planning//config/task_composer_plugins.yaml\n'}
+[68.603813] (snp_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_motion_planning/share/snp_motion_planning//launch/planning_server.launch.xml\n'}
+[68.604107] (snp_motion_planning) StdoutLine: {'line': b'-- Installing: /home/ubuntu/tesseract_ws/install/snp_motion_planning/lib/libsnp_motion_planning_plugins.so\n'}
+[68.605245] (snp_motion_planning) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/tesseract_ws/install/snp_motion_planning/lib/libsnp_motion_planning_plugins.so" to ""\n'}
+[68.605737] (snp_motion_planning) StdoutLine: {'line': b'-- Installing: /home/ubuntu/tesseract_ws/install/snp_motion_planning/lib/libsnp_motion_planning_tasks.so\n'}
+[68.607069] (snp_motion_planning) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/tesseract_ws/install/snp_motion_planning/lib/libsnp_motion_planning_tasks.so" to ""\n'}
+[68.607248] (snp_motion_planning) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/tesseract_ws/install/snp_motion_planning/share/snp_motion_planning/cmake/snp_motion_planning-targetsExport.cmake\n'}
+[68.607309] (snp_motion_planning) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/tesseract_ws/install/snp_motion_planning/share/snp_motion_planning/cmake/snp_motion_planning-targetsExport-release.cmake\n'}
+[68.608888] (snp_motion_planning) CommandEnded: {'returncode': 0}
+[68.651099] (-) TimerEvent: {}
+[68.751297] (-) TimerEvent: {}
+[68.793801] (snp_motion_planning) JobEnded: {'identifier': 'snp_motion_planning', 'rc': 0}
+[68.801526] (-) EventReactorShutdown: {}

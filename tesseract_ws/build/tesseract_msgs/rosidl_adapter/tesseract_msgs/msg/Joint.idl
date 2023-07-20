@@ -1,0 +1,63 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tesseract_msgs/msg/Joint.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "tesseract_msgs/msg/JointCalibration.idl"
+#include "tesseract_msgs/msg/JointDynamics.idl"
+#include "tesseract_msgs/msg/JointLimits.idl"
+#include "tesseract_msgs/msg/JointMimic.idl"
+#include "tesseract_msgs/msg/JointSafety.idl"
+
+module tesseract_msgs {
+  module msg {
+    typedef double double__3[3];
+    module Joint_Constants {
+      const uint8 UNKNOWN = 0;
+      const uint8 REVOLUTE = 1;
+      const uint8 CONTINUOUS = 2;
+      const uint8 PRISMATIC = 3;
+      const uint8 FLOATING = 4;
+      const uint8 PLANAR = 5;
+      const uint8 FIXED = 6;
+    };
+    struct Joint {
+      @verbatim (language="comment", text=
+        "Required Parameters")
+      string name;
+
+      @verbatim (language="comment", text=
+        "(UNKNOWN, REVOLUTE, CONTINUOUS, PRISMATIC, FLOATING, PLANAR, FIXED)")
+      uint8 type;
+
+      @verbatim (language="comment", text=
+        "rief     type_       meaning of axis_" "\n"
+        "------------------------------------------------------" "\n"
+        "           UNKNOWN     unknown type" "\n"
+        "           REVOLUTE    rotation axis" "\n"
+        "           PRISMATIC   translation axis" "\n"
+        "           FLOATING    N/A" "\n"
+        "           PLANAR      plane normal axis" "\n"
+        "           FIXED       N/")
+      double__3 axis;
+
+      string child_link_name;
+
+      string parent_link_name;
+
+      geometry_msgs::msg::Pose parent_to_joint_origin_transform;
+
+      tesseract_msgs::msg::JointLimits limits;
+
+      @verbatim (language="comment", text=
+        "Optional Parameters")
+      tesseract_msgs::msg::JointDynamics dynamics;
+
+      tesseract_msgs::msg::JointSafety safety;
+
+      tesseract_msgs::msg::JointCalibration calibration;
+
+      tesseract_msgs::msg::JointMimic mimic;
+    };
+  };
+};

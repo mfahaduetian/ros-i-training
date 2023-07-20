@@ -1,0 +1,80 @@
+[ 12%] [34m[1mPerforming update step for 'osqp'[0m
+[ 25%] [34m[1mPerforming patch step for 'osqp'[0m
+[ 37%] [34m[1mPerforming configure step for 'osqp'[0m
+loading initial cache file /home/ubuntu/tesseract_ws/build/osqp/osqp-prefix/tmp/osqp-cache-.cmake
+-- We are on a Linux system
+-- Embedded is OFF
+-- Printing is ON
+-- Profiling is ON
+-- User interrupt is ON
+-- Floats are OFF
+-- Long integers (64bit) are ON
+-- Code coverage is OFF
+-- MKL Pardiso: ON
+-- Floats are OFF
+-- Long integers (64bit) are ON
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/tesseract_ws/build/osqp-build
+[ 50%] [34m[1mPerforming build step for 'osqp'[0m
+[35m[1mConsolidate compiler generated dependencies of target qdldlobject[0m
+[35m[1mConsolidate compiler generated dependencies of target linsys_pardiso[0m
+[35m[1mConsolidate compiler generated dependencies of target linsys_qdldl[0m
+[35m[1mConsolidate compiler generated dependencies of target qdldlstatic[0m
+[  3%] Built target linsys_pardiso
+[  5%] Built target qdldlobject
+[ 30%] Built target linsys_qdldl
+[35m[1mConsolidate compiler generated dependencies of target qdldl[0m
+[ 34%] Built target qdldlstatic
+[35m[1mConsolidate compiler generated dependencies of target osqpstatic[0m
+[35m[1mConsolidate compiler generated dependencies of target osqp[0m
+[35m[1mConsolidate compiler generated dependencies of target qdldl_example[0m
+[ 38%] Built target qdldl
+[ 65%] Built target osqpstatic
+[ 92%] Built target osqp
+[ 96%] Built target qdldl_example
+[35m[1mConsolidate compiler generated dependencies of target osqp_demo[0m
+[100%] Built target osqp_demo
+[ 62%] [34m[1mPerforming install step for 'osqp'[0m
+[  1%] Built target qdldlobject
+[ 26%] Built target linsys_qdldl
+[ 30%] Built target linsys_pardiso
+[ 34%] Built target qdldlstatic
+[ 38%] Built target qdldl
+[ 65%] Built target osqp
+[ 92%] Built target osqpstatic
+[ 96%] Built target qdldl_example
+[100%] Built target osqp_demo
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp/lib/libosqpstatic.a
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp/include/osqp/auxil.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp/include/osqp/constants.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp/include/osqp/error.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp/include/osqp/glob_opts.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp/include/osqp/lin_alg.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp/include/osqp/osqp.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp/include/osqp/osqp_configure.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp/include/osqp/proj.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp/include/osqp/scaling.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp/include/osqp/types.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp/include/osqp/util.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp/include/osqp/cs.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp/include/osqp/polish.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp/include/osqp/lin_sys.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp/include/osqp/ctrlc.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp/lib/libosqp.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp/lib/cmake/osqp/osqp-targets.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp/lib/cmake/osqp/osqp-targets-release.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp/lib/cmake/osqp/osqp-config.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp/lib/libqdldlstatic.a
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp/include/qdldl/qdldl.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp/include/qdldl/qdldl_types.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp/lib/libqdldl.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp/lib/cmake/qdldl/qdldl-targets.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp/lib/cmake/qdldl/qdldl-targets-release.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp/lib/cmake/qdldl/qdldl-config.cmake
+[ 75%] [34m[1mCompleted 'osqp'[0m
+[100%] Built target osqp
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/osqp/share/osqp/package.xml

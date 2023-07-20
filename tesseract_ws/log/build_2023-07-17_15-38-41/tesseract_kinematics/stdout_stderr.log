@@ -1,0 +1,62 @@
+[ 28%] Built target tesseract_kinematics_core
+[ 36%] Built target tesseract_kinematics_ur
+[ 56%] Built target tesseract_kinematics_kdl
+[ 68%] Built target tesseract_kinematics_core_factories
+[ 76%] Built target tesseract_kinematics_opw
+[ 84%] Built target tesseract_kinematics_ur_factory
+[ 92%] Built target tesseract_kinematics_kdl_factories
+[100%] Built target tesseract_kinematics_opw_factory
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/share/tesseract_kinematics/package.xml
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/lib/cmake/tesseract_kinematics/tesseract_kinematics-targets.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/lib/cmake/tesseract_kinematics/tesseract_kinematics-targets-noconfig.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/lib/cmake/tesseract_kinematics/tesseract_kinematics-config.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/lib/cmake/tesseract_kinematics/tesseract_kinematics-config-version.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/share/ament_index/resource_index/packages/tesseract_kinematics
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/share/tesseract_kinematics/hook/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/share/tesseract_kinematics/hook/ros_package_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/share/tesseract_kinematics/hook/python_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/core
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/core/joint_group.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/core/inverse_kinematics.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/core/types.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/core/rop_inv_kin.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/core/rep_factory.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/core/kinematic_group.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/core/rop_factory.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/core/rep_inv_kin.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/core/validate.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/core/kinematics_plugin_factory.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/core/forward_kinematics.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/core/utils.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/lib/libtesseract_kinematics_core.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/lib/libtesseract_kinematics_core_factories.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/ikfast
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/ikfast/external
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/ikfast/external/ikfast.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/ikfast/ikfast_inv_kin.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/ikfast/impl
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/ikfast/impl/ikfast_inv_kin.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/kdl
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/kdl/kdl_factories.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/kdl/kdl_fwd_kin_chain.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/kdl/kdl_inv_kin_chain_lma.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/kdl/kdl_inv_kin_chain_nr.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/kdl/kdl_utils.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/lib/libtesseract_kinematics_kdl.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/lib/libtesseract_kinematics_kdl_factories.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/opw
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/opw/opw_factory.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/opw/opw_inv_kin.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/lib/libtesseract_kinematics_opw.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/lib/libtesseract_kinematics_opw_factory.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/ur
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/ur/ur_factory.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/include/tesseract_kinematics/ur/ur_inv_kin.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/lib/libtesseract_kinematics_ur.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_kinematics/lib/libtesseract_kinematics_ur_factory.so

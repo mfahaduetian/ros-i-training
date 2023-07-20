@@ -1,0 +1,30 @@
+# Default *-config.cmake file created by ros-industrial-cmake-boilerplate
+
+@PACKAGE_INIT@
+
+set(@PROJECT_NAME@_FOUND ON)
+
+# Dependencies
+include(CMakeFindDependencyMacro)
+find_dependency(Qt5 COMPONENTS Core Gui Widgets Svg OpenGL Xml)
+find_dependency(tesseract_environment)
+find_dependency(tesseract_kinematics)
+find_dependency(tesseract_scene_graph)
+find_dependency(tesseract_common)
+find_dependency(tesseract_support)
+find_dependency(tesseract_urdf)
+find_dependency(tesseract_srdf)
+find_dependency(tesseract_visualization)
+find_dependency(tesseract_command_language)
+find_dependency(tesseract_motion_planners)
+find_dependency(tesseract_task_composer)
+find_dependency(qtadvanceddocking)
+find_dependency(gz-rendering7)
+find_dependency(gz-math7-eigen3)
+find_dependency(gz-common5 COMPONENTS profiler events av)
+
+# Targets
+include("${CMAKE_CURRENT_LIST_DIR}/@PROJECT_NAME@-targets.cmake")
+
+# Extra configuration files
+include("${CMAKE_CURRENT_LIST_DIR}/tesseract_qt-extras.cmake")

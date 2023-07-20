@@ -1,0 +1,48 @@
+CMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+Call Stack (most recent call first):
+  /home/ubuntu/tesseract_ws/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:32 (find_dependency)
+  /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/ubuntu/tesseract_ws/install/tesseract_environment/lib/cmake/tesseract_environment/tesseract_environment-config.cmake:29 (find_dependency)
+  /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/ubuntu/tesseract_ws/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake:31 (find_dependency)
+  /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/ubuntu/tesseract_ws/install/tesseract_motion_planners/lib/cmake/tesseract_motion_planners/tesseract_motion_planners-config.cmake:42 (find_dependency)
+  /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/ubuntu/tesseract_ws/install/tesseract_task_composer/lib/cmake/tesseract_task_composer/tesseract_task_composer-config.cmake:33 (find_dependency)
+  /home/ubuntu/tesseract_ws/install/tesseract_rosutils/share/tesseract_rosutils/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/ubuntu/tesseract_ws/install/tesseract_rosutils/share/tesseract_rosutils/cmake/tesseract_rosutilsConfig.cmake:41 (include)
+  /home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/tesseract_monitoring/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/tesseract_monitoring/cmake/tesseract_monitoringConfig.cmake:41 (include)
+  CMakeLists.txt:20 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+In file included from /home/ubuntu/tesseract_ws/install/tesseract_geometry/include/tesseract_geometry/mesh_parser.h:52,
+                 from /home/ubuntu/tesseract_ws/src/snp_motion_planning/src/planning_server.cpp:10:
+/usr/include/assimp/pbrmaterial.h:51:5: warning: #warning pbrmaterial.h is deprecated. Please update to PBR materials in materials.h and glTF-specific items in GltfMaterial.h [-Wcpp]
+   51 | #   warning pbrmaterial.h is deprecated. Please update to PBR materials in materials.h and glTF-specific items in GltfMaterial.h
+      |     ^~~~~~~
+In file included from /home/ubuntu/tesseract_ws/src/snp_motion_planning/src/planning_server.cpp:14:
+/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.h:32:2: warning: #warning This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead [-Wcpp]
+   32 | #warning This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead
+      |  ^~~~~~~
+In file included from /home/ubuntu/tesseract_ws/src/snp_motion_planning/src/plugins/kinematics/motoman_hc10_ikfast_plugin.cpp:25:
+/home/ubuntu/tesseract_ws/src/snp_motion_planning/src/plugins/kinematics/motoman_hc10_ikfast_solver.hpp:32:38: warning: ISO C++ forbids zero-size array '__dummy' [-Wpedantic]
+   32 | IKFAST_COMPILE_ASSERT(IKFAST_VERSION == 0x1000004a);
+      |                                      ^
+/home/ubuntu/tesseract_ws/src/snp_motion_planning/src/plugins/kinematics/motoman_hc10_ikfast_solver.hpp:31:58: note: in definition of macro 'IKFAST_COMPILE_ASSERT'
+   31 | #define IKFAST_COMPILE_ASSERT(x) extern int __dummy[(int)x]
+      |                                                          ^
+/home/ubuntu/tesseract_ws/src/snp_motion_planning/src/planning_server.cpp: In constructor 'PlanningServer::PlanningServer(rclcpp::Node::SharedPtr)':
+/home/ubuntu/tesseract_ws/src/snp_motion_planning/src/planning_server.cpp:139:55: warning: converting to 'const ParameterDescriptor' {aka 'const rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >'} from initializer list would use explicit constructor 'rcl_interfaces::msg::ParameterDescriptor_<ContainerAllocator>::ParameterDescriptor_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>]'
+  139 |     node_->declare_parameter<std::vector<std::string>>(TOUCH_LINKS_PARAM, {});
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+/home/ubuntu/tesseract_ws/src/snp_motion_planning/src/planning_server.cpp:139:55: note: in C++11 and above a default constructor can be explicit

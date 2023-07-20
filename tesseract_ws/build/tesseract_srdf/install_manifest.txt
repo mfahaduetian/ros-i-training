@@ -1,0 +1,14 @@
+/home/ubuntu/tesseract_ws/install/tesseract_srdf/share/tesseract_srdf/package.xml
+/home/ubuntu/tesseract_ws/install/tesseract_srdf/lib/libtesseract_srdf.so
+/home/ubuntu/tesseract_ws/install/tesseract_srdf/lib/cmake/tesseract_srdf/tesseract_srdf-targets.cmake
+/home/ubuntu/tesseract_ws/install/tesseract_srdf/lib/cmake/tesseract_srdf/tesseract_srdf-targets-noconfig.cmake
+/home/ubuntu/tesseract_ws/install/tesseract_srdf/lib/cmake/tesseract_srdf/tesseract_srdf-config.cmake
+/home/ubuntu/tesseract_ws/install/tesseract_srdf/lib/cmake/tesseract_srdf/tesseract_srdf-config-version.cmake
+/home/ubuntu/tesseract_ws/install/tesseract_srdf/share/ament_index/resource_index/packages/tesseract_srdf
+/home/ubuntu/tesseract_ws/install/tesseract_srdf/share/tesseract_srdf/hook/ament_prefix_path.dsv
+/home/ubuntu/tesseract_ws/install/tesseract_srdf/share/tesseract_srdf/hook/ros_package_path.dsv
+/home/ubuntu/tesseract_ws/install/tesseract_srdf/share/tesseract_srdf/hook/python_path.dsv
+/home/ubuntu/tesseract_ws/install/tesseract_srdf/include/tesseract_srdf/srdf_model.h
+/home/ubuntu/tesseract_ws/install/tesseract_srdf/include/tesseract_srdf/kinematics_information.h
+/home/ubuntu/tesseract_ws/install/tesseract_srdf/include/tesseract_srdf/utils.h
+/home/ubuntu/tesseract_ws/install/tesseract_srdf/bin/tesseract_srdf_parse_srdf_example

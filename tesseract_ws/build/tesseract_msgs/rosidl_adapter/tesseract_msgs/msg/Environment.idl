@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tesseract_msgs/msg/Environment.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/JointState.idl"
+#include "tesseract_msgs/msg/EnvironmentCommand.idl"
+
+module tesseract_msgs {
+  module msg {
+    struct Environment {
+      sequence<tesseract_msgs::msg::EnvironmentCommand> command_history;
+
+      sensor_msgs::msg::JointState joint_states;
+    };
+  };
+};

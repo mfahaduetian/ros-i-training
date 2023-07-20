@@ -1,0 +1,68 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tesseract_msgs/msg/Geometry.msg
+// generated code does not contain a copyright notice
+
+#include "octomap_msgs/msg/Octomap.idl"
+#include "tesseract_msgs/msg/Mesh.idl"
+#include "tesseract_msgs/msg/OctreeSubType.idl"
+
+module tesseract_msgs {
+  module msg {
+    typedef double double__2[2];
+    typedef double double__3[3];
+    typedef double double__4[4];
+    module Geometry_Constants {
+      const uint8 SPHERE = 1;
+      const uint8 CYLINDER = 2;
+      const uint8 CAPSULE = 10;
+      const uint8 CONE = 3;
+      const uint8 BOX = 4;
+      const uint8 PLANE = 5;
+      const uint8 MESH = 6;
+      const uint8 CONVEX_MESH = 7;
+      const uint8 SDF_MESH = 8;
+      const uint8 OCTREE = 9;
+    };
+    @verbatim (language="comment", text=
+      "Define geometries")
+    struct Geometry {
+      @verbatim (language="comment", text=
+        "The type of the geometry")
+      uint8 type;
+
+      @verbatim (language="comment", text=
+        "Sphere")
+      double sphere_radius;
+
+      @verbatim (language="comment", text=
+        "CYLINDER")
+      double__2 cylinder_dimensions;
+
+      @verbatim (language="comment", text=
+        "CAPSULE")
+      double__2 capsule_dimensions;
+
+      @verbatim (language="comment", text=
+        "CONE (radius, length)")
+      double__2 cone_dimensions;
+
+      @verbatim (language="comment", text=
+        "BOX (x, y, z) lengths")
+      double__3 box_dimensions;
+
+      @verbatim (language="comment", text=
+        "PLANE")
+      double__4 plane_coeff;
+
+      @verbatim (language="comment", text=
+        "MESH, CONVEX_MESH, SDF_MESH")
+      tesseract_msgs::msg::Mesh mesh;
+
+      @verbatim (language="comment", text=
+        "OCTREE")
+      octomap_msgs::msg::Octomap octomap;
+
+      tesseract_msgs::msg::OctreeSubType octomap_sub_type;
+    };
+  };
+};

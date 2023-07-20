@@ -1,0 +1,9 @@
+/home/ubuntu/tesseract_ws/build/motoman_resources/CMakeFiles/uninstall.dir
+/home/ubuntu/tesseract_ws/build/motoman_resources/CMakeFiles/motoman_resources_uninstall.dir
+/home/ubuntu/tesseract_ws/build/motoman_resources/CMakeFiles/test.dir
+/home/ubuntu/tesseract_ws/build/motoman_resources/CMakeFiles/edit_cache.dir
+/home/ubuntu/tesseract_ws/build/motoman_resources/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/tesseract_ws/build/motoman_resources/CMakeFiles/list_install_components.dir
+/home/ubuntu/tesseract_ws/build/motoman_resources/CMakeFiles/install.dir
+/home/ubuntu/tesseract_ws/build/motoman_resources/CMakeFiles/install/local.dir
+/home/ubuntu/tesseract_ws/build/motoman_resources/CMakeFiles/install/strip.dir

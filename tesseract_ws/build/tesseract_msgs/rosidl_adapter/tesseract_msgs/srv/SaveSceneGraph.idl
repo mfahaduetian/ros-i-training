@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tesseract_msgs/srv/SaveSceneGraph.srv
+// generated code does not contain a copyright notice
+
+
+module tesseract_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "This service saves the scene graph as a DOT file that can be viewed with Graphviz or similar")
+    struct SaveSceneGraph_Request {
+      @verbatim (language="comment", text=
+        "Path to which the DOT file is saved")
+      string filepath;
+    };
+    struct SaveSceneGraph_Response {
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "Name/Id of the environment which contained this scene graph")
+      string id;
+
+      @verbatim (language="comment", text=
+        "Revision number of the environment that contained this scene graph")
+      uint64 revision;
+    };
+  };
+};

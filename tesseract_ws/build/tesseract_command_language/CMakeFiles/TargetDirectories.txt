@@ -1,0 +1,12 @@
+/home/ubuntu/tesseract_ws/build/tesseract_command_language/CMakeFiles/ccov-preprocessing.dir
+/home/ubuntu/tesseract_ws/build/tesseract_command_language/CMakeFiles/ccov-clean.dir
+/home/ubuntu/tesseract_ws/build/tesseract_command_language/CMakeFiles/ccov-all-processing.dir
+/home/ubuntu/tesseract_ws/build/tesseract_command_language/CMakeFiles/ccov-all-capture.dir
+/home/ubuntu/tesseract_ws/build/tesseract_command_language/CMakeFiles/ccov-all.dir
+/home/ubuntu/tesseract_ws/build/tesseract_command_language/CMakeFiles/tesseract_command_language.dir
+/home/ubuntu/tesseract_ws/build/tesseract_command_language/CMakeFiles/edit_cache.dir
+/home/ubuntu/tesseract_ws/build/tesseract_command_language/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/tesseract_ws/build/tesseract_command_language/CMakeFiles/list_install_components.dir
+/home/ubuntu/tesseract_ws/build/tesseract_command_language/CMakeFiles/install.dir
+/home/ubuntu/tesseract_ws/build/tesseract_command_language/CMakeFiles/install/local.dir
+/home/ubuntu/tesseract_ws/build/tesseract_command_language/CMakeFiles/install/strip.dir

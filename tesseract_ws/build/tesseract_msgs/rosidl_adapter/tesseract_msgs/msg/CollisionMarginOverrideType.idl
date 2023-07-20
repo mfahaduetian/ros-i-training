@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tesseract_msgs/msg/CollisionMarginOverrideType.msg
+// generated code does not contain a copyright notice
+
+
+module tesseract_msgs {
+  module msg {
+    module CollisionMarginOverrideType_Constants {
+      const uint8 NONE = 0;
+      @verbatim (language="comment", text=
+        "Replace the contact manager's CollisionMarginData")
+      const uint8 REPLACE = 1;
+      @verbatim (language="comment", text=
+        "Modify the contact managers default margin and pair margin." "\n"        "This will preserve existing pairs not being modified by the provided margin data." "\n"        "If a pair already exist it will be updated with the provided margin data.")
+      const uint8 MODIFY = 2;
+      @verbatim (language="comment", text=
+        "Override the contact managers default margin only")
+      const uint8 OVERRIDE_DEFAULT_MARGIN = 3;
+      @verbatim (language="comment", text=
+        "Override the contact managers pair margin only. This does not preserve any existing pair margin data")
+      const uint8 OVERRIDE_PAIR_MARGIN = 4;
+      @verbatim (language="comment", text=
+        "Modify the contact managers pair margin only." "\n"        "This will preserve existing pairs not being modified by the provided margin data." "\n"        "If a pair already exist it will be updated with the provided margin data.")
+      const uint8 MODIFY_PAIR_MARGIN = 5;
+    };
+    @verbatim (language="comment", text=
+      "Possible Override Types" "\n"
+      "Do not apply contact margin data")
+    struct CollisionMarginOverrideType {
+      @verbatim (language="comment", text=
+        "one of the option above")
+      uint8 type;
+    };
+  };
+};

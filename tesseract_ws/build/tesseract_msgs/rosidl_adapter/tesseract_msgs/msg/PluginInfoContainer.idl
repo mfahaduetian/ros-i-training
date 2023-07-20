@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tesseract_msgs/msg/PluginInfoContainer.msg
+// generated code does not contain a copyright notice
+
+#include "tesseract_msgs/msg/StringPluginInfoPair.idl"
+
+module tesseract_msgs {
+  module msg {
+    struct PluginInfoContainer {
+      string default_plugin;
+
+      sequence<tesseract_msgs::msg::StringPluginInfoPair> plugins;
+    };
+  };
+};

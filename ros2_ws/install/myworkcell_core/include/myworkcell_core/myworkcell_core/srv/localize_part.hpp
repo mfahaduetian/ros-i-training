@@ -1,0 +1,1 @@
+/home/ubuntu/ros2_ws/build/myworkcell_core/rosidl_generator_cpp/myworkcell_core/srv/localize_part.hpp

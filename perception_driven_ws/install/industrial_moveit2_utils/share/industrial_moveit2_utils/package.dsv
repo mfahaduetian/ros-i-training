@@ -1,0 +1,9 @@
+source;share/industrial_moveit2_utils/hook/pythonpath.ps1
+source;share/industrial_moveit2_utils/hook/pythonpath.dsv
+source;share/industrial_moveit2_utils/hook/pythonpath.sh
+source;share/industrial_moveit2_utils/hook/ament_prefix_path.ps1
+source;share/industrial_moveit2_utils/hook/ament_prefix_path.dsv
+source;share/industrial_moveit2_utils/hook/ament_prefix_path.sh
+source;../../build/industrial_moveit2_utils/share/industrial_moveit2_utils/hook/pythonpath_develop.ps1
+source;../../build/industrial_moveit2_utils/share/industrial_moveit2_utils/hook/pythonpath_develop.dsv
+source;../../build/industrial_moveit2_utils/share/industrial_moveit2_utils/hook/pythonpath_develop.sh

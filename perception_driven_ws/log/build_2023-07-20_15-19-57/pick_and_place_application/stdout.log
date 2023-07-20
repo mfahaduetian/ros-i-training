@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target fake_grasp_server_node[0m
+[35m[1mConsolidate compiler generated dependencies of target generate_cloud_node[0m
+[ 11%] Built target fake_grasp_server_node
+[35m[1mConsolidate compiler generated dependencies of target pick_and_place_node[0m
+[ 22%] Built target generate_cloud_node
+[ 27%] [32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/set_attached_object.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/place_box.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/pickup_box.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/create_motion_plan.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/utilities/pick_and_place_utilities.cpp.o[0m

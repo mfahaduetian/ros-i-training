@@ -1,0 +1,20 @@
+[ 75%] Built target tesseract_scene_graph
+[100%] Built target tesseract_scene_graph_build_graph_example
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_scene_graph/share/tesseract_scene_graph/package.xml
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_scene_graph/lib/libtesseract_scene_graph.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_scene_graph/lib/cmake/tesseract_scene_graph/tesseract_scene_graph-targets.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_scene_graph/lib/cmake/tesseract_scene_graph/tesseract_scene_graph-targets-noconfig.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_scene_graph/lib/cmake/tesseract_scene_graph/tesseract_scene_graph-config.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_scene_graph/lib/cmake/tesseract_scene_graph/tesseract_scene_graph-config-version.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_scene_graph/share/ament_index/resource_index/packages/tesseract_scene_graph
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_scene_graph/share/tesseract_scene_graph/hook/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_scene_graph/share/tesseract_scene_graph/hook/ros_package_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_scene_graph/share/tesseract_scene_graph/hook/python_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_scene_graph/include/tesseract_scene_graph
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_scene_graph/include/tesseract_scene_graph/link.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_scene_graph/include/tesseract_scene_graph/scene_state.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_scene_graph/include/tesseract_scene_graph/joint.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_scene_graph/include/tesseract_scene_graph/graph.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_scene_graph/include/tesseract_scene_graph/kdl_parser.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_scene_graph/bin/tesseract_scene_graph_build_graph_example

@@ -1,0 +1,10 @@
+{
+  "package_name": "snp_msgs",
+  "non_idl_tuples": [
+    "/home/ubuntu/tesseract_ws/src/snp_msgs:msg/ToolPath.msg",
+    "/home/ubuntu/tesseract_ws/src/snp_msgs:msg/ToolPaths.msg",
+    "/home/ubuntu/tesseract_ws/src/snp_msgs:srv/ExecuteMotionPlan.srv",
+    "/home/ubuntu/tesseract_ws/src/snp_msgs:srv/GenerateMotionPlan.srv",
+    "/home/ubuntu/tesseract_ws/src/snp_msgs:srv/GenerateToolPaths.srv"
+  ]
+}

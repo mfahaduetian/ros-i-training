@@ -1,0 +1,175 @@
+[0.009s] Invoking command in '/home/ubuntu/perception_driven_ws/build/pick_and_place_application': AMENT_PREFIX_PATH=/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs:/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/perception_driven_ws/src/pick_and_place_application -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/perception_driven_ws/install/pick_and_place_application
+[0.069s] -- The C compiler identification is GNU 11.3.0
+[0.128s] -- The CXX compiler identification is GNU 11.3.0
+[0.135s] -- Detecting C compiler ABI info
+[0.206s] -- Detecting C compiler ABI info - done
+[0.214s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.215s] -- Detecting C compile features
+[0.215s] -- Detecting C compile features - done
+[0.218s] -- Detecting CXX compiler ABI info
+[0.299s] -- Detecting CXX compiler ABI info - done
+[0.308s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.308s] -- Detecting CXX compile features
+[0.309s] -- Detecting CXX compile features - done
+[0.311s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.495s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.560s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.591s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.640s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.645s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.655s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.672s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.695s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.780s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.783s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.886s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.916s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.971s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.982s] -- Looking for pthread.h
+[1.058s] -- Looking for pthread.h - found
+[1.058s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.136s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.137s] -- Found Threads: TRUE  
+[1.332s] -- Found rclcpp_action: 16.0.4 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.448s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.607s] -- Found shape_msgs: 4.2.3 (/opt/ros/humble/share/shape_msgs/cmake)
+[1.673s] -- Found pick_and_place_msgs: 0.0.0 (/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake)
+[1.855s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[2.216s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.218s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.218s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.600s] -- Checking for module 'eigen3'
+[2.612s] --   Found eigen3, version 3.4.0
+[2.642s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.642s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.683s] -- Checking for module 'flann'
+[2.695s] --   Found flann, version 1.9.1
+[2.733s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.734s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[3.701s] -- Checking for module 'libusb-1.0'
+[3.714s] --   Found libusb-1.0, version 1.0.25
+[3.748s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.750s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.804s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.983s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.990s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.997s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.165s] -- Found Qhull version 8.0.2
+[4.337s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.504s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.505s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.506s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.507s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.508s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.509s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.510s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[4.510s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[4.511s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.512s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.513s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.514s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.515s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.516s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.517s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.518s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[4.519s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[4.521s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[4.522s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[4.523s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[4.524s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[4.524s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[4.524s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[4.525s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[4.526s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[4.547s] -- Found moveit_common: 2.5.4 (/opt/ros/humble/share/moveit_common/cmake)
+[4.550s] -- Found moveit_ros_planning_interface: 2.5.4 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[4.566s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[5.341s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[5.357s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[5.455s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[5.943s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[6.627s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[6.939s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[7.486s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system 
+[7.563s] -- Configuring done
+[7.630s] -- Generating done
+[7.634s] -- Build files have been written to: /home/ubuntu/perception_driven_ws/build/pick_and_place_application
+[7.660s] Invoked command in '/home/ubuntu/perception_driven_ws/build/pick_and_place_application' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs:/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/perception_driven_ws/src/pick_and_place_application -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/perception_driven_ws/install/pick_and_place_application
+[7.663s] Invoking command in '/home/ubuntu/perception_driven_ws/build/pick_and_place_application': AMENT_PREFIX_PATH=/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs:/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/perception_driven_ws/build/pick_and_place_application -- -j4 -l4
+[7.721s] [  5%] [32mBuilding CXX object CMakeFiles/fake_grasp_server_node.dir/src/nodes/fake_grasp_action_server.cpp.o[0m
+[7.725s] [ 11%] [32mBuilding CXX object CMakeFiles/generate_cloud_node.dir/src/nodes/generate_point_cloud.cpp.o[0m
+[7.727s] [ 16%] [32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/nodes/pick_and_place_node.cpp.o[0m
+[7.728s] [ 22%] [32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/initialize.cpp.o[0m
+[8.953s] In file included from [01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/nodes/generate_point_cloud.cpp:10[m[K:
+[8.953s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[8.954s]    47 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+[8.954s]       |      [01;35m[K^~~~~~~[m[K
+[10.331s] [01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/nodes/pick_and_place_node.cpp:20:3:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment-Wcomment]8;;[m[K]
+[10.331s]    20 |   /* =========================================================================================*/
+[10.331s]       |    
+[14.319s] [ 27%] [32m[1mLinking CXX executable fake_grasp_server_node[0m
+[14.564s] [ 27%] Built target fake_grasp_server_node
+[14.576s] [ 33%] [32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/move_to_wait_position.cpp.o[0m
+[27.335s] [ 38%] [32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/set_gripper.cpp.o[0m
+[29.576s] [ 44%] [32m[1mLinking CXX executable generate_cloud_node[0m
+[30.482s] [ 50%] [32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/reset_world.cpp.o[0m
+[30.556s] [ 50%] Built target generate_cloud_node
+[30.569s] [ 55%] [32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/set_attached_object.cpp.o[0m
+[30.584s] In file included from [01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/set_attached_object.cpp:1[m[K:
+[30.585s] [01m[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[30.585s]    32 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead
+[30.585s]       |  [01;35m[K^~~~~~~[m[K
+[33.252s] [ 61%] [32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/detect_box_pick.cpp.o[0m
+[35.970s] In file included from [01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/detect_box_pick.cpp:2[m[K:
+[35.971s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[35.971s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[35.971s]       |  [01;35m[K^~~~~~~[m[K
+[41.602s] [01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/set_gripper.cpp:[m[K In member function ‘[01m[Kvoid pick_and_place_application::PickAndPlaceApp::actuateGripper(bool)[m[K’:
+[41.602s] [01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/set_gripper.cpp:13:9:[m[K [01;35m[Kwarning: [m[Ktypedef ‘[01m[Kusing GraspGoalHandle = class rclcpp_action::ClientGoalHandle<pick_and_place_msgs::action::ExecuteGraspMove>[m[K’ locally defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-local-typedefs-Wunused-local-typedefs]8;;[m[K]
+[41.602s]    13 |   using [01;35m[KGraspGoalHandle[m[K = rclcpp_action::ClientGoalHandle<pick_and_place_msgs::action::ExecuteGraspMove>;
+[41.602s]       |         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[45.369s] [01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/set_attached_object.cpp:[m[K In member function ‘[01m[Kvoid pick_and_place_application::PickAndPlaceApp::setAttachedObject(bool, const Pose&, moveit_msgs::msg::RobotState&)[m[K’:
+[45.370s] [01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/set_attached_object.cpp:34:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::core::RobotState::attachBody(std::string&, std::vector<std::shared_ptr<const shapes::Shape> >&, EigenSTL::vector_Isometry3d&, std::vector<std::__cxx11::basic_string<char> >&, std::string&)[m[K’
+[45.370s]    34 |     [01;31m[Kcurrent_state->attachBody([m[K
+[45.370s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[45.370s]    35 | [01;31m[K        cfg.ATTACHED_OBJECT_LINK_NAME, shapes_array, pose_array, cfg.TOUCH_LINKS, cfg.TCP_LINK_NAME)[m[K;
+[45.370s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[45.371s] In file included from [01m[K/opt/ros/humble/include/moveit/planning_scene/planning_scene.h:40[m[K,
+[45.371s]                  from [01m[K/opt/ros/humble/include/moveit/planning_scene_monitor/planning_scene_monitor.h:43[m[K,
+[45.371s]                  from [01m[K/opt/ros/humble/include/moveit/moveit_cpp/moveit_cpp.h:44[m[K,
+[45.371s]                  from [01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/include/pick_and_place_application/pick_and_place.h:9[m[K,
+[45.371s]                  from [01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/set_attached_object.cpp:2[m[K:
+[45.371s] [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1594:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::core::RobotState::attachBody(std::unique_ptr<moveit::core::AttachedBody>)[m[K’
+[45.371s]  1594 |   void [01;36m[KattachBody[m[K(std::unique_ptr<AttachedBody> attached_body);
+[45.371s]       |        [01;36m[K^~~~~~~~~~[m[K
+[45.371s] [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1594:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 5 provided
+[45.372s] [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1615:64:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::core::RobotState::attachBody(moveit::core::AttachedBody*)[m[K’
+[45.372s]  1615 |   [[deprecated("Deprecated. Pass a unique_ptr instead")]] void [01;36m[KattachBody[m[K(AttachedBody* attached_body);
+[45.372s]       |                                                                [01;36m[K^~~~~~~~~~[m[K
+[45.372s] [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1615:64:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 5 provided
+[45.372s] [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1634:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::core::RobotState::attachBody(const string&, const Isometry3d&, const std::vector<std::shared_ptr<const shapes::Shape> >&, const vector_Isometry3d&, const std::set<std::__cxx11::basic_string<char> >&, const string&, const JointTrajectory&, const FixedTransformsMap&)[m[K’
+[45.372s]  1634 |   void [01;36m[KattachBody[m[K(const std::string& id, const Eigen::Isometry3d& pose,
+[45.372s]       |        [01;36m[K^~~~~~~~~~[m[K
+[45.372s] [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1634:8:[m[K [01;36m[Knote: [m[K  candidate expects 8 arguments, 5 provided
+[45.372s] [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1657:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::core::RobotState::attachBody(const string&, const Isometry3d&, const std::vector<std::shared_ptr<const shapes::Shape> >&, const vector_Isometry3d&, const std::vector<std::__cxx11::basic_string<char> >&, const string&, const JointTrajectory&, const FixedTransformsMap&)[m[K’
+[45.372s]  1657 |   void [01;36m[KattachBody[m[K(const std::string& id, const Eigen::Isometry3d& pose,
+[45.372s]       |        [01;36m[K^~~~~~~~~~[m[K
+[45.372s] [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1657:8:[m[K [01;36m[Knote: [m[K  candidate expects 8 arguments, 5 provided
+[45.373s] [01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/set_attached_object.cpp:16:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[45.373s]    16 |                                         [01;35m[Kconst geometry_msgs::msg::Pose& pose[m[K,
+[45.373s]       |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[46.570s] [ 66%] [32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/create_pick_moves.cpp.o[0m
+[49.082s] In file included from [01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/create_pick_moves.cpp:2[m[K:
+[49.082s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[49.082s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[49.083s]       |  [01;35m[K^~~~~~~[m[K
+[50.867s] [ 72%] [32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/create_place_moves.cpp.o[0m
+[51.572s] gmake[2]: *** [CMakeFiles/pick_and_place_node.dir/build.make:146: CMakeFiles/pick_and_place_node.dir/src/tasks/set_attached_object.cpp.o] Error 1
+[51.572s] gmake[2]: *** Waiting for unfinished jobs....
+[52.914s] In file included from [01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/create_place_moves.cpp:2[m[K:
+[52.915s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[52.915s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[52.915s]       |  [01;35m[K^~~~~~~[m[K
+[63.261s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/pick_and_place_node.dir/all] Error 2
+[63.261s] gmake: *** [Makefile:146: all] Error 2
+[63.263s] Invoked command in '/home/ubuntu/perception_driven_ws/build/pick_and_place_application' returned '2': AMENT_PREFIX_PATH=/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs:/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/perception_driven_ws/build/pick_and_place_application -- -j4 -l4

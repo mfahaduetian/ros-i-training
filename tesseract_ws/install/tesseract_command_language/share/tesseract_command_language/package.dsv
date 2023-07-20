@@ -1,0 +1,14 @@
+source;share/tesseract_command_language/hook/cmake_prefix_path.ps1
+source;share/tesseract_command_language/hook/cmake_prefix_path.dsv
+source;share/tesseract_command_language/hook/cmake_prefix_path.sh
+source;share/tesseract_command_language/hook/ld_library_path_lib.ps1
+source;share/tesseract_command_language/hook/ld_library_path_lib.dsv
+source;share/tesseract_command_language/hook/ld_library_path_lib.sh
+source;share/tesseract_command_language/hook/pkg_config_path.ps1
+source;share/tesseract_command_language/hook/pkg_config_path.dsv
+source;share/tesseract_command_language/hook/pkg_config_path.sh
+source;share/tesseract_command_language/hook/pkg_config_path_multiarch.ps1
+source;share/tesseract_command_language/hook/pkg_config_path_multiarch.dsv
+source;share/tesseract_command_language/hook/pkg_config_path_multiarch.sh
+source;share/tesseract_command_language/hook/ament_prefix_path.dsv
+source;share/tesseract_command_language/hook/ros_package_path.dsv

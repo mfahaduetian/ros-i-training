@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tesseract_msgs/msg/EnvironmentState.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/JointState.idl"
+
+module tesseract_msgs {
+  module msg {
+    struct EnvironmentState {
+      @verbatim (language="comment", text=
+        "Environment Name")
+      string id;
+
+      @verbatim (language="comment", text=
+        "This is the revision number so others know when it changes.")
+      uint64 revision;
+
+      @verbatim (language="comment", text=
+        "This message contains information about the state, i.e. the positions of its joints and links")
+      sensor_msgs::msg::JointState joint_state;
+    };
+  };
+};

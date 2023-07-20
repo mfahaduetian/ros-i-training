@@ -1,0 +1,17 @@
+[ 83%] Built target tesseract_srdf
+[100%] Built target tesseract_srdf_parse_srdf_example
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_srdf/share/tesseract_srdf/package.xml
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_srdf/lib/libtesseract_srdf.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_srdf/lib/cmake/tesseract_srdf/tesseract_srdf-targets.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_srdf/lib/cmake/tesseract_srdf/tesseract_srdf-targets-noconfig.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_srdf/lib/cmake/tesseract_srdf/tesseract_srdf-config.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_srdf/lib/cmake/tesseract_srdf/tesseract_srdf-config-version.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_srdf/share/ament_index/resource_index/packages/tesseract_srdf
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_srdf/share/tesseract_srdf/hook/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_srdf/share/tesseract_srdf/hook/ros_package_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_srdf/share/tesseract_srdf/hook/python_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_srdf/include/tesseract_srdf/srdf_model.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_srdf/include/tesseract_srdf/kinematics_information.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_srdf/include/tesseract_srdf/utils.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_srdf/bin/tesseract_srdf_parse_srdf_example

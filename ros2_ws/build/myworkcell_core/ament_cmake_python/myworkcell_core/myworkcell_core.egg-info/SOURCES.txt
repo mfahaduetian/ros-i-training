@@ -1,0 +1,6 @@
+setup.py
+myworkcell_core/__init__.py
+myworkcell_core.egg-info/PKG-INFO
+myworkcell_core.egg-info/SOURCES.txt
+myworkcell_core.egg-info/dependency_links.txt
+myworkcell_core.egg-info/top_level.txt

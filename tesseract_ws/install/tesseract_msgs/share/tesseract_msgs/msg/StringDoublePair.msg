@@ -1,0 +1,1 @@
+/home/ubuntu/tesseract_ws/src/tesseract_ros2/tesseract_msgs/msg/StringDoublePair.msg

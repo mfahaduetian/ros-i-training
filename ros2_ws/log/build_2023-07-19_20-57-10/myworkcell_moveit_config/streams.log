@@ -1,0 +1,64 @@
+[0.014s] Invoking command in '/home/ubuntu/ros2_ws/build/myworkcell_moveit_config': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/home/ubuntu/ros2_ws/install/fake_ar_publisher:/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws/src/myworkcell_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/myworkcell_moveit_config
+[0.074s] -- The C compiler identification is GNU 11.3.0
+[0.134s] -- The CXX compiler identification is GNU 11.3.0
+[0.141s] -- Detecting C compiler ABI info
+[0.214s] -- Detecting C compiler ABI info - done
+[0.222s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.223s] -- Detecting C compile features
+[0.223s] -- Detecting C compile features - done
+[0.226s] -- Detecting CXX compiler ABI info
+[0.312s] -- Detecting CXX compiler ABI info - done
+[0.321s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.321s] -- Detecting CXX compile features
+[0.322s] -- Detecting CXX compile features - done
+[0.325s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.520s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.589s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.697s] -- Configuring done
+[0.699s] -- Generating done
+[0.700s] -- Build files have been written to: /home/ubuntu/ros2_ws/build/myworkcell_moveit_config
+[0.705s] Invoked command in '/home/ubuntu/ros2_ws/build/myworkcell_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/home/ubuntu/ros2_ws/install/fake_ar_publisher:/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws/src/myworkcell_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/myworkcell_moveit_config
+[0.707s] Invoking command in '/home/ubuntu/ros2_ws/build/myworkcell_moveit_config': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/home/ubuntu/ros2_ws/install/fake_ar_publisher:/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/myworkcell_moveit_config -- -j4 -l4
+[0.745s] Invoked command in '/home/ubuntu/ros2_ws/build/myworkcell_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/home/ubuntu/ros2_ws/install/fake_ar_publisher:/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/myworkcell_moveit_config -- -j4 -l4
+[0.769s] Invoking command in '/home/ubuntu/ros2_ws/build/myworkcell_moveit_config': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/home/ubuntu/ros2_ws/install/fake_ar_publisher:/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/myworkcell_moveit_config
+[0.777s] -- Install configuration: ""
+[0.777s] -- Execute custom install script
+[0.778s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/ament_index/resource_index/package_run_dependencies/myworkcell_moveit_config
+[0.787s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/ament_index/resource_index/parent_prefix_path/myworkcell_moveit_config
+[0.796s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/environment/ament_prefix_path.sh
+[0.804s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/environment/ament_prefix_path.dsv
+[0.812s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/environment/path.sh
+[0.821s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/environment/path.dsv
+[0.829s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/local_setup.bash
+[0.837s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/local_setup.sh
+[0.845s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/local_setup.zsh
+[0.853s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/local_setup.dsv
+[0.861s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/package.dsv
+[0.870s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/ament_index/resource_index/packages/myworkcell_moveit_config
+[0.879s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/cmake/myworkcell_moveit_configConfig.cmake
+[0.886s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/cmake/myworkcell_moveit_configConfig-version.cmake
+[0.895s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/package.xml
+[0.903s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/launch/demo.launch.py
+[0.911s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/launch/move_group.launch.py
+[0.919s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/launch/moveit_rviz.launch.py
+[0.927s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/launch/myworkcell_planning_execution.launch.py
+[0.935s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/launch/rsp.launch.py
+[0.943s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/launch/setup_assistant.launch.py
+[0.950s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/launch/spawn_controllers.launch.py
+[0.958s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[0.965s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/launch/warehouse_db.launch.py
+[0.975s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/config/controllers.yaml
+[0.983s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/config/initial_positions.yaml
+[0.990s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/config/joint_limits.yaml
+[0.997s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/config/kinematics.yaml
+[1.005s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/config/moveit.rviz
+[1.012s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/config/moveit_controllers.yaml
+[1.019s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/config/myworkcell.ros2_control.xacro
+[1.027s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/config/myworkcell.srdf
+[1.034s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/config/myworkcell.urdf.xacro
+[1.041s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/config/ompl_planning.yaml
+[1.049s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/config/pilz_cartesian_limits.yaml
+[1.056s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/config/ros2_controllers.yaml
+[1.064s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/config/ros_controllers.yaml
+[1.073s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/.setup_assistant
+[1.084s] Invoked command in '/home/ubuntu/ros2_ws/build/myworkcell_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/home/ubuntu/ros2_ws/install/fake_ar_publisher:/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/myworkcell_moveit_config

@@ -1,0 +1,5 @@
+/home/ubuntu/tesseract_ws/install/snp_tpp/lib/libsnp_tpp_mesh_modifier.so
+/home/ubuntu/tesseract_ws/install/snp_tpp/lib/libsnp_tpp_plugins.so
+/home/ubuntu/tesseract_ws/install/snp_tpp/lib/libsnp_tpp_widget.so
+/home/ubuntu/tesseract_ws/install/snp_tpp/share/snp_tpp/cmake/snp_tpp-targetsExport.cmake
+/home/ubuntu/tesseract_ws/install/snp_tpp/share/snp_tpp/cmake/snp_tpp-targetsExport-noconfig.cmake

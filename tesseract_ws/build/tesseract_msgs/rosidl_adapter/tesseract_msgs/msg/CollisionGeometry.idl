@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tesseract_msgs/msg/CollisionGeometry.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "tesseract_msgs/msg/Geometry.idl"
+#include "tesseract_msgs/msg/Material.idl"
+
+module tesseract_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Collision Geometries")
+    struct CollisionGeometry {
+      string name;
+
+      geometry_msgs::msg::Pose origin;
+
+      tesseract_msgs::msg::Geometry geometry;
+
+      tesseract_msgs::msg::Material material;
+    };
+  };
+};

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ubuntu/ros2_ws/build/myworkcell_core/vision_node" "/home/ubuntu/ros2_ws/build/myworkcell_core/myworkcell_node" "TARGETS" "vision_node" "myworkcell_node" "DESTINATION" "lib/myworkcell_core")

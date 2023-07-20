@@ -1,0 +1,363 @@
+[0.000000] (-) TimerEvent: {}
+[0.000577] (lesson_perception) JobQueued: {'identifier': 'lesson_perception', 'dependencies': OrderedDict()}
+[0.001215] (lesson_perception) JobStarted: {'identifier': 'lesson_perception'}
+[0.011250] (lesson_perception) JobProgress: {'identifier': 'lesson_perception', 'progress': 'cmake'}
+[0.011686] (lesson_perception) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/perception_ws/src/lesson_perception', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/perception_ws/install/lesson_perception'], 'cwd': '/home/ubuntu/perception_ws/build/lesson_perception', 'env': OrderedDict([('VNCDESKTOP', 'ip-172-31-18-146.ec2.internal:1 (ubuntu)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '129.162.113.222 36478 22'), ('SSH_AGENT_PID', '1721'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1860'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ip-172-31-18-146:@/tmp/.ICE-unix/1798,unix/ip-172-31-18-146:/tmp/.ICE-unix/1798'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e4a6e716_8374_4636_8e11_fe5b05fe3a02'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.588'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/perception_ws/build/lesson_perception'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '129.162.113.222 36478 172.31.18.146 22'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.069517] (lesson_perception) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.099740] (-) TimerEvent: {}
+[0.128701] (lesson_perception) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.137132] (lesson_perception) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199864] (-) TimerEvent: {}
+[0.204044] (lesson_perception) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.212499] (lesson_perception) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.212775] (lesson_perception) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.213215] (lesson_perception) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.216341] (lesson_perception) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.296368] (lesson_perception) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.299928] (-) TimerEvent: {}
+[0.304867] (lesson_perception) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.305173] (lesson_perception) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.305655] (lesson_perception) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.307968] (lesson_perception) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400056] (-) TimerEvent: {}
+[0.488856] (lesson_perception) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.500167] (-) TimerEvent: {}
+[0.581279] (lesson_perception) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.600275] (-) TimerEvent: {}
+[0.628519] (lesson_perception) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.635205] (lesson_perception) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.644563] (lesson_perception) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.659593] (lesson_perception) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.680994] (lesson_perception) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700349] (-) TimerEvent: {}
+[0.762365] (lesson_perception) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.764976] (lesson_perception) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800425] (-) TimerEvent: {}
+[0.864539] (lesson_perception) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.895204] (lesson_perception) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.900526] (-) TimerEvent: {}
+[0.951271] (lesson_perception) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.961615] (lesson_perception) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.000647] (-) TimerEvent: {}
+[1.035759] (lesson_perception) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.036352] (lesson_perception) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.100754] (-) TimerEvent: {}
+[1.109298] (lesson_perception) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.110562] (lesson_perception) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.200862] (-) TimerEvent: {}
+[1.301170] (-) TimerEvent: {}
+[1.306441] (lesson_perception) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.401290] (-) TimerEvent: {}
+[1.466014] (lesson_perception) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.2 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.501405] (-) TimerEvent: {}
+[1.601710] (-) TimerEvent: {}
+[1.702017] (-) TimerEvent: {}
+[1.802321] (-) TimerEvent: {}
+[1.897109] (lesson_perception) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[1.902383] (-) TimerEvent: {}
+[2.002627] (-) TimerEvent: {}
+[2.102941] (-) TimerEvent: {}
+[2.203254] (-) TimerEvent: {}
+[2.241800] (lesson_perception) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.243445] (lesson_perception) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.243615] (lesson_perception) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.280703] (lesson_perception) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[2.292695] (lesson_perception) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[2.303344] (-) TimerEvent: {}
+[2.320658] (lesson_perception) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[2.320843] (lesson_perception) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.359915] (lesson_perception) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[2.372181] (lesson_perception) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[2.403457] (-) TimerEvent: {}
+[2.408882] (lesson_perception) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[2.409107] (lesson_perception) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[2.503596] (-) TimerEvent: {}
+[2.603916] (-) TimerEvent: {}
+[2.704225] (-) TimerEvent: {}
+[2.804545] (-) TimerEvent: {}
+[2.904919] (-) TimerEvent: {}
+[3.005321] (-) TimerEvent: {}
+[3.105654] (-) TimerEvent: {}
+[3.206019] (-) TimerEvent: {}
+[3.306331] (-) TimerEvent: {}
+[3.369372] (lesson_perception) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[3.382438] (lesson_perception) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[3.406435] (-) TimerEvent: {}
+[3.415856] (lesson_perception) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[3.417116] (lesson_perception) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.470800] (lesson_perception) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.506571] (-) TimerEvent: {}
+[3.606933] (-) TimerEvent: {}
+[3.647790] (lesson_perception) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[3.654727] (lesson_perception) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.661755] (lesson_perception) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.707060] (-) TimerEvent: {}
+[3.807432] (-) TimerEvent: {}
+[3.837619] (lesson_perception) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[3.907560] (-) TimerEvent: {}
+[4.007889] (-) TimerEvent: {}
+[4.013457] (lesson_perception) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[4.107996] (-) TimerEvent: {}
+[4.180132] (lesson_perception) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[4.181320] (lesson_perception) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[4.182396] (lesson_perception) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[4.183432] (lesson_perception) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[4.184555] (lesson_perception) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[4.185662] (lesson_perception) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[4.186209] (lesson_perception) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[4.186729] (lesson_perception) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[4.187790] (lesson_perception) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[4.188951] (lesson_perception) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[4.190091] (lesson_perception) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[4.191162] (lesson_perception) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[4.192489] (lesson_perception) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[4.193685] (lesson_perception) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[4.194834] (lesson_perception) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[4.196080] (lesson_perception) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[4.197271] (lesson_perception) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[4.198440] (lesson_perception) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[4.199733] (lesson_perception) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[4.200830] (lesson_perception) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[4.201839] (lesson_perception) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[4.202329] (lesson_perception) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[4.203269] (lesson_perception) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[4.204344] (lesson_perception) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[4.205492] (lesson_perception) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[4.208077] (-) TimerEvent: {}
+[4.218659] (lesson_perception) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.2 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[4.223962] (lesson_perception) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:27 (find_package):\n'}
+[4.224137] (lesson_perception) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[4.224205] (lesson_perception) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[4.224264] (lesson_perception) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[4.224321] (lesson_perception) StderrLine: {'line': b'\n'}
+[4.224375] (lesson_perception) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[4.224428] (lesson_perception) StderrLine: {'line': b'\n'}
+[4.224481] (lesson_perception) StderrLine: {'line': b'    /usr\n'}
+[4.224535] (lesson_perception) StderrLine: {'line': b'\n'}
+[4.224587] (lesson_perception) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[4.224640] (lesson_perception) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[4.224699] (lesson_perception) StderrLine: {'line': b'\x1b[0m\n'}
+[4.306955] (lesson_perception) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.308185] (-) TimerEvent: {}
+[4.377723] (lesson_perception) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.408326] (-) TimerEvent: {}
+[4.455044] (lesson_perception) StdoutLine: {'line': b'-- Generating done\n'}
+[4.457993] (lesson_perception) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/perception_ws/build/lesson_perception\n'}
+[4.480491] (lesson_perception) CommandEnded: {'returncode': 0}
+[4.481359] (lesson_perception) JobProgress: {'identifier': 'lesson_perception', 'progress': 'build'}
+[4.482453] (lesson_perception) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/perception_ws/build/lesson_perception', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/perception_ws/build/lesson_perception', 'env': OrderedDict([('VNCDESKTOP', 'ip-172-31-18-146.ec2.internal:1 (ubuntu)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '129.162.113.222 36478 22'), ('SSH_AGENT_PID', '1721'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1860'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ip-172-31-18-146:@/tmp/.ICE-unix/1798,unix/ip-172-31-18-146:/tmp/.ICE-unix/1798'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e4a6e716_8374_4636_8e11_fe5b05fe3a02'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.588'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/perception_ws/build/lesson_perception'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '129.162.113.222 36478 172.31.18.146 22'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.508426] (-) TimerEvent: {}
+[4.534570] (lesson_perception) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/pcd_to_pointcloud.dir/src/pcd_to_pointcloud.cpp.o\x1b[0m\n'}
+[4.534913] (lesson_perception) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/perception_node.dir/src/perception_node.cpp.o\x1b[0m\n'}
+[4.608569] (-) TimerEvent: {}
+[4.708969] (-) TimerEvent: {}
+[4.809300] (-) TimerEvent: {}
+[4.909720] (-) TimerEvent: {}
+[5.010269] (-) TimerEvent: {}
+[5.110703] (-) TimerEvent: {}
+[5.211237] (-) TimerEvent: {}
+[5.311622] (-) TimerEvent: {}
+[5.412014] (-) TimerEvent: {}
+[5.512409] (-) TimerEvent: {}
+[5.612798] (-) TimerEvent: {}
+[5.713199] (-) TimerEvent: {}
+[5.813574] (-) TimerEvent: {}
+[5.913958] (-) TimerEvent: {}
+[6.014356] (-) TimerEvent: {}
+[6.114750] (-) TimerEvent: {}
+[6.215132] (-) TimerEvent: {}
+[6.315506] (-) TimerEvent: {}
+[6.415887] (-) TimerEvent: {}
+[6.516257] (-) TimerEvent: {}
+[6.616640] (-) TimerEvent: {}
+[6.717039] (-) TimerEvent: {}
+[6.817414] (-) TimerEvent: {}
+[6.917729] (-) TimerEvent: {}
+[7.018102] (-) TimerEvent: {}
+[7.118499] (-) TimerEvent: {}
+[7.218904] (-) TimerEvent: {}
+[7.319322] (-) TimerEvent: {}
+[7.419745] (-) TimerEvent: {}
+[7.520158] (-) TimerEvent: {}
+[7.620576] (-) TimerEvent: {}
+[7.720999] (-) TimerEvent: {}
+[7.821409] (-) TimerEvent: {}
+[7.921829] (-) TimerEvent: {}
+[8.022232] (-) TimerEvent: {}
+[8.122750] (-) TimerEvent: {}
+[8.223146] (-) TimerEvent: {}
+[8.323541] (-) TimerEvent: {}
+[8.423931] (-) TimerEvent: {}
+[8.524319] (-) TimerEvent: {}
+[8.624722] (-) TimerEvent: {}
+[8.725111] (-) TimerEvent: {}
+[8.825494] (-) TimerEvent: {}
+[8.925886] (-) TimerEvent: {}
+[9.026253] (-) TimerEvent: {}
+[9.126636] (-) TimerEvent: {}
+[9.227015] (-) TimerEvent: {}
+[9.327404] (-) TimerEvent: {}
+[9.427801] (-) TimerEvent: {}
+[9.528185] (-) TimerEvent: {}
+[9.628577] (-) TimerEvent: {}
+[9.728992] (-) TimerEvent: {}
+[9.829379] (-) TimerEvent: {}
+[9.929773] (-) TimerEvent: {}
+[10.030175] (-) TimerEvent: {}
+[10.130570] (-) TimerEvent: {}
+[10.230971] (-) TimerEvent: {}
+[10.331373] (-) TimerEvent: {}
+[10.431812] (-) TimerEvent: {}
+[10.532209] (-) TimerEvent: {}
+[10.632600] (-) TimerEvent: {}
+[10.732989] (-) TimerEvent: {}
+[10.833392] (-) TimerEvent: {}
+[10.933804] (-) TimerEvent: {}
+[11.034223] (-) TimerEvent: {}
+[11.134644] (-) TimerEvent: {}
+[11.235070] (-) TimerEvent: {}
+[11.335537] (-) TimerEvent: {}
+[11.435961] (-) TimerEvent: {}
+[11.536384] (-) TimerEvent: {}
+[11.636796] (-) TimerEvent: {}
+[11.737201] (-) TimerEvent: {}
+[11.837612] (-) TimerEvent: {}
+[11.938027] (-) TimerEvent: {}
+[12.038440] (-) TimerEvent: {}
+[12.138848] (-) TimerEvent: {}
+[12.239251] (-) TimerEvent: {}
+[12.339656] (-) TimerEvent: {}
+[12.440064] (-) TimerEvent: {}
+[12.540464] (-) TimerEvent: {}
+[12.640869] (-) TimerEvent: {}
+[12.741268] (-) TimerEvent: {}
+[12.841676] (-) TimerEvent: {}
+[12.942072] (-) TimerEvent: {}
+[13.015166] (lesson_perception) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable pcd_to_pointcloud\x1b[0m\n'}
+[13.042210] (-) TimerEvent: {}
+[13.142616] (-) TimerEvent: {}
+[13.243013] (-) TimerEvent: {}
+[13.343371] (-) TimerEvent: {}
+[13.443735] (-) TimerEvent: {}
+[13.544091] (-) TimerEvent: {}
+[13.584729] (lesson_perception) StdoutLine: {'line': b'[ 75%] Built target pcd_to_pointcloud\n'}
+[13.644204] (-) TimerEvent: {}
+[13.744511] (-) TimerEvent: {}
+[13.844815] (-) TimerEvent: {}
+[13.945134] (-) TimerEvent: {}
+[14.045444] (-) TimerEvent: {}
+[14.145745] (-) TimerEvent: {}
+[14.246046] (-) TimerEvent: {}
+[14.346344] (-) TimerEvent: {}
+[14.446656] (-) TimerEvent: {}
+[14.546967] (-) TimerEvent: {}
+[14.647273] (-) TimerEvent: {}
+[14.747590] (-) TimerEvent: {}
+[14.847900] (-) TimerEvent: {}
+[14.948210] (-) TimerEvent: {}
+[15.048517] (-) TimerEvent: {}
+[15.148821] (-) TimerEvent: {}
+[15.249121] (-) TimerEvent: {}
+[15.349426] (-) TimerEvent: {}
+[15.449742] (-) TimerEvent: {}
+[15.550051] (-) TimerEvent: {}
+[15.650349] (-) TimerEvent: {}
+[15.750652] (-) TimerEvent: {}
+[15.850956] (-) TimerEvent: {}
+[15.951264] (-) TimerEvent: {}
+[16.051585] (-) TimerEvent: {}
+[16.151887] (-) TimerEvent: {}
+[16.252180] (-) TimerEvent: {}
+[16.352484] (-) TimerEvent: {}
+[16.452790] (-) TimerEvent: {}
+[16.553096] (-) TimerEvent: {}
+[16.653401] (-) TimerEvent: {}
+[16.753703] (-) TimerEvent: {}
+[16.854007] (-) TimerEvent: {}
+[16.954303] (-) TimerEvent: {}
+[17.054607] (-) TimerEvent: {}
+[17.154955] (-) TimerEvent: {}
+[17.255314] (-) TimerEvent: {}
+[17.355609] (-) TimerEvent: {}
+[17.455953] (-) TimerEvent: {}
+[17.556253] (-) TimerEvent: {}
+[17.656547] (-) TimerEvent: {}
+[17.756853] (-) TimerEvent: {}
+[17.857169] (-) TimerEvent: {}
+[17.957478] (-) TimerEvent: {}
+[18.057777] (-) TimerEvent: {}
+[18.158069] (-) TimerEvent: {}
+[18.258364] (-) TimerEvent: {}
+[18.358664] (-) TimerEvent: {}
+[18.458959] (-) TimerEvent: {}
+[18.559254] (-) TimerEvent: {}
+[18.659567] (-) TimerEvent: {}
+[18.759865] (-) TimerEvent: {}
+[18.860158] (-) TimerEvent: {}
+[18.960462] (-) TimerEvent: {}
+[19.060757] (-) TimerEvent: {}
+[19.161056] (-) TimerEvent: {}
+[19.261361] (-) TimerEvent: {}
+[19.361657] (-) TimerEvent: {}
+[19.461956] (-) TimerEvent: {}
+[19.562249] (-) TimerEvent: {}
+[19.662534] (-) TimerEvent: {}
+[19.762827] (-) TimerEvent: {}
+[19.863129] (-) TimerEvent: {}
+[19.963427] (-) TimerEvent: {}
+[20.063746] (-) TimerEvent: {}
+[20.164042] (-) TimerEvent: {}
+[20.264336] (-) TimerEvent: {}
+[20.364627] (-) TimerEvent: {}
+[20.464917] (-) TimerEvent: {}
+[20.565231] (-) TimerEvent: {}
+[20.665524] (-) TimerEvent: {}
+[20.765813] (-) TimerEvent: {}
+[20.866224] (-) TimerEvent: {}
+[20.966547] (-) TimerEvent: {}
+[21.066863] (-) TimerEvent: {}
+[21.167179] (-) TimerEvent: {}
+[21.267495] (-) TimerEvent: {}
+[21.367824] (-) TimerEvent: {}
+[21.468141] (-) TimerEvent: {}
+[21.568454] (-) TimerEvent: {}
+[21.582478] (lesson_perception) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable perception_node\x1b[0m\n'}
+[21.668576] (-) TimerEvent: {}
+[21.768885] (-) TimerEvent: {}
+[21.869195] (-) TimerEvent: {}
+[21.969497] (-) TimerEvent: {}
+[22.069804] (-) TimerEvent: {}
+[22.170116] (-) TimerEvent: {}
+[22.270434] (-) TimerEvent: {}
+[22.370764] (-) TimerEvent: {}
+[22.456375] (lesson_perception) StdoutLine: {'line': b'[100%] Built target perception_node\n'}
+[22.466412] (lesson_perception) CommandEnded: {'returncode': 0}
+[22.470840] (-) TimerEvent: {}
+[22.493464] (lesson_perception) JobProgress: {'identifier': 'lesson_perception', 'progress': 'install'}
+[22.502821] (lesson_perception) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/perception_ws/build/lesson_perception'], 'cwd': '/home/ubuntu/perception_ws/build/lesson_perception', 'env': OrderedDict([('VNCDESKTOP', 'ip-172-31-18-146.ec2.internal:1 (ubuntu)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '129.162.113.222 36478 22'), ('SSH_AGENT_PID', '1721'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1860'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ip-172-31-18-146:@/tmp/.ICE-unix/1798,unix/ip-172-31-18-146:/tmp/.ICE-unix/1798'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e4a6e716_8374_4636_8e11_fe5b05fe3a02'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.588'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/perception_ws/build/lesson_perception'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '129.162.113.222 36478 172.31.18.146 22'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[22.510342] (lesson_perception) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.510597] (lesson_perception) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_ws/install/lesson_perception/lib/lesson_perception/perception_node\n'}
+[22.515251] (lesson_perception) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/perception_ws/install/lesson_perception/lib/lesson_perception/perception_node" to ""\n'}
+[22.515450] (lesson_perception) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_ws/install/lesson_perception/lib/lesson_perception/pcd_to_pointcloud\n'}
+[22.516912] (lesson_perception) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/perception_ws/install/lesson_perception/lib/lesson_perception/pcd_to_pointcloud" to ""\n'}
+[22.517089] (lesson_perception) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_ws/install/lesson_perception/share/lesson_perception/launch\n'}
+[22.517239] (lesson_perception) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_ws/install/lesson_perception/share/lesson_perception/launch/processing_node.launch.py\n'}
+[22.517396] (lesson_perception) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_ws/install/lesson_perception/share/ament_index/resource_index/package_run_dependencies/lesson_perception\n'}
+[22.517620] (lesson_perception) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_ws/install/lesson_perception/share/ament_index/resource_index/parent_prefix_path/lesson_perception\n'}
+[22.517846] (lesson_perception) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_ws/install/lesson_perception/share/lesson_perception/environment/ament_prefix_path.sh\n'}
+[22.518022] (lesson_perception) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_ws/install/lesson_perception/share/lesson_perception/environment/ament_prefix_path.dsv\n'}
+[22.518197] (lesson_perception) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_ws/install/lesson_perception/share/lesson_perception/environment/path.sh\n'}
+[22.518365] (lesson_perception) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_ws/install/lesson_perception/share/lesson_perception/environment/path.dsv\n'}
+[22.518538] (lesson_perception) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_ws/install/lesson_perception/share/lesson_perception/local_setup.bash\n'}
+[22.518730] (lesson_perception) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_ws/install/lesson_perception/share/lesson_perception/local_setup.sh\n'}
+[22.518909] (lesson_perception) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_ws/install/lesson_perception/share/lesson_perception/local_setup.zsh\n'}
+[22.519078] (lesson_perception) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_ws/install/lesson_perception/share/lesson_perception/local_setup.dsv\n'}
+[22.519249] (lesson_perception) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_ws/install/lesson_perception/share/lesson_perception/package.dsv\n'}
+[22.519462] (lesson_perception) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_ws/install/lesson_perception/share/ament_index/resource_index/packages/lesson_perception\n'}
+[22.519686] (lesson_perception) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_ws/install/lesson_perception/share/lesson_perception/cmake/lesson_perceptionConfig.cmake\n'}
+[22.519850] (lesson_perception) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_ws/install/lesson_perception/share/lesson_perception/cmake/lesson_perceptionConfig-version.cmake\n'}
+[22.519997] (lesson_perception) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_ws/install/lesson_perception/share/lesson_perception/package.xml\n'}
+[22.521456] (lesson_perception) CommandEnded: {'returncode': 0}
+[22.570936] (-) TimerEvent: {}
+[22.573450] (lesson_perception) JobEnded: {'identifier': 'lesson_perception', 'rc': 0}
+[22.574220] (-) EventReactorShutdown: {}

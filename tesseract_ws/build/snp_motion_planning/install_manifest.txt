@@ -1,0 +1,4 @@
+/home/ubuntu/tesseract_ws/install/snp_motion_planning/lib/libsnp_motion_planning_plugins.so
+/home/ubuntu/tesseract_ws/install/snp_motion_planning/lib/libsnp_motion_planning_tasks.so
+/home/ubuntu/tesseract_ws/install/snp_motion_planning/share/snp_motion_planning/cmake/snp_motion_planning-targetsExport.cmake
+/home/ubuntu/tesseract_ws/install/snp_motion_planning/share/snp_motion_planning/cmake/snp_motion_planning-targetsExport-release.cmake

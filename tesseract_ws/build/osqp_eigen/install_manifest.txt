@@ -1,0 +1,1 @@
+/home/ubuntu/tesseract_ws/install/osqp_eigen/share/OsqpEigen/package.xml

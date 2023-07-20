@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/pick_and_place_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pick_and_place_msgs/action/detail/execute_grasp_move__type_support_c.cpp.o"
+  "CMakeFiles/pick_and_place_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pick_and_place_msgs/action/detail/execute_grasp_move__type_support_c.cpp.o.d"
+  "CMakeFiles/pick_and_place_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pick_and_place_msgs/srv/detail/get_target_pose__type_support_c.cpp.o"
+  "CMakeFiles/pick_and_place_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pick_and_place_msgs/srv/detail/get_target_pose__type_support_c.cpp.o.d"
+  "libpick_and_place_msgs__rosidl_typesupport_fastrtps_c.pdb"
+  "libpick_and_place_msgs__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/pick_and_place_msgs/action/detail/execute_grasp_move__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/pick_and_place_msgs/action/detail/execute_grasp_move__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/pick_and_place_msgs/srv/detail/get_target_pose__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/pick_and_place_msgs/srv/detail/get_target_pose__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/pick_and_place_msgs__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

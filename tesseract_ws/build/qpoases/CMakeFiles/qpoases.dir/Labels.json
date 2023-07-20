@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ubuntu/tesseract_ws/build/qpoases/CMakeFiles/qpoases"
+		},
+		{
+			"file" : "/home/ubuntu/tesseract_ws/build/qpoases/CMakeFiles/qpoases.rule"
+		},
+		{
+			"file" : "/home/ubuntu/tesseract_ws/build/qpoases/CMakeFiles/qpoases-complete.rule"
+		},
+		{
+			"file" : "/home/ubuntu/tesseract_ws/build/qpoases/qpoases-prefix/src/qpoases-stamp/qpoases-build.rule"
+		},
+		{
+			"file" : "/home/ubuntu/tesseract_ws/build/qpoases/qpoases-prefix/src/qpoases-stamp/qpoases-configure.rule"
+		},
+		{
+			"file" : "/home/ubuntu/tesseract_ws/build/qpoases/qpoases-prefix/src/qpoases-stamp/qpoases-download.rule"
+		},
+		{
+			"file" : "/home/ubuntu/tesseract_ws/build/qpoases/qpoases-prefix/src/qpoases-stamp/qpoases-install.rule"
+		},
+		{
+			"file" : "/home/ubuntu/tesseract_ws/build/qpoases/qpoases-prefix/src/qpoases-stamp/qpoases-mkdir.rule"
+		},
+		{
+			"file" : "/home/ubuntu/tesseract_ws/build/qpoases/qpoases-prefix/src/qpoases-stamp/qpoases-patch.rule"
+		},
+		{
+			"file" : "/home/ubuntu/tesseract_ws/build/qpoases/qpoases-prefix/src/qpoases-stamp/qpoases-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qpoases"
+		],
+		"name" : "qpoases"
+	}
+}

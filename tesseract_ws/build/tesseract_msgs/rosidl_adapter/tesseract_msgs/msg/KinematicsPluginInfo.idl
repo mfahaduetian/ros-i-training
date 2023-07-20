@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tesseract_msgs/msg/KinematicsPluginInfo.msg
+// generated code does not contain a copyright notice
+
+#include "tesseract_msgs/msg/GroupsKinematicPlugins.idl"
+
+module tesseract_msgs {
+  module msg {
+    struct KinematicsPluginInfo {
+      sequence<string> search_paths;
+
+      sequence<string> search_libraries;
+
+      sequence<tesseract_msgs::msg::GroupsKinematicPlugins> group_fwd_plugins;
+
+      sequence<tesseract_msgs::msg::GroupsKinematicPlugins> group_inv_plugins;
+    };
+  };
+};

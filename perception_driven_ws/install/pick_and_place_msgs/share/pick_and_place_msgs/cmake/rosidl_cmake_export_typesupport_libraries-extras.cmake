@@ -1,0 +1,1 @@
+/home/ubuntu/perception_driven_ws/build/pick_and_place_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake

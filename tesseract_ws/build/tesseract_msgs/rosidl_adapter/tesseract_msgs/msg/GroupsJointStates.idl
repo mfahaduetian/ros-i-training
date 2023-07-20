@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tesseract_msgs/msg/GroupsJointStates.msg
+// generated code does not contain a copyright notice
+
+#include "tesseract_msgs/msg/GroupsJointState.idl"
+
+module tesseract_msgs {
+  module msg {
+    struct GroupsJointStates {
+      string name;
+
+      sequence<tesseract_msgs::msg::GroupsJointState> joint_states;
+    };
+  };
+};

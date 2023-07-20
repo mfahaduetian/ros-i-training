@@ -1,0 +1,4 @@
+source;share/tesseract_rviz/local_setup.bash
+source;share/tesseract_rviz/local_setup.dsv
+source;share/tesseract_rviz/local_setup.sh
+source;share/tesseract_rviz/local_setup.zsh

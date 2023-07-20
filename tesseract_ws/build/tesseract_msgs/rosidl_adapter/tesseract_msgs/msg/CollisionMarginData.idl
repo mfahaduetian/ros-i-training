@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tesseract_msgs/msg/CollisionMarginData.msg
+// generated code does not contain a copyright notice
+
+#include "tesseract_msgs/msg/ContactMarginPair.idl"
+
+module tesseract_msgs {
+  module msg {
+    struct CollisionMarginData {
+      double default_margin;
+
+      sequence<tesseract_msgs::msg::ContactMarginPair> margin_pairs;
+    };
+  };
+};

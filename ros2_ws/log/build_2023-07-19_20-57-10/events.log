@@ -1,0 +1,1033 @@
+[0.000000] (-) TimerEvent: {}
+[0.000311] (fake_ar_publisher) JobQueued: {'identifier': 'fake_ar_publisher', 'dependencies': OrderedDict()}
+[0.000588] (myworkcell_core) JobQueued: {'identifier': 'myworkcell_core', 'dependencies': OrderedDict([('fake_ar_publisher', '/home/ubuntu/ros2_ws/install/fake_ar_publisher')])}
+[0.000616] (myworkcell_support) JobQueued: {'identifier': 'myworkcell_support', 'dependencies': OrderedDict([('fake_ar_publisher', '/home/ubuntu/ros2_ws/install/fake_ar_publisher'), ('myworkcell_core', '/home/ubuntu/ros2_ws/install/myworkcell_core')])}
+[0.000641] (myworkcell_moveit_config) JobQueued: {'identifier': 'myworkcell_moveit_config', 'dependencies': OrderedDict([('fake_ar_publisher', '/home/ubuntu/ros2_ws/install/fake_ar_publisher'), ('myworkcell_core', '/home/ubuntu/ros2_ws/install/myworkcell_core'), ('myworkcell_support', '/home/ubuntu/ros2_ws/install/myworkcell_support')])}
+[0.000671] (fake_ar_publisher) JobStarted: {'identifier': 'fake_ar_publisher'}
+[0.012756] (fake_ar_publisher) JobProgress: {'identifier': 'fake_ar_publisher', 'progress': 'cmake'}
+[0.013153] (fake_ar_publisher) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ros2_ws/src/fake_ar_publisher', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/fake_ar_publisher'], 'cwd': '/home/ubuntu/ros2_ws/build/fake_ar_publisher', 'env': OrderedDict([('VNCDESKTOP', 'ip-172-31-18-146.ec2.internal:1 (ubuntu)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '129.162.113.222 36478 22'), ('SSH_AGENT_PID', '1721'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/myworkcell_core/lib:/home/ubuntu/ros2_ws/install/fake_ar_publisher/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '34359'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ip-172-31-18-146:@/tmp/.ICE-unix/1798,unix/ip-172-31-18-146:/tmp/.ICE-unix/1798'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e2c11f6f_ac0f_4b5c_97c6_3463253d7b04'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.225'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/home/ubuntu/ros2_ws/install/fake_ar_publisher:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2_ws/build/fake_ar_publisher'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '129.162.113.222 36478 172.31.18.146 22'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/home/ubuntu/ros2_ws/install/fake_ar_publisher:/opt/ros/humble')]), 'shell': False}
+[0.074269] (fake_ar_publisher) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.099744] (-) TimerEvent: {}
+[0.138480] (fake_ar_publisher) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.146029] (fake_ar_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199856] (-) TimerEvent: {}
+[0.216208] (fake_ar_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.224935] (fake_ar_publisher) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.225256] (fake_ar_publisher) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.225758] (fake_ar_publisher) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.230774] (fake_ar_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299974] (-) TimerEvent: {}
+[0.312337] (fake_ar_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.321109] (fake_ar_publisher) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.321436] (fake_ar_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.321950] (fake_ar_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.324280] (fake_ar_publisher) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400077] (-) TimerEvent: {}
+[0.500368] (-) TimerEvent: {}
+[0.505121] (fake_ar_publisher) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.571635] (fake_ar_publisher) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.599877] (fake_ar_publisher) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.600431] (-) TimerEvent: {}
+[0.647393] (fake_ar_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.652724] (fake_ar_publisher) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.661938] (fake_ar_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.677178] (fake_ar_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.699201] (fake_ar_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700550] (-) TimerEvent: {}
+[0.783750] (fake_ar_publisher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.786646] (fake_ar_publisher) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800684] (-) TimerEvent: {}
+[0.895971] (fake_ar_publisher) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.900758] (-) TimerEvent: {}
+[0.927694] (fake_ar_publisher) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.984949] (fake_ar_publisher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.995711] (fake_ar_publisher) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.000865] (-) TimerEvent: {}
+[1.075374] (fake_ar_publisher) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.076229] (fake_ar_publisher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.100977] (-) TimerEvent: {}
+[1.156974] (fake_ar_publisher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.158231] (fake_ar_publisher) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.201080] (-) TimerEvent: {}
+[1.301388] (-) TimerEvent: {}
+[1.354852] (fake_ar_publisher) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.401490] (-) TimerEvent: {}
+[1.412941] (fake_ar_publisher) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.501608] (-) TimerEvent: {}
+[1.601914] (-) TimerEvent: {}
+[1.694893] (fake_ar_publisher) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.701982] (-) TimerEvent: {}
+[1.802226] (-) TimerEvent: {}
+[1.902535] (-) TimerEvent: {}
+[2.002829] (-) TimerEvent: {}
+[2.020016] (fake_ar_publisher) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.102947] (-) TimerEvent: {}
+[2.203297] (-) TimerEvent: {}
+[2.303647] (-) TimerEvent: {}
+[2.403925] (-) TimerEvent: {}
+[2.483071] (fake_ar_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.504029] (-) TimerEvent: {}
+[2.604335] (-) TimerEvent: {}
+[2.665540] (fake_ar_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.689913] (fake_ar_publisher) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[2.691601] (fake_ar_publisher) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.704432] (-) TimerEvent: {}
+[2.719798] (fake_ar_publisher) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[2.720028] (fake_ar_publisher) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.720095] (fake_ar_publisher) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.720153] (fake_ar_publisher) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.744733] (fake_ar_publisher) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.804532] (-) TimerEvent: {}
+[2.815128] (fake_ar_publisher) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[2.815300] (fake_ar_publisher) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[2.815366] (fake_ar_publisher) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[2.815424] (fake_ar_publisher) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.815479] (fake_ar_publisher) StderrLine: {'line': b'  CMakeLists.txt:38 (rosidl_target_interfaces)\n'}
+[2.815533] (fake_ar_publisher) StderrLine: {'line': b'\n'}
+[2.815588] (fake_ar_publisher) StderrLine: {'line': b'\x1b[0m\n'}
+[2.816956] (fake_ar_publisher) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.826313] (fake_ar_publisher) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.868780] (fake_ar_publisher) StdoutLine: {'line': b'-- Generating done\n'}
+[2.871871] (fake_ar_publisher) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ros2_ws/build/fake_ar_publisher\n'}
+[2.886667] (fake_ar_publisher) CommandEnded: {'returncode': 0}
+[2.887341] (fake_ar_publisher) JobProgress: {'identifier': 'fake_ar_publisher', 'progress': 'build'}
+[2.888247] (fake_ar_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/fake_ar_publisher', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/fake_ar_publisher', 'env': OrderedDict([('VNCDESKTOP', 'ip-172-31-18-146.ec2.internal:1 (ubuntu)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '129.162.113.222 36478 22'), ('SSH_AGENT_PID', '1721'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/myworkcell_core/lib:/home/ubuntu/ros2_ws/install/fake_ar_publisher/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '34359'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ip-172-31-18-146:@/tmp/.ICE-unix/1798,unix/ip-172-31-18-146:/tmp/.ICE-unix/1798'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e2c11f6f_ac0f_4b5c_97c6_3463253d7b04'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.225'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/home/ubuntu/ros2_ws/install/fake_ar_publisher:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2_ws/build/fake_ar_publisher'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '129.162.113.222 36478 172.31.18.146 22'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/home/ubuntu/ros2_ws/install/fake_ar_publisher:/opt/ros/humble')]), 'shell': False}
+[2.904665] (-) TimerEvent: {}
+[2.933480] (fake_ar_publisher) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.948460] (fake_ar_publisher) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.952340] (fake_ar_publisher) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_symlink_fake_ar_publisher\n'}
+[3.004782] (-) TimerEvent: {}
+[3.105265] (-) TimerEvent: {}
+[3.205653] (-) TimerEvent: {}
+[3.225388] (fake_ar_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[3.226105] (fake_ar_publisher) StdoutLine: {'line': b'creating fake_ar_publisher.egg-info\n'}
+[3.226364] (fake_ar_publisher) StdoutLine: {'line': b'writing fake_ar_publisher.egg-info/PKG-INFO\n'}
+[3.226597] (fake_ar_publisher) StdoutLine: {'line': b'writing dependency_links to fake_ar_publisher.egg-info/dependency_links.txt\n'}
+[3.226815] (fake_ar_publisher) StdoutLine: {'line': b'writing top-level names to fake_ar_publisher.egg-info/top_level.txt\n'}
+[3.227092] (fake_ar_publisher) StdoutLine: {'line': b"writing manifest file 'fake_ar_publisher.egg-info/SOURCES.txt'\n"}
+[3.229161] (fake_ar_publisher) StdoutLine: {'line': b"reading manifest file 'fake_ar_publisher.egg-info/SOURCES.txt'\n"}
+[3.229781] (fake_ar_publisher) StdoutLine: {'line': b"writing manifest file 'fake_ar_publisher.egg-info/SOURCES.txt'\n"}
+[3.261613] (fake_ar_publisher) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_fake_ar_publisher_egg\n'}
+[3.305770] (-) TimerEvent: {}
+[3.367921] (fake_ar_publisher) StdoutLine: {'line': b'[  6%] Built target fake_ar_publisher__cpp\n'}
+[3.382392] (fake_ar_publisher) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.382713] (fake_ar_publisher) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.382829] (fake_ar_publisher) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.382991] (fake_ar_publisher) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/fake_ar_publisher__rosidl_generator_c.dir/rosidl_generator_c/fake_ar_publisher/msg/detail/ar_marker__functions.c.o\x1b[0m\n'}
+[3.405890] (-) TimerEvent: {}
+[3.467793] (fake_ar_publisher) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking C shared library libfake_ar_publisher__rosidl_generator_c.so\x1b[0m\n'}
+[3.506014] (-) TimerEvent: {}
+[3.523794] (fake_ar_publisher) StdoutLine: {'line': b'[ 21%] Built target fake_ar_publisher__rosidl_generator_c\n'}
+[3.538443] (fake_ar_publisher) StdoutLine: {'line': b'[ 24%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.606130] (-) TimerEvent: {}
+[3.706506] (-) TimerEvent: {}
+[3.785674] (fake_ar_publisher) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/fake_ar_publisher__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fake_ar_publisher/msg/ar_marker__type_support.cpp.o\x1b[0m\n'}
+[3.806618] (-) TimerEvent: {}
+[3.825504] (fake_ar_publisher) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/fake_ar_publisher__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fake_ar_publisher/msg/detail/dds_fastrtps/ar_marker__type_support.cpp.o\x1b[0m\n'}
+[3.873393] (fake_ar_publisher) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/fake_ar_publisher__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fake_ar_publisher/msg/detail/ar_marker__type_support.cpp.o\x1b[0m\n'}
+[3.906749] (-) TimerEvent: {}
+[3.983357] (fake_ar_publisher) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/fake_ar_publisher__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fake_ar_publisher/msg/detail/ar_marker__type_support_c.cpp.o\x1b[0m\n'}
+[4.006872] (-) TimerEvent: {}
+[4.107369] (-) TimerEvent: {}
+[4.207878] (-) TimerEvent: {}
+[4.226452] (fake_ar_publisher) StdoutLine: {'line': b'[ 39%] \x1b[32m\x1b[1mLinking CXX shared library libfake_ar_publisher__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.291778] (fake_ar_publisher) StdoutLine: {'line': b'[ 39%] Built target fake_ar_publisher__rosidl_typesupport_cpp\n'}
+[4.307719] (fake_ar_publisher) StdoutLine: {'line': b'[ 42%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.307992] (-) TimerEvent: {}
+[4.408294] (-) TimerEvent: {}
+[4.498176] (fake_ar_publisher) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libfake_ar_publisher__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.508408] (-) TimerEvent: {}
+[4.544429] (fake_ar_publisher) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libfake_ar_publisher__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.597617] (fake_ar_publisher) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libfake_ar_publisher__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.608533] (-) TimerEvent: {}
+[4.614481] (fake_ar_publisher) StdoutLine: {'line': b'[ 51%] Built target fake_ar_publisher__rosidl_typesupport_fastrtps_cpp\n'}
+[4.630445] (fake_ar_publisher) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.658620] (fake_ar_publisher) StdoutLine: {'line': b'[ 54%] Built target fake_ar_publisher__rosidl_typesupport_fastrtps_c\n'}
+[4.708675] (-) TimerEvent: {}
+[4.718397] (fake_ar_publisher) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/fake_ar_publisher__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fake_ar_publisher/msg/detail/ar_marker__type_support.c.o\x1b[0m\n'}
+[4.722764] (fake_ar_publisher) StdoutLine: {'line': b'[ 57%] Built target fake_ar_publisher__rosidl_typesupport_introspection_cpp\n'}
+[4.770427] (fake_ar_publisher) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking C shared library libfake_ar_publisher__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.803584] (fake_ar_publisher) StdoutLine: {'line': b'[ 60%] Built target fake_ar_publisher__rosidl_typesupport_introspection_c\n'}
+[4.808758] (-) TimerEvent: {}
+[4.909024] (-) TimerEvent: {}
+[4.912303] (fake_ar_publisher) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/fake_ar_publisher__rosidl_typesupport_c.dir/rosidl_typesupport_c/fake_ar_publisher/msg/ar_marker__type_support.cpp.o\x1b[0m\n'}
+[4.946565] (fake_ar_publisher) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libfake_ar_publisher__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.990152] (fake_ar_publisher) StdoutLine: {'line': b'[ 66%] Built target fake_ar_publisher__rosidl_typesupport_c\n'}
+[5.009131] (-) TimerEvent: {}
+[5.009762] (fake_ar_publisher) StdoutLine: {'line': b'[ 66%] Built target fake_ar_publisher\n'}
+[5.029747] (fake_ar_publisher) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.029997] (fake_ar_publisher) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/fake_ar_publisher_node.dir/src/fake_ar_publisher.cpp.o\x1b[0m\n'}
+[5.109263] (-) TimerEvent: {}
+[5.209619] (-) TimerEvent: {}
+[5.309997] (-) TimerEvent: {}
+[5.373299] (fake_ar_publisher) StdoutLine: {'line': b'[ 72%] Built target fake_ar_publisher__py\n'}
+[5.393650] (fake_ar_publisher) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/fake_ar_publisher__rosidl_generator_py.dir/rosidl_generator_py/fake_ar_publisher/msg/_ar_marker_s.c.o\x1b[0m\n'}
+[5.410117] (-) TimerEvent: {}
+[5.509479] (fake_ar_publisher) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fake_ar_publisher/libfake_ar_publisher__rosidl_generator_py.so\x1b[0m\n'}
+[5.510213] (-) TimerEvent: {}
+[5.555619] (fake_ar_publisher) StdoutLine: {'line': b'[ 78%] Built target fake_ar_publisher__rosidl_generator_py\n'}
+[5.584740] (fake_ar_publisher) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/fake_ar_publisher__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/fake_ar_publisher/_fake_ar_publisher_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.585006] (fake_ar_publisher) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/fake_ar_publisher__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/fake_ar_publisher/_fake_ar_publisher_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.585211] (fake_ar_publisher) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/fake_ar_publisher__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/fake_ar_publisher/_fake_ar_publisher_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.610453] (-) TimerEvent: {}
+[5.710947] (-) TimerEvent: {}
+[5.766237] (fake_ar_publisher) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.777258] (fake_ar_publisher) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.778156] (fake_ar_publisher) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.811077] (-) TimerEvent: {}
+[5.830508] (fake_ar_publisher) StdoutLine: {'line': b'[ 96%] Built target fake_ar_publisher__rosidl_typesupport_c__pyext\n'}
+[5.839479] (fake_ar_publisher) StdoutLine: {'line': b'[ 96%] Built target fake_ar_publisher__rosidl_typesupport_introspection_c__pyext\n'}
+[5.844867] (fake_ar_publisher) StdoutLine: {'line': b'[ 96%] Built target fake_ar_publisher__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.911174] (-) TimerEvent: {}
+[6.011470] (-) TimerEvent: {}
+[6.111769] (-) TimerEvent: {}
+[6.212062] (-) TimerEvent: {}
+[6.312369] (-) TimerEvent: {}
+[6.412671] (-) TimerEvent: {}
+[6.512974] (-) TimerEvent: {}
+[6.613279] (-) TimerEvent: {}
+[6.713597] (-) TimerEvent: {}
+[6.813897] (-) TimerEvent: {}
+[6.914203] (-) TimerEvent: {}
+[7.014525] (-) TimerEvent: {}
+[7.114828] (-) TimerEvent: {}
+[7.215124] (-) TimerEvent: {}
+[7.315418] (-) TimerEvent: {}
+[7.415725] (-) TimerEvent: {}
+[7.516027] (-) TimerEvent: {}
+[7.616323] (-) TimerEvent: {}
+[7.716625] (-) TimerEvent: {}
+[7.816938] (-) TimerEvent: {}
+[7.917271] (-) TimerEvent: {}
+[8.017618] (-) TimerEvent: {}
+[8.117921] (-) TimerEvent: {}
+[8.218220] (-) TimerEvent: {}
+[8.318531] (-) TimerEvent: {}
+[8.418878] (-) TimerEvent: {}
+[8.519172] (-) TimerEvent: {}
+[8.619469] (-) TimerEvent: {}
+[8.719766] (-) TimerEvent: {}
+[8.820063] (-) TimerEvent: {}
+[8.920363] (-) TimerEvent: {}
+[9.020658] (-) TimerEvent: {}
+[9.120948] (-) TimerEvent: {}
+[9.221233] (-) TimerEvent: {}
+[9.321529] (-) TimerEvent: {}
+[9.421812] (-) TimerEvent: {}
+[9.522099] (-) TimerEvent: {}
+[9.622416] (-) TimerEvent: {}
+[9.722716] (-) TimerEvent: {}
+[9.823007] (-) TimerEvent: {}
+[9.923304] (-) TimerEvent: {}
+[10.023602] (-) TimerEvent: {}
+[10.123890] (-) TimerEvent: {}
+[10.224211] (-) TimerEvent: {}
+[10.324598] (-) TimerEvent: {}
+[10.424952] (-) TimerEvent: {}
+[10.430753] (fake_ar_publisher) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable fake_ar_publisher_node\x1b[0m\n'}
+[10.525058] (-) TimerEvent: {}
+[10.625373] (-) TimerEvent: {}
+[10.671900] (fake_ar_publisher) StdoutLine: {'line': b'[100%] Built target fake_ar_publisher_node\n'}
+[10.682433] (fake_ar_publisher) CommandEnded: {'returncode': 0}
+[10.725452] (-) TimerEvent: {}
+[10.747767] (fake_ar_publisher) JobProgress: {'identifier': 'fake_ar_publisher', 'progress': 'install'}
+[10.758038] (fake_ar_publisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/fake_ar_publisher'], 'cwd': '/home/ubuntu/ros2_ws/build/fake_ar_publisher', 'env': OrderedDict([('VNCDESKTOP', 'ip-172-31-18-146.ec2.internal:1 (ubuntu)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '129.162.113.222 36478 22'), ('SSH_AGENT_PID', '1721'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/myworkcell_core/lib:/home/ubuntu/ros2_ws/install/fake_ar_publisher/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '34359'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ip-172-31-18-146:@/tmp/.ICE-unix/1798,unix/ip-172-31-18-146:/tmp/.ICE-unix/1798'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e2c11f6f_ac0f_4b5c_97c6_3463253d7b04'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.225'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/home/ubuntu/ros2_ws/install/fake_ar_publisher:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2_ws/build/fake_ar_publisher'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '129.162.113.222 36478 172.31.18.146 22'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/home/ubuntu/ros2_ws/install/fake_ar_publisher:/opt/ros/humble')]), 'shell': False}
+[10.766795] (fake_ar_publisher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.767356] (fake_ar_publisher) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.767618] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/ament_index/resource_index/rosidl_interfaces/fake_ar_publisher\n'}
+[10.776084] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/ar_marker.h\n'}
+[10.783758] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__functions.h\n'}
+[10.791830] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__struct.h\n'}
+[10.799066] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__type_support.h\n'}
+[10.806552] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.814116] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/environment/library_path.sh\n'}
+[10.821561] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/environment/library_path.dsv\n'}
+[10.825536] (-) TimerEvent: {}
+[10.829403] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__rosidl_typesupport_fastrtps_c.h\n'}
+[10.836973] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.844852] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/ar_marker.hpp\n'}
+[10.852658] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__builder.hpp\n'}
+[10.861011] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__struct.hpp\n'}
+[10.869081] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__traits.hpp\n'}
+[10.876948] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.884419] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.891957] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__rosidl_typesupport_introspection_c.h\n'}
+[10.899158] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.906574] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.913777] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/environment/pythonpath.sh\n'}
+[10.921017] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/environment/pythonpath.dsv\n'}
+[10.925617] (-) TimerEvent: {}
+[10.928878] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[10.936417] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[10.943849] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[10.951160] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[10.960891] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/__init__.py\n'}
+[10.968848] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/_fake_ar_publisher_s.ep.rosidl_typesupport_c.c\n'}
+[10.976498] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/_fake_ar_publisher_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.983900] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/_fake_ar_publisher_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.991222] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.998533] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.005901] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.013899] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/libfake_ar_publisher__rosidl_generator_py.so\n'}
+[11.021688] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/msg/__init__.py\n'}
+[11.025723] (-) TimerEvent: {}
+[11.029601] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/msg/_ar_marker.py\n'}
+[11.037689] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/msg/_ar_marker_s.c\n'}
+[11.045384] (fake_ar_publisher) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.045608] (fake_ar_publisher) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.045870] (fake_ar_publisher) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.046037] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/msg/ARMarker.idl\n'}
+[11.053966] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/msg/ARMarker.msg\n'}
+[11.062719] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/lib/fake_ar_publisher/fake_ar_publisher_node\n'}
+[11.070555] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/ament_index/resource_index/package_run_dependencies/fake_ar_publisher\n'}
+[11.078102] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/ament_index/resource_index/parent_prefix_path/fake_ar_publisher\n'}
+[11.085699] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/environment/ament_prefix_path.sh\n'}
+[11.093208] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/environment/ament_prefix_path.dsv\n'}
+[11.100788] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/environment/path.sh\n'}
+[11.108365] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/environment/path.dsv\n'}
+[11.116032] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/local_setup.bash\n'}
+[11.123683] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/local_setup.sh\n'}
+[11.125798] (-) TimerEvent: {}
+[11.131179] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/local_setup.zsh\n'}
+[11.139280] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/local_setup.dsv\n'}
+[11.146989] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/package.dsv\n'}
+[11.156770] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/ament_index/resource_index/packages/fake_ar_publisher\n'}
+[11.165079] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/rosidl_cmake-extras.cmake\n'}
+[11.173145] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.180754] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.188516] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.196425] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.205213] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.213879] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.222426] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/fake_ar_publisherConfig.cmake\n'}
+[11.225881] (-) TimerEvent: {}
+[11.230594] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/fake_ar_publisherConfig-version.cmake\n'}
+[11.238437] (fake_ar_publisher) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/package.xml\n'}
+[11.245925] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_generator_c.so\n'}
+[11.246384] (fake_ar_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_generator_c.so" to ""\n'}
+[11.246557] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_fastrtps_c.so\n'}
+[11.246938] (fake_ar_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.247102] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.247496] (fake_ar_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.247661] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_introspection_c.so\n'}
+[11.248026] (fake_ar_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.248199] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_c.so\n'}
+[11.248520] (fake_ar_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_c.so" to ""\n'}
+[11.248671] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_introspection_cpp.so\n'}
+[11.249229] (fake_ar_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.249415] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_cpp.so\n'}
+[11.249752] (fake_ar_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_cpp.so" to ""\n'}
+[11.286351] (fake_ar_publisher) StdoutLine: {'line': b"Listing '/home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher'...\n"}
+[11.286529] (fake_ar_publisher) StdoutLine: {'line': b"Compiling '/home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/__init__.py'...\n"}
+[11.286594] (fake_ar_publisher) StdoutLine: {'line': b"Listing '/home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/msg'...\n"}
+[11.286652] (fake_ar_publisher) StdoutLine: {'line': b"Compiling '/home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/msg/__init__.py'...\n"}
+[11.286708] (fake_ar_publisher) StdoutLine: {'line': b"Compiling '/home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/msg/_ar_marker.py'...\n"}
+[11.291598] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_generator_py.so\n'}
+[11.292036] (fake_ar_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_generator_py.so" to ""\n'}
+[11.292223] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/export_fake_ar_publisher__rosidl_generator_cExport.cmake\n'}
+[11.292400] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/export_fake_ar_publisher__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.292607] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/export_fake_ar_publisher__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.292802] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/export_fake_ar_publisher__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.293007] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/export_fake_ar_publisher__rosidl_generator_cppExport.cmake\n'}
+[11.293211] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/export_fake_ar_publisher__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.293408] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/export_fake_ar_publisher__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.293615] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/fake_ar_publisher__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.293807] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/fake_ar_publisher__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.294011] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/fake_ar_publisher__rosidl_typesupport_cExport.cmake\n'}
+[11.294204] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/fake_ar_publisher__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.294432] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/fake_ar_publisher__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.294625] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/fake_ar_publisher__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.294825] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/fake_ar_publisher__rosidl_typesupport_cppExport.cmake\n'}
+[11.295014] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/fake_ar_publisher__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.295216] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/export_fake_ar_publisher__rosidl_generator_pyExport.cmake\n'}
+[11.295406] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/export_fake_ar_publisher__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.297762] (fake_ar_publisher) CommandEnded: {'returncode': 0}
+[11.325989] (-) TimerEvent: {}
+[11.399045] (fake_ar_publisher) JobEnded: {'identifier': 'fake_ar_publisher', 'rc': 0}
+[11.401458] (myworkcell_core) JobStarted: {'identifier': 'myworkcell_core'}
+[11.409485] (myworkcell_core) JobProgress: {'identifier': 'myworkcell_core', 'progress': 'cmake'}
+[11.410093] (myworkcell_core) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ros2_ws/src/myworkcell_core', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/myworkcell_core'], 'cwd': '/home/ubuntu/ros2_ws/build/myworkcell_core', 'env': OrderedDict([('VNCDESKTOP', 'ip-172-31-18-146.ec2.internal:1 (ubuntu)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '129.162.113.222 36478 22'), ('SSH_AGENT_PID', '1721'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/fake_ar_publisher/lib:/home/ubuntu/ros2_ws/install/myworkcell_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '34359'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ip-172-31-18-146:@/tmp/.ICE-unix/1798,unix/ip-172-31-18-146:/tmp/.ICE-unix/1798'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e2c11f6f_ac0f_4b5c_97c6_3463253d7b04'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.225'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/home/ubuntu/ros2_ws/install/fake_ar_publisher:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2_ws/build/myworkcell_core'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '129.162.113.222 36478 172.31.18.146 22'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/fake_ar_publisher:/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/opt/ros/humble')]), 'shell': False}
+[11.426093] (-) TimerEvent: {}
+[11.472857] (myworkcell_core) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[11.526215] (-) TimerEvent: {}
+[11.533483] (myworkcell_core) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[11.540929] (myworkcell_core) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[11.611909] (myworkcell_core) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[11.620453] (myworkcell_core) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[11.620684] (myworkcell_core) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[11.621124] (myworkcell_core) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[11.624267] (myworkcell_core) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[11.626298] (-) TimerEvent: {}
+[11.708882] (myworkcell_core) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[11.717587] (myworkcell_core) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[11.717966] (myworkcell_core) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[11.718586] (myworkcell_core) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[11.721040] (myworkcell_core) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[11.726391] (-) TimerEvent: {}
+[11.826661] (-) TimerEvent: {}
+[11.906470] (myworkcell_core) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[11.926762] (-) TimerEvent: {}
+[11.974637] (myworkcell_core) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[12.004409] (myworkcell_core) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[12.026855] (-) TimerEvent: {}
+[12.052154] (myworkcell_core) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[12.059468] (myworkcell_core) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[12.068822] (myworkcell_core) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[12.084175] (myworkcell_core) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[12.106135] (myworkcell_core) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.126975] (-) TimerEvent: {}
+[12.189557] (myworkcell_core) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[12.192502] (myworkcell_core) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[12.227084] (-) TimerEvent: {}
+[12.296204] (myworkcell_core) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[12.326230] (myworkcell_core) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[12.327165] (-) TimerEvent: {}
+[12.382565] (myworkcell_core) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[12.393107] (myworkcell_core) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[12.427288] (-) TimerEvent: {}
+[12.470660] (myworkcell_core) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[12.471259] (myworkcell_core) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[12.527425] (-) TimerEvent: {}
+[12.547151] (myworkcell_core) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[12.548385] (myworkcell_core) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[12.627522] (-) TimerEvent: {}
+[12.727822] (-) TimerEvent: {}
+[12.742921] (myworkcell_core) StdoutLine: {'line': b'-- Found fake_ar_publisher: 0.0.0 (/home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake)\n'}
+[12.827931] (-) TimerEvent: {}
+[12.928224] (-) TimerEvent: {}
+[13.028519] (-) TimerEvent: {}
+[13.128813] (-) TimerEvent: {}
+[13.201813] (myworkcell_core) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.2 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[13.219057] (myworkcell_core) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[13.220453] (myworkcell_core) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[13.220573] (myworkcell_core) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[13.228876] (-) TimerEvent: {}
+[13.329112] (-) TimerEvent: {}
+[13.429425] (-) TimerEvent: {}
+[13.529750] (-) TimerEvent: {}
+[13.630073] (-) TimerEvent: {}
+[13.673923] (myworkcell_core) StdoutLine: {'line': b'-- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)\n'}
+[13.730183] (-) TimerEvent: {}
+[13.830506] (-) TimerEvent: {}
+[13.930810] (-) TimerEvent: {}
+[14.031103] (-) TimerEvent: {}
+[14.131394] (-) TimerEvent: {}
+[14.231695] (-) TimerEvent: {}
+[14.332002] (-) TimerEvent: {}
+[14.432297] (-) TimerEvent: {}
+[14.462934] (myworkcell_core) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.4 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[14.488371] (myworkcell_core) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[14.524908] (myworkcell_core) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[14.532370] (-) TimerEvent: {}
+[14.540902] (myworkcell_core) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[14.632487] (-) TimerEvent: {}
+[14.633141] (myworkcell_core) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[14.732601] (-) TimerEvent: {}
+[14.832908] (-) TimerEvent: {}
+[14.933204] (-) TimerEvent: {}
+[14.950591] (myworkcell_core) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[15.033312] (-) TimerEvent: {}
+[15.133615] (-) TimerEvent: {}
+[15.233920] (-) TimerEvent: {}
+[15.334237] (-) TimerEvent: {}
+[15.434567] (-) TimerEvent: {}
+[15.534870] (-) TimerEvent: {}
+[15.634923] (myworkcell_core) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[15.635114] (-) TimerEvent: {}
+[15.735346] (-) TimerEvent: {}
+[15.835664] (-) TimerEvent: {}
+[15.935983] (-) TimerEvent: {}
+[15.946467] (myworkcell_core) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[16.036089] (-) TimerEvent: {}
+[16.136379] (-) TimerEvent: {}
+[16.236674] (-) TimerEvent: {}
+[16.336975] (-) TimerEvent: {}
+[16.437271] (-) TimerEvent: {}
+[16.487034] (myworkcell_core) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[16.537386] (-) TimerEvent: {}
+[16.637677] (-) TimerEvent: {}
+[16.737971] (-) TimerEvent: {}
+[16.807871] (myworkcell_core) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[16.838078] (-) TimerEvent: {}
+[16.938394] (-) TimerEvent: {}
+[17.038698] (-) TimerEvent: {}
+[17.139059] (-) TimerEvent: {}
+[17.239427] (-) TimerEvent: {}
+[17.276223] (myworkcell_core) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[17.339552] (-) TimerEvent: {}
+[17.439909] (-) TimerEvent: {}
+[17.458181] (myworkcell_core) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[17.484749] (myworkcell_core) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[17.486618] (myworkcell_core) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[17.515037] (myworkcell_core) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[17.515413] (myworkcell_core) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[17.515502] (myworkcell_core) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[17.515562] (myworkcell_core) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[17.538668] (myworkcell_core) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[17.539968] (-) TimerEvent: {}
+[17.613478] (myworkcell_core) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[17.613718] (myworkcell_core) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[17.613786] (myworkcell_core) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[17.613845] (myworkcell_core) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[17.613900] (myworkcell_core) StderrLine: {'line': b'  CMakeLists.txt:39 (rosidl_target_interfaces)\n'}
+[17.613953] (myworkcell_core) StderrLine: {'line': b'\n'}
+[17.614007] (myworkcell_core) StderrLine: {'line': b'\x1b[0m\n'}
+[17.614763] (myworkcell_core) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[17.614851] (myworkcell_core) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[17.614920] (myworkcell_core) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[17.614987] (myworkcell_core) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[17.615054] (myworkcell_core) StderrLine: {'line': b'  CMakeLists.txt:44 (rosidl_target_interfaces)\n'}
+[17.615120] (myworkcell_core) StderrLine: {'line': b'\n'}
+[17.615242] (myworkcell_core) StderrLine: {'line': b'\x1b[0m\n'}
+[17.616973] (myworkcell_core) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[17.640073] (-) TimerEvent: {}
+[17.642029] (myworkcell_core) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[17.643149] (myworkcell_core) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[17.643855] (myworkcell_core) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[17.643924] (myworkcell_core) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[17.644692] (myworkcell_core) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[17.644786] (myworkcell_core) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[17.645400] (myworkcell_core) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[17.646350] (myworkcell_core) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[17.646445] (myworkcell_core) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[17.646895] (myworkcell_core) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[17.650561] (myworkcell_core) StdoutLine: {'line': b'-- Configuring done\n'}
+[17.717539] (myworkcell_core) StdoutLine: {'line': b'-- Generating done\n'}
+[17.721313] (myworkcell_core) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ros2_ws/build/myworkcell_core\n'}
+[17.740165] (-) TimerEvent: {}
+[17.741661] (myworkcell_core) CommandEnded: {'returncode': 0}
+[17.742413] (myworkcell_core) JobProgress: {'identifier': 'myworkcell_core', 'progress': 'build'}
+[17.742969] (myworkcell_core) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/myworkcell_core', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/myworkcell_core', 'env': OrderedDict([('VNCDESKTOP', 'ip-172-31-18-146.ec2.internal:1 (ubuntu)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '129.162.113.222 36478 22'), ('SSH_AGENT_PID', '1721'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/fake_ar_publisher/lib:/home/ubuntu/ros2_ws/install/myworkcell_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '34359'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ip-172-31-18-146:@/tmp/.ICE-unix/1798,unix/ip-172-31-18-146:/tmp/.ICE-unix/1798'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e2c11f6f_ac0f_4b5c_97c6_3463253d7b04'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.225'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/home/ubuntu/ros2_ws/install/fake_ar_publisher:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2_ws/build/myworkcell_core'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '129.162.113.222 36478 172.31.18.146 22'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/fake_ar_publisher:/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/opt/ros/humble')]), 'shell': False}
+[17.793125] (myworkcell_core) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[17.803082] (myworkcell_core) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[17.812797] (myworkcell_core) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_symlink_myworkcell_core\n'}
+[17.840288] (-) TimerEvent: {}
+[17.940647] (-) TimerEvent: {}
+[18.041009] (-) TimerEvent: {}
+[18.141373] (-) TimerEvent: {}
+[18.143002] (myworkcell_core) StdoutLine: {'line': b'[  5%] Built target myworkcell_core__cpp\n'}
+[18.157553] (myworkcell_core) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[18.158206] (myworkcell_core) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[18.241477] (-) TimerEvent: {}
+[18.247347] (myworkcell_core) StdoutLine: {'line': b'running egg_info\n'}
+[18.248756] (myworkcell_core) StdoutLine: {'line': b'creating myworkcell_core.egg-info\n'}
+[18.249337] (myworkcell_core) StdoutLine: {'line': b'writing myworkcell_core.egg-info/PKG-INFO\n'}
+[18.249833] (myworkcell_core) StdoutLine: {'line': b'writing dependency_links to myworkcell_core.egg-info/dependency_links.txt\n'}
+[18.250328] (myworkcell_core) StdoutLine: {'line': b'writing top-level names to myworkcell_core.egg-info/top_level.txt\n'}
+[18.250919] (myworkcell_core) StdoutLine: {'line': b"writing manifest file 'myworkcell_core.egg-info/SOURCES.txt'\n"}
+[18.254567] (myworkcell_core) StdoutLine: {'line': b"reading manifest file 'myworkcell_core.egg-info/SOURCES.txt'\n"}
+[18.255710] (myworkcell_core) StdoutLine: {'line': b"writing manifest file 'myworkcell_core.egg-info/SOURCES.txt'\n"}
+[18.302734] (myworkcell_core) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_build_myworkcell_core_egg\n'}
+[18.317724] (myworkcell_core) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[18.341597] (-) TimerEvent: {}
+[18.374682] (myworkcell_core) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/myworkcell_core__rosidl_generator_c.dir/rosidl_generator_c/myworkcell_core/srv/detail/localize_part__functions.c.o\x1b[0m\n'}
+[18.441720] (-) TimerEvent: {}
+[18.473058] (myworkcell_core) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libmyworkcell_core__rosidl_generator_c.so\x1b[0m\n'}
+[18.528874] (myworkcell_core) StdoutLine: {'line': b'[ 20%] Built target myworkcell_core__rosidl_generator_c\n'}
+[18.541829] (-) TimerEvent: {}
+[18.543755] (myworkcell_core) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[18.641943] (-) TimerEvent: {}
+[18.659222] (myworkcell_core) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/myworkcell_core__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/myworkcell_core/srv/localize_part__type_support.cpp.o\x1b[0m\n'}
+[18.724803] (myworkcell_core) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/myworkcell_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/myworkcell_core/srv/detail/dds_fastrtps/localize_part__type_support.cpp.o\x1b[0m\n'}
+[18.742055] (-) TimerEvent: {}
+[18.822885] (myworkcell_core) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/myworkcell_core__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/myworkcell_core/srv/detail/localize_part__type_support.cpp.o\x1b[0m\n'}
+[18.842172] (-) TimerEvent: {}
+[18.942649] (-) TimerEvent: {}
+[19.043138] (-) TimerEvent: {}
+[19.059114] (myworkcell_core) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/myworkcell_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/myworkcell_core/srv/detail/localize_part__type_support_c.cpp.o\x1b[0m\n'}
+[19.127093] (myworkcell_core) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libmyworkcell_core__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[19.143258] (-) TimerEvent: {}
+[19.191980] (myworkcell_core) StdoutLine: {'line': b'[ 37%] Built target myworkcell_core__rosidl_typesupport_cpp\n'}
+[19.207039] (myworkcell_core) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[19.243374] (-) TimerEvent: {}
+[19.343848] (-) TimerEvent: {}
+[19.444345] (-) TimerEvent: {}
+[19.471138] (myworkcell_core) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libmyworkcell_core__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[19.475702] (myworkcell_core) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libmyworkcell_core__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[19.544473] (-) TimerEvent: {}
+[19.573990] (myworkcell_core) StdoutLine: {'line': b'[ 45%] Built target myworkcell_core__rosidl_typesupport_introspection_cpp\n'}
+[19.589592] (myworkcell_core) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[19.596566] (myworkcell_core) StdoutLine: {'line': b'[ 48%] Built target myworkcell_core__rosidl_typesupport_fastrtps_cpp\n'}
+[19.644591] (-) TimerEvent: {}
+[19.650127] (myworkcell_core) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libmyworkcell_core__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[19.686203] (myworkcell_core) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/myworkcell_core__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/myworkcell_core/srv/detail/localize_part__type_support.c.o\x1b[0m\n'}
+[19.744709] (-) TimerEvent: {}
+[19.748243] (myworkcell_core) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking C shared library libmyworkcell_core__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[19.754839] (myworkcell_core) StdoutLine: {'line': b'[ 57%] Built target myworkcell_core__rosidl_typesupport_fastrtps_c\n'}
+[19.786941] (myworkcell_core) StdoutLine: {'line': b'[ 57%] Built target myworkcell_core__rosidl_typesupport_introspection_c\n'}
+[19.844814] (-) TimerEvent: {}
+[19.891223] (myworkcell_core) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/myworkcell_core__rosidl_typesupport_c.dir/rosidl_typesupport_c/myworkcell_core/srv/localize_part__type_support.cpp.o\x1b[0m\n'}
+[19.925879] (myworkcell_core) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libmyworkcell_core__rosidl_typesupport_c.so\x1b[0m\n'}
+[19.944936] (-) TimerEvent: {}
+[19.973823] (myworkcell_core) StdoutLine: {'line': b'[ 62%] Built target myworkcell_core__rosidl_typesupport_c\n'}
+[19.995384] (myworkcell_core) StdoutLine: {'line': b'[ 62%] Built target myworkcell_core\n'}
+[20.018842] (myworkcell_core) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/vision_node.dir/src/vision_node.cpp.o\x1b[0m\n'}
+[20.021015] (myworkcell_core) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/myworkcell_node.dir/src/myworkcell_node.cpp.o\x1b[0m\n'}
+[20.023189] (myworkcell_core) StdoutLine: {'line': b'[ 71%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[20.045054] (-) TimerEvent: {}
+[20.145557] (-) TimerEvent: {}
+[20.245945] (-) TimerEvent: {}
+[20.346559] (-) TimerEvent: {}
+[20.447098] (-) TimerEvent: {}
+[20.508891] (myworkcell_core) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/myworkcell_core/src/vision_node.cpp:10\x1b[m\x1b[K:\n'}
+[20.509168] (myworkcell_core) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.509291] (myworkcell_core) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[20.509449] (myworkcell_core) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[20.547208] (-) TimerEvent: {}
+[20.647779] (-) TimerEvent: {}
+[20.748175] (-) TimerEvent: {}
+[20.806929] (myworkcell_core) StdoutLine: {'line': b'[ 71%] Built target myworkcell_core__py\n'}
+[20.835930] (myworkcell_core) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/myworkcell_core__rosidl_generator_py.dir/rosidl_generator_py/myworkcell_core/srv/_localize_part_s.c.o\x1b[0m\n'}
+[20.848317] (-) TimerEvent: {}
+[20.948827] (-) TimerEvent: {}
+[21.028629] (myworkcell_core) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/myworkcell_core/libmyworkcell_core__rosidl_generator_py.so\x1b[0m\n'}
+[21.048948] (-) TimerEvent: {}
+[21.094555] (myworkcell_core) StdoutLine: {'line': b'[ 77%] Built target myworkcell_core__rosidl_generator_py\n'}
+[21.123840] (myworkcell_core) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/myworkcell_core__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/myworkcell_core/_myworkcell_core_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[21.124194] (myworkcell_core) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/myworkcell_core__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/myworkcell_core/_myworkcell_core_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[21.149073] (-) TimerEvent: {}
+[21.249606] (-) TimerEvent: {}
+[21.311155] (myworkcell_core) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/myworkcell_core/myworkcell_core_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[21.325989] (myworkcell_core) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/myworkcell_core/myworkcell_core_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[21.349758] (-) TimerEvent: {}
+[21.376361] (myworkcell_core) StdoutLine: {'line': b'[ 88%] Built target myworkcell_core__rosidl_typesupport_introspection_c__pyext\n'}
+[21.389798] (myworkcell_core) StdoutLine: {'line': b'[ 88%] Built target myworkcell_core__rosidl_typesupport_fastrtps_c__pyext\n'}
+[21.407230] (myworkcell_core) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/myworkcell_core__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/myworkcell_core/_myworkcell_core_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[21.449887] (-) TimerEvent: {}
+[21.550306] (-) TimerEvent: {}
+[21.592857] (myworkcell_core) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/myworkcell_core/myworkcell_core_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[21.650433] (-) TimerEvent: {}
+[21.658939] (myworkcell_core) StdoutLine: {'line': b'[ 94%] Built target myworkcell_core__rosidl_typesupport_c__pyext\n'}
+[21.750576] (-) TimerEvent: {}
+[21.850993] (-) TimerEvent: {}
+[21.951390] (-) TimerEvent: {}
+[22.051790] (-) TimerEvent: {}
+[22.152186] (-) TimerEvent: {}
+[22.252580] (-) TimerEvent: {}
+[22.352977] (-) TimerEvent: {}
+[22.453376] (-) TimerEvent: {}
+[22.553764] (-) TimerEvent: {}
+[22.654168] (-) TimerEvent: {}
+[22.754573] (-) TimerEvent: {}
+[22.854954] (-) TimerEvent: {}
+[22.955347] (-) TimerEvent: {}
+[23.055741] (-) TimerEvent: {}
+[23.156143] (-) TimerEvent: {}
+[23.256547] (-) TimerEvent: {}
+[23.356956] (-) TimerEvent: {}
+[23.457386] (-) TimerEvent: {}
+[23.523574] (myworkcell_core) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/myworkcell_core/src/vision_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KLocalizer::Localizer()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.523844] (myworkcell_core) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/myworkcell_core/src/vision_node.cpp:65:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KLocalizer::last_msg_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.523992] (myworkcell_core) StderrLine: {'line': b'   65 |   fake_ar_publisher::msg::ARMarker::SharedPtr \x1b[01;35m\x1b[Klast_msg_\x1b[m\x1b[K;\n'}
+[23.524110] (myworkcell_core) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[23.524192] (myworkcell_core) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/myworkcell_core/src/vision_node.cpp:16:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::Buffer Localizer::buffer_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.524281] (myworkcell_core) StderrLine: {'line': b'   16 |     tf2_ros::Buffer \x1b[01;35m\x1b[Kbuffer_\x1b[m\x1b[K;\n'}
+[23.524361] (myworkcell_core) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[23.524436] (myworkcell_core) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/myworkcell_core/src/vision_node.cpp:18:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.524533] (myworkcell_core) StderrLine: {'line': b'   18 |   \x1b[01;35m\x1b[KLocalizer\x1b[m\x1b[K() : Node("vision_node"), last_msg_{nullptr}, buffer_(this->get_clock()), listener_(buffer_)\n'}
+[23.524629] (myworkcell_core) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[23.557505] (-) TimerEvent: {}
+[23.657913] (-) TimerEvent: {}
+[23.758338] (-) TimerEvent: {}
+[23.858756] (-) TimerEvent: {}
+[23.959182] (-) TimerEvent: {}
+[24.059612] (-) TimerEvent: {}
+[24.160034] (-) TimerEvent: {}
+[24.260440] (-) TimerEvent: {}
+[24.360843] (-) TimerEvent: {}
+[24.461227] (-) TimerEvent: {}
+[24.561619] (-) TimerEvent: {}
+[24.662006] (-) TimerEvent: {}
+[24.762415] (-) TimerEvent: {}
+[24.862823] (-) TimerEvent: {}
+[24.963195] (-) TimerEvent: {}
+[25.063582] (-) TimerEvent: {}
+[25.163954] (-) TimerEvent: {}
+[25.264332] (-) TimerEvent: {}
+[25.364724] (-) TimerEvent: {}
+[25.465142] (-) TimerEvent: {}
+[25.565571] (-) TimerEvent: {}
+[25.665960] (-) TimerEvent: {}
+[25.766342] (-) TimerEvent: {}
+[25.866732] (-) TimerEvent: {}
+[25.967123] (-) TimerEvent: {}
+[26.067508] (-) TimerEvent: {}
+[26.167889] (-) TimerEvent: {}
+[26.268266] (-) TimerEvent: {}
+[26.368630] (-) TimerEvent: {}
+[26.469009] (-) TimerEvent: {}
+[26.569396] (-) TimerEvent: {}
+[26.669768] (-) TimerEvent: {}
+[26.770148] (-) TimerEvent: {}
+[26.870537] (-) TimerEvent: {}
+[26.970907] (-) TimerEvent: {}
+[27.071286] (-) TimerEvent: {}
+[27.171660] (-) TimerEvent: {}
+[27.272051] (-) TimerEvent: {}
+[27.372451] (-) TimerEvent: {}
+[27.472849] (-) TimerEvent: {}
+[27.573247] (-) TimerEvent: {}
+[27.673634] (-) TimerEvent: {}
+[27.774023] (-) TimerEvent: {}
+[27.874625] (-) TimerEvent: {}
+[27.975019] (-) TimerEvent: {}
+[28.075430] (-) TimerEvent: {}
+[28.175815] (-) TimerEvent: {}
+[28.276201] (-) TimerEvent: {}
+[28.376600] (-) TimerEvent: {}
+[28.477001] (-) TimerEvent: {}
+[28.577407] (-) TimerEvent: {}
+[28.677810] (-) TimerEvent: {}
+[28.778204] (-) TimerEvent: {}
+[28.878624] (-) TimerEvent: {}
+[28.979017] (-) TimerEvent: {}
+[29.079395] (-) TimerEvent: {}
+[29.179767] (-) TimerEvent: {}
+[29.280131] (-) TimerEvent: {}
+[29.380502] (-) TimerEvent: {}
+[29.480869] (-) TimerEvent: {}
+[29.581234] (-) TimerEvent: {}
+[29.681631] (-) TimerEvent: {}
+[29.782007] (-) TimerEvent: {}
+[29.882350] (-) TimerEvent: {}
+[29.982724] (-) TimerEvent: {}
+[30.083098] (-) TimerEvent: {}
+[30.183470] (-) TimerEvent: {}
+[30.283847] (-) TimerEvent: {}
+[30.384216] (-) TimerEvent: {}
+[30.484572] (-) TimerEvent: {}
+[30.584929] (-) TimerEvent: {}
+[30.685426] (-) TimerEvent: {}
+[30.785785] (-) TimerEvent: {}
+[30.886155] (-) TimerEvent: {}
+[30.986530] (-) TimerEvent: {}
+[31.086902] (-) TimerEvent: {}
+[31.187275] (-) TimerEvent: {}
+[31.208113] (myworkcell_core) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable vision_node\x1b[0m\n'}
+[31.287409] (-) TimerEvent: {}
+[31.387795] (-) TimerEvent: {}
+[31.488188] (-) TimerEvent: {}
+[31.588582] (-) TimerEvent: {}
+[31.688978] (-) TimerEvent: {}
+[31.747195] (myworkcell_core) StdoutLine: {'line': b'[ 97%] Built target vision_node\n'}
+[31.789090] (-) TimerEvent: {}
+[31.889402] (-) TimerEvent: {}
+[31.989699] (-) TimerEvent: {}
+[32.090000] (-) TimerEvent: {}
+[32.190305] (-) TimerEvent: {}
+[32.290599] (-) TimerEvent: {}
+[32.390892] (-) TimerEvent: {}
+[32.491182] (-) TimerEvent: {}
+[32.591468] (-) TimerEvent: {}
+[32.691765] (-) TimerEvent: {}
+[32.792056] (-) TimerEvent: {}
+[32.892358] (-) TimerEvent: {}
+[32.944119] (myworkcell_core) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable myworkcell_node\x1b[0m\n'}
+[32.992479] (-) TimerEvent: {}
+[33.092794] (-) TimerEvent: {}
+[33.193103] (-) TimerEvent: {}
+[33.293434] (-) TimerEvent: {}
+[33.363543] (myworkcell_core) StdoutLine: {'line': b'[100%] Built target myworkcell_node\n'}
+[33.375183] (myworkcell_core) CommandEnded: {'returncode': 0}
+[33.393527] (-) TimerEvent: {}
+[33.449627] (myworkcell_core) JobProgress: {'identifier': 'myworkcell_core', 'progress': 'install'}
+[33.450082] (myworkcell_core) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/myworkcell_core'], 'cwd': '/home/ubuntu/ros2_ws/build/myworkcell_core', 'env': OrderedDict([('VNCDESKTOP', 'ip-172-31-18-146.ec2.internal:1 (ubuntu)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '129.162.113.222 36478 22'), ('SSH_AGENT_PID', '1721'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/fake_ar_publisher/lib:/home/ubuntu/ros2_ws/install/myworkcell_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '34359'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ip-172-31-18-146:@/tmp/.ICE-unix/1798,unix/ip-172-31-18-146:/tmp/.ICE-unix/1798'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e2c11f6f_ac0f_4b5c_97c6_3463253d7b04'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.225'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/home/ubuntu/ros2_ws/install/fake_ar_publisher:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2_ws/build/myworkcell_core'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '129.162.113.222 36478 172.31.18.146 22'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/fake_ar_publisher:/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/opt/ros/humble')]), 'shell': False}
+[33.459271] (myworkcell_core) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[33.459858] (myworkcell_core) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[33.460169] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/ament_index/resource_index/rosidl_interfaces/myworkcell_core\n'}
+[33.469487] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/msg/rosidl_generator_c__visibility_control.h\n'}
+[33.478090] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/srv/detail/localize_part__functions.h\n'}
+[33.486365] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/srv/detail/localize_part__struct.h\n'}
+[33.493606] (-) TimerEvent: {}
+[33.494483] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/srv/detail/localize_part__type_support.h\n'}
+[33.502672] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/srv/localize_part.h\n'}
+[33.510577] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/environment/library_path.sh\n'}
+[33.518325] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/environment/library_path.dsv\n'}
+[33.528042] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[33.536139] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/srv/detail/localize_part__rosidl_typesupport_fastrtps_c.h\n'}
+[33.544236] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/srv/detail/localize_part__builder.hpp\n'}
+[33.552016] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/srv/detail/localize_part__struct.hpp\n'}
+[33.560331] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/srv/detail/localize_part__traits.hpp\n'}
+[33.568232] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/srv/localize_part.hpp\n'}
+[33.576341] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[33.584283] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/srv/detail/localize_part__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.592840] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[33.593694] (-) TimerEvent: {}
+[33.600633] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/srv/detail/localize_part__rosidl_typesupport_introspection_c.h\n'}
+[33.608776] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/srv/detail/localize_part__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.616281] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/environment/pythonpath.sh\n'}
+[33.625198] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/environment/pythonpath.dsv\n'}
+[33.633590] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[33.641140] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[33.648856] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[33.657148] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[33.665324] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/__init__.py\n'}
+[33.672807] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/_myworkcell_core_s.ep.rosidl_typesupport_c.c\n'}
+[33.680351] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/_myworkcell_core_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[33.687878] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/_myworkcell_core_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[33.693803] (-) TimerEvent: {}
+[33.695511] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/libmyworkcell_core__rosidl_generator_py.so\n'}
+[33.703065] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/myworkcell_core_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[33.710386] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/myworkcell_core_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[33.717876] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/myworkcell_core_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[33.726369] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/srv/__init__.py\n'}
+[33.734056] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/srv/_localize_part.py\n'}
+[33.742372] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/srv/_localize_part_s.c\n'}
+[33.750589] (myworkcell_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/myworkcell_core_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[33.750877] (myworkcell_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/myworkcell_core_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[33.751151] (myworkcell_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/myworkcell_core_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[33.751358] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/srv/LocalizePart.idl\n'}
+[33.759457] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/srv/LocalizePart.srv\n'}
+[33.767286] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/srv/LocalizePart_Request.msg\n'}
+[33.775007] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/srv/LocalizePart_Response.msg\n'}
+[33.782884] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/lib/myworkcell_core/vision_node\n'}
+[33.790969] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/lib/myworkcell_core/myworkcell_node\n'}
+[33.793899] (-) TimerEvent: {}
+[33.799326] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/ament_index/resource_index/package_run_dependencies/myworkcell_core\n'}
+[33.807783] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/ament_index/resource_index/parent_prefix_path/myworkcell_core\n'}
+[33.815775] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/environment/ament_prefix_path.sh\n'}
+[33.825418] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/environment/ament_prefix_path.dsv\n'}
+[33.833579] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/environment/path.sh\n'}
+[33.842057] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/environment/path.dsv\n'}
+[33.850589] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/local_setup.bash\n'}
+[33.859195] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/local_setup.sh\n'}
+[33.867656] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/local_setup.zsh\n'}
+[33.876355] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/local_setup.dsv\n'}
+[33.884748] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/package.dsv\n'}
+[33.893302] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/ament_index/resource_index/packages/myworkcell_core\n'}
+[33.893977] (-) TimerEvent: {}
+[33.902043] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/rosidl_cmake-extras.cmake\n'}
+[33.910806] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[33.919482] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[33.929229] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[33.937952] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[33.945870] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[33.953627] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[33.961392] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/myworkcell_coreConfig.cmake\n'}
+[33.969053] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/myworkcell_coreConfig-version.cmake\n'}
+[33.977393] (myworkcell_core) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/package.xml\n'}
+[33.985559] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_generator_c.so\n'}
+[33.986008] (myworkcell_core) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_generator_c.so" to ""\n'}
+[33.986178] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_typesupport_fastrtps_c.so\n'}
+[33.986624] (myworkcell_core) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[33.986797] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_typesupport_fastrtps_cpp.so\n'}
+[33.987194] (myworkcell_core) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[33.987351] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_typesupport_introspection_c.so\n'}
+[33.987729] (myworkcell_core) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_typesupport_introspection_c.so" to ""\n'}
+[33.987901] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_typesupport_c.so\n'}
+[33.988346] (myworkcell_core) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_typesupport_c.so" to ""\n'}
+[33.988519] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_typesupport_introspection_cpp.so\n'}
+[33.988911] (myworkcell_core) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[33.989074] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_typesupport_cpp.so\n'}
+[33.989443] (myworkcell_core) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_typesupport_cpp.so" to ""\n'}
+[33.994054] (-) TimerEvent: {}
+[34.027855] (myworkcell_core) StdoutLine: {'line': b"Listing '/home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core'...\n"}
+[34.028030] (myworkcell_core) StdoutLine: {'line': b"Compiling '/home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/__init__.py'...\n"}
+[34.028096] (myworkcell_core) StdoutLine: {'line': b"Listing '/home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/srv'...\n"}
+[34.028163] (myworkcell_core) StdoutLine: {'line': b"Compiling '/home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/srv/__init__.py'...\n"}
+[34.028220] (myworkcell_core) StdoutLine: {'line': b"Compiling '/home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/srv/_localize_part.py'...\n"}
+[34.033055] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_generator_py.so\n'}
+[34.033444] (myworkcell_core) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_generator_py.so" to ""\n'}
+[34.033576] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/export_myworkcell_core__rosidl_generator_cExport.cmake\n'}
+[34.033796] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/export_myworkcell_core__rosidl_generator_cExport-noconfig.cmake\n'}
+[34.033980] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/export_myworkcell_core__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[34.034140] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/export_myworkcell_core__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[34.034311] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/export_myworkcell_core__rosidl_generator_cppExport.cmake\n'}
+[34.034424] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/export_myworkcell_core__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[34.034536] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/export_myworkcell_core__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[34.034672] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/myworkcell_core__rosidl_typesupport_introspection_cExport.cmake\n'}
+[34.034801] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/myworkcell_core__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[34.034937] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/myworkcell_core__rosidl_typesupport_cExport.cmake\n'}
+[34.035068] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/myworkcell_core__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[34.035207] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/myworkcell_core__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[34.035333] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/myworkcell_core__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[34.035470] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/myworkcell_core__rosidl_typesupport_cppExport.cmake\n'}
+[34.035632] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/myworkcell_core__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[34.035773] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/export_myworkcell_core__rosidl_generator_pyExport.cmake\n'}
+[34.035904] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/export_myworkcell_core__rosidl_generator_pyExport-noconfig.cmake\n'}
+[34.038064] (myworkcell_core) CommandEnded: {'returncode': 0}
+[34.094153] (-) TimerEvent: {}
+[34.137546] (myworkcell_core) JobEnded: {'identifier': 'myworkcell_core', 'rc': 0}
+[34.140269] (myworkcell_support) JobStarted: {'identifier': 'myworkcell_support'}
+[34.150587] (myworkcell_support) JobProgress: {'identifier': 'myworkcell_support', 'progress': 'cmake'}
+[34.150921] (myworkcell_support) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ros2_ws/src/myworkcell_support', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/myworkcell_support'], 'cwd': '/home/ubuntu/ros2_ws/build/myworkcell_support', 'env': OrderedDict([('VNCDESKTOP', 'ip-172-31-18-146.ec2.internal:1 (ubuntu)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '129.162.113.222 36478 22'), ('SSH_AGENT_PID', '1721'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/myworkcell_core/lib:/home/ubuntu/ros2_ws/install/fake_ar_publisher/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '34359'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ip-172-31-18-146:@/tmp/.ICE-unix/1798,unix/ip-172-31-18-146:/tmp/.ICE-unix/1798'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e2c11f6f_ac0f_4b5c_97c6_3463253d7b04'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.225'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/home/ubuntu/ros2_ws/install/fake_ar_publisher:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2_ws/build/myworkcell_support'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '129.162.113.222 36478 172.31.18.146 22'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/myworkcell_core:/home/ubuntu/ros2_ws/install/fake_ar_publisher:/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/home/ubuntu/ros2_ws/install/myworkcell_support:/opt/ros/humble')]), 'shell': False}
+[34.194327] (-) TimerEvent: {}
+[34.214390] (myworkcell_support) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[34.275234] (myworkcell_support) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[34.282781] (myworkcell_support) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[34.294456] (-) TimerEvent: {}
+[34.355101] (myworkcell_support) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[34.363596] (myworkcell_support) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[34.363853] (myworkcell_support) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[34.364291] (myworkcell_support) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[34.367441] (myworkcell_support) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[34.394544] (-) TimerEvent: {}
+[34.452211] (myworkcell_support) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[34.461038] (myworkcell_support) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[34.461312] (myworkcell_support) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[34.461849] (myworkcell_support) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[34.464456] (myworkcell_support) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[34.494644] (-) TimerEvent: {}
+[34.594916] (-) TimerEvent: {}
+[34.652236] (myworkcell_support) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[34.695027] (-) TimerEvent: {}
+[34.718915] (myworkcell_support) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[34.749288] (myworkcell_support) StdoutLine: {'line': b'-- Found myworkcell_core: 0.0.0 (/home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake)\n'}
+[34.794778] (myworkcell_support) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[34.795049] (-) TimerEvent: {}
+[34.800688] (myworkcell_support) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[34.810392] (myworkcell_support) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[34.827674] (myworkcell_support) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[34.850063] (myworkcell_support) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[34.895187] (-) TimerEvent: {}
+[34.995555] (-) TimerEvent: {}
+[35.095864] (-) TimerEvent: {}
+[35.104975] (myworkcell_support) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.2 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[35.195973] (-) TimerEvent: {}
+[35.259944] (myworkcell_support) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[35.262911] (myworkcell_support) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[35.296053] (-) TimerEvent: {}
+[35.367573] (myworkcell_support) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[35.396164] (-) TimerEvent: {}
+[35.399061] (myworkcell_support) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[35.455187] (myworkcell_support) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[35.466288] (myworkcell_support) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[35.496266] (-) TimerEvent: {}
+[35.541338] (myworkcell_support) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[35.541580] (myworkcell_support) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[35.596392] (-) TimerEvent: {}
+[35.616123] (myworkcell_support) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[35.617385] (myworkcell_support) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[35.696495] (-) TimerEvent: {}
+[35.796805] (-) TimerEvent: {}
+[35.897107] (-) TimerEvent: {}
+[35.997408] (-) TimerEvent: {}
+[36.097713] (-) TimerEvent: {}
+[36.140511] (myworkcell_support) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.2 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[36.157646] (myworkcell_support) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[36.159079] (myworkcell_support) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[36.159190] (myworkcell_support) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[36.172180] (myworkcell_support) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[36.197814] (-) TimerEvent: {}
+[36.265003] (myworkcell_support) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[36.266736] (myworkcell_support) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[36.267337] (myworkcell_support) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[36.267895] (myworkcell_support) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[36.268857] (myworkcell_support) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[36.270390] (myworkcell_support) StdoutLine: {'line': b'-- Configuring done\n'}
+[36.276018] (myworkcell_support) StdoutLine: {'line': b'-- Generating done\n'}
+[36.277810] (myworkcell_support) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ros2_ws/build/myworkcell_support\n'}
+[36.290602] (myworkcell_support) CommandEnded: {'returncode': 0}
+[36.291270] (myworkcell_support) JobProgress: {'identifier': 'myworkcell_support', 'progress': 'build'}
+[36.291793] (myworkcell_support) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/myworkcell_support', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/myworkcell_support', 'env': OrderedDict([('VNCDESKTOP', 'ip-172-31-18-146.ec2.internal:1 (ubuntu)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '129.162.113.222 36478 22'), ('SSH_AGENT_PID', '1721'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/myworkcell_core/lib:/home/ubuntu/ros2_ws/install/fake_ar_publisher/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '34359'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ip-172-31-18-146:@/tmp/.ICE-unix/1798,unix/ip-172-31-18-146:/tmp/.ICE-unix/1798'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e2c11f6f_ac0f_4b5c_97c6_3463253d7b04'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.225'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/home/ubuntu/ros2_ws/install/fake_ar_publisher:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2_ws/build/myworkcell_support'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '129.162.113.222 36478 172.31.18.146 22'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/myworkcell_core:/home/ubuntu/ros2_ws/install/fake_ar_publisher:/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/home/ubuntu/ros2_ws/install/myworkcell_support:/opt/ros/humble')]), 'shell': False}
+[36.297916] (-) TimerEvent: {}
+[36.334511] (myworkcell_support) CommandEnded: {'returncode': 0}
+[36.356731] (myworkcell_support) JobProgress: {'identifier': 'myworkcell_support', 'progress': 'install'}
+[36.357261] (myworkcell_support) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/myworkcell_support'], 'cwd': '/home/ubuntu/ros2_ws/build/myworkcell_support', 'env': OrderedDict([('VNCDESKTOP', 'ip-172-31-18-146.ec2.internal:1 (ubuntu)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '129.162.113.222 36478 22'), ('SSH_AGENT_PID', '1721'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/myworkcell_core/lib:/home/ubuntu/ros2_ws/install/fake_ar_publisher/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '34359'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ip-172-31-18-146:@/tmp/.ICE-unix/1798,unix/ip-172-31-18-146:/tmp/.ICE-unix/1798'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e2c11f6f_ac0f_4b5c_97c6_3463253d7b04'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.225'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/home/ubuntu/ros2_ws/install/fake_ar_publisher:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2_ws/build/myworkcell_support'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '129.162.113.222 36478 172.31.18.146 22'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/myworkcell_core:/home/ubuntu/ros2_ws/install/fake_ar_publisher:/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/home/ubuntu/ros2_ws/install/myworkcell_support:/opt/ros/humble')]), 'shell': False}
+[36.364918] (myworkcell_support) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[36.365432] (myworkcell_support) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[36.365895] (myworkcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_support/share/myworkcell_support//launch/urdf.launch.py\n'}
+[36.374308] (myworkcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_support/share/myworkcell_support//launch/workcell.launch.py\n'}
+[36.382599] (myworkcell_support) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/myworkcell_support/share/myworkcell_support//launch/urdf.launch.py\n'}
+[36.382797] (myworkcell_support) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/myworkcell_support/share/myworkcell_support//launch/workcell.launch.py\n'}
+[36.382923] (myworkcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_support/share/myworkcell_support//urdf/workcell.urdf.xacro\n'}
+[36.390917] (myworkcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_support/share/ament_index/resource_index/package_run_dependencies/myworkcell_support\n'}
+[36.398013] (-) TimerEvent: {}
+[36.398921] (myworkcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_support/share/ament_index/resource_index/parent_prefix_path/myworkcell_support\n'}
+[36.407156] (myworkcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_support/share/myworkcell_support/environment/ament_prefix_path.sh\n'}
+[36.415445] (myworkcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_support/share/myworkcell_support/environment/ament_prefix_path.dsv\n'}
+[36.423865] (myworkcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_support/share/myworkcell_support/environment/path.sh\n'}
+[36.433383] (myworkcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_support/share/myworkcell_support/environment/path.dsv\n'}
+[36.441942] (myworkcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_support/share/myworkcell_support/local_setup.bash\n'}
+[36.450298] (myworkcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_support/share/myworkcell_support/local_setup.sh\n'}
+[36.458723] (myworkcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_support/share/myworkcell_support/local_setup.zsh\n'}
+[36.467064] (myworkcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_support/share/myworkcell_support/local_setup.dsv\n'}
+[36.474977] (myworkcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_support/share/myworkcell_support/package.dsv\n'}
+[36.482569] (myworkcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_support/share/ament_index/resource_index/packages/myworkcell_support\n'}
+[36.490040] (myworkcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_support/share/myworkcell_support/cmake/myworkcell_supportConfig.cmake\n'}
+[36.497309] (myworkcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_support/share/myworkcell_support/cmake/myworkcell_supportConfig-version.cmake\n'}
+[36.498098] (-) TimerEvent: {}
+[36.504969] (myworkcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_support/share/myworkcell_support/package.xml\n'}
+[36.514125] (myworkcell_support) CommandEnded: {'returncode': 0}
+[36.557736] (myworkcell_support) JobEnded: {'identifier': 'myworkcell_support', 'rc': 0}
+[36.560223] (myworkcell_moveit_config) JobStarted: {'identifier': 'myworkcell_moveit_config'}
+[36.571990] (myworkcell_moveit_config) JobProgress: {'identifier': 'myworkcell_moveit_config', 'progress': 'cmake'}
+[36.572318] (myworkcell_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ros2_ws/src/myworkcell_moveit_config', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/myworkcell_moveit_config'], 'cwd': '/home/ubuntu/ros2_ws/build/myworkcell_moveit_config', 'env': OrderedDict([('VNCDESKTOP', 'ip-172-31-18-146.ec2.internal:1 (ubuntu)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '129.162.113.222 36478 22'), ('SSH_AGENT_PID', '1721'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/myworkcell_core/lib:/home/ubuntu/ros2_ws/install/fake_ar_publisher/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '34359'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ip-172-31-18-146:@/tmp/.ICE-unix/1798,unix/ip-172-31-18-146:/tmp/.ICE-unix/1798'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e2c11f6f_ac0f_4b5c_97c6_3463253d7b04'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.225'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/home/ubuntu/ros2_ws/install/fake_ar_publisher:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2_ws/build/myworkcell_moveit_config'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '129.162.113.222 36478 172.31.18.146 22'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/home/ubuntu/ros2_ws/install/fake_ar_publisher:/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/opt/ros/humble')]), 'shell': False}
+[36.598197] (-) TimerEvent: {}
+[36.633809] (myworkcell_moveit_config) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[36.694018] (myworkcell_moveit_config) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[36.698316] (-) TimerEvent: {}
+[36.701449] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[36.773944] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[36.782400] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[36.782726] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[36.783228] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[36.786495] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[36.798430] (-) TimerEvent: {}
+[36.872566] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[36.881218] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[36.881531] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[36.882030] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[36.884721] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[36.898534] (-) TimerEvent: {}
+[36.998856] (-) TimerEvent: {}
+[37.080079] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[37.098961] (-) TimerEvent: {}
+[37.149269] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[37.199063] (-) TimerEvent: {}
+[37.256613] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Configuring done\n'}
+[37.259392] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Generating done\n'}
+[37.260283] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ros2_ws/build/myworkcell_moveit_config\n'}
+[37.265060] (myworkcell_moveit_config) CommandEnded: {'returncode': 0}
+[37.265663] (myworkcell_moveit_config) JobProgress: {'identifier': 'myworkcell_moveit_config', 'progress': 'build'}
+[37.266118] (myworkcell_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/myworkcell_moveit_config', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/myworkcell_moveit_config', 'env': OrderedDict([('VNCDESKTOP', 'ip-172-31-18-146.ec2.internal:1 (ubuntu)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '129.162.113.222 36478 22'), ('SSH_AGENT_PID', '1721'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/myworkcell_core/lib:/home/ubuntu/ros2_ws/install/fake_ar_publisher/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '34359'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ip-172-31-18-146:@/tmp/.ICE-unix/1798,unix/ip-172-31-18-146:/tmp/.ICE-unix/1798'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e2c11f6f_ac0f_4b5c_97c6_3463253d7b04'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.225'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/home/ubuntu/ros2_ws/install/fake_ar_publisher:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2_ws/build/myworkcell_moveit_config'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '129.162.113.222 36478 172.31.18.146 22'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/home/ubuntu/ros2_ws/install/fake_ar_publisher:/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/opt/ros/humble')]), 'shell': False}
+[37.299190] (-) TimerEvent: {}
+[37.304728] (myworkcell_moveit_config) CommandEnded: {'returncode': 0}
+[37.327405] (myworkcell_moveit_config) JobProgress: {'identifier': 'myworkcell_moveit_config', 'progress': 'install'}
+[37.327728] (myworkcell_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/myworkcell_moveit_config'], 'cwd': '/home/ubuntu/ros2_ws/build/myworkcell_moveit_config', 'env': OrderedDict([('VNCDESKTOP', 'ip-172-31-18-146.ec2.internal:1 (ubuntu)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '129.162.113.222 36478 22'), ('SSH_AGENT_PID', '1721'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/myworkcell_core/lib:/home/ubuntu/ros2_ws/install/fake_ar_publisher/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '34359'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ip-172-31-18-146:@/tmp/.ICE-unix/1798,unix/ip-172-31-18-146:/tmp/.ICE-unix/1798'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e2c11f6f_ac0f_4b5c_97c6_3463253d7b04'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.225'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/home/ubuntu/ros2_ws/install/fake_ar_publisher:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2_ws/build/myworkcell_moveit_config'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '129.162.113.222 36478 172.31.18.146 22'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/home/ubuntu/ros2_ws/install/fake_ar_publisher:/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/opt/ros/humble')]), 'shell': False}
+[37.336870] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[37.337349] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[37.337858] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/ament_index/resource_index/package_run_dependencies/myworkcell_moveit_config\n'}
+[37.346913] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/ament_index/resource_index/parent_prefix_path/myworkcell_moveit_config\n'}
+[37.356070] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/environment/ament_prefix_path.sh\n'}
+[37.364383] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/environment/ament_prefix_path.dsv\n'}
+[37.372376] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/environment/path.sh\n'}
+[37.380990] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/environment/path.dsv\n'}
+[37.388996] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/local_setup.bash\n'}
+[37.397218] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/local_setup.sh\n'}
+[37.399262] (-) TimerEvent: {}
+[37.405474] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/local_setup.zsh\n'}
+[37.413239] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/local_setup.dsv\n'}
+[37.420832] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/package.dsv\n'}
+[37.430298] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/ament_index/resource_index/packages/myworkcell_moveit_config\n'}
+[37.438538] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/cmake/myworkcell_moveit_configConfig.cmake\n'}
+[37.446624] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/cmake/myworkcell_moveit_configConfig-version.cmake\n'}
+[37.454871] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/package.xml\n'}
+[37.463316] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/launch/demo.launch.py\n'}
+[37.471287] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/launch/move_group.launch.py\n'}
+[37.479379] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/launch/moveit_rviz.launch.py\n'}
+[37.487529] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/launch/myworkcell_planning_execution.launch.py\n'}
+[37.495159] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/launch/rsp.launch.py\n'}
+[37.499352] (-) TimerEvent: {}
+[37.502762] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/launch/setup_assistant.launch.py\n'}
+[37.510267] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/launch/spawn_controllers.launch.py\n'}
+[37.517953] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/launch/static_virtual_joint_tfs.launch.py\n'}
+[37.525606] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/launch/warehouse_db.launch.py\n'}
+[37.534981] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/config/controllers.yaml\n'}
+[37.542863] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/config/initial_positions.yaml\n'}
+[37.550219] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/config/joint_limits.yaml\n'}
+[37.557550] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/config/kinematics.yaml\n'}
+[37.564889] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/config/moveit.rviz\n'}
+[37.572130] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/config/moveit_controllers.yaml\n'}
+[37.579337] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/config/myworkcell.ros2_control.xacro\n'}
+[37.586749] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/config/myworkcell.srdf\n'}
+[37.594150] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/config/myworkcell.urdf.xacro\n'}
+[37.599437] (-) TimerEvent: {}
+[37.601413] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/config/ompl_planning.yaml\n'}
+[37.608980] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/config/pilz_cartesian_limits.yaml\n'}
+[37.616567] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/config/ros2_controllers.yaml\n'}
+[37.623898] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/config/ros_controllers.yaml\n'}
+[37.632957] (myworkcell_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_moveit_config/share/myworkcell_moveit_config/.setup_assistant\n'}
+[37.642157] (myworkcell_moveit_config) CommandEnded: {'returncode': 0}
+[37.684108] (myworkcell_moveit_config) JobEnded: {'identifier': 'myworkcell_moveit_config', 'rc': 0}
+[37.684879] (-) EventReactorShutdown: {}

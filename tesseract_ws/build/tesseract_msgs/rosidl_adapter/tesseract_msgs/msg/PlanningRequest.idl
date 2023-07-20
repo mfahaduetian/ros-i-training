@@ -1,0 +1,47 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tesseract_msgs/msg/PlanningRequest.msg
+// generated code does not contain a copyright notice
+
+#include "tesseract_msgs/msg/EnvironmentCommand.idl"
+#include "tesseract_msgs/msg/EnvironmentState.idl"
+#include "tesseract_msgs/msg/PlannerProfileRemapping.idl"
+
+module tesseract_msgs {
+  module msg {
+    struct PlanningRequest {
+      tesseract_msgs::msg::EnvironmentState environment_state;
+
+      @verbatim (language="comment", text=
+        "Additional Commands to be applied to environment prior to planning")
+      sequence<tesseract_msgs::msg::EnvironmentCommand> commands;
+
+      @verbatim (language="comment", text=
+        "The name of the taskflow to use")
+      string name;
+
+      @verbatim (language="comment", text=
+        "The executor to leverage, if empty default one is used.")
+      string executor;
+
+      @verbatim (language="comment", text=
+        "This should an xml string of the command language instructions")
+      string instructions;
+
+      @verbatim (language="comment", text=
+        "Enable if DOT Graph should be generated and returned")
+      boolean dotgraph;
+
+      @verbatim (language="comment", text=
+        "Enable debug content")
+      boolean debug;
+
+      @verbatim (language="comment", text=
+        "Enable saving of input and output for task infos")
+      boolean save_io;
+
+      tesseract_msgs::msg::PlannerProfileRemapping move_profile_remapping;
+
+      tesseract_msgs::msg::PlannerProfileRemapping composite_profile_remapping;
+    };
+  };
+};

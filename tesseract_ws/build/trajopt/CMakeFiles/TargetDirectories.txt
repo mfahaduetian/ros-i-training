@@ -1,0 +1,7 @@
+/home/ubuntu/tesseract_ws/build/trajopt/CMakeFiles/trajopt.dir
+/home/ubuntu/tesseract_ws/build/trajopt/CMakeFiles/edit_cache.dir
+/home/ubuntu/tesseract_ws/build/trajopt/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/tesseract_ws/build/trajopt/CMakeFiles/list_install_components.dir
+/home/ubuntu/tesseract_ws/build/trajopt/CMakeFiles/install.dir
+/home/ubuntu/tesseract_ws/build/trajopt/CMakeFiles/install/local.dir
+/home/ubuntu/tesseract_ws/build/trajopt/CMakeFiles/install/strip.dir

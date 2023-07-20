@@ -1,0 +1,13 @@
+-- CMAKE_BUILD_TYPE not set to Release -> impacts performance
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/tesseract_ws/build/ifopt
+Consolidate compiler generated dependencies of target ifopt_core
+[  8%] Building CXX object ifopt_core/CMakeFiles/ifopt_core.dir/src/problem.cc.o
+[ 16%] Building CXX object ifopt_core/CMakeFiles/ifopt_core.dir/src/composite.cc.o
+[ 25%] Building CXX object ifopt_core/CMakeFiles/ifopt_core.dir/src/leaves.cc.o
+[ 33%] Linking CXX shared library libifopt_core.so
+[ 33%] Built target ifopt_core
+Consolidate compiler generated dependencies of target ifopt_core-test
+[ 41%] Building CXX object ifopt_core/CMakeFiles/ifopt_core-test.dir/test/composite_test.cc.o
+[ 50%] Building CXX object ifopt_core/CMakeFiles/ifopt_core-test.dir/test/problem_test.cc.o

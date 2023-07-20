@@ -1,0 +1,7 @@
+/home/ubuntu/tesseract_ws/build/osqp/CMakeFiles/osqp.dir
+/home/ubuntu/tesseract_ws/build/osqp/CMakeFiles/edit_cache.dir
+/home/ubuntu/tesseract_ws/build/osqp/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/tesseract_ws/build/osqp/CMakeFiles/list_install_components.dir
+/home/ubuntu/tesseract_ws/build/osqp/CMakeFiles/install.dir
+/home/ubuntu/tesseract_ws/build/osqp/CMakeFiles/install/local.dir
+/home/ubuntu/tesseract_ws/build/osqp/CMakeFiles/install/strip.dir

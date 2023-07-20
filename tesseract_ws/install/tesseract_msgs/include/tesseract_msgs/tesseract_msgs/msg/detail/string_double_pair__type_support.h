@@ -1,0 +1,1 @@
+/home/ubuntu/tesseract_ws/build/tesseract_msgs/rosidl_generator_c/tesseract_msgs/msg/detail/string_double_pair__type_support.h

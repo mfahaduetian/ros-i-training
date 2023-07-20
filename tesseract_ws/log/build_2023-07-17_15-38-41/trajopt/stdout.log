@@ -1,0 +1,24 @@
+[100%] Built target trajopt
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt/share/trajopt/package.xml
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt/lib/libtrajopt.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt/lib/cmake/trajopt/trajopt-targets.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt/lib/cmake/trajopt/trajopt-targets-noconfig.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt/lib/cmake/trajopt/trajopt-config.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt/lib/cmake/trajopt/trajopt-config-version.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt/share/ament_index/resource_index/packages/trajopt
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt/share/trajopt/hook/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt/share/trajopt/hook/ros_package_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt/share/trajopt/hook/python_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt/include/trajopt
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt/include/trajopt/utils.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt/include/trajopt/problem_description.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt/include/trajopt/json_marshal.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt/include/trajopt/file_write_callback.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt/include/trajopt/kinematic_terms.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt/include/trajopt/collision_terms.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt/include/trajopt/plot_callback.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt/include/trajopt/trajectory_costs.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt/include/trajopt/typedefs.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt/include/trajopt/cache.hxx
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt/include/trajopt/common.hpp

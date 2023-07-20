@@ -1,0 +1,48 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/perception_driven_ws/build/ur5_workcell_moveit2_config
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/controllers.yaml
+-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/initial_positions.yaml
+-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/joint_limits.yaml
+-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/joint_names.yaml
+-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/kinematics.yaml
+-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/moveit_cpp.yaml
+-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/ompl_planning.yaml
+-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/planning_pipeline.yaml
+-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/planning_scene_monitor.yaml
+-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/ros_controllers.yaml
+-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/sensors.yaml
+-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/trajectory_execution.yaml
+-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/ur5_workcell.srdf
+-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ament_index/resource_index/package_run_dependencies/ur5_workcell_moveit2_config
+-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ament_index/resource_index/parent_prefix_path/ur5_workcell_moveit2_config
+-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/environment/ament_prefix_path.sh
+-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/environment/path.sh
+-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/environment/path.dsv
+-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/local_setup.bash
+-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/local_setup.sh
+-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/local_setup.zsh
+-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/local_setup.dsv
+-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/package.dsv
+-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ament_index/resource_index/packages/ur5_workcell_moveit2_config
+-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/cmake/ur5_workcell_moveit2_configConfig.cmake
+-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/cmake/ur5_workcell_moveit2_configConfig-version.cmake
+-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/package.xml

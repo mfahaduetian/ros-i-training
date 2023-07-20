@@ -1,0 +1,1 @@
+/home/ubuntu/perception_driven_ws/build/pick_and_place_msgs/ament_cmake_environment_hooks/local_setup.sh

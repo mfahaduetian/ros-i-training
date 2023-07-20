@@ -1,0 +1,1 @@
+/home/ubuntu/tesseract_ws/build/snp_tpp/ament_cmake_core/snp_tppConfig-version.cmake

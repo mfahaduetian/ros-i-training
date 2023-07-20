@@ -1,0 +1,1 @@
+/home/ubuntu/ros2_ws/build/fake_ar_publisher/ament_cmake_core/fake_ar_publisherConfig-version.cmake

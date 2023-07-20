@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ubuntu/perception_driven_ws/build/pick_and_place_msgs/rosidl_generator_py/pick_and_place_msgs/pick_and_place_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "pick_and_place_msgs__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/pick_and_place_msgs")

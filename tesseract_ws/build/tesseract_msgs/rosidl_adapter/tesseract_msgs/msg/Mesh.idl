@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tesseract_msgs/msg/Mesh.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module tesseract_msgs {
+  module msg {
+    typedef float float__3[3];
+    @verbatim (language="comment", text=
+      "General definition of a mesh")
+    struct Mesh {
+      @verbatim (language="comment", text=
+        "the actual vertices that make up the mesh")
+      sequence<geometry_msgs::msg::Point> vertices;
+
+      @verbatim (language="comment", text=
+        "the indicies that make up the faces in the mesh" "\n"
+        "the first number indicates the number of vertices that make up the face," "\n"
+        "followed by the indices of the vertices.")
+      sequence<uint32> faces;
+
+      @verbatim (language="comment", text=
+        "Optional, If created from file provide path")
+      string file_path;
+
+      @verbatim (language="comment", text=
+        "Optional, If file_path is provide provide the scale that was used")
+      float__3 scale;
+    };
+  };
+};

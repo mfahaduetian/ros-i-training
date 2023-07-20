@@ -1,0 +1,16 @@
+/home/ubuntu/tesseract_ws/install/osqp_eigen/lib/libOsqpEigen.so.0.6.3
+/home/ubuntu/tesseract_ws/install/osqp_eigen/lib/libOsqpEigen.so
+/home/ubuntu/tesseract_ws/install/osqp_eigen/include/OsqpEigen/OsqpEigen.h
+/home/ubuntu/tesseract_ws/install/osqp_eigen/include/OsqpEigen/Constants.hpp
+/home/ubuntu/tesseract_ws/install/osqp_eigen/include/OsqpEigen/SparseMatrixHelper.hpp
+/home/ubuntu/tesseract_ws/install/osqp_eigen/include/OsqpEigen/SparseMatrixHelper.tpp
+/home/ubuntu/tesseract_ws/install/osqp_eigen/include/OsqpEigen/Data.hpp
+/home/ubuntu/tesseract_ws/install/osqp_eigen/include/OsqpEigen/Data.tpp
+/home/ubuntu/tesseract_ws/install/osqp_eigen/include/OsqpEigen/Settings.hpp
+/home/ubuntu/tesseract_ws/install/osqp_eigen/include/OsqpEigen/Solver.hpp
+/home/ubuntu/tesseract_ws/install/osqp_eigen/include/OsqpEigen/Solver.tpp
+/home/ubuntu/tesseract_ws/install/osqp_eigen/include/OsqpEigen/Debug.hpp
+/home/ubuntu/tesseract_ws/install/osqp_eigen/lib/cmake/OsqpEigen/OsqpEigenConfigVersion.cmake
+/home/ubuntu/tesseract_ws/install/osqp_eigen/lib/cmake/OsqpEigen/OsqpEigenConfig.cmake
+/home/ubuntu/tesseract_ws/install/osqp_eigen/lib/cmake/OsqpEigen/OsqpEigenTargets.cmake
+/home/ubuntu/tesseract_ws/install/osqp_eigen/lib/cmake/OsqpEigen/OsqpEigenTargets-release.cmake

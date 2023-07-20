@@ -1,0 +1,1 @@
+/home/ubuntu/tesseract_ws/build/snp_application/ament_cmake_core/snp_applicationConfig.cmake

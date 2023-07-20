@@ -1,0 +1,171 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_action: 16.0.4 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found shape_msgs: 4.2.3 (/opt/ros/humble/share/shape_msgs/cmake)
+-- Found pick_and_place_msgs: 0.0.0 (/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake)
+-- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.4.0
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.25
+-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+-- Found PCL_2D: /usr/include/pcl-1.12  
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+-- Found PCL_MODELER: /usr/include/pcl-1.12  
+-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+-- Found moveit_common: 2.5.4 (/opt/ros/humble/share/moveit_common/cmake)
+-- Found moveit_ros_planning_interface: 2.5.4 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/perception_driven_ws/build/pick_and_place_application
+[  5%] [32mBuilding CXX object CMakeFiles/fake_grasp_server_node.dir/src/nodes/fake_grasp_action_server.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/generate_cloud_node.dir/src/nodes/generate_point_cloud.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/nodes/pick_and_place_node.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/initialize.cpp.o[0m
+In file included from [01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/nodes/generate_point_cloud.cpp:10[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   47 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+      |      [01;35m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/nodes/pick_and_place_node.cpp:20:3:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment-Wcomment]8;;[m[K]
+   20 |   /* =========================================================================================*/
+      |    
+[ 27%] [32m[1mLinking CXX executable fake_grasp_server_node[0m
+[ 27%] Built target fake_grasp_server_node
+[ 33%] [32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/move_to_wait_position.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/set_gripper.cpp.o[0m
+[ 44%] [32m[1mLinking CXX executable generate_cloud_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/reset_world.cpp.o[0m
+[ 50%] Built target generate_cloud_node
+[ 55%] [32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/set_attached_object.cpp.o[0m
+In file included from [01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/set_attached_object.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   32 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[ 61%] [32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/detect_box_pick.cpp.o[0m
+In file included from [01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/detect_box_pick.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/set_gripper.cpp:[m[K In member function ‘[01m[Kvoid pick_and_place_application::PickAndPlaceApp::actuateGripper(bool)[m[K’:
+[01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/set_gripper.cpp:13:9:[m[K [01;35m[Kwarning: [m[Ktypedef ‘[01m[Kusing GraspGoalHandle = class rclcpp_action::ClientGoalHandle<pick_and_place_msgs::action::ExecuteGraspMove>[m[K’ locally defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-local-typedefs-Wunused-local-typedefs]8;;[m[K]
+   13 |   using [01;35m[KGraspGoalHandle[m[K = rclcpp_action::ClientGoalHandle<pick_and_place_msgs::action::ExecuteGraspMove>;
+      |         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/set_attached_object.cpp:[m[K In member function ‘[01m[Kvoid pick_and_place_application::PickAndPlaceApp::setAttachedObject(bool, const Pose&, moveit_msgs::msg::RobotState&)[m[K’:
+[01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/set_attached_object.cpp:34:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::core::RobotState::attachBody(std::string&, std::vector<std::shared_ptr<const shapes::Shape> >&, EigenSTL::vector_Isometry3d&, std::vector<std::__cxx11::basic_string<char> >&, std::string&)[m[K’
+   34 |     [01;31m[Kcurrent_state->attachBody([m[K
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   35 | [01;31m[K        cfg.ATTACHED_OBJECT_LINK_NAME, shapes_array, pose_array, cfg.TOUCH_LINKS, cfg.TCP_LINK_NAME)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/moveit/planning_scene/planning_scene.h:40[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/planning_scene_monitor/planning_scene_monitor.h:43[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/moveit_cpp/moveit_cpp.h:44[m[K,
+                 from [01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/include/pick_and_place_application/pick_and_place.h:9[m[K,
+                 from [01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/set_attached_object.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1594:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::core::RobotState::attachBody(std::unique_ptr<moveit::core::AttachedBody>)[m[K’
+ 1594 |   void [01;36m[KattachBody[m[K(std::unique_ptr<AttachedBody> attached_body);
+      |        [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1594:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 5 provided
+[01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1615:64:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::core::RobotState::attachBody(moveit::core::AttachedBody*)[m[K’
+ 1615 |   [[deprecated("Deprecated. Pass a unique_ptr instead")]] void [01;36m[KattachBody[m[K(AttachedBody* attached_body);
+      |                                                                [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1615:64:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 5 provided
+[01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1634:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::core::RobotState::attachBody(const string&, const Isometry3d&, const std::vector<std::shared_ptr<const shapes::Shape> >&, const vector_Isometry3d&, const std::set<std::__cxx11::basic_string<char> >&, const string&, const JointTrajectory&, const FixedTransformsMap&)[m[K’
+ 1634 |   void [01;36m[KattachBody[m[K(const std::string& id, const Eigen::Isometry3d& pose,
+      |        [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1634:8:[m[K [01;36m[Knote: [m[K  candidate expects 8 arguments, 5 provided
+[01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1657:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::core::RobotState::attachBody(const string&, const Isometry3d&, const std::vector<std::shared_ptr<const shapes::Shape> >&, const vector_Isometry3d&, const std::vector<std::__cxx11::basic_string<char> >&, const string&, const JointTrajectory&, const FixedTransformsMap&)[m[K’
+ 1657 |   void [01;36m[KattachBody[m[K(const std::string& id, const Eigen::Isometry3d& pose,
+      |        [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1657:8:[m[K [01;36m[Knote: [m[K  candidate expects 8 arguments, 5 provided
+[01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/set_attached_object.cpp:16:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   16 |                                         [01;35m[Kconst geometry_msgs::msg::Pose& pose[m[K,
+      |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[ 66%] [32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/create_pick_moves.cpp.o[0m
+In file included from [01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/create_pick_moves.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[ 72%] [32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/create_place_moves.cpp.o[0m
+gmake[2]: *** [CMakeFiles/pick_and_place_node.dir/build.make:146: CMakeFiles/pick_and_place_node.dir/src/tasks/set_attached_object.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/create_place_moves.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/pick_and_place_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

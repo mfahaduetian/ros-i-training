@@ -1,0 +1,5 @@
+if(EXISTS "/home/ubuntu/tesseract_ws/build/Taskflow/unittests/scalable_pipelines_tests-b858cb2.cmake")
+  include("/home/ubuntu/tesseract_ws/build/Taskflow/unittests/scalable_pipelines_tests-b858cb2.cmake")
+else()
+  add_test(scalable_pipelines_NOT_BUILT-b858cb2 scalable_pipelines_NOT_BUILT-b858cb2)
+endif()

@@ -1,0 +1,33 @@
+[ 14%] Built target bpmpd_caller
+[100%] Built target trajopt_sco
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sco/bin/bpmpd_caller
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sco/bin/bpmpd.par
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sco/share/trajopt_sco/package.xml
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sco/lib/libtrajopt_sco.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sco/lib/cmake/trajopt_sco/trajopt_sco-targets.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sco/lib/cmake/trajopt_sco/trajopt_sco-targets-noconfig.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sco/lib/cmake/trajopt_sco/trajopt_sco-config.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sco/lib/cmake/trajopt_sco/trajopt_sco-config-version.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sco/share/ament_index/resource_index/packages/trajopt_sco
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sco/share/trajopt_sco/hook/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sco/share/trajopt_sco/hook/ros_package_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sco/share/trajopt_sco/hook/python_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sco/include/trajopt_sco
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sco/include/trajopt_sco/expr_vec_ops.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sco/include/trajopt_sco/osqp_interface.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sco/include/trajopt_sco/expr_ops.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sco/include/trajopt_sco/modeling.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sco/include/trajopt_sco/qpoases_interface.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sco/include/trajopt_sco/solver_utils.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sco/include/trajopt_sco/optimizers.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sco/include/trajopt_sco/gurobi_interface.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sco/include/trajopt_sco/bpmpd_interface.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sco/include/trajopt_sco/solver_interface.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sco/include/trajopt_sco/expr_op_overloads.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sco/include/trajopt_sco/sco_common.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sco/include/trajopt_sco/bpmpd_io.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sco/include/trajopt_sco/modeling_utils.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sco/include/trajopt_sco/num_diff.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sco/lib/cmake/trajopt_sco/FindGUROBI.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sco/lib/cmake/trajopt_sco/FindqpOASES.cmake

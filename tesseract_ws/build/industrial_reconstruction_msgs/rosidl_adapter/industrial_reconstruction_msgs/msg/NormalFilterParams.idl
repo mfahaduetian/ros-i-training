@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from industrial_reconstruction_msgs/msg/NormalFilterParams.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+
+module industrial_reconstruction_msgs {
+  module msg {
+    struct NormalFilterParams {
+      geometry_msgs::msg::Vector3 normal_direction;
+
+      @verbatim (language="comment", text=
+        "Keep triangles within this angle of the normal (degrees)")
+      float angle;
+    };
+  };
+};

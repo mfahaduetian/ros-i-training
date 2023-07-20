@@ -1,0 +1,5 @@
+/home/ubuntu/tesseract_ws/install/tesseract_monitoring/lib/libtesseract_monitoring_environment.so
+/home/ubuntu/tesseract_ws/install/tesseract_monitoring/lib/libtesseract_monitoring_environment_interface.so
+/home/ubuntu/tesseract_ws/install/tesseract_monitoring/lib/libtesseract_monitoring_contacts.so
+/home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/tesseract_monitoring/cmake/tesseract_monitoring-targetsExport.cmake
+/home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/tesseract_monitoring/cmake/tesseract_monitoring-targetsExport-noconfig.cmake

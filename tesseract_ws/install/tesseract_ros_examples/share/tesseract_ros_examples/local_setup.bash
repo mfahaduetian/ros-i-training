@@ -1,0 +1,1 @@
+/home/ubuntu/tesseract_ws/build/tesseract_ros_examples/ament_cmake_environment_hooks/local_setup.bash

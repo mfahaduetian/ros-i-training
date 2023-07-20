@@ -1,0 +1,13 @@
+-- clang-tidy not found!
+-- include-what-you-use found: /usr/bin/include-what-you-use
+-- cppcheck found: /usr/bin/cppcheck
+-- Found package config template: /home/ubuntu/tesseract_ws/src/tesseract/tesseract_common/cmake/tesseract_common-config.cmake.in
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/tesseract_ws/build/tesseract_common
+Consolidate compiler generated dependencies of target tesseract_common
+[  9%] Building CXX object CMakeFiles/tesseract_common.dir/src/collision_margin_data.cpp.o
+[ 18%] Building CXX object CMakeFiles/tesseract_common.dir/src/allowed_collision_matrix.cpp.o
+[ 27%] Building CXX object CMakeFiles/tesseract_common.dir/src/any_poly.cpp.o
+[ 36%] Building CXX object CMakeFiles/tesseract_common.dir/src/joint_state.cpp.o
+[ 45%] Building CXX object CMakeFiles/tesseract_common.dir/src/eigen_serialization.cpp.o

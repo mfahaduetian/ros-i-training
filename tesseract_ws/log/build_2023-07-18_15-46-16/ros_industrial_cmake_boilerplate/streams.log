@@ -1,0 +1,25 @@
+[0.054s] Invoking command in '/home/ubuntu/tesseract_ws/build/ros_industrial_cmake_boilerplate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/tesseract_ws/install/industrial_reconstruction:/opt/ros/humble /usr/bin/cmake /home/ubuntu/tesseract_ws/src/ros_industrial_cmake_boilerplate -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate
+[0.387s] -- clang-tidy not found!
+[0.388s] -- include-what-you-use found: /usr/bin/include-what-you-use
+[0.388s] -- cppcheck found: /usr/bin/cppcheck
+[0.389s] -- No package config template file found, creating default one
+[0.467s] -- Configuring done
+[0.471s] -- Generating done
+[0.472s] -- Build files have been written to: /home/ubuntu/tesseract_ws/build/ros_industrial_cmake_boilerplate
+[0.474s] Invoked command in '/home/ubuntu/tesseract_ws/build/ros_industrial_cmake_boilerplate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/tesseract_ws/install/industrial_reconstruction:/opt/ros/humble /usr/bin/cmake /home/ubuntu/tesseract_ws/src/ros_industrial_cmake_boilerplate -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate
+[0.476s] Invoking command in '/home/ubuntu/tesseract_ws/build/ros_industrial_cmake_boilerplate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/tesseract_ws/install/industrial_reconstruction:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/tesseract_ws/build/ros_industrial_cmake_boilerplate -- -j4 -l4
+[0.627s] Invoked command in '/home/ubuntu/tesseract_ws/build/ros_industrial_cmake_boilerplate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/tesseract_ws/install/industrial_reconstruction:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/tesseract_ws/build/ros_industrial_cmake_boilerplate -- -j4 -l4
+[0.717s] Invoking command in '/home/ubuntu/tesseract_ws/build/ros_industrial_cmake_boilerplate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/tesseract_ws/install/industrial_reconstruction:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/tesseract_ws/build/ros_industrial_cmake_boilerplate
+[0.738s] -- Install configuration: "RelWithDebInfo"
+[0.738s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate/share/ros_industrial_cmake_boilerplate/package.xml
+[0.739s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate/lib/cmake/ros_industrial_cmake_boilerplate/ros_industrial_cmake_boilerplate-config.cmake
+[0.739s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate/lib/cmake/ros_industrial_cmake_boilerplate/ros_industrial_cmake_boilerplate-config-version.cmake
+[0.739s] -- Installing: /home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate/share/ament_index/resource_index/packages/ros_industrial_cmake_boilerplate
+[0.739s] -- Installing: /home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate/share/ros_industrial_cmake_boilerplate/hook/ament_prefix_path.dsv
+[0.739s] -- Installing: /home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate/share/ros_industrial_cmake_boilerplate/hook/ros_package_path.dsv
+[0.740s] -- Installing: /home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate/share/ros_industrial_cmake_boilerplate/hook/python_path.dsv
+[0.740s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate/lib/cmake/ros_industrial_cmake_boilerplate/cmake
+[0.740s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate/lib/cmake/ros_industrial_cmake_boilerplate/cmake/code_coverage.cmake
+[0.740s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate/lib/cmake/ros_industrial_cmake_boilerplate/cmake/extract_package_metadata.cmake
+[0.741s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/ros_industrial_cmake_boilerplate/lib/cmake/ros_industrial_cmake_boilerplate/cmake/cmake_tools.cmake
+[0.742s] Invoked command in '/home/ubuntu/tesseract_ws/build/ros_industrial_cmake_boilerplate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/tesseract_ws/install/industrial_reconstruction:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/tesseract_ws/build/ros_industrial_cmake_boilerplate

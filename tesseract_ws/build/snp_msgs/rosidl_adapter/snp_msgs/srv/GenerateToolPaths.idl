@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from snp_msgs/srv/GenerateToolPaths.srv
+// generated code does not contain a copyright notice
+
+#include "snp_msgs/msg/ToolPaths.idl"
+
+module snp_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct GenerateToolPaths_Request {
+      @verbatim (language="comment", text=
+        "Mesh - the input to the path planning algorithm" "\n"
+        "The surfaces on which to generate paths.")
+      string mesh_filename;
+
+      @verbatim (language="comment", text=
+        "Name of the frame to which the mesh vertices are relative")
+      string mesh_frame;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct GenerateToolPaths_Response {
+      @verbatim (language="comment", text=
+        "Whether the planning was successful")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "The resulting paths")
+      snp_msgs::msg::ToolPaths tool_paths;
+
+      @verbatim (language="comment", text=
+        "Information about planning operations")
+      string message;
+    };
+  };
+};

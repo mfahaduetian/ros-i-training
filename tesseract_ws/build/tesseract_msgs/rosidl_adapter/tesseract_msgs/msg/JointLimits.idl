@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tesseract_msgs/msg/JointLimits.msg
+// generated code does not contain a copyright notice
+
+
+module tesseract_msgs {
+  module msg {
+    struct JointLimits {
+      double lower;
+
+      double upper;
+
+      double effort;
+
+      double velocity;
+
+      double acceleration;
+
+      @verbatim (language="comment", text=
+        "Indicates if not valid (aka: nullptr)")
+      boolean empty;
+    };
+  };
+};

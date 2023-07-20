@@ -1,0 +1,99 @@
+[ 22%] Built target tesseract_task_composer
+[ 33%] Built target tesseract_task_composer_nodes
+[ 37%] Built target tesseract_task_composer_planning
+[ 42%] Built target tesseract_task_composer_taskflow
+[ 46%] Built target tesseract_task_composer_taskflow_factories
+[ 50%] Built target tesseract_task_composer_factories
+[ 53%] Built target tesseract_task_composer_example
+[ 57%] Built target tesseract_task_composer_trajopt_example
+[ 92%] Built target tesseract_task_composer_planning_nodes
+[ 96%] Built target tesseract_task_composer_raster_example
+[100%] Built target tesseract_task_composer_planning_factories
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/share/tesseract_task_composer/package.xml
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/lib/cmake/tesseract_task_composer/tesseract_task_composer-targets.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/lib/cmake/tesseract_task_composer/tesseract_task_composer-targets-noconfig.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/lib/cmake/tesseract_task_composer/tesseract_task_composer-config.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/lib/cmake/tesseract_task_composer/tesseract_task_composer-config-version.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/share/ament_index/resource_index/packages/tesseract_task_composer
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/share/tesseract_task_composer/hook/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/share/tesseract_task_composer/hook/ros_package_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/share/tesseract_task_composer/hook/python_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/share/tesseract_task_composer/config
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/share/tesseract_task_composer/config/task_composer_plugins.yaml
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/share/tesseract_task_composer/config/task_composer_plugins_no_trajopt_ifopt.yaml
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/core
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/core/task_composer_input.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/core/task_composer_node.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/core/task_composer_server.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/core/task_composer_executor.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/core/test_suite
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/core/test_suite/task_composer_executor_unit.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/core/test_suite/task_composer_serialization_utils.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/core/test_suite/test_programs.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/core/test_suite/test_task.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/core/test_suite/task_composer_node_info_unit.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/core/task_composer_task.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/core/task_composer_future.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/core/task_composer_plugin_factory_utils.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/core/task_composer_graph.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/core/task_composer_node_info.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/core/task_composer_problem.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/core/task_composer_pipeline.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/core/nodes
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/core/nodes/error_task.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/core/nodes/done_task.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/core/nodes/abort_task.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/core/nodes/start_task.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/core/task_composer_data_storage.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/core/task_composer_task_plugin_factory.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/core/task_composer_plugin_factory.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/lib/libtesseract_task_composer.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/lib/libtesseract_task_composer_nodes.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/lib/libtesseract_task_composer_factories.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/profiles
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/profiles/iterative_spline_parameterization_profile.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/profiles/fix_state_bounds_profile.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/profiles/min_length_profile.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/profiles/upsample_trajectory_profile.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/profiles/fix_state_collision_profile.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/profiles/contact_check_profile.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/profiles/time_optimal_parameterization_profile.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/profiles/ruckig_trajectory_smoothing_profile.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/profiles/check_input_profile.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/profiles/profile_switch_profile.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/nodes
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/nodes/time_optimal_parameterization_task.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/nodes/discrete_contact_check_task.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/nodes/motion_planner_task_info.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/nodes/fix_state_bounds_task.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/nodes/update_end_state_task.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/nodes/continuous_contact_check_task.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/nodes/iterative_spline_parameterization_task.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/nodes/ruckig_trajectory_smoothing_task.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/nodes/update_start_state_task.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/nodes/raster_only_motion_task.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/nodes/format_as_input_task.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/nodes/profile_switch_task.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/nodes/upsample_trajectory_task.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/nodes/min_length_task.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/nodes/raster_motion_task.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/nodes/update_start_and_end_state_task.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/nodes/fix_state_collision_task.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/nodes/check_input_task.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/nodes/motion_planner_task.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/planning_task_composer_problem.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/planning/planning_task_composer_plugin_factories.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/lib/libtesseract_task_composer_planning.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/lib/libtesseract_task_composer_planning_nodes.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/lib/libtesseract_task_composer_planning_factories.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/taskflow
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/taskflow/taskflow_task_composer_executor.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/taskflow/taskflow_task_composer_future.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/include/tesseract_task_composer/taskflow/taskflow_task_composer_plugin_factories.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/lib/libtesseract_task_composer_taskflow.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/lib/libtesseract_task_composer_taskflow_factories.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/bin/tesseract_task_composer_example
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/bin/tesseract_task_composer_trajopt_example
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_task_composer/bin/tesseract_task_composer_raster_example

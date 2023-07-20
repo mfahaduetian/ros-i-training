@@ -1,0 +1,1 @@
+/home/ubuntu/ros2_ws/build/fake_ar_publisher/rosidl_cmake/rosidl_cmake-extras.cmake

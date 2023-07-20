@@ -1,0 +1,71 @@
+[ 30%] Built target tesseract_collision_core
+[ 76%] Built target tesseract_collision_bullet
+[ 84%] Built target tesseract_collision_bullet_factories
+[ 92%] Built target create_convex_hull
+[100%] Built target tesseract_collision_vhacd_convex_decomposition
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/share/tesseract_collision/package.xml
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/lib/cmake/tesseract_collision/tesseract_collision-targets.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/lib/cmake/tesseract_collision/tesseract_collision-targets-noconfig.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/lib/cmake/tesseract_collision/tesseract_collision-config.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/lib/cmake/tesseract_collision/tesseract_collision-config-version.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/share/ament_index/resource_index/packages/tesseract_collision
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/share/tesseract_collision/hook/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/share/tesseract_collision/hook/ros_package_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/share/tesseract_collision/hook/python_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/test_suite
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/test_suite/collision_compound_compound_unit.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/test_suite/contact_manager_config_unit.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/test_suite/collision_multi_threaded_unit.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/test_suite/collision_sphere_sphere_unit.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/test_suite/collision_box_sphere_unit.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/test_suite/collision_box_capsule_unit.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/test_suite/collision_box_box_unit.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/test_suite/collision_octomap_octomap_unit.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/test_suite/collision_large_dataset_unit.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/test_suite/collision_box_cone_unit.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/test_suite/collision_clone_unit.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/test_suite/benchmarks
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/test_suite/benchmarks/benchmark_utils.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/test_suite/benchmarks/large_dataset_benchmarks.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/test_suite/benchmarks/primatives_benchmarks.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/test_suite/collision_octomap_sphere_unit.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/test_suite/collision_box_box_cast_unit.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/test_suite/collision_mesh_mesh_unit.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/test_suite/collision_octomap_mesh_unit.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/test_suite/collision_sphere_sphere_cast_unit.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/test_suite/collision_box_cylinder_unit.hpp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/core
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/core/convex_decomposition.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/core/types.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/core/common.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/core/continuous_contact_manager.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/core/contact_managers_plugin_factory.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/core/discrete_contact_manager.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/core/serialization.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/core/utils.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/lib/libtesseract_collision_core.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/bin/create_convex_hull
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/bullet
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/bullet/bullet_cast_simple_manager.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/bullet/bullet_cast_bvh_manager.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/bullet/tesseract_convex_convex_algorithm.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/bullet/convex_decomposition_hacd.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/bullet/tesseract_compound_compound_collision_algorithm.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/bullet/bullet_factories.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/bullet/bullet_utils.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/bullet/tesseract_compound_collision_algorithm.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/bullet/bullet_discrete_bvh_manager.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/bullet/convex_hull_utils.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/bullet/tesseract_collision_configuration.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/bullet/bullet_discrete_simple_manager.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/bullet/tesseract_gjk_pair_detector.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/lib/libtesseract_collision_bullet.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/lib/libtesseract_collision_bullet_factories.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/vhacd
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/vhacd/VHACD.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/include/tesseract_collision/vhacd/convex_decomposition_vhacd.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_collision/lib/libtesseract_collision_vhacd_convex_decomposition.so

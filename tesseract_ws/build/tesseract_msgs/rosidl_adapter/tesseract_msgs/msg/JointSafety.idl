@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tesseract_msgs/msg/JointSafety.msg
+// generated code does not contain a copyright notice
+
+
+module tesseract_msgs {
+  module msg {
+    struct JointSafety {
+      double soft_upper_limit;
+
+      double soft_lower_limit;
+
+      double k_position;
+
+      double k_velocity;
+
+      @verbatim (language="comment", text=
+        "Indicates if not valid (aka: nullptr)")
+      boolean empty;
+    };
+  };
+};

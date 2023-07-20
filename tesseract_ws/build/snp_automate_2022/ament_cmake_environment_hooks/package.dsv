@@ -1,0 +1,4 @@
+source;share/snp_automate_2022/local_setup.bash
+source;share/snp_automate_2022/local_setup.dsv
+source;share/snp_automate_2022/local_setup.sh
+source;share/snp_automate_2022/local_setup.zsh

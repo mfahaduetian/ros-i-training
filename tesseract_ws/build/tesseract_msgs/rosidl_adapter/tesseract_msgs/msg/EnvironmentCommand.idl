@@ -1,0 +1,175 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tesseract_msgs/msg/EnvironmentCommand.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "sensor_msgs/msg/JointState.idl"
+#include "tesseract_msgs/msg/AllowedCollisionEntry.idl"
+#include "tesseract_msgs/msg/CollisionMarginData.idl"
+#include "tesseract_msgs/msg/CollisionMarginOverrideType.idl"
+#include "tesseract_msgs/msg/ContactManagersPluginInfo.idl"
+#include "tesseract_msgs/msg/Joint.idl"
+#include "tesseract_msgs/msg/JointTrajectory.idl"
+#include "tesseract_msgs/msg/KinematicsInformation.idl"
+#include "tesseract_msgs/msg/Link.idl"
+#include "tesseract_msgs/msg/SceneGraph.idl"
+#include "tesseract_msgs/msg/StringDoublePair.idl"
+#include "tesseract_msgs/msg/StringLimitsPair.idl"
+
+module tesseract_msgs {
+  module msg {
+    module EnvironmentCommand_Constants {
+      const uint8 ADD_LINK = 0;
+      const uint8 MOVE_LINK = 1;
+      const uint8 MOVE_JOINT = 2;
+      const uint8 REMOVE_LINK = 3;
+      const uint8 REMOVE_JOINT = 4;
+      const uint8 CHANGE_LINK_ORIGIN = 5;
+      const uint8 CHANGE_JOINT_ORIGIN = 6;
+      const uint8 CHANGE_LINK_COLLISION_ENABLED = 7;
+      const uint8 CHANGE_LINK_VISIBILITY = 8;
+      const uint8 MODIFY_ALLOWED_COLLISIONS = 9;
+      const uint8 REMOVE_ALLOWED_COLLISION_LINK = 10;
+      const uint8 UPDATE_JOINT_STATE = 11;
+      const uint8 ADD_SCENE_GRAPH = 12;
+      const uint8 CHANGE_JOINT_POSITION_LIMITS = 13;
+      const uint8 CHANGE_JOINT_VELOCITY_LIMITS = 14;
+      const uint8 CHANGE_JOINT_ACCELERATION_LIMITS = 15;
+      const uint8 ADD_KINEMATICS_INFORMATION = 16;
+      const uint8 REPLACE_JOINT = 17;
+      const uint8 CHANGE_COLLISION_MARGINS = 18;
+      const uint8 ADD_CONTACT_MANAGERS_PLUGIN_INFO = 19;
+      const uint8 SET_ACTIVE_DISCRETE_CONTACT_MANAGER = 20;
+      const uint8 SET_ACTIVE_CONTINUOUS_CONTACT_MANAGER = 21;
+      const uint8 ADD_TRAJECTORY_LINK = 22;
+    };
+    @verbatim (language="comment", text=
+      "Possible Commands")
+    struct EnvironmentCommand {
+      @verbatim (language="comment", text=
+        "Specifies the type of command. Dictates which of the fields below are used")
+      uint8 command;
+
+      @verbatim (language="comment", text=
+        "ADD - Adds a link and the associated joint to the environment")
+      tesseract_msgs::msg::Link add_link;
+
+      tesseract_msgs::msg::Joint add_joint;
+
+      boolean add_replace_allowed;
+
+      @verbatim (language="comment", text=
+        "MOVE_LINK - Changes the joint associated with the link")
+      tesseract_msgs::msg::Joint move_link_joint;
+
+      @verbatim (language="comment", text=
+        "MOVE_JOINT - Changes the parent link associated with the joint")
+      string move_joint_name;
+
+      string move_joint_parent_link;
+
+      @verbatim (language="comment", text=
+        "REMOVE_LINK - Removes the link from the environment")
+      string remove_link;
+
+      @verbatim (language="comment", text=
+        "REMOVE_JOINT - Removes the joint from the environment")
+      string remove_joint;
+
+      @verbatim (language="comment", text=
+        "REPLACE_JOINT - Replace the joint in the environment")
+      tesseract_msgs::msg::Joint replace_joint;
+
+      @verbatim (language="comment", text=
+        "CHANGE_LINK_ORIGIN - Changes the origin of the link")
+      string change_link_origin_name;
+
+      geometry_msgs::msg::Pose change_link_origin_pose;
+
+      @verbatim (language="comment", text=
+        "CHANGE_JOINT_ORIGIN - Changes the origin of the joint")
+      string change_joint_origin_name;
+
+      geometry_msgs::msg::Pose change_joint_origin_pose;
+
+      @verbatim (language="comment", text=
+        "CHANGE_LINK_COLLISION_ENABLED - Enables/Disables collisions for the link")
+      string change_link_collision_enabled_name;
+
+      boolean change_link_collision_enabled_value;
+
+      @verbatim (language="comment", text=
+        "CHANGE_LINK_VISIBILITY - Enables/Disables visibility for the link")
+      string change_link_visibility_name;
+
+      boolean change_link_visibility_value;
+
+      @verbatim (language="comment", text=
+        "MODIFY_ALLOWED_COLLISIONS - Modify allowable collisions in the allowable collision matrix" "\n"
+        "ADD, REMOVE, REPLACE")
+      uint8 modify_allowed_collisions_type;
+
+      sequence<tesseract_msgs::msg::AllowedCollisionEntry> modify_allowed_collisions;
+
+      @verbatim (language="comment", text=
+        "REMOVE_ALLOWED_COLLISION_LINK")
+      string remove_allowed_collision_link;
+
+      @verbatim (language="comment", text=
+        "UPDATE_JOINT_STATE")
+      sensor_msgs::msg::JointState joint_state;
+
+      @verbatim (language="comment", text=
+        "ADD_SCENE_GRAPH Command")
+      tesseract_msgs::msg::SceneGraph scene_graph;
+
+      tesseract_msgs::msg::Joint scene_graph_joint;
+
+      string scene_graph_prefix;
+
+      @verbatim (language="comment", text=
+        "CHANGE_JOINT_POSITION_LIMITS Command")
+      sequence<tesseract_msgs::msg::StringLimitsPair> change_joint_position_limits;
+
+      @verbatim (language="comment", text=
+        "CHANGE_JOINT_VELOCITY_LIMITS Command")
+      sequence<tesseract_msgs::msg::StringDoublePair> change_joint_velocity_limits;
+
+      @verbatim (language="comment", text=
+        "CHANGE_JOINT_ACCELERATION_LIMITS Command")
+      sequence<tesseract_msgs::msg::StringDoublePair> change_joint_acceleration_limits;
+
+      @verbatim (language="comment", text=
+        "ADD_KINEMATICS_INFORMATION Command")
+      tesseract_msgs::msg::KinematicsInformation add_kinematics_information;
+
+      @verbatim (language="comment", text=
+        "CHANGE_COLLISION_MARGINS Command")
+      tesseract_msgs::msg::CollisionMarginData collision_margin_data;
+
+      tesseract_msgs::msg::CollisionMarginOverrideType collision_margin_override_type;
+
+      @verbatim (language="comment", text=
+        "ADD_CONTACT_MANAGERS_PLUGIN_INFO Command")
+      tesseract_msgs::msg::ContactManagersPluginInfo add_contact_managers_plugin_info;
+
+      @verbatim (language="comment", text=
+        "SET_ACTIVE_DISCRETE_CONTACT_MANAGER Command")
+      string set_active_discrete_contact_manager;
+
+      @verbatim (language="comment", text=
+        "SET_ACTIVE_CONTINUOUS_CONTACT_MANAGER Command")
+      string set_active_continuous_contact_manager;
+
+      @verbatim (language="comment", text=
+        "ADD_TRAJECTORY_LINK Command")
+      string add_trajectory_link_name;
+
+      string add_trajectory_link_parent_name;
+
+      tesseract_msgs::msg::JointTrajectory add_trajectory_link_traj;
+
+      boolean add_trajectory_link_replace_allowed;
+    };
+  };
+};

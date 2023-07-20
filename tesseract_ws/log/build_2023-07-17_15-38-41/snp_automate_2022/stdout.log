@@ -1,0 +1,56 @@
+-- clang-tidy not found!
+-- include-what-you-use found: /usr/bin/include-what-you-use
+-- cppcheck found: /usr/bin/cppcheck
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/tesseract_ws/build/snp_automate_2022
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022//launch/start.launch.xml
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022//launch/test.launch.xml
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022//config/app.rviz
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022//config/camera_calibration.yaml
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022//config/controllers.yaml
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022//config/rviz_base_config.rviz
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022//config/scan_traj.yaml
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022//config/tpp.yaml
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022//config/workcell.srdf
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022//config/workcell_plugins.yaml
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022//urdf/ros2_control.xacro
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022//urdf/workcell.xacro
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022//meshes/collision/afd310.ply
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022//meshes/collision/backplate.ply
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022//meshes/collision/bracket1.ply
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022//meshes/collision/bracket2.ply
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022//meshes/collision/camera1.ply
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022//meshes/collision/camera2.ply
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022//meshes/collision/front.ply
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022//meshes/collision/rps100.ply
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022//meshes/collision/steel_table.ply
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022//meshes/part_scan.ply
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022//meshes/visual/end_effector.stl
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022//meshes/visual/steel_table.ply
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/ament_index/resource_index/package_run_dependencies/snp_automate_2022
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/ament_index/resource_index/parent_prefix_path/snp_automate_2022
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022/environment/ament_prefix_path.sh
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022/environment/path.sh
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022/environment/path.dsv
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022/local_setup.bash
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022/local_setup.sh
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022/local_setup.zsh
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022/local_setup.dsv
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022/package.dsv
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/ament_index/resource_index/packages/snp_automate_2022
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022/cmake/snp_automate_2022Config.cmake
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022/cmake/snp_automate_2022Config-version.cmake
+-- Symlinking: /home/ubuntu/tesseract_ws/install/snp_automate_2022/share/snp_automate_2022/package.xml

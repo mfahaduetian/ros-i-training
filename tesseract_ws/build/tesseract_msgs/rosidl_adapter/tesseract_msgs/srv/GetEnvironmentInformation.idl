@@ -1,0 +1,98 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tesseract_msgs/srv/GetEnvironmentInformation.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/JointState.idl"
+#include "tesseract_msgs/msg/AllowedCollisionEntry.idl"
+#include "tesseract_msgs/msg/EnvironmentCommand.idl"
+#include "tesseract_msgs/msg/Joint.idl"
+#include "tesseract_msgs/msg/KinematicsInformation.idl"
+#include "tesseract_msgs/msg/Link.idl"
+#include "tesseract_msgs/msg/TransformMap.idl"
+
+module tesseract_msgs {
+  module srv {
+    module GetEnvironmentInformation_Request_Constants {
+      @verbatim (language="comment", text=
+        "Get the current change history")
+      const uint16 COMMAND_HISTORY = 1;
+      @verbatim (language="comment", text=
+        "Get the current list of links")
+      const uint16 LINK_LIST = 2;
+      @verbatim (language="comment", text=
+        "Get the current list of joints")
+      const uint16 JOINT_LIST = 4;
+      @verbatim (language="comment", text=
+        "Get the current list of links names")
+      const uint16 LINK_NAMES = 8;
+      @verbatim (language="comment", text=
+        "Get the current list of joint names")
+      const uint16 JOINT_NAMES = 16;
+      @verbatim (language="comment", text=
+        "Get the current list of active links")
+      const uint16 ACTIVE_LINK_NAMES = 32;
+      @verbatim (language="comment", text=
+        "Get the current list of active joints")
+      const uint16 ACTIVE_JOINT_NAMES = 64;
+      @verbatim (language="comment", text=
+        "Get the current list of link transforms")
+      const uint16 LINK_TRANSFORMS = 128;
+      @verbatim (language="comment", text=
+        "Get the current list of joint transforms")
+      const uint16 JOINT_TRANSFORMS = 256;
+      @verbatim (language="comment", text=
+        "Get the current allowed collision matrix")
+      const uint16 ALLOWED_COLLISION_MATRIX = 512;
+      @verbatim (language="comment", text=
+        "Get the current kinematics information")
+      const uint16 KINEMATICS_INFORMATION = 1024;
+      @verbatim (language="comment", text=
+        "Get the current kinematics information")
+      const uint16 JOINT_STATES = 2048;
+    };
+    @verbatim (language="comment", text=
+      "You can combine the requests using a bitwise OR operation (In C++, use" "\n"
+      "the | operator).  They are extracted from the `flags` variable using a" "\n"
+      "bitwise AND operator.")
+    struct GetEnvironmentInformation_Request {
+      @verbatim (language="comment", text=
+        "The flags indicating what information should be returned.")
+      uint16 flags;
+    };
+    struct GetEnvironmentInformation_Response {
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "Name/Id of the environment")
+      string id;
+
+      @verbatim (language="comment", text=
+        "The revision number of the modified environment, these should match after applying commands to local copy of environment")
+      uint64 revision;
+
+      sequence<tesseract_msgs::msg::EnvironmentCommand> command_history;
+
+      sequence<tesseract_msgs::msg::Link> links;
+
+      sequence<tesseract_msgs::msg::Joint> joints;
+
+      sequence<string> link_names;
+
+      sequence<string> joint_names;
+
+      sequence<string> active_link_names;
+
+      sequence<string> active_joint_names;
+
+      tesseract_msgs::msg::TransformMap link_transforms;
+
+      tesseract_msgs::msg::TransformMap joint_transforms;
+
+      sequence<tesseract_msgs::msg::AllowedCollisionEntry> allowed_collision_matrix;
+
+      tesseract_msgs::msg::KinematicsInformation kinematics_information;
+
+      sensor_msgs::msg::JointState joint_states;
+    };
+  };
+};

@@ -1,0 +1,6 @@
+Invoking command in '/home/ubuntu/perception_ws/build/lesson_perception': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/perception_ws/src/lesson_perception -DCMAKE_INSTALL_PREFIX=/home/ubuntu/perception_ws/install/lesson_perception
+Invoked command in '/home/ubuntu/perception_ws/build/lesson_perception' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/perception_ws/src/lesson_perception -DCMAKE_INSTALL_PREFIX=/home/ubuntu/perception_ws/install/lesson_perception
+Invoking command in '/home/ubuntu/perception_ws/build/lesson_perception': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/perception_ws/build/lesson_perception -- -j4 -l4
+Invoked command in '/home/ubuntu/perception_ws/build/lesson_perception' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/perception_ws/build/lesson_perception -- -j4 -l4
+Invoking command in '/home/ubuntu/perception_ws/build/lesson_perception': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/perception_ws/build/lesson_perception
+Invoked command in '/home/ubuntu/perception_ws/build/lesson_perception' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/perception_ws/build/lesson_perception

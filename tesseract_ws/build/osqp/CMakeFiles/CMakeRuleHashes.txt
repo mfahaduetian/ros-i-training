@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+97842bf9b6eb562ae5a8deff900774a0 CMakeFiles/osqp
+b7df5eabfd5d2a83aa82b08c9c11d422 CMakeFiles/osqp-complete
+bd610758d1a939c0f160e7aed8ea12e1 osqp-prefix/src/osqp-stamp/osqp-build
+adafb08105423a86e162ceb65541d035 osqp-prefix/src/osqp-stamp/osqp-configure
+8c3ea406a570e0111fd169be94afdc89 osqp-prefix/src/osqp-stamp/osqp-download
+15887446070fbfd1f02f504a050e0df1 osqp-prefix/src/osqp-stamp/osqp-install
+1fdfc44151433a0060ab1001a7104982 osqp-prefix/src/osqp-stamp/osqp-mkdir
+145f17a378542b49f6653b2ac946b47b osqp-prefix/src/osqp-stamp/osqp-patch
+10e73127e86b03a1edcabcf8b12911f6 osqp-prefix/src/osqp-stamp/osqp-update

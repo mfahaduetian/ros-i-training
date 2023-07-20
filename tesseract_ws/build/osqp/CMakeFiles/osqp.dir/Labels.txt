@@ -1,0 +1,13 @@
+# Target labels
+ osqp
+# Source files and their labels
+/home/ubuntu/tesseract_ws/build/osqp/CMakeFiles/osqp
+/home/ubuntu/tesseract_ws/build/osqp/CMakeFiles/osqp.rule
+/home/ubuntu/tesseract_ws/build/osqp/CMakeFiles/osqp-complete.rule
+/home/ubuntu/tesseract_ws/build/osqp/osqp-prefix/src/osqp-stamp/osqp-build.rule
+/home/ubuntu/tesseract_ws/build/osqp/osqp-prefix/src/osqp-stamp/osqp-configure.rule
+/home/ubuntu/tesseract_ws/build/osqp/osqp-prefix/src/osqp-stamp/osqp-download.rule
+/home/ubuntu/tesseract_ws/build/osqp/osqp-prefix/src/osqp-stamp/osqp-install.rule
+/home/ubuntu/tesseract_ws/build/osqp/osqp-prefix/src/osqp-stamp/osqp-mkdir.rule
+/home/ubuntu/tesseract_ws/build/osqp/osqp-prefix/src/osqp-stamp/osqp-patch.rule
+/home/ubuntu/tesseract_ws/build/osqp/osqp-prefix/src/osqp-stamp/osqp-update.rule

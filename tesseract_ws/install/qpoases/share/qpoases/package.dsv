@@ -1,0 +1,14 @@
+source;share/qpoases/hook/cmake_prefix_path.ps1
+source;share/qpoases/hook/cmake_prefix_path.dsv
+source;share/qpoases/hook/cmake_prefix_path.sh
+source;share/qpoases/hook/ld_library_path_lib.ps1
+source;share/qpoases/hook/ld_library_path_lib.dsv
+source;share/qpoases/hook/ld_library_path_lib.sh
+source;share/qpoases/hook/pkg_config_path.ps1
+source;share/qpoases/hook/pkg_config_path.dsv
+source;share/qpoases/hook/pkg_config_path.sh
+source;share/qpoases/hook/pkg_config_path_multiarch.ps1
+source;share/qpoases/hook/pkg_config_path_multiarch.dsv
+source;share/qpoases/hook/pkg_config_path_multiarch.sh
+source;share/qpoases/hook/ament_prefix_path.dsv
+source;share/qpoases/hook/ros_package_path.dsv

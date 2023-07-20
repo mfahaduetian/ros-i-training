@@ -1,0 +1,7 @@
+{
+  "package_name": "pick_and_place_msgs",
+  "non_idl_tuples": [
+    "/home/ubuntu/perception_driven_ws/src/pick_and_place_msgs:srv/GetTargetPose.srv",
+    "/home/ubuntu/perception_driven_ws/src/pick_and_place_msgs:action/ExecuteGraspMove.action"
+  ]
+}

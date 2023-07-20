@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tesseract_msgs/msg/GroupsTCPs.msg
+// generated code does not contain a copyright notice
+
+#include "tesseract_msgs/msg/GroupsTCP.idl"
+
+module tesseract_msgs {
+  module msg {
+    struct GroupsTCPs {
+      string name;
+
+      sequence<tesseract_msgs::msg::GroupsTCP> tcps;
+    };
+  };
+};

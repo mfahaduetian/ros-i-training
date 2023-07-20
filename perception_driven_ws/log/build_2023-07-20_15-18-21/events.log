@@ -1,0 +1,1302 @@
+[0.000000] (-) TimerEvent: {}
+[0.000724] (industrial_moveit2_utils) JobQueued: {'identifier': 'industrial_moveit2_utils', 'dependencies': OrderedDict()}
+[0.001422] (pick_and_place_msgs) JobQueued: {'identifier': 'pick_and_place_msgs', 'dependencies': OrderedDict()}
+[0.001489] (robot_workcell_support) JobQueued: {'identifier': 'robot_workcell_support', 'dependencies': OrderedDict()}
+[0.001518] (pick_and_place_application) JobQueued: {'identifier': 'pick_and_place_application', 'dependencies': OrderedDict([('pick_and_place_msgs', '/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs')])}
+[0.001546] (ur5_workcell_moveit2_config) JobQueued: {'identifier': 'ur5_workcell_moveit2_config', 'dependencies': OrderedDict([('robot_workcell_support', '/home/ubuntu/perception_driven_ws/install/robot_workcell_support')])}
+[0.001581] (pick_and_place_msgs) JobStarted: {'identifier': 'pick_and_place_msgs'}
+[0.010644] (robot_workcell_support) JobStarted: {'identifier': 'robot_workcell_support'}
+[0.018905] (industrial_moveit2_utils) JobStarted: {'identifier': 'industrial_moveit2_utils'}
+[0.031289] (pick_and_place_msgs) JobProgress: {'identifier': 'pick_and_place_msgs', 'progress': 'cmake'}
+[0.031775] (pick_and_place_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/perception_driven_ws/src/pick_and_place_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs'], 'cwd': '/home/ubuntu/perception_driven_ws/build/pick_and_place_msgs', 'env': OrderedDict([('VNCDESKTOP', 'ip-172-31-18-146.ec2.internal:1 (ubuntu)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '129.162.113.222 36478 22'), ('SSH_AGENT_PID', '1721'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1860'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/perception_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ip-172-31-18-146:@/tmp/.ICE-unix/1798,unix/ip-172-31-18-146:/tmp/.ICE-unix/1798'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e4a6e716_8374_4636_8e11_fe5b05fe3a02'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.588'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/perception_driven_ws/build/pick_and_place_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '129.162.113.222 36478 172.31.18.146 22'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble')]), 'shell': False}
+[0.035288] (robot_workcell_support) JobProgress: {'identifier': 'robot_workcell_support', 'progress': 'cmake'}
+[0.035338] (robot_workcell_support) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/perception_driven_ws/src/robot_workcell_support', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/perception_driven_ws/install/robot_workcell_support'], 'cwd': '/home/ubuntu/perception_driven_ws/build/robot_workcell_support', 'env': OrderedDict([('VNCDESKTOP', 'ip-172-31-18-146.ec2.internal:1 (ubuntu)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '129.162.113.222 36478 22'), ('SSH_AGENT_PID', '1721'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1860'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/perception_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ip-172-31-18-146:@/tmp/.ICE-unix/1798,unix/ip-172-31-18-146:/tmp/.ICE-unix/1798'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e4a6e716_8374_4636_8e11_fe5b05fe3a02'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.588'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/perception_driven_ws/build/robot_workcell_support'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '129.162.113.222 36478 172.31.18.146 22'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble')]), 'shell': False}
+[0.099754] (-) TimerEvent: {}
+[0.103095] (robot_workcell_support) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.109569] (pick_and_place_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.192150] (robot_workcell_support) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.198009] (pick_and_place_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.199848] (-) TimerEvent: {}
+[0.203654] (robot_workcell_support) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.209064] (pick_and_place_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.296284] (pick_and_place_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.299091] (robot_workcell_support) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.299943] (-) TimerEvent: {}
+[0.307688] (robot_workcell_support) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.308050] (robot_workcell_support) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.308541] (robot_workcell_support) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.312006] (robot_workcell_support) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.312240] (pick_and_place_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.312573] (pick_and_place_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.313276] (pick_and_place_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.318155] (pick_and_place_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400085] (-) TimerEvent: {}
+[0.410837] (robot_workcell_support) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.427483] (robot_workcell_support) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.427826] (robot_workcell_support) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.428635] (robot_workcell_support) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.431960] (robot_workcell_support) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.436541] (pick_and_place_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.453596] (pick_and_place_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.454155] (pick_and_place_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.455085] (pick_and_place_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.458882] (pick_and_place_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500195] (-) TimerEvent: {}
+[0.600588] (-) TimerEvent: {}
+[0.655751] (pick_and_place_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.685746] (robot_workcell_support) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.700703] (-) TimerEvent: {}
+[0.723352] (pick_and_place_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.756961] (pick_and_place_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.786232] (robot_workcell_support) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.800869] (-) TimerEvent: {}
+[0.801175] (pick_and_place_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.810481] (pick_and_place_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.825111] (pick_and_place_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.851145] (pick_and_place_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.888547] (pick_and_place_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.900940] (-) TimerEvent: {}
+[0.923510] (pick_and_place_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.936859] (robot_workcell_support) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.940388] (pick_and_place_msgs) StdoutLine: {'line': b'-- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[0.940674] (robot_workcell_support) StdoutLine: {'line': b'-- Generating done\n'}
+[0.942101] (robot_workcell_support) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/perception_driven_ws/build/robot_workcell_support\n'}
+[0.948364] (robot_workcell_support) CommandEnded: {'returncode': 0}
+[0.949014] (robot_workcell_support) JobProgress: {'identifier': 'robot_workcell_support', 'progress': 'build'}
+[0.949918] (robot_workcell_support) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/perception_driven_ws/build/robot_workcell_support', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/perception_driven_ws/build/robot_workcell_support', 'env': OrderedDict([('VNCDESKTOP', 'ip-172-31-18-146.ec2.internal:1 (ubuntu)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '129.162.113.222 36478 22'), ('SSH_AGENT_PID', '1721'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1860'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/perception_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ip-172-31-18-146:@/tmp/.ICE-unix/1798,unix/ip-172-31-18-146:/tmp/.ICE-unix/1798'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e4a6e716_8374_4636_8e11_fe5b05fe3a02'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.588'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/perception_driven_ws/build/robot_workcell_support'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '129.162.113.222 36478 172.31.18.146 22'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble')]), 'shell': False}
+[0.987756] (robot_workcell_support) CommandEnded: {'returncode': 0}
+[1.001036] (-) TimerEvent: {}
+[1.008769] (robot_workcell_support) JobProgress: {'identifier': 'robot_workcell_support', 'progress': 'install'}
+[1.017644] (robot_workcell_support) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/perception_driven_ws/build/robot_workcell_support'], 'cwd': '/home/ubuntu/perception_driven_ws/build/robot_workcell_support', 'env': OrderedDict([('VNCDESKTOP', 'ip-172-31-18-146.ec2.internal:1 (ubuntu)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '129.162.113.222 36478 22'), ('SSH_AGENT_PID', '1721'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1860'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/perception_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ip-172-31-18-146:@/tmp/.ICE-unix/1798,unix/ip-172-31-18-146:/tmp/.ICE-unix/1798'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e4a6e716_8374_4636_8e11_fe5b05fe3a02'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.588'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/perception_driven_ws/build/robot_workcell_support'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '129.162.113.222 36478 172.31.18.146 22'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble')]), 'shell': False}
+[1.021397] (pick_and_place_msgs) StdoutLine: {'line': b'-- Found shape_msgs: 4.2.3 (/opt/ros/humble/share/shape_msgs/cmake)\n'}
+[1.025387] (robot_workcell_support) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.025933] (robot_workcell_support) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.026533] (robot_workcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/robot_workcell_support/share/robot_workcell_support//meshes/coupler/collision/COUPLER.stl\n'}
+[1.036536] (robot_workcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/robot_workcell_support/share/robot_workcell_support//meshes/coupler/visual/COUPLER.stl\n'}
+[1.044903] (robot_workcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/robot_workcell_support/share/robot_workcell_support//meshes/vacuum_gripper_single_suction_cup.STL\n'}
+[1.052437] (robot_workcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/robot_workcell_support/share/robot_workcell_support//urdf/kinect_sensor_macro.xacro\n'}
+[1.059789] (robot_workcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/robot_workcell_support/share/robot_workcell_support//urdf/ur5_workcell.xacro\n'}
+[1.066975] (robot_workcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/robot_workcell_support/share/robot_workcell_support//urdf/vacuum_gripper_macro.xacro\n'}
+[1.074158] (robot_workcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/robot_workcell_support/share/robot_workcell_support//urdf/workspace_components.xacro\n'}
+[1.081542] (robot_workcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/robot_workcell_support/share/robot_workcell_support//rviz/sia20d_config.rviz\n'}
+[1.088717] (robot_workcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/robot_workcell_support/share/robot_workcell_support//rviz/ur5_config.rviz\n'}
+[1.096075] (robot_workcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/robot_workcell_support/share/ament_index/resource_index/package_run_dependencies/robot_workcell_support\n'}
+[1.101125] (-) TimerEvent: {}
+[1.103454] (robot_workcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/robot_workcell_support/share/ament_index/resource_index/parent_prefix_path/robot_workcell_support\n'}
+[1.111024] (robot_workcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/robot_workcell_support/share/robot_workcell_support/environment/ament_prefix_path.sh\n'}
+[1.118470] (robot_workcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/robot_workcell_support/share/robot_workcell_support/environment/ament_prefix_path.dsv\n'}
+[1.126611] (robot_workcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/robot_workcell_support/share/robot_workcell_support/environment/path.sh\n'}
+[1.136448] (robot_workcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/robot_workcell_support/share/robot_workcell_support/environment/path.dsv\n'}
+[1.144577] (robot_workcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/robot_workcell_support/share/robot_workcell_support/local_setup.bash\n'}
+[1.152139] (robot_workcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/robot_workcell_support/share/robot_workcell_support/local_setup.sh\n'}
+[1.159505] (robot_workcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/robot_workcell_support/share/robot_workcell_support/local_setup.zsh\n'}
+[1.166705] (robot_workcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/robot_workcell_support/share/robot_workcell_support/local_setup.dsv\n'}
+[1.173956] (robot_workcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/robot_workcell_support/share/robot_workcell_support/package.dsv\n'}
+[1.181151] (robot_workcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/robot_workcell_support/share/ament_index/resource_index/packages/robot_workcell_support\n'}
+[1.188735] (robot_workcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/robot_workcell_support/share/robot_workcell_support/cmake/robot_workcell_supportConfig.cmake\n'}
+[1.196109] (robot_workcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/robot_workcell_support/share/robot_workcell_support/cmake/robot_workcell_supportConfig-version.cmake\n'}
+[1.201217] (-) TimerEvent: {}
+[1.203595] (robot_workcell_support) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/robot_workcell_support/share/robot_workcell_support/package.xml\n'}
+[1.212260] (robot_workcell_support) CommandEnded: {'returncode': 0}
+[1.260162] (robot_workcell_support) JobEnded: {'identifier': 'robot_workcell_support', 'rc': 0}
+[1.262595] (ur5_workcell_moveit2_config) JobStarted: {'identifier': 'ur5_workcell_moveit2_config'}
+[1.269322] (ur5_workcell_moveit2_config) JobProgress: {'identifier': 'ur5_workcell_moveit2_config', 'progress': 'cmake'}
+[1.269652] (ur5_workcell_moveit2_config) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/perception_driven_ws/src/ur5_workcell_moveit2_config', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config'], 'cwd': '/home/ubuntu/perception_driven_ws/build/ur5_workcell_moveit2_config', 'env': OrderedDict([('VNCDESKTOP', 'ip-172-31-18-146.ec2.internal:1 (ubuntu)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '129.162.113.222 36478 22'), ('SSH_AGENT_PID', '1721'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1860'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/perception_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ip-172-31-18-146:@/tmp/.ICE-unix/1798,unix/ip-172-31-18-146:/tmp/.ICE-unix/1798'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e4a6e716_8374_4636_8e11_fe5b05fe3a02'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.588'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/perception_driven_ws/install/robot_workcell_support:/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/perception_driven_ws/build/ur5_workcell_moveit2_config'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '129.162.113.222 36478 172.31.18.146 22'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/perception_driven_ws/install/robot_workcell_support:/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble')]), 'shell': False}
+[1.301349] (-) TimerEvent: {}
+[1.343039] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[1.401463] (-) TimerEvent: {}
+[1.402243] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[1.409765] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.472172] (industrial_moveit2_utils) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/perception_driven_ws/build/industrial_moveit2_utils/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/perception_driven_ws/build/industrial_moveit2_utils', 'env': {'VNCDESKTOP': 'ip-172-31-18-146.ec2.internal:1 (ubuntu)', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '129.162.113.222 36478 22', 'SSH_AGENT_PID': '1721', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1860', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/perception_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ip-172-31-18-146:@/tmp/.ICE-unix/1798,unix/ip-172-31-18-146:/tmp/.ICE-unix/1798', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e4a6e716_8374_4636_8e11_fe5b05fe3a02', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'GNOME', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.588', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/perception_driven_ws/build/industrial_moveit2_utils', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '129.162.113.222 36478 172.31.18.146 22', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/perception_driven_ws/build/industrial_moveit2_utils/prefix_override:/home/ubuntu/perception_driven_ws/install/industrial_moveit2_utils/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ubuntu/perception_ws/install/lesson_perception'}, 'shell': False}
+[1.493271] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.501580] (-) TimerEvent: {}
+[1.507134] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.507522] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.508239] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.513371] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.601704] (-) TimerEvent: {}
+[1.619402] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.628536] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.628936] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.630844] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.635288] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.701821] (-) TimerEvent: {}
+[1.738484] (pick_and_place_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.801943] (-) TimerEvent: {}
+[1.818028] (industrial_moveit2_utils) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[1.818298] (industrial_moveit2_utils) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.865341] (industrial_moveit2_utils) StdoutLine: {'line': b'running develop\n'}
+[1.867436] (industrial_moveit2_utils) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.867603] (industrial_moveit2_utils) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.870708] (industrial_moveit2_utils) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.870874] (industrial_moveit2_utils) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.890674] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.902058] (-) TimerEvent: {}
+[1.976162] (industrial_moveit2_utils) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release\n'}
+[1.976446] (industrial_moveit2_utils) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.976621] (industrial_moveit2_utils) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[1.976738] (industrial_moveit2_utils) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.992244] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.002166] (-) TimerEvent: {}
+[2.102645] (-) TimerEvent: {}
+[2.111117] (industrial_moveit2_utils) StdoutLine: {'line': b'running egg_info\n'}
+[2.111335] (industrial_moveit2_utils) StdoutLine: {'line': b'creating industrial_moveit2_utils.egg-info\n'}
+[2.111516] (industrial_moveit2_utils) StdoutLine: {'line': b'writing industrial_moveit2_utils.egg-info/PKG-INFO\n'}
+[2.111811] (industrial_moveit2_utils) StdoutLine: {'line': b'writing dependency_links to industrial_moveit2_utils.egg-info/dependency_links.txt\n'}
+[2.112029] (industrial_moveit2_utils) StdoutLine: {'line': b'writing entry points to industrial_moveit2_utils.egg-info/entry_points.txt\n'}
+[2.112239] (industrial_moveit2_utils) StdoutLine: {'line': b'writing requirements to industrial_moveit2_utils.egg-info/requires.txt\n'}
+[2.112349] (industrial_moveit2_utils) StdoutLine: {'line': b'writing top-level names to industrial_moveit2_utils.egg-info/top_level.txt\n'}
+[2.112592] (industrial_moveit2_utils) StdoutLine: {'line': b"writing manifest file 'industrial_moveit2_utils.egg-info/SOURCES.txt'\n"}
+[2.114616] (industrial_moveit2_utils) StdoutLine: {'line': b"reading manifest file 'industrial_moveit2_utils.egg-info/SOURCES.txt'\n"}
+[2.115318] (industrial_moveit2_utils) StdoutLine: {'line': b"writing manifest file 'industrial_moveit2_utils.egg-info/SOURCES.txt'\n"}
+[2.116705] (industrial_moveit2_utils) StdoutLine: {'line': b'running build_ext\n'}
+[2.117092] (industrial_moveit2_utils) StdoutLine: {'line': b'Creating /home/ubuntu/perception_driven_ws/install/industrial_moveit2_utils/lib/python3.10/site-packages/industrial-moveit2-utils.egg-link (link to .)\n'}
+[2.117920] (industrial_moveit2_utils) StdoutLine: {'line': b'\n'}
+[2.118098] (industrial_moveit2_utils) StdoutLine: {'line': b'Installed /home/ubuntu/perception_driven_ws/build/industrial_moveit2_utils\n'}
+[2.118336] (industrial_moveit2_utils) StdoutLine: {'line': b'running install_data\n'}
+[2.118467] (industrial_moveit2_utils) StdoutLine: {'line': b'creating /home/ubuntu/perception_driven_ws/install/industrial_moveit2_utils/share/ament_index\n'}
+[2.118608] (industrial_moveit2_utils) StdoutLine: {'line': b'creating /home/ubuntu/perception_driven_ws/install/industrial_moveit2_utils/share/ament_index/resource_index\n'}
+[2.118713] (industrial_moveit2_utils) StdoutLine: {'line': b'creating /home/ubuntu/perception_driven_ws/install/industrial_moveit2_utils/share/ament_index/resource_index/packages\n'}
+[2.118819] (industrial_moveit2_utils) StdoutLine: {'line': b'copying resource/industrial_moveit2_utils -> /home/ubuntu/perception_driven_ws/install/industrial_moveit2_utils/share/ament_index/resource_index/packages\n'}
+[2.118964] (industrial_moveit2_utils) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/perception_driven_ws/install/industrial_moveit2_utils/share/industrial_moveit2_utils\n'}
+[2.138733] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.139017] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Generating done\n'}
+[2.140246] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/perception_driven_ws/build/ur5_workcell_moveit2_config\n'}
+[2.147670] (ur5_workcell_moveit2_config) CommandEnded: {'returncode': 0}
+[2.149027] (ur5_workcell_moveit2_config) JobProgress: {'identifier': 'ur5_workcell_moveit2_config', 'progress': 'build'}
+[2.149081] (ur5_workcell_moveit2_config) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/perception_driven_ws/build/ur5_workcell_moveit2_config', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/perception_driven_ws/build/ur5_workcell_moveit2_config', 'env': OrderedDict([('VNCDESKTOP', 'ip-172-31-18-146.ec2.internal:1 (ubuntu)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '129.162.113.222 36478 22'), ('SSH_AGENT_PID', '1721'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1860'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/perception_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ip-172-31-18-146:@/tmp/.ICE-unix/1798,unix/ip-172-31-18-146:/tmp/.ICE-unix/1798'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e4a6e716_8374_4636_8e11_fe5b05fe3a02'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.588'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/perception_driven_ws/install/robot_workcell_support:/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/perception_driven_ws/build/ur5_workcell_moveit2_config'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '129.162.113.222 36478 172.31.18.146 22'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/perception_driven_ws/install/robot_workcell_support:/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble')]), 'shell': False}
+[2.159053] (industrial_moveit2_utils) CommandEnded: {'returncode': 0}
+[2.170223] (industrial_moveit2_utils) JobEnded: {'identifier': 'industrial_moveit2_utils', 'rc': 0}
+[2.197028] (ur5_workcell_moveit2_config) CommandEnded: {'returncode': 0}
+[2.202768] (-) TimerEvent: {}
+[2.220500] (ur5_workcell_moveit2_config) JobProgress: {'identifier': 'ur5_workcell_moveit2_config', 'progress': 'install'}
+[2.220980] (ur5_workcell_moveit2_config) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/perception_driven_ws/build/ur5_workcell_moveit2_config'], 'cwd': '/home/ubuntu/perception_driven_ws/build/ur5_workcell_moveit2_config', 'env': OrderedDict([('VNCDESKTOP', 'ip-172-31-18-146.ec2.internal:1 (ubuntu)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '129.162.113.222 36478 22'), ('SSH_AGENT_PID', '1721'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1860'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/perception_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ip-172-31-18-146:@/tmp/.ICE-unix/1798,unix/ip-172-31-18-146:/tmp/.ICE-unix/1798'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e4a6e716_8374_4636_8e11_fe5b05fe3a02'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.588'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/perception_driven_ws/install/robot_workcell_support:/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/perception_driven_ws/build/ur5_workcell_moveit2_config'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '129.162.113.222 36478 172.31.18.146 22'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/perception_driven_ws/install/robot_workcell_support:/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble')]), 'shell': False}
+[2.229324] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.230964] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.231128] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/controllers.yaml\n'}
+[2.241182] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/initial_positions.yaml\n'}
+[2.249245] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/joint_limits.yaml\n'}
+[2.256936] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/joint_names.yaml\n'}
+[2.265361] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/kinematics.yaml\n'}
+[2.273715] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/moveit_cpp.yaml\n'}
+[2.281413] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/ompl_planning.yaml\n'}
+[2.289317] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/planning_pipeline.yaml\n'}
+[2.297226] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/planning_scene_monitor.yaml\n'}
+[2.302869] (-) TimerEvent: {}
+[2.304914] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/ros_controllers.yaml\n'}
+[2.309800] (pick_and_place_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.312823] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/sensors.yaml\n'}
+[2.320676] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/trajectory_execution.yaml\n'}
+[2.328095] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/ur5_workcell.srdf\n'}
+[2.338010] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ament_index/resource_index/package_run_dependencies/ur5_workcell_moveit2_config\n'}
+[2.345855] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ament_index/resource_index/parent_prefix_path/ur5_workcell_moveit2_config\n'}
+[2.353665] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/environment/ament_prefix_path.sh\n'}
+[2.361277] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/environment/ament_prefix_path.dsv\n'}
+[2.368876] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/environment/path.sh\n'}
+[2.376683] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/environment/path.dsv\n'}
+[2.384354] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/local_setup.bash\n'}
+[2.392590] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/local_setup.sh\n'}
+[2.400285] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/local_setup.zsh\n'}
+[2.402966] (-) TimerEvent: {}
+[2.407826] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/local_setup.dsv\n'}
+[2.415348] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/package.dsv\n'}
+[2.422680] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ament_index/resource_index/packages/ur5_workcell_moveit2_config\n'}
+[2.430264] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/cmake/ur5_workcell_moveit2_configConfig.cmake\n'}
+[2.439085] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/cmake/ur5_workcell_moveit2_configConfig-version.cmake\n'}
+[2.446724] (ur5_workcell_moveit2_config) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/package.xml\n'}
+[2.455732] (ur5_workcell_moveit2_config) CommandEnded: {'returncode': 0}
+[2.497136] (ur5_workcell_moveit2_config) JobEnded: {'identifier': 'ur5_workcell_moveit2_config', 'rc': 0}
+[2.503045] (-) TimerEvent: {}
+[2.505462] (pick_and_place_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.534846] (pick_and_place_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[2.536125] (pick_and_place_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.564119] (pick_and_place_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[2.564354] (pick_and_place_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.564425] (pick_and_place_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.564484] (pick_and_place_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.586601] (pick_and_place_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.603120] (-) TimerEvent: {}
+[2.666470] (pick_and_place_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.690237] (pick_and_place_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.691907] (pick_and_place_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.692908] (pick_and_place_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.696360] (pick_and_place_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.703196] (-) TimerEvent: {}
+[2.740928] (pick_and_place_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.743955] (pick_and_place_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/perception_driven_ws/build/pick_and_place_msgs\n'}
+[2.756995] (pick_and_place_msgs) CommandEnded: {'returncode': 0}
+[2.757707] (pick_and_place_msgs) JobProgress: {'identifier': 'pick_and_place_msgs', 'progress': 'build'}
+[2.758059] (pick_and_place_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/perception_driven_ws/build/pick_and_place_msgs', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/perception_driven_ws/build/pick_and_place_msgs', 'env': OrderedDict([('VNCDESKTOP', 'ip-172-31-18-146.ec2.internal:1 (ubuntu)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '129.162.113.222 36478 22'), ('SSH_AGENT_PID', '1721'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1860'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/perception_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ip-172-31-18-146:@/tmp/.ICE-unix/1798,unix/ip-172-31-18-146:/tmp/.ICE-unix/1798'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e4a6e716_8374_4636_8e11_fe5b05fe3a02'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.588'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/perception_driven_ws/build/pick_and_place_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '129.162.113.222 36478 172.31.18.146 22'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble')]), 'shell': False}
+[2.800101] (pick_and_place_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.803325] (-) TimerEvent: {}
+[2.809830] (pick_and_place_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.819129] (pick_and_place_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_symlink_pick_and_place_msgs\n'}
+[2.903457] (-) TimerEvent: {}
+[3.003929] (-) TimerEvent: {}
+[3.104287] (-) TimerEvent: {}
+[3.204655] (-) TimerEvent: {}
+[3.250176] (pick_and_place_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[3.251171] (pick_and_place_msgs) StdoutLine: {'line': b'creating pick_and_place_msgs.egg-info\n'}
+[3.251440] (pick_and_place_msgs) StdoutLine: {'line': b'writing pick_and_place_msgs.egg-info/PKG-INFO\n'}
+[3.251681] (pick_and_place_msgs) StdoutLine: {'line': b'writing dependency_links to pick_and_place_msgs.egg-info/dependency_links.txt\n'}
+[3.251913] (pick_and_place_msgs) StdoutLine: {'line': b'writing top-level names to pick_and_place_msgs.egg-info/top_level.txt\n'}
+[3.252234] (pick_and_place_msgs) StdoutLine: {'line': b"writing manifest file 'pick_and_place_msgs.egg-info/SOURCES.txt'\n"}
+[3.255390] (pick_and_place_msgs) StdoutLine: {'line': b"reading manifest file 'pick_and_place_msgs.egg-info/SOURCES.txt'\n"}
+[3.256228] (pick_and_place_msgs) StdoutLine: {'line': b"writing manifest file 'pick_and_place_msgs.egg-info/SOURCES.txt'\n"}
+[3.295498] (pick_and_place_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_pick_and_place_msgs_egg\n'}
+[3.304764] (-) TimerEvent: {}
+[3.405232] (-) TimerEvent: {}
+[3.505597] (-) TimerEvent: {}
+[3.534004] (pick_and_place_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/pick_and_place_msgs__rosidl_generator_c.dir/rosidl_generator_c/pick_and_place_msgs/action/detail/execute_grasp_move__functions.c.o\x1b[0m\n'}
+[3.534634] (pick_and_place_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/pick_and_place_msgs__rosidl_generator_c.dir/rosidl_generator_c/pick_and_place_msgs/srv/detail/get_target_pose__functions.c.o\x1b[0m\n'}
+[3.605723] (-) TimerEvent: {}
+[3.706105] (-) TimerEvent: {}
+[3.710000] (pick_and_place_msgs) StdoutLine: {'line': b'[ 10%] Built target pick_and_place_msgs__cpp\n'}
+[3.716751] (pick_and_place_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking C shared library libpick_and_place_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.723896] (pick_and_place_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.724236] (pick_and_place_msgs) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.724365] (pick_and_place_msgs) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.774789] (pick_and_place_msgs) StdoutLine: {'line': b'[ 20%] Built target pick_and_place_msgs__rosidl_generator_c\n'}
+[3.790132] (pick_and_place_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.806217] (-) TimerEvent: {}
+[3.906585] (-) TimerEvent: {}
+[4.006947] (-) TimerEvent: {}
+[4.107311] (-) TimerEvent: {}
+[4.207657] (-) TimerEvent: {}
+[4.308010] (-) TimerEvent: {}
+[4.408379] (-) TimerEvent: {}
+[4.508741] (-) TimerEvent: {}
+[4.533207] (pick_and_place_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/pick_and_place_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pick_and_place_msgs/srv/get_target_pose__type_support.cpp.o\x1b[0m\n'}
+[4.608881] (-) TimerEvent: {}
+[4.709244] (-) TimerEvent: {}
+[4.742388] (pick_and_place_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/pick_and_place_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pick_and_place_msgs/srv/detail/get_target_pose__type_support.cpp.o\x1b[0m\n'}
+[4.803126] (pick_and_place_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/pick_and_place_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pick_and_place_msgs/srv/detail/dds_fastrtps/get_target_pose__type_support.cpp.o\x1b[0m\n'}
+[4.809356] (-) TimerEvent: {}
+[4.898264] (pick_and_place_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/pick_and_place_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pick_and_place_msgs/srv/detail/get_target_pose__type_support_c.cpp.o\x1b[0m\n'}
+[4.909482] (-) TimerEvent: {}
+[4.994716] (pick_and_place_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/pick_and_place_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pick_and_place_msgs/action/execute_grasp_move__type_support.cpp.o\x1b[0m\n'}
+[5.009614] (-) TimerEvent: {}
+[5.110023] (-) TimerEvent: {}
+[5.210447] (-) TimerEvent: {}
+[5.310854] (-) TimerEvent: {}
+[5.411269] (-) TimerEvent: {}
+[5.503848] (pick_and_place_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/pick_and_place_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pick_and_place_msgs/action/detail/execute_grasp_move__type_support.cpp.o\x1b[0m\n'}
+[5.506234] (pick_and_place_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/pick_and_place_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pick_and_place_msgs/action/detail/execute_grasp_move__type_support_c.cpp.o\x1b[0m\n'}
+[5.511398] (-) TimerEvent: {}
+[5.606251] (pick_and_place_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/pick_and_place_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pick_and_place_msgs/action/detail/dds_fastrtps/execute_grasp_move__type_support.cpp.o\x1b[0m\n'}
+[5.611516] (-) TimerEvent: {}
+[5.712001] (-) TimerEvent: {}
+[5.812522] (-) TimerEvent: {}
+[5.819418] (pick_and_place_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libpick_and_place_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.888504] (pick_and_place_msgs) StdoutLine: {'line': b'[ 46%] Built target pick_and_place_msgs__rosidl_typesupport_cpp\n'}
+[5.902879] (pick_and_place_msgs) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.912634] (-) TimerEvent: {}
+[6.013030] (-) TimerEvent: {}
+[6.113418] (-) TimerEvent: {}
+[6.156783] (pick_and_place_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libpick_and_place_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.213548] (-) TimerEvent: {}
+[6.273247] (pick_and_place_msgs) StdoutLine: {'line': b'[ 51%] Built target pick_and_place_msgs__rosidl_typesupport_fastrtps_c\n'}
+[6.287487] (pick_and_place_msgs) StdoutLine: {'line': b'[ 53%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.313669] (-) TimerEvent: {}
+[6.414034] (-) TimerEvent: {}
+[6.472415] (pick_and_place_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libpick_and_place_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.514162] (-) TimerEvent: {}
+[6.585906] (pick_and_place_msgs) StdoutLine: {'line': b'[ 56%] Built target pick_and_place_msgs__rosidl_typesupport_introspection_cpp\n'}
+[6.611103] (pick_and_place_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libpick_and_place_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.614269] (-) TimerEvent: {}
+[6.699565] (pick_and_place_msgs) StdoutLine: {'line': b'[ 58%] Built target pick_and_place_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[6.714376] (-) TimerEvent: {}
+[6.814695] (-) TimerEvent: {}
+[6.832807] (pick_and_place_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/pick_and_place_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pick_and_place_msgs/srv/detail/get_target_pose__type_support.c.o\x1b[0m\n'}
+[6.833433] (pick_and_place_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/pick_and_place_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pick_and_place_msgs/action/detail/execute_grasp_move__type_support.c.o\x1b[0m\n'}
+[6.912539] (pick_and_place_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking C shared library libpick_and_place_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.914816] (-) TimerEvent: {}
+[6.946972] (pick_and_place_msgs) StdoutLine: {'line': b'[ 66%] Built target pick_and_place_msgs__rosidl_typesupport_introspection_c\n'}
+[6.955831] (pick_and_place_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/pick_and_place_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/pick_and_place_msgs/srv/get_target_pose__type_support.cpp.o\x1b[0m\n'}
+[6.956246] (pick_and_place_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/pick_and_place_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/pick_and_place_msgs/action/execute_grasp_move__type_support.cpp.o\x1b[0m\n'}
+[7.012489] (pick_and_place_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libpick_and_place_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.014906] (-) TimerEvent: {}
+[7.058138] (pick_and_place_msgs) StdoutLine: {'line': b'[ 74%] Built target pick_and_place_msgs__rosidl_typesupport_c\n'}
+[7.077291] (pick_and_place_msgs) StdoutLine: {'line': b'[ 74%] Built target pick_and_place_msgs\n'}
+[7.096086] (pick_and_place_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.115019] (-) TimerEvent: {}
+[7.215454] (-) TimerEvent: {}
+[7.315750] (-) TimerEvent: {}
+[7.416058] (-) TimerEvent: {}
+[7.516355] (-) TimerEvent: {}
+[7.616653] (-) TimerEvent: {}
+[7.716983] (-) TimerEvent: {}
+[7.817289] (-) TimerEvent: {}
+[7.917606] (-) TimerEvent: {}
+[8.017923] (-) TimerEvent: {}
+[8.118225] (-) TimerEvent: {}
+[8.218528] (-) TimerEvent: {}
+[8.276145] (pick_and_place_msgs) StdoutLine: {'line': b'[ 76%] Built target pick_and_place_msgs__py\n'}
+[8.293791] (pick_and_place_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/pick_and_place_msgs__rosidl_generator_py.dir/rosidl_generator_py/pick_and_place_msgs/srv/_get_target_pose_s.c.o\x1b[0m\n'}
+[8.294163] (pick_and_place_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/pick_and_place_msgs__rosidl_generator_py.dir/rosidl_generator_py/pick_and_place_msgs/action/_execute_grasp_move_s.c.o\x1b[0m\n'}
+[8.318657] (-) TimerEvent: {}
+[8.419026] (-) TimerEvent: {}
+[8.454299] (pick_and_place_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pick_and_place_msgs/libpick_and_place_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[8.501973] (pick_and_place_msgs) StdoutLine: {'line': b'[ 84%] Built target pick_and_place_msgs__rosidl_generator_py\n'}
+[8.519158] (-) TimerEvent: {}
+[8.525977] (pick_and_place_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/pick_and_place_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pick_and_place_msgs/_pick_and_place_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.526239] (pick_and_place_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/pick_and_place_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pick_and_place_msgs/_pick_and_place_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.528618] (pick_and_place_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/pick_and_place_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pick_and_place_msgs/_pick_and_place_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.619301] (-) TimerEvent: {}
+[8.682728] (pick_and_place_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pick_and_place_msgs/pick_and_place_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.719447] (-) TimerEvent: {}
+[8.734517] (pick_and_place_msgs) StdoutLine: {'line': b'[ 94%] Built target pick_and_place_msgs__rosidl_typesupport_c__pyext\n'}
+[8.759827] (pick_and_place_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pick_and_place_msgs/pick_and_place_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.760963] (pick_and_place_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pick_and_place_msgs/pick_and_place_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.810199] (pick_and_place_msgs) StdoutLine: {'line': b'[100%] Built target pick_and_place_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[8.810734] (pick_and_place_msgs) StdoutLine: {'line': b'[100%] Built target pick_and_place_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.819516] (-) TimerEvent: {}
+[8.821021] (pick_and_place_msgs) CommandEnded: {'returncode': 0}
+[8.895621] (pick_and_place_msgs) JobProgress: {'identifier': 'pick_and_place_msgs', 'progress': 'install'}
+[8.896007] (pick_and_place_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/perception_driven_ws/build/pick_and_place_msgs'], 'cwd': '/home/ubuntu/perception_driven_ws/build/pick_and_place_msgs', 'env': OrderedDict([('VNCDESKTOP', 'ip-172-31-18-146.ec2.internal:1 (ubuntu)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '129.162.113.222 36478 22'), ('SSH_AGENT_PID', '1721'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1860'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/perception_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ip-172-31-18-146:@/tmp/.ICE-unix/1798,unix/ip-172-31-18-146:/tmp/.ICE-unix/1798'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e4a6e716_8374_4636_8e11_fe5b05fe3a02'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.588'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/perception_driven_ws/build/pick_and_place_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '129.162.113.222 36478 172.31.18.146 22'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble')]), 'shell': False}
+[8.905399] (pick_and_place_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.906005] (pick_and_place_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.906321] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/ament_index/resource_index/rosidl_interfaces/pick_and_place_msgs\n'}
+[8.915866] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/action/detail/execute_grasp_move__functions.h\n'}
+[8.919659] (-) TimerEvent: {}
+[8.924533] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/action/detail/execute_grasp_move__struct.h\n'}
+[8.932770] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/action/detail/execute_grasp_move__type_support.h\n'}
+[8.940950] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/action/execute_grasp_move.h\n'}
+[8.950203] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.958390] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/srv/detail/get_target_pose__functions.h\n'}
+[8.966315] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/srv/detail/get_target_pose__struct.h\n'}
+[8.974118] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/srv/detail/get_target_pose__type_support.h\n'}
+[8.982090] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/srv/get_target_pose.h\n'}
+[8.990286] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/environment/library_path.sh\n'}
+[8.999543] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/environment/library_path.dsv\n'}
+[9.008826] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/action/detail/execute_grasp_move__rosidl_typesupport_fastrtps_c.h\n'}
+[9.017572] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.019729] (-) TimerEvent: {}
+[9.025985] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/srv/detail/get_target_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[9.034410] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/action/detail/execute_grasp_move__builder.hpp\n'}
+[9.042405] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/action/detail/execute_grasp_move__struct.hpp\n'}
+[9.051907] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/action/detail/execute_grasp_move__traits.hpp\n'}
+[9.059747] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/action/execute_grasp_move.hpp\n'}
+[9.067478] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/srv/detail/get_target_pose__builder.hpp\n'}
+[9.075175] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/srv/detail/get_target_pose__struct.hpp\n'}
+[9.083116] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/srv/detail/get_target_pose__traits.hpp\n'}
+[9.090753] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/srv/get_target_pose.hpp\n'}
+[9.098507] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/action/detail/execute_grasp_move__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.106190] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.113985] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/srv/detail/get_target_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.119849] (-) TimerEvent: {}
+[9.122340] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/action/detail/execute_grasp_move__rosidl_typesupport_introspection_c.h\n'}
+[9.130244] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.137984] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/srv/detail/get_target_pose__rosidl_typesupport_introspection_c.h\n'}
+[9.145904] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/action/detail/execute_grasp_move__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.154391] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/include/pick_and_place_msgs/pick_and_place_msgs/srv/detail/get_target_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.162188] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/environment/pythonpath.sh\n'}
+[9.169946] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/environment/pythonpath.dsv\n'}
+[9.177987] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[9.185652] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[9.193237] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[9.200805] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[9.209130] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/__init__.py\n'}
+[9.216542] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/_pick_and_place_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[9.219943] (-) TimerEvent: {}
+[9.223953] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/_pick_and_place_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.231383] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/_pick_and_place_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.239229] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/action/__init__.py\n'}
+[9.247015] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/action/_execute_grasp_move.py\n'}
+[9.255677] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/action/_execute_grasp_move_s.c\n'}
+[9.263527] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/libpick_and_place_msgs__rosidl_generator_py.so\n'}
+[9.271018] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/pick_and_place_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.278362] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/pick_and_place_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.285728] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/pick_and_place_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.293011] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/srv/__init__.py\n'}
+[9.300122] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/srv/_get_target_pose.py\n'}
+[9.307322] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/srv/_get_target_pose_s.c\n'}
+[9.315050] (pick_and_place_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/pick_and_place_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.315290] (pick_and_place_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/pick_and_place_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.315540] (pick_and_place_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/pick_and_place_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.315726] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/srv/GetTargetPose.idl\n'}
+[9.320043] (-) TimerEvent: {}
+[9.323396] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/action/ExecuteGraspMove.idl\n'}
+[9.330711] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/srv/GetTargetPose.srv\n'}
+[9.337972] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/srv/GetTargetPose_Request.msg\n'}
+[9.345323] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/srv/GetTargetPose_Response.msg\n'}
+[9.354798] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/action/ExecuteGraspMove.action\n'}
+[9.362630] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/ament_index/resource_index/package_run_dependencies/pick_and_place_msgs\n'}
+[9.370171] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/ament_index/resource_index/parent_prefix_path/pick_and_place_msgs\n'}
+[9.377918] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/environment/ament_prefix_path.sh\n'}
+[9.385566] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/environment/ament_prefix_path.dsv\n'}
+[9.393144] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/environment/path.sh\n'}
+[9.400680] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/environment/path.dsv\n'}
+[9.408248] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/local_setup.bash\n'}
+[9.415731] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/local_setup.sh\n'}
+[9.420131] (-) TimerEvent: {}
+[9.426375] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/local_setup.zsh\n'}
+[9.434013] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/local_setup.dsv\n'}
+[9.441470] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/package.dsv\n'}
+[9.449137] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/ament_index/resource_index/packages/pick_and_place_msgs\n'}
+[9.457084] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[9.464585] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.471689] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.478733] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.485763] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.492976] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.499981] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.507050] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/pick_and_place_msgsConfig.cmake\n'}
+[9.514026] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/pick_and_place_msgsConfig-version.cmake\n'}
+[9.520228] (-) TimerEvent: {}
+[9.521137] (pick_and_place_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/package.xml\n'}
+[9.528576] (pick_and_place_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_generator_c.so\n'}
+[9.529088] (pick_and_place_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_generator_c.so" to ""\n'}
+[9.529211] (pick_and_place_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[9.529632] (pick_and_place_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.529750] (pick_and_place_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.530220] (pick_and_place_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.530334] (pick_and_place_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_typesupport_introspection_c.so\n'}
+[9.530786] (pick_and_place_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.530905] (pick_and_place_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_typesupport_c.so\n'}
+[9.531237] (pick_and_place_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_typesupport_c.so" to ""\n'}
+[9.531324] (pick_and_place_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[9.531798] (pick_and_place_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.531893] (pick_and_place_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_typesupport_cpp.so\n'}
+[9.532243] (pick_and_place_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[9.575264] (pick_and_place_msgs) StdoutLine: {'line': b"Listing '/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs'...\n"}
+[9.575506] (pick_and_place_msgs) StdoutLine: {'line': b"Compiling '/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/__init__.py'...\n"}
+[9.575650] (pick_and_place_msgs) StdoutLine: {'line': b"Listing '/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/action'...\n"}
+[9.575776] (pick_and_place_msgs) StdoutLine: {'line': b"Compiling '/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/action/__init__.py'...\n"}
+[9.575895] (pick_and_place_msgs) StdoutLine: {'line': b"Compiling '/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/action/_execute_grasp_move.py'...\n"}
+[9.576021] (pick_and_place_msgs) StdoutLine: {'line': b"Listing '/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/srv'...\n"}
+[9.576124] (pick_and_place_msgs) StdoutLine: {'line': b"Compiling '/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/srv/__init__.py'...\n"}
+[9.576224] (pick_and_place_msgs) StdoutLine: {'line': b"Compiling '/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages/pick_and_place_msgs/srv/_get_target_pose.py'...\n"}
+[9.580408] (pick_and_place_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_generator_py.so\n'}
+[9.580919] (pick_and_place_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib/libpick_and_place_msgs__rosidl_generator_py.so" to ""\n'}
+[9.581038] (pick_and_place_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/export_pick_and_place_msgs__rosidl_generator_cExport.cmake\n'}
+[9.581154] (pick_and_place_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/export_pick_and_place_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.581298] (pick_and_place_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/export_pick_and_place_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.581428] (pick_and_place_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/export_pick_and_place_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.581565] (pick_and_place_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/export_pick_and_place_msgs__rosidl_generator_cppExport.cmake\n'}
+[9.581702] (pick_and_place_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/export_pick_and_place_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.581829] (pick_and_place_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/export_pick_and_place_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.581964] (pick_and_place_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/pick_and_place_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.582099] (pick_and_place_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/pick_and_place_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.582237] (pick_and_place_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/pick_and_place_msgs__rosidl_typesupport_cExport.cmake\n'}
+[9.582373] (pick_and_place_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/pick_and_place_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.582508] (pick_and_place_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/pick_and_place_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.582635] (pick_and_place_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/pick_and_place_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.582773] (pick_and_place_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/pick_and_place_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[9.582935] (pick_and_place_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/pick_and_place_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.583126] (pick_and_place_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/export_pick_and_place_msgs__rosidl_generator_pyExport.cmake\n'}
+[9.583247] (pick_and_place_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake/export_pick_and_place_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.585438] (pick_and_place_msgs) CommandEnded: {'returncode': 0}
+[9.620325] (-) TimerEvent: {}
+[9.687139] (pick_and_place_msgs) JobEnded: {'identifier': 'pick_and_place_msgs', 'rc': 0}
+[9.689546] (pick_and_place_application) JobStarted: {'identifier': 'pick_and_place_application'}
+[9.697322] (pick_and_place_application) JobProgress: {'identifier': 'pick_and_place_application', 'progress': 'cmake'}
+[9.697670] (pick_and_place_application) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/perception_driven_ws/src/pick_and_place_application', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/perception_driven_ws/install/pick_and_place_application'], 'cwd': '/home/ubuntu/perception_driven_ws/build/pick_and_place_application', 'env': OrderedDict([('VNCDESKTOP', 'ip-172-31-18-146.ec2.internal:1 (ubuntu)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '129.162.113.222 36478 22'), ('SSH_AGENT_PID', '1721'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1860'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/perception_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ip-172-31-18-146:@/tmp/.ICE-unix/1798,unix/ip-172-31-18-146:/tmp/.ICE-unix/1798'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e4a6e716_8374_4636_8e11_fe5b05fe3a02'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.588'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs:/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/perception_driven_ws/build/pick_and_place_application'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '129.162.113.222 36478 172.31.18.146 22'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs:/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble')]), 'shell': False}
+[9.720428] (-) TimerEvent: {}
+[9.758750] (pick_and_place_application) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[9.817325] (pick_and_place_application) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[9.820524] (-) TimerEvent: {}
+[9.824619] (pick_and_place_application) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[9.895468] (pick_and_place_application) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[9.903748] (pick_and_place_application) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[9.904029] (pick_and_place_application) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[9.904459] (pick_and_place_application) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.907597] (pick_and_place_application) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.920614] (-) TimerEvent: {}
+[9.988733] (pick_and_place_application) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.997369] (pick_and_place_application) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[9.997665] (pick_and_place_application) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.998191] (pick_and_place_application) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[10.000702] (pick_and_place_application) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[10.020728] (-) TimerEvent: {}
+[10.121098] (-) TimerEvent: {}
+[10.184151] (pick_and_place_application) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[10.221206] (-) TimerEvent: {}
+[10.249302] (pick_and_place_application) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[10.280413] (pick_and_place_application) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[10.321342] (-) TimerEvent: {}
+[10.328914] (pick_and_place_application) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[10.334688] (pick_and_place_application) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[10.344201] (pick_and_place_application) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[10.361194] (pick_and_place_application) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.384039] (pick_and_place_application) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.421475] (-) TimerEvent: {}
+[10.469596] (pick_and_place_application) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[10.472603] (pick_and_place_application) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[10.521599] (-) TimerEvent: {}
+[10.575511] (pick_and_place_application) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[10.605929] (pick_and_place_application) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[10.621670] (-) TimerEvent: {}
+[10.660575] (pick_and_place_application) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.671468] (pick_and_place_application) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[10.721821] (-) TimerEvent: {}
+[10.747294] (pick_and_place_application) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.747876] (pick_and_place_application) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.821923] (-) TimerEvent: {}
+[10.825487] (pick_and_place_application) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[10.826732] (pick_and_place_application) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.922037] (-) TimerEvent: {}
+[11.021100] (pick_and_place_application) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.4 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[11.022101] (-) TimerEvent: {}
+[11.122341] (-) TimerEvent: {}
+[11.137125] (pick_and_place_application) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[11.222454] (-) TimerEvent: {}
+[11.296074] (pick_and_place_application) StdoutLine: {'line': b'-- Found shape_msgs: 4.2.3 (/opt/ros/humble/share/shape_msgs/cmake)\n'}
+[11.322557] (-) TimerEvent: {}
+[11.361915] (pick_and_place_application) StdoutLine: {'line': b'-- Found pick_and_place_msgs: 0.0.0 (/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/share/pick_and_place_msgs/cmake)\n'}
+[11.422676] (-) TimerEvent: {}
+[11.522997] (-) TimerEvent: {}
+[11.544852] (pick_and_place_application) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[11.623106] (-) TimerEvent: {}
+[11.723423] (-) TimerEvent: {}
+[11.823733] (-) TimerEvent: {}
+[11.905813] (pick_and_place_application) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[11.907199] (pick_and_place_application) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[11.907342] (pick_and_place_application) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[11.923789] (-) TimerEvent: {}
+[12.023995] (-) TimerEvent: {}
+[12.124303] (-) TimerEvent: {}
+[12.224612] (-) TimerEvent: {}
+[12.289413] (pick_and_place_application) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[12.301624] (pick_and_place_application) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[12.324744] (-) TimerEvent: {}
+[12.331114] (pick_and_place_application) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[12.331314] (pick_and_place_application) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[12.372151] (pick_and_place_application) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[12.384875] (pick_and_place_application) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[12.422866] (pick_and_place_application) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[12.423081] (pick_and_place_application) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[12.424815] (-) TimerEvent: {}
+[12.525064] (-) TimerEvent: {}
+[12.625376] (-) TimerEvent: {}
+[12.725714] (-) TimerEvent: {}
+[12.826102] (-) TimerEvent: {}
+[12.926543] (-) TimerEvent: {}
+[13.026946] (-) TimerEvent: {}
+[13.127341] (-) TimerEvent: {}
+[13.227652] (-) TimerEvent: {}
+[13.327966] (-) TimerEvent: {}
+[13.389995] (pick_and_place_application) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[13.403084] (pick_and_place_application) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[13.428076] (-) TimerEvent: {}
+[13.437696] (pick_and_place_application) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[13.438921] (pick_and_place_application) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[13.493557] (pick_and_place_application) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[13.528179] (-) TimerEvent: {}
+[13.628505] (-) TimerEvent: {}
+[13.672723] (pick_and_place_application) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[13.679551] (pick_and_place_application) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[13.686112] (pick_and_place_application) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[13.728593] (-) TimerEvent: {}
+[13.828868] (-) TimerEvent: {}
+[13.854587] (pick_and_place_application) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[13.928985] (-) TimerEvent: {}
+[14.026555] (pick_and_place_application) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[14.029049] (-) TimerEvent: {}
+[14.129288] (-) TimerEvent: {}
+[14.193794] (pick_and_place_application) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[14.194829] (pick_and_place_application) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[14.195805] (pick_and_place_application) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[14.196742] (pick_and_place_application) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[14.197776] (pick_and_place_application) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[14.198725] (pick_and_place_application) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[14.199172] (pick_and_place_application) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[14.199577] (pick_and_place_application) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[14.200508] (pick_and_place_application) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[14.201610] (pick_and_place_application) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[14.202651] (pick_and_place_application) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[14.203623] (pick_and_place_application) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[14.204732] (pick_and_place_application) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[14.205820] (pick_and_place_application) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[14.206846] (pick_and_place_application) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[14.207921] (pick_and_place_application) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[14.209000] (pick_and_place_application) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[14.210034] (pick_and_place_application) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[14.211174] (pick_and_place_application) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[14.212166] (pick_and_place_application) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[14.213126] (pick_and_place_application) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[14.213524] (pick_and_place_application) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[14.213959] (pick_and_place_application) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[14.214912] (pick_and_place_application) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[14.216016] (pick_and_place_application) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[14.229349] (-) TimerEvent: {}
+[14.236851] (pick_and_place_application) StdoutLine: {'line': b'-- Found moveit_common: 2.5.4 (/opt/ros/humble/share/moveit_common/cmake)\n'}
+[14.239229] (pick_and_place_application) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.4 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[14.255548] (pick_and_place_application) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[14.329497] (-) TimerEvent: {}
+[14.429875] (-) TimerEvent: {}
+[14.530274] (-) TimerEvent: {}
+[14.630654] (-) TimerEvent: {}
+[14.731051] (-) TimerEvent: {}
+[14.831431] (-) TimerEvent: {}
+[14.931820] (-) TimerEvent: {}
+[15.030004] (pick_and_place_application) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[15.031929] (-) TimerEvent: {}
+[15.046641] (pick_and_place_application) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[15.132048] (-) TimerEvent: {}
+[15.144488] (pick_and_place_application) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[15.232189] (-) TimerEvent: {}
+[15.332577] (-) TimerEvent: {}
+[15.432978] (-) TimerEvent: {}
+[15.533351] (-) TimerEvent: {}
+[15.632255] (pick_and_place_application) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[15.633449] (-) TimerEvent: {}
+[15.733790] (-) TimerEvent: {}
+[15.834172] (-) TimerEvent: {}
+[15.934565] (-) TimerEvent: {}
+[16.034951] (-) TimerEvent: {}
+[16.135333] (-) TimerEvent: {}
+[16.235708] (-) TimerEvent: {}
+[16.316459] (pick_and_place_application) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[16.335827] (-) TimerEvent: {}
+[16.436201] (-) TimerEvent: {}
+[16.536579] (-) TimerEvent: {}
+[16.628018] (pick_and_place_application) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[16.636708] (-) TimerEvent: {}
+[16.737108] (-) TimerEvent: {}
+[16.837481] (-) TimerEvent: {}
+[16.937861] (-) TimerEvent: {}
+[17.038241] (-) TimerEvent: {}
+[17.138625] (-) TimerEvent: {}
+[17.174908] (pick_and_place_application) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system \n'}
+[17.238725] (-) TimerEvent: {}
+[17.251963] (pick_and_place_application) StdoutLine: {'line': b'-- Configuring done\n'}
+[17.319525] (pick_and_place_application) StdoutLine: {'line': b'-- Generating done\n'}
+[17.323275] (pick_and_place_application) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/perception_driven_ws/build/pick_and_place_application\n'}
+[17.338833] (-) TimerEvent: {}
+[17.349614] (pick_and_place_application) CommandEnded: {'returncode': 0}
+[17.350603] (pick_and_place_application) JobProgress: {'identifier': 'pick_and_place_application', 'progress': 'build'}
+[17.351369] (pick_and_place_application) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/perception_driven_ws/build/pick_and_place_application', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/perception_driven_ws/build/pick_and_place_application', 'env': OrderedDict([('VNCDESKTOP', 'ip-172-31-18-146.ec2.internal:1 (ubuntu)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '129.162.113.222 36478 22'), ('SSH_AGENT_PID', '1721'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1860'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/perception_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ip-172-31-18-146:@/tmp/.ICE-unix/1798,unix/ip-172-31-18-146:/tmp/.ICE-unix/1798'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e4a6e716_8374_4636_8e11_fe5b05fe3a02'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.588'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs:/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/perception_driven_ws/build/pick_and_place_application'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '129.162.113.222 36478 172.31.18.146 22'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/perception_driven_ws/install/pick_and_place_msgs:/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble')]), 'shell': False}
+[17.410221] (pick_and_place_application) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/fake_grasp_server_node.dir/src/nodes/fake_grasp_action_server.cpp.o\x1b[0m\n'}
+[17.414294] (pick_and_place_application) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/generate_cloud_node.dir/src/nodes/generate_point_cloud.cpp.o\x1b[0m\n'}
+[17.416251] (pick_and_place_application) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/nodes/pick_and_place_node.cpp.o\x1b[0m\n'}
+[17.417392] (pick_and_place_application) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/initialize.cpp.o\x1b[0m\n'}
+[17.438950] (-) TimerEvent: {}
+[17.539465] (-) TimerEvent: {}
+[17.639997] (-) TimerEvent: {}
+[17.740480] (-) TimerEvent: {}
+[17.841081] (-) TimerEvent: {}
+[17.941596] (-) TimerEvent: {}
+[18.042082] (-) TimerEvent: {}
+[18.142643] (-) TimerEvent: {}
+[18.243168] (-) TimerEvent: {}
+[18.343728] (-) TimerEvent: {}
+[18.444430] (-) TimerEvent: {}
+[18.545032] (-) TimerEvent: {}
+[18.642573] (pick_and_place_application) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/nodes/generate_point_cloud.cpp:10\x1b[m\x1b[K:\n'}
+[18.642911] (pick_and_place_application) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.643022] (pick_and_place_application) StderrLine: {'line': b'   47 | #    \x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K POINT_CLOUD_DEPRECATION_MESSAGE\n'}
+[18.643109] (pick_and_place_application) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[18.645121] (-) TimerEvent: {}
+[18.745456] (-) TimerEvent: {}
+[18.845847] (-) TimerEvent: {}
+[18.946241] (-) TimerEvent: {}
+[19.046628] (-) TimerEvent: {}
+[19.147017] (-) TimerEvent: {}
+[19.247421] (-) TimerEvent: {}
+[19.347873] (-) TimerEvent: {}
+[19.448320] (-) TimerEvent: {}
+[19.548701] (-) TimerEvent: {}
+[19.651629] (-) TimerEvent: {}
+[19.752051] (-) TimerEvent: {}
+[19.852471] (-) TimerEvent: {}
+[19.952966] (-) TimerEvent: {}
+[20.020350] (pick_and_place_application) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/nodes/pick_and_place_node.cpp:20:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"/*" within comment [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment\x07-Wcomment\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.020745] (pick_and_place_application) StderrLine: {'line': b'   20 |   /* =========================================================================================*/\n'}
+[20.020890] (pick_and_place_application) StderrLine: {'line': b'      |    \n'}
+[20.053095] (-) TimerEvent: {}
+[20.153517] (-) TimerEvent: {}
+[20.253926] (-) TimerEvent: {}
+[20.354339] (-) TimerEvent: {}
+[20.454749] (-) TimerEvent: {}
+[20.555159] (-) TimerEvent: {}
+[20.655561] (-) TimerEvent: {}
+[20.755970] (-) TimerEvent: {}
+[20.856372] (-) TimerEvent: {}
+[20.956783] (-) TimerEvent: {}
+[21.057195] (-) TimerEvent: {}
+[21.157593] (-) TimerEvent: {}
+[21.257999] (-) TimerEvent: {}
+[21.358413] (-) TimerEvent: {}
+[21.458795] (-) TimerEvent: {}
+[21.559166] (-) TimerEvent: {}
+[21.659565] (-) TimerEvent: {}
+[21.759974] (-) TimerEvent: {}
+[21.860381] (-) TimerEvent: {}
+[21.960770] (-) TimerEvent: {}
+[22.061181] (-) TimerEvent: {}
+[22.161587] (-) TimerEvent: {}
+[22.261985] (-) TimerEvent: {}
+[22.362390] (-) TimerEvent: {}
+[22.462807] (-) TimerEvent: {}
+[22.563218] (-) TimerEvent: {}
+[22.663636] (-) TimerEvent: {}
+[22.764050] (-) TimerEvent: {}
+[22.864474] (-) TimerEvent: {}
+[22.964900] (-) TimerEvent: {}
+[23.065291] (-) TimerEvent: {}
+[23.165697] (-) TimerEvent: {}
+[23.266098] (-) TimerEvent: {}
+[23.366502] (-) TimerEvent: {}
+[23.466900] (-) TimerEvent: {}
+[23.567305] (-) TimerEvent: {}
+[23.667697] (-) TimerEvent: {}
+[23.768099] (-) TimerEvent: {}
+[23.868495] (-) TimerEvent: {}
+[23.968897] (-) TimerEvent: {}
+[24.008211] (pick_and_place_application) StdoutLine: {'line': b'[ 27%] \x1b[32m\x1b[1mLinking CXX executable fake_grasp_server_node\x1b[0m\n'}
+[24.069022] (-) TimerEvent: {}
+[24.169397] (-) TimerEvent: {}
+[24.253829] (pick_and_place_application) StdoutLine: {'line': b'[ 27%] Built target fake_grasp_server_node\n'}
+[24.265170] (pick_and_place_application) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/move_to_wait_position.cpp.o\x1b[0m\n'}
+[24.269495] (-) TimerEvent: {}
+[24.369829] (-) TimerEvent: {}
+[24.470204] (-) TimerEvent: {}
+[24.570577] (-) TimerEvent: {}
+[24.670961] (-) TimerEvent: {}
+[24.771362] (-) TimerEvent: {}
+[24.871767] (-) TimerEvent: {}
+[24.972176] (-) TimerEvent: {}
+[25.072570] (-) TimerEvent: {}
+[25.172981] (-) TimerEvent: {}
+[25.273387] (-) TimerEvent: {}
+[25.373794] (-) TimerEvent: {}
+[25.474194] (-) TimerEvent: {}
+[25.574628] (-) TimerEvent: {}
+[25.675048] (-) TimerEvent: {}
+[25.775473] (-) TimerEvent: {}
+[25.875893] (-) TimerEvent: {}
+[25.976316] (-) TimerEvent: {}
+[26.076842] (-) TimerEvent: {}
+[26.177359] (-) TimerEvent: {}
+[26.277873] (-) TimerEvent: {}
+[26.378383] (-) TimerEvent: {}
+[26.478899] (-) TimerEvent: {}
+[26.579294] (-) TimerEvent: {}
+[26.679689] (-) TimerEvent: {}
+[26.780084] (-) TimerEvent: {}
+[26.880476] (-) TimerEvent: {}
+[26.980891] (-) TimerEvent: {}
+[27.081300] (-) TimerEvent: {}
+[27.181714] (-) TimerEvent: {}
+[27.282125] (-) TimerEvent: {}
+[27.382543] (-) TimerEvent: {}
+[27.482963] (-) TimerEvent: {}
+[27.583370] (-) TimerEvent: {}
+[27.683780] (-) TimerEvent: {}
+[27.784172] (-) TimerEvent: {}
+[27.884569] (-) TimerEvent: {}
+[27.984988] (-) TimerEvent: {}
+[28.085386] (-) TimerEvent: {}
+[28.185787] (-) TimerEvent: {}
+[28.286201] (-) TimerEvent: {}
+[28.386616] (-) TimerEvent: {}
+[28.487040] (-) TimerEvent: {}
+[28.587445] (-) TimerEvent: {}
+[28.687850] (-) TimerEvent: {}
+[28.788263] (-) TimerEvent: {}
+[28.888667] (-) TimerEvent: {}
+[28.989082] (-) TimerEvent: {}
+[29.089483] (-) TimerEvent: {}
+[29.189886] (-) TimerEvent: {}
+[29.290295] (-) TimerEvent: {}
+[29.390693] (-) TimerEvent: {}
+[29.491090] (-) TimerEvent: {}
+[29.591466] (-) TimerEvent: {}
+[29.691839] (-) TimerEvent: {}
+[29.792238] (-) TimerEvent: {}
+[29.892627] (-) TimerEvent: {}
+[29.993026] (-) TimerEvent: {}
+[30.093411] (-) TimerEvent: {}
+[30.193796] (-) TimerEvent: {}
+[30.294178] (-) TimerEvent: {}
+[30.394561] (-) TimerEvent: {}
+[30.494941] (-) TimerEvent: {}
+[30.595374] (-) TimerEvent: {}
+[30.695781] (-) TimerEvent: {}
+[30.796219] (-) TimerEvent: {}
+[30.896634] (-) TimerEvent: {}
+[30.997055] (-) TimerEvent: {}
+[31.097453] (-) TimerEvent: {}
+[31.197857] (-) TimerEvent: {}
+[31.298263] (-) TimerEvent: {}
+[31.398656] (-) TimerEvent: {}
+[31.499063] (-) TimerEvent: {}
+[31.599474] (-) TimerEvent: {}
+[31.699875] (-) TimerEvent: {}
+[31.800283] (-) TimerEvent: {}
+[31.900688] (-) TimerEvent: {}
+[32.001112] (-) TimerEvent: {}
+[32.101524] (-) TimerEvent: {}
+[32.201918] (-) TimerEvent: {}
+[32.302310] (-) TimerEvent: {}
+[32.402708] (-) TimerEvent: {}
+[32.503096] (-) TimerEvent: {}
+[32.603503] (-) TimerEvent: {}
+[32.703911] (-) TimerEvent: {}
+[32.804296] (-) TimerEvent: {}
+[32.904694] (-) TimerEvent: {}
+[33.005117] (-) TimerEvent: {}
+[33.105529] (-) TimerEvent: {}
+[33.205930] (-) TimerEvent: {}
+[33.306336] (-) TimerEvent: {}
+[33.406745] (-) TimerEvent: {}
+[33.507149] (-) TimerEvent: {}
+[33.607545] (-) TimerEvent: {}
+[33.707959] (-) TimerEvent: {}
+[33.808335] (-) TimerEvent: {}
+[33.908734] (-) TimerEvent: {}
+[34.009129] (-) TimerEvent: {}
+[34.109517] (-) TimerEvent: {}
+[34.209922] (-) TimerEvent: {}
+[34.310327] (-) TimerEvent: {}
+[34.410736] (-) TimerEvent: {}
+[34.511148] (-) TimerEvent: {}
+[34.611557] (-) TimerEvent: {}
+[34.711984] (-) TimerEvent: {}
+[34.812394] (-) TimerEvent: {}
+[34.912827] (-) TimerEvent: {}
+[35.013247] (-) TimerEvent: {}
+[35.113646] (-) TimerEvent: {}
+[35.214094] (-) TimerEvent: {}
+[35.314514] (-) TimerEvent: {}
+[35.414921] (-) TimerEvent: {}
+[35.515327] (-) TimerEvent: {}
+[35.615727] (-) TimerEvent: {}
+[35.716145] (-) TimerEvent: {}
+[35.816584] (-) TimerEvent: {}
+[35.917005] (-) TimerEvent: {}
+[36.017415] (-) TimerEvent: {}
+[36.117827] (-) TimerEvent: {}
+[36.218238] (-) TimerEvent: {}
+[36.318636] (-) TimerEvent: {}
+[36.419034] (-) TimerEvent: {}
+[36.519434] (-) TimerEvent: {}
+[36.619830] (-) TimerEvent: {}
+[36.720243] (-) TimerEvent: {}
+[36.820649] (-) TimerEvent: {}
+[36.921045] (-) TimerEvent: {}
+[37.021430] (-) TimerEvent: {}
+[37.024693] (pick_and_place_application) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/set_gripper.cpp.o\x1b[0m\n'}
+[37.121563] (-) TimerEvent: {}
+[37.222078] (-) TimerEvent: {}
+[37.322463] (-) TimerEvent: {}
+[37.422847] (-) TimerEvent: {}
+[37.523235] (-) TimerEvent: {}
+[37.623629] (-) TimerEvent: {}
+[37.724023] (-) TimerEvent: {}
+[37.824413] (-) TimerEvent: {}
+[37.924834] (-) TimerEvent: {}
+[38.025223] (-) TimerEvent: {}
+[38.125613] (-) TimerEvent: {}
+[38.226008] (-) TimerEvent: {}
+[38.326412] (-) TimerEvent: {}
+[38.426814] (-) TimerEvent: {}
+[38.527221] (-) TimerEvent: {}
+[38.628906] (-) TimerEvent: {}
+[38.729310] (-) TimerEvent: {}
+[38.829710] (-) TimerEvent: {}
+[38.930119] (-) TimerEvent: {}
+[39.030533] (-) TimerEvent: {}
+[39.130942] (-) TimerEvent: {}
+[39.231360] (-) TimerEvent: {}
+[39.264892] (pick_and_place_application) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX executable generate_cloud_node\x1b[0m\n'}
+[39.331485] (-) TimerEvent: {}
+[39.431865] (-) TimerEvent: {}
+[39.532267] (-) TimerEvent: {}
+[39.632660] (-) TimerEvent: {}
+[39.733083] (-) TimerEvent: {}
+[39.833460] (-) TimerEvent: {}
+[39.933861] (-) TimerEvent: {}
+[40.034258] (-) TimerEvent: {}
+[40.134683] (-) TimerEvent: {}
+[40.171411] (pick_and_place_application) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/reset_world.cpp.o\x1b[0m\n'}
+[40.234814] (-) TimerEvent: {}
+[40.245009] (pick_and_place_application) StdoutLine: {'line': b'[ 50%] Built target generate_cloud_node\n'}
+[40.257983] (pick_and_place_application) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/set_attached_object.cpp.o\x1b[0m\n'}
+[40.273522] (pick_and_place_application) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/set_attached_object.cpp:1\x1b[m\x1b[K:\n'}
+[40.273952] (pick_and_place_application) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.h:32:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[40.274137] (pick_and_place_application) StderrLine: {'line': b'   32 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead\n'}
+[40.274246] (pick_and_place_application) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[40.334940] (-) TimerEvent: {}
+[40.435325] (-) TimerEvent: {}
+[40.535711] (-) TimerEvent: {}
+[40.636121] (-) TimerEvent: {}
+[40.736522] (-) TimerEvent: {}
+[40.836889] (-) TimerEvent: {}
+[40.937287] (-) TimerEvent: {}
+[41.037704] (-) TimerEvent: {}
+[41.138104] (-) TimerEvent: {}
+[41.238511] (-) TimerEvent: {}
+[41.338920] (-) TimerEvent: {}
+[41.439334] (-) TimerEvent: {}
+[41.539748] (-) TimerEvent: {}
+[41.640165] (-) TimerEvent: {}
+[41.740567] (-) TimerEvent: {}
+[41.840986] (-) TimerEvent: {}
+[41.941372] (-) TimerEvent: {}
+[42.041765] (-) TimerEvent: {}
+[42.142269] (-) TimerEvent: {}
+[42.242765] (-) TimerEvent: {}
+[42.343290] (-) TimerEvent: {}
+[42.443688] (-) TimerEvent: {}
+[42.544199] (-) TimerEvent: {}
+[42.644697] (-) TimerEvent: {}
+[42.745214] (-) TimerEvent: {}
+[42.845695] (-) TimerEvent: {}
+[42.941817] (pick_and_place_application) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/detect_box_pick.cpp.o\x1b[0m\n'}
+[42.945799] (-) TimerEvent: {}
+[43.046288] (-) TimerEvent: {}
+[43.146803] (-) TimerEvent: {}
+[43.247322] (-) TimerEvent: {}
+[43.347845] (-) TimerEvent: {}
+[43.453173] (-) TimerEvent: {}
+[43.553602] (-) TimerEvent: {}
+[43.654076] (-) TimerEvent: {}
+[43.754481] (-) TimerEvent: {}
+[43.854881] (-) TimerEvent: {}
+[43.955257] (-) TimerEvent: {}
+[44.055684] (-) TimerEvent: {}
+[44.156063] (-) TimerEvent: {}
+[44.256432] (-) TimerEvent: {}
+[44.356812] (-) TimerEvent: {}
+[44.457181] (-) TimerEvent: {}
+[44.557564] (-) TimerEvent: {}
+[44.657962] (-) TimerEvent: {}
+[44.758352] (-) TimerEvent: {}
+[44.858753] (-) TimerEvent: {}
+[44.959154] (-) TimerEvent: {}
+[45.059551] (-) TimerEvent: {}
+[45.159958] (-) TimerEvent: {}
+[45.260364] (-) TimerEvent: {}
+[45.360781] (-) TimerEvent: {}
+[45.461328] (-) TimerEvent: {}
+[45.561835] (-) TimerEvent: {}
+[45.659705] (pick_and_place_application) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/detect_box_pick.cpp:2\x1b[m\x1b[K:\n'}
+[45.660093] (pick_and_place_application) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[45.660304] (pick_and_place_application) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[45.660487] (pick_and_place_application) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[45.661919] (-) TimerEvent: {}
+[45.762256] (-) TimerEvent: {}
+[45.862662] (-) TimerEvent: {}
+[45.963067] (-) TimerEvent: {}
+[46.063481] (-) TimerEvent: {}
+[46.163874] (-) TimerEvent: {}
+[46.264274] (-) TimerEvent: {}
+[46.364674] (-) TimerEvent: {}
+[46.465097] (-) TimerEvent: {}
+[46.565508] (-) TimerEvent: {}
+[46.665902] (-) TimerEvent: {}
+[46.766302] (-) TimerEvent: {}
+[46.866703] (-) TimerEvent: {}
+[46.967106] (-) TimerEvent: {}
+[47.067495] (-) TimerEvent: {}
+[47.167923] (-) TimerEvent: {}
+[47.268338] (-) TimerEvent: {}
+[47.368749] (-) TimerEvent: {}
+[47.469168] (-) TimerEvent: {}
+[47.569573] (-) TimerEvent: {}
+[47.669983] (-) TimerEvent: {}
+[47.770389] (-) TimerEvent: {}
+[47.870762] (-) TimerEvent: {}
+[47.971171] (-) TimerEvent: {}
+[48.071576] (-) TimerEvent: {}
+[48.171984] (-) TimerEvent: {}
+[48.272364] (-) TimerEvent: {}
+[48.372764] (-) TimerEvent: {}
+[48.473292] (-) TimerEvent: {}
+[48.573811] (-) TimerEvent: {}
+[48.674299] (-) TimerEvent: {}
+[48.774801] (-) TimerEvent: {}
+[48.875304] (-) TimerEvent: {}
+[48.975816] (-) TimerEvent: {}
+[49.076323] (-) TimerEvent: {}
+[49.176836] (-) TimerEvent: {}
+[49.277334] (-) TimerEvent: {}
+[49.377852] (-) TimerEvent: {}
+[49.478255] (-) TimerEvent: {}
+[49.578649] (-) TimerEvent: {}
+[49.679022] (-) TimerEvent: {}
+[49.779396] (-) TimerEvent: {}
+[49.879767] (-) TimerEvent: {}
+[49.980145] (-) TimerEvent: {}
+[50.080514] (-) TimerEvent: {}
+[50.180890] (-) TimerEvent: {}
+[50.281373] (-) TimerEvent: {}
+[50.381749] (-) TimerEvent: {}
+[50.482125] (-) TimerEvent: {}
+[50.582505] (-) TimerEvent: {}
+[50.682899] (-) TimerEvent: {}
+[50.783295] (-) TimerEvent: {}
+[50.883704] (-) TimerEvent: {}
+[50.984120] (-) TimerEvent: {}
+[51.084530] (-) TimerEvent: {}
+[51.184890] (-) TimerEvent: {}
+[51.285284] (-) TimerEvent: {}
+[51.291192] (pick_and_place_application) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/set_gripper.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid pick_and_place_application::PickAndPlaceApp::actuateGripper(bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[51.291518] (pick_and_place_application) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/set_gripper.cpp:13:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktypedef \xe2\x80\x98\x1b[01m\x1b[Kusing GraspGoalHandle = class rclcpp_action::ClientGoalHandle<pick_and_place_msgs::action::ExecuteGraspMove>\x1b[m\x1b[K\xe2\x80\x99 locally defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-local-typedefs\x07-Wunused-local-typedefs\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[51.291642] (pick_and_place_application) StderrLine: {'line': b'   13 |   using \x1b[01;35m\x1b[KGraspGoalHandle\x1b[m\x1b[K = rclcpp_action::ClientGoalHandle<pick_and_place_msgs::action::ExecuteGraspMove>;\n'}
+[51.291725] (pick_and_place_application) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[51.385414] (-) TimerEvent: {}
+[51.485810] (-) TimerEvent: {}
+[51.586195] (-) TimerEvent: {}
+[51.686582] (-) TimerEvent: {}
+[51.786955] (-) TimerEvent: {}
+[51.887352] (-) TimerEvent: {}
+[51.987739] (-) TimerEvent: {}
+[52.088134] (-) TimerEvent: {}
+[52.188533] (-) TimerEvent: {}
+[52.288889] (-) TimerEvent: {}
+[52.389280] (-) TimerEvent: {}
+[52.489669] (-) TimerEvent: {}
+[52.590053] (-) TimerEvent: {}
+[52.690443] (-) TimerEvent: {}
+[52.790820] (-) TimerEvent: {}
+[52.891212] (-) TimerEvent: {}
+[52.991603] (-) TimerEvent: {}
+[53.091991] (-) TimerEvent: {}
+[53.192378] (-) TimerEvent: {}
+[53.292779] (-) TimerEvent: {}
+[53.393206] (-) TimerEvent: {}
+[53.493600] (-) TimerEvent: {}
+[53.593983] (-) TimerEvent: {}
+[53.695250] (-) TimerEvent: {}
+[53.795664] (-) TimerEvent: {}
+[53.896075] (-) TimerEvent: {}
+[53.996486] (-) TimerEvent: {}
+[54.096897] (-) TimerEvent: {}
+[54.197287] (-) TimerEvent: {}
+[54.297681] (-) TimerEvent: {}
+[54.398068] (-) TimerEvent: {}
+[54.498455] (-) TimerEvent: {}
+[54.598851] (-) TimerEvent: {}
+[54.699253] (-) TimerEvent: {}
+[54.799649] (-) TimerEvent: {}
+[54.900034] (-) TimerEvent: {}
+[55.000410] (-) TimerEvent: {}
+[55.058721] (pick_and_place_application) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/set_attached_object.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid pick_and_place_application::PickAndPlaceApp::setAttachedObject(bool, const Pose&, moveit_msgs::msg::RobotState&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[55.059075] (pick_and_place_application) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/set_attached_object.cpp:34:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmoveit::core::RobotState::attachBody(std::string&, std::vector<std::shared_ptr<const shapes::Shape> >&, EigenSTL::vector_Isometry3d&, std::vector<std::__cxx11::basic_string<char> >&, std::string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[55.059253] (pick_and_place_application) StderrLine: {'line': b'   34 |     \x1b[01;31m\x1b[Kcurrent_state->attachBody(\x1b[m\x1b[K\n'}
+[55.059580] (pick_and_place_application) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[55.059768] (pick_and_place_application) StderrLine: {'line': b'   35 | \x1b[01;31m\x1b[K        cfg.ATTACHED_OBJECT_LINK_NAME, shapes_array, pose_array, cfg.TOUCH_LINKS, cfg.TCP_LINK_NAME)\x1b[m\x1b[K;\n'}
+[55.059985] (pick_and_place_application) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[55.060080] (pick_and_place_application) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/moveit/planning_scene/planning_scene.h:40\x1b[m\x1b[K,\n'}
+[55.060166] (pick_and_place_application) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit/planning_scene_monitor/planning_scene_monitor.h:43\x1b[m\x1b[K,\n'}
+[55.060264] (pick_and_place_application) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit/moveit_cpp/moveit_cpp.h:44\x1b[m\x1b[K,\n'}
+[55.060354] (pick_and_place_application) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/include/pick_and_place_application/pick_and_place.h:9\x1b[m\x1b[K,\n'}
+[55.060476] (pick_and_place_application) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/set_attached_object.cpp:2\x1b[m\x1b[K:\n'}
+[55.060671] (pick_and_place_application) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1594:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid moveit::core::RobotState::attachBody(std::unique_ptr<moveit::core::AttachedBody>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[55.060760] (pick_and_place_application) StderrLine: {'line': b' 1594 |   void \x1b[01;36m\x1b[KattachBody\x1b[m\x1b[K(std::unique_ptr<AttachedBody> attached_body);\n'}
+[55.060874] (pick_and_place_application) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[55.060961] (pick_and_place_application) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1594:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 5 provided\n'}
+[55.061044] (pick_and_place_application) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1615:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid moveit::core::RobotState::attachBody(moveit::core::AttachedBody*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[55.061127] (pick_and_place_application) StderrLine: {'line': b' 1615 |   [[deprecated("Deprecated. Pass a unique_ptr instead")]] void \x1b[01;36m\x1b[KattachBody\x1b[m\x1b[K(AttachedBody* attached_body);\n'}
+[55.061207] (pick_and_place_application) StderrLine: {'line': b'      |                                                                \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[55.061287] (pick_and_place_application) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1615:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 5 provided\n'}
+[55.061366] (pick_and_place_application) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1634:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid moveit::core::RobotState::attachBody(const string&, const Isometry3d&, const std::vector<std::shared_ptr<const shapes::Shape> >&, const vector_Isometry3d&, const std::set<std::__cxx11::basic_string<char> >&, const string&, const JointTrajectory&, const FixedTransformsMap&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[55.061456] (pick_and_place_application) StderrLine: {'line': b' 1634 |   void \x1b[01;36m\x1b[KattachBody\x1b[m\x1b[K(const std::string& id, const Eigen::Isometry3d& pose,\n'}
+[55.061535] (pick_and_place_application) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[55.061615] (pick_and_place_application) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1634:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 8 arguments, 5 provided\n'}
+[55.061695] (pick_and_place_application) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1657:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid moveit::core::RobotState::attachBody(const string&, const Isometry3d&, const std::vector<std::shared_ptr<const shapes::Shape> >&, const vector_Isometry3d&, const std::vector<std::__cxx11::basic_string<char> >&, const string&, const JointTrajectory&, const FixedTransformsMap&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[55.061779] (pick_and_place_application) StderrLine: {'line': b' 1657 |   void \x1b[01;36m\x1b[KattachBody\x1b[m\x1b[K(const std::string& id, const Eigen::Isometry3d& pose,\n'}
+[55.061860] (pick_and_place_application) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[55.061938] (pick_and_place_application) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1657:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 8 arguments, 5 provided\n'}
+[55.062019] (pick_and_place_application) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/set_attached_object.cpp:16:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpose\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[55.062103] (pick_and_place_application) StderrLine: {'line': b'   16 |                                         \x1b[01;35m\x1b[Kconst geometry_msgs::msg::Pose& pose\x1b[m\x1b[K,\n'}
+[55.062182] (pick_and_place_application) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[55.100538] (-) TimerEvent: {}
+[55.200891] (-) TimerEvent: {}
+[55.301253] (-) TimerEvent: {}
+[55.401612] (-) TimerEvent: {}
+[55.501993] (-) TimerEvent: {}
+[55.602377] (-) TimerEvent: {}
+[55.702761] (-) TimerEvent: {}
+[55.803137] (-) TimerEvent: {}
+[55.903508] (-) TimerEvent: {}
+[56.003875] (-) TimerEvent: {}
+[56.104258] (-) TimerEvent: {}
+[56.204690] (-) TimerEvent: {}
+[56.259473] (pick_and_place_application) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/create_pick_moves.cpp.o\x1b[0m\n'}
+[56.304844] (-) TimerEvent: {}
+[56.405246] (-) TimerEvent: {}
+[56.505655] (-) TimerEvent: {}
+[56.606063] (-) TimerEvent: {}
+[56.706463] (-) TimerEvent: {}
+[56.806871] (-) TimerEvent: {}
+[56.907282] (-) TimerEvent: {}
+[57.007674] (-) TimerEvent: {}
+[57.108086] (-) TimerEvent: {}
+[57.208465] (-) TimerEvent: {}
+[57.308889] (-) TimerEvent: {}
+[57.409288] (-) TimerEvent: {}
+[57.509683] (-) TimerEvent: {}
+[57.610087] (-) TimerEvent: {}
+[57.710468] (-) TimerEvent: {}
+[57.810850] (-) TimerEvent: {}
+[57.911238] (-) TimerEvent: {}
+[58.011634] (-) TimerEvent: {}
+[58.112040] (-) TimerEvent: {}
+[58.212459] (-) TimerEvent: {}
+[58.312852] (-) TimerEvent: {}
+[58.413220] (-) TimerEvent: {}
+[58.513615] (-) TimerEvent: {}
+[58.614019] (-) TimerEvent: {}
+[58.714428] (-) TimerEvent: {}
+[58.771498] (pick_and_place_application) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/create_pick_moves.cpp:2\x1b[m\x1b[K:\n'}
+[58.771831] (pick_and_place_application) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[58.771969] (pick_and_place_application) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[58.772076] (pick_and_place_application) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[58.814559] (-) TimerEvent: {}
+[58.914946] (-) TimerEvent: {}
+[59.015344] (-) TimerEvent: {}
+[59.115735] (-) TimerEvent: {}
+[59.216139] (-) TimerEvent: {}
+[59.316533] (-) TimerEvent: {}
+[59.416889] (-) TimerEvent: {}
+[59.517262] (-) TimerEvent: {}
+[59.617751] (-) TimerEvent: {}
+[59.718141] (-) TimerEvent: {}
+[59.818524] (-) TimerEvent: {}
+[59.918917] (-) TimerEvent: {}
+[60.019315] (-) TimerEvent: {}
+[60.119702] (-) TimerEvent: {}
+[60.220092] (-) TimerEvent: {}
+[60.320480] (-) TimerEvent: {}
+[60.420880] (-) TimerEvent: {}
+[60.521244] (-) TimerEvent: {}
+[60.556666] (pick_and_place_application) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/pick_and_place_node.dir/src/tasks/create_place_moves.cpp.o\x1b[0m\n'}
+[60.621387] (-) TimerEvent: {}
+[60.721918] (-) TimerEvent: {}
+[60.822435] (-) TimerEvent: {}
+[60.923203] (-) TimerEvent: {}
+[61.023757] (-) TimerEvent: {}
+[61.124350] (-) TimerEvent: {}
+[61.224901] (-) TimerEvent: {}
+[61.261045] (pick_and_place_application) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pick_and_place_node.dir/build.make:146: CMakeFiles/pick_and_place_node.dir/src/tasks/set_attached_object.cpp.o] Error 1\n'}
+[61.261461] (pick_and_place_application) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[61.325029] (-) TimerEvent: {}
+[61.425545] (-) TimerEvent: {}
+[61.525943] (-) TimerEvent: {}
+[61.626336] (-) TimerEvent: {}
+[61.726753] (-) TimerEvent: {}
+[61.827324] (-) TimerEvent: {}
+[61.927766] (-) TimerEvent: {}
+[62.028187] (-) TimerEvent: {}
+[62.128576] (-) TimerEvent: {}
+[62.229000] (-) TimerEvent: {}
+[62.329407] (-) TimerEvent: {}
+[62.429825] (-) TimerEvent: {}
+[62.530241] (-) TimerEvent: {}
+[62.603774] (pick_and_place_application) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/perception_driven_ws/src/pick_and_place_application/src/tasks/create_place_moves.cpp:2\x1b[m\x1b[K:\n'}
+[62.604081] (pick_and_place_application) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[62.604210] (pick_and_place_application) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[62.604302] (pick_and_place_application) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[62.630369] (-) TimerEvent: {}
+[62.730794] (-) TimerEvent: {}
+[62.831239] (-) TimerEvent: {}
+[62.931650] (-) TimerEvent: {}
+[63.032042] (-) TimerEvent: {}
+[63.132439] (-) TimerEvent: {}
+[63.232892] (-) TimerEvent: {}
+[63.333317] (-) TimerEvent: {}
+[63.433749] (-) TimerEvent: {}
+[63.534149] (-) TimerEvent: {}
+[63.634515] (-) TimerEvent: {}
+[63.734924] (-) TimerEvent: {}
+[63.835325] (-) TimerEvent: {}
+[63.935724] (-) TimerEvent: {}
+[64.036132] (-) TimerEvent: {}
+[64.136534] (-) TimerEvent: {}
+[64.236899] (-) TimerEvent: {}
+[64.337291] (-) TimerEvent: {}
+[64.437695] (-) TimerEvent: {}
+[64.538080] (-) TimerEvent: {}
+[64.638460] (-) TimerEvent: {}
+[64.738864] (-) TimerEvent: {}
+[64.839260] (-) TimerEvent: {}
+[64.939663] (-) TimerEvent: {}
+[65.040059] (-) TimerEvent: {}
+[65.140458] (-) TimerEvent: {}
+[65.240878] (-) TimerEvent: {}
+[65.341240] (-) TimerEvent: {}
+[65.441604] (-) TimerEvent: {}
+[65.541986] (-) TimerEvent: {}
+[65.642388] (-) TimerEvent: {}
+[65.742784] (-) TimerEvent: {}
+[65.843178] (-) TimerEvent: {}
+[65.943580] (-) TimerEvent: {}
+[66.043980] (-) TimerEvent: {}
+[66.144368] (-) TimerEvent: {}
+[66.244756] (-) TimerEvent: {}
+[66.345153] (-) TimerEvent: {}
+[66.445546] (-) TimerEvent: {}
+[66.545951] (-) TimerEvent: {}
+[66.646342] (-) TimerEvent: {}
+[66.746726] (-) TimerEvent: {}
+[66.847103] (-) TimerEvent: {}
+[66.947492] (-) TimerEvent: {}
+[67.047891] (-) TimerEvent: {}
+[67.148291] (-) TimerEvent: {}
+[67.248693] (-) TimerEvent: {}
+[67.349100] (-) TimerEvent: {}
+[67.449496] (-) TimerEvent: {}
+[67.549897] (-) TimerEvent: {}
+[67.650301] (-) TimerEvent: {}
+[67.750701] (-) TimerEvent: {}
+[67.851109] (-) TimerEvent: {}
+[67.951524] (-) TimerEvent: {}
+[68.051934] (-) TimerEvent: {}
+[68.152317] (-) TimerEvent: {}
+[68.252718] (-) TimerEvent: {}
+[68.353123] (-) TimerEvent: {}
+[68.453515] (-) TimerEvent: {}
+[68.553875] (-) TimerEvent: {}
+[68.654252] (-) TimerEvent: {}
+[68.754608] (-) TimerEvent: {}
+[68.854975] (-) TimerEvent: {}
+[68.955344] (-) TimerEvent: {}
+[69.055711] (-) TimerEvent: {}
+[69.156078] (-) TimerEvent: {}
+[69.256445] (-) TimerEvent: {}
+[69.356846] (-) TimerEvent: {}
+[69.457220] (-) TimerEvent: {}
+[69.557625] (-) TimerEvent: {}
+[69.658035] (-) TimerEvent: {}
+[69.758426] (-) TimerEvent: {}
+[69.858822] (-) TimerEvent: {}
+[69.959223] (-) TimerEvent: {}
+[70.059626] (-) TimerEvent: {}
+[70.160024] (-) TimerEvent: {}
+[70.260439] (-) TimerEvent: {}
+[70.360867] (-) TimerEvent: {}
+[70.461266] (-) TimerEvent: {}
+[70.561669] (-) TimerEvent: {}
+[70.662050] (-) TimerEvent: {}
+[70.762453] (-) TimerEvent: {}
+[70.862866] (-) TimerEvent: {}
+[70.963274] (-) TimerEvent: {}
+[71.063674] (-) TimerEvent: {}
+[71.164077] (-) TimerEvent: {}
+[71.264482] (-) TimerEvent: {}
+[71.364885] (-) TimerEvent: {}
+[71.465289] (-) TimerEvent: {}
+[71.565676] (-) TimerEvent: {}
+[71.666088] (-) TimerEvent: {}
+[71.766487] (-) TimerEvent: {}
+[71.866889] (-) TimerEvent: {}
+[71.967283] (-) TimerEvent: {}
+[72.067687] (-) TimerEvent: {}
+[72.168108] (-) TimerEvent: {}
+[72.268516] (-) TimerEvent: {}
+[72.368914] (-) TimerEvent: {}
+[72.469306] (-) TimerEvent: {}
+[72.569714] (-) TimerEvent: {}
+[72.670119] (-) TimerEvent: {}
+[72.770530] (-) TimerEvent: {}
+[72.870913] (-) TimerEvent: {}
+[72.949937] (pick_and_place_application) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/pick_and_place_node.dir/all] Error 2\n'}
+[72.950176] (pick_and_place_application) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[72.952345] (pick_and_place_application) CommandEnded: {'returncode': 2}
+[72.970982] (-) TimerEvent: {}
+[73.018739] (pick_and_place_application) JobEnded: {'identifier': 'pick_and_place_application', 'rc': 2}
+[73.029372] (-) EventReactorShutdown: {}

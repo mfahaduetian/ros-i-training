@@ -1,0 +1,16 @@
+[0.038s] Invoking command in '/home/ubuntu/tesseract_ws/build/ifopt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/tesseract_ws/install/industrial_reconstruction:/opt/ros/humble /usr/bin/cmake /home/ubuntu/tesseract_ws/src/ifopt -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/ubuntu/tesseract_ws/install/ifopt
+[0.358s] -- CMAKE_BUILD_TYPE not set to Release -> impacts performance
+[0.699s] -- Configuring done
+[0.874s] -- Generating done
+[0.875s] -- Build files have been written to: /home/ubuntu/tesseract_ws/build/ifopt
+[0.880s] Invoked command in '/home/ubuntu/tesseract_ws/build/ifopt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/tesseract_ws/install/industrial_reconstruction:/opt/ros/humble /usr/bin/cmake /home/ubuntu/tesseract_ws/src/ifopt -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/ubuntu/tesseract_ws/install/ifopt
+[0.881s] Invoking command in '/home/ubuntu/tesseract_ws/build/ifopt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/tesseract_ws/install/industrial_reconstruction:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/tesseract_ws/build/ifopt -- -j4 -l4
+[1.041s] Consolidate compiler generated dependencies of target ifopt_core
+[1.097s] [  8%] Building CXX object ifopt_core/CMakeFiles/ifopt_core.dir/src/problem.cc.o
+[1.102s] [ 16%] Building CXX object ifopt_core/CMakeFiles/ifopt_core.dir/src/composite.cc.o
+[1.124s] [ 25%] Building CXX object ifopt_core/CMakeFiles/ifopt_core.dir/src/leaves.cc.o
+[18.276s] [ 33%] Linking CXX shared library libifopt_core.so
+[18.724s] [ 33%] Built target ifopt_core
+[18.835s] Consolidate compiler generated dependencies of target ifopt_core-test
+[19.126s] [ 41%] Building CXX object ifopt_core/CMakeFiles/ifopt_core-test.dir/test/composite_test.cc.o
+[29.552s] [ 50%] Building CXX object ifopt_core/CMakeFiles/ifopt_core-test.dir/test/problem_test.cc.o

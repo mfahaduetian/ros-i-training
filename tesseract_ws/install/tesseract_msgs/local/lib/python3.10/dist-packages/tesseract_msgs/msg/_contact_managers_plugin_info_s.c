@@ -1,0 +1,1 @@
+/home/ubuntu/tesseract_ws/build/tesseract_msgs/rosidl_generator_py/tesseract_msgs/msg/_contact_managers_plugin_info_s.c

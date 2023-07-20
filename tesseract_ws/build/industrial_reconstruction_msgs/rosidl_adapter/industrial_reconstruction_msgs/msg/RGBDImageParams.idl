@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from industrial_reconstruction_msgs/msg/RGBDImageParams.msg
+// generated code does not contain a copyright notice
+
+
+module industrial_reconstruction_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "See Open3d function create_from_color_and_depth for more details #" "\n"
+      "" "\n"
+      "The ratio to scale depth values. The depth values will first be scaled and then truncated.")
+    struct RGBDImageParams {
+      @verbatim (language="comment", text=
+        "Recommended default: 1000.0")
+      float depth_scale;
+
+      @verbatim (language="comment", text=
+        "Depth values larger than depth_trunc gets truncated to 0. The depth values will first be scaled and then truncated." "\n"
+        "Recommended default: 3.0")
+      float depth_trunc;
+
+      @verbatim (language="comment", text=
+        "Whether to convert RGB image to intensity image." "\n"
+        "Recommended default: True")
+      boolean convert_rgb_to_intensity;
+    };
+  };
+};

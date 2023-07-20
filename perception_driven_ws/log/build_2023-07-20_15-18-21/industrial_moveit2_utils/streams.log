@@ -1,0 +1,33 @@
+[1.454s] Invoking command in '/home/ubuntu/perception_driven_ws/build/industrial_moveit2_utils': PYTHONPATH=/home/ubuntu/perception_driven_ws/build/industrial_moveit2_utils/prefix_override:/home/ubuntu/perception_driven_ws/install/industrial_moveit2_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/perception_driven_ws/build/industrial_moveit2_utils/build --no-deps install_data
+[1.799s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.799s]   warnings.warn(
+[1.846s] running develop
+[1.848s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.849s]   warnings.warn(
+[1.852s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.852s]   warnings.warn(
+[1.957s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.957s]   warnings.warn(
+[1.958s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.958s]   warnings.warn(
+[2.092s] running egg_info
+[2.092s] creating industrial_moveit2_utils.egg-info
+[2.092s] writing industrial_moveit2_utils.egg-info/PKG-INFO
+[2.093s] writing dependency_links to industrial_moveit2_utils.egg-info/dependency_links.txt
+[2.093s] writing entry points to industrial_moveit2_utils.egg-info/entry_points.txt
+[2.093s] writing requirements to industrial_moveit2_utils.egg-info/requires.txt
+[2.093s] writing top-level names to industrial_moveit2_utils.egg-info/top_level.txt
+[2.094s] writing manifest file 'industrial_moveit2_utils.egg-info/SOURCES.txt'
+[2.096s] reading manifest file 'industrial_moveit2_utils.egg-info/SOURCES.txt'
+[2.096s] writing manifest file 'industrial_moveit2_utils.egg-info/SOURCES.txt'
+[2.098s] running build_ext
+[2.098s] Creating /home/ubuntu/perception_driven_ws/install/industrial_moveit2_utils/lib/python3.10/site-packages/industrial-moveit2-utils.egg-link (link to .)
+[2.099s] 
+[2.099s] Installed /home/ubuntu/perception_driven_ws/build/industrial_moveit2_utils
+[2.099s] running install_data
+[2.099s] creating /home/ubuntu/perception_driven_ws/install/industrial_moveit2_utils/share/ament_index
+[2.100s] creating /home/ubuntu/perception_driven_ws/install/industrial_moveit2_utils/share/ament_index/resource_index
+[2.100s] creating /home/ubuntu/perception_driven_ws/install/industrial_moveit2_utils/share/ament_index/resource_index/packages
+[2.100s] copying resource/industrial_moveit2_utils -> /home/ubuntu/perception_driven_ws/install/industrial_moveit2_utils/share/ament_index/resource_index/packages
+[2.100s] copying package.xml -> /home/ubuntu/perception_driven_ws/install/industrial_moveit2_utils/share/industrial_moveit2_utils
+[2.140s] Invoked command in '/home/ubuntu/perception_driven_ws/build/industrial_moveit2_utils' returned '0': PYTHONPATH=/home/ubuntu/perception_driven_ws/build/industrial_moveit2_utils/prefix_override:/home/ubuntu/perception_driven_ws/install/industrial_moveit2_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/perception_driven_ws/build/industrial_moveit2_utils/build --no-deps install_data

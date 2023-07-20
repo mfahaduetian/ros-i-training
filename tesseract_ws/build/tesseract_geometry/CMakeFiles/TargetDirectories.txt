@@ -1,0 +1,15 @@
+/home/ubuntu/tesseract_ws/build/tesseract_geometry/CMakeFiles/tesseract_geometry.dir
+/home/ubuntu/tesseract_ws/build/tesseract_geometry/CMakeFiles/edit_cache.dir
+/home/ubuntu/tesseract_ws/build/tesseract_geometry/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/tesseract_ws/build/tesseract_geometry/CMakeFiles/list_install_components.dir
+/home/ubuntu/tesseract_ws/build/tesseract_geometry/CMakeFiles/install.dir
+/home/ubuntu/tesseract_ws/build/tesseract_geometry/CMakeFiles/install/local.dir
+/home/ubuntu/tesseract_ws/build/tesseract_geometry/CMakeFiles/install/strip.dir
+/home/ubuntu/tesseract_ws/build/tesseract_geometry/examples/CMakeFiles/tesseract_geometry_create_geometries_example.dir
+/home/ubuntu/tesseract_ws/build/tesseract_geometry/examples/CMakeFiles/tesseract_geometry_parse_mesh_example.dir
+/home/ubuntu/tesseract_ws/build/tesseract_geometry/examples/CMakeFiles/edit_cache.dir
+/home/ubuntu/tesseract_ws/build/tesseract_geometry/examples/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/tesseract_ws/build/tesseract_geometry/examples/CMakeFiles/list_install_components.dir
+/home/ubuntu/tesseract_ws/build/tesseract_geometry/examples/CMakeFiles/install.dir
+/home/ubuntu/tesseract_ws/build/tesseract_geometry/examples/CMakeFiles/install/local.dir
+/home/ubuntu/tesseract_ws/build/tesseract_geometry/examples/CMakeFiles/install/strip.dir

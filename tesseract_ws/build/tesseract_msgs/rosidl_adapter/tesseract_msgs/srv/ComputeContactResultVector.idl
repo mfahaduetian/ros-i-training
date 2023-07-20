@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tesseract_msgs/srv/ComputeContactResultVector.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/JointState.idl"
+#include "tesseract_msgs/msg/ContactResultVector.idl"
+
+module tesseract_msgs {
+  module srv {
+    struct ComputeContactResultVector_Request {
+      sensor_msgs::msg::JointState joint_states;
+    };
+    struct ComputeContactResultVector_Response {
+      tesseract_msgs::msg::ContactResultVector collision_result;
+
+      boolean success;
+    };
+  };
+};

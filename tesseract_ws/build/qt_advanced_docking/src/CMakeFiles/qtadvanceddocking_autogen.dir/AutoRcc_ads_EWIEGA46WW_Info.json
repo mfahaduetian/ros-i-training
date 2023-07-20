@@ -1,0 +1,35 @@
+{
+	"BUILD_DIR" : "/home/ubuntu/tesseract_ws/build/qt_advanced_docking/src/qtadvanceddocking_autogen",
+	"CMAKE_BINARY_DIR" : "/home/ubuntu/tesseract_ws/build/qt_advanced_docking",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/ubuntu/tesseract_ws/build/qt_advanced_docking/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/src",
+	"CMAKE_SOURCE_DIR" : "/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System",
+	"INCLUDE_DIR" : "/home/ubuntu/tesseract_ws/build/qt_advanced_docking/src/qtadvanceddocking_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/src/images/close-button-focused.svg",
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/src/images/tabs-menu-button.svg",
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/src/images/restore-button.svg",
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/src/images/detach-button.svg",
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/src/images/detach-button-disabled.svg",
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/src/images/restore-button-focused.svg",
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/src/images/close-button.svg",
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/src/images/maximize-button-focused.svg",
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/src/images/maximize-button.svg",
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/src/images/close-button-disabled.svg",
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/src/stylesheets/focus_highlighting_linux.css",
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/src/stylesheets/default_linux.css",
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/src/stylesheets/default.css",
+		"/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/src/stylesheets/focus_highlighting.css"
+	],
+	"LOCK_FILE" : "/home/ubuntu/tesseract_ws/build/qt_advanced_docking/src/CMakeFiles/qtadvanceddocking_autogen.dir/AutoRcc_ads_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "ads" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_ads.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/ubuntu/tesseract_ws/build/qt_advanced_docking/src/CMakeFiles/qtadvanceddocking_autogen.dir/AutoRcc_ads_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/ubuntu/tesseract_ws/src/Qt-Advanced-Docking-System/src/ads.qrc",
+	"VERBOSITY" : 0
+}

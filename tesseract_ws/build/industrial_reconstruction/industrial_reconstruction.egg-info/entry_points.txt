@@ -1,0 +1,4 @@
+[console_scripts]
+archive_player = industrial_reconstruction.archive_player:main
+industrial_reconstruction = industrial_reconstruction.industrial_reconstruction:main
+

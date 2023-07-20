@@ -1,0 +1,8 @@
+setup.py
+rviz_polygon_selection_tool/__init__.py
+rviz_polygon_selection_tool.egg-info/PKG-INFO
+rviz_polygon_selection_tool.egg-info/SOURCES.txt
+rviz_polygon_selection_tool.egg-info/dependency_links.txt
+rviz_polygon_selection_tool.egg-info/top_level.txt
+rviz_polygon_selection_tool/srv/__init__.py
+rviz_polygon_selection_tool/srv/_get_selection.py

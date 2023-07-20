@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/boost_plugin_loader_example.dir/example.cpp.o -o boost_plugin_loader_example  -Wl,-rpath,/home/ubuntu/tesseract_ws/build/boost_plugin_loader/examples:/home/ubuntu/tesseract_ws/build/boost_plugin_loader: libboost_plugin_loader_example_plugin.so ../libboost_plugin_loader.so /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.74.0 -ldl 

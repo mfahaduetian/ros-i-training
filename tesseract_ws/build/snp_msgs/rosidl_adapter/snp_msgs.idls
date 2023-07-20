@@ -1,0 +1,5 @@
+/home/ubuntu/tesseract_ws/build/snp_msgs/rosidl_adapter/snp_msgs:msg/ToolPath.idl
+/home/ubuntu/tesseract_ws/build/snp_msgs/rosidl_adapter/snp_msgs:msg/ToolPaths.idl
+/home/ubuntu/tesseract_ws/build/snp_msgs/rosidl_adapter/snp_msgs:srv/ExecuteMotionPlan.idl
+/home/ubuntu/tesseract_ws/build/snp_msgs/rosidl_adapter/snp_msgs:srv/GenerateMotionPlan.idl
+/home/ubuntu/tesseract_ws/build/snp_msgs/rosidl_adapter/snp_msgs:srv/GenerateToolPaths.idl

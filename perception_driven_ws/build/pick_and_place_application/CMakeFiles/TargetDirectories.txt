@@ -1,0 +1,12 @@
+/home/ubuntu/perception_driven_ws/build/pick_and_place_application/CMakeFiles/uninstall.dir
+/home/ubuntu/perception_driven_ws/build/pick_and_place_application/CMakeFiles/pick_and_place_application_uninstall.dir
+/home/ubuntu/perception_driven_ws/build/pick_and_place_application/CMakeFiles/generate_cloud_node.dir
+/home/ubuntu/perception_driven_ws/build/pick_and_place_application/CMakeFiles/pick_and_place_node.dir
+/home/ubuntu/perception_driven_ws/build/pick_and_place_application/CMakeFiles/fake_grasp_server_node.dir
+/home/ubuntu/perception_driven_ws/build/pick_and_place_application/CMakeFiles/test.dir
+/home/ubuntu/perception_driven_ws/build/pick_and_place_application/CMakeFiles/edit_cache.dir
+/home/ubuntu/perception_driven_ws/build/pick_and_place_application/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/perception_driven_ws/build/pick_and_place_application/CMakeFiles/list_install_components.dir
+/home/ubuntu/perception_driven_ws/build/pick_and_place_application/CMakeFiles/install.dir
+/home/ubuntu/perception_driven_ws/build/pick_and_place_application/CMakeFiles/install/local.dir
+/home/ubuntu/perception_driven_ws/build/pick_and_place_application/CMakeFiles/install/strip.dir

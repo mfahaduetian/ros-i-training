@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tesseract_msgs/msg/OctreeSubType.msg
+// generated code does not contain a copyright notice
+
+
+module tesseract_msgs {
+  module msg {
+    module OctreeSubType_Constants {
+      const uint8 BOX = 0;
+      const uint8 SPHERE_INSIDE = 1;
+      const uint8 SPHERE_OUTSIDE = 2;
+    };
+    struct OctreeSubType {
+      @verbatim (language="comment", text=
+        "The type of the geometry")
+      uint8 type;
+    };
+  };
+};

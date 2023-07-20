@@ -1,0 +1,4 @@
+source;share/lesson_perception/local_setup.bash
+source;share/lesson_perception/local_setup.dsv
+source;share/lesson_perception/local_setup.sh
+source;share/lesson_perception/local_setup.zsh

@@ -1,0 +1,9 @@
+/home/ubuntu/tesseract_ws/build/snp_automate_2022/CMakeFiles/uninstall.dir
+/home/ubuntu/tesseract_ws/build/snp_automate_2022/CMakeFiles/snp_automate_2022_uninstall.dir
+/home/ubuntu/tesseract_ws/build/snp_automate_2022/CMakeFiles/test.dir
+/home/ubuntu/tesseract_ws/build/snp_automate_2022/CMakeFiles/edit_cache.dir
+/home/ubuntu/tesseract_ws/build/snp_automate_2022/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/tesseract_ws/build/snp_automate_2022/CMakeFiles/list_install_components.dir
+/home/ubuntu/tesseract_ws/build/snp_automate_2022/CMakeFiles/install.dir
+/home/ubuntu/tesseract_ws/build/snp_automate_2022/CMakeFiles/install/local.dir
+/home/ubuntu/tesseract_ws/build/snp_automate_2022/CMakeFiles/install/strip.dir

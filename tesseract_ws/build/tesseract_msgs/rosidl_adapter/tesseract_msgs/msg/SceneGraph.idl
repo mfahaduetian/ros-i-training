@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tesseract_msgs/msg/SceneGraph.msg
+// generated code does not contain a copyright notice
+
+#include "tesseract_msgs/msg/AllowedCollisionEntry.idl"
+#include "tesseract_msgs/msg/Joint.idl"
+#include "tesseract_msgs/msg/Link.idl"
+
+module tesseract_msgs {
+  module msg {
+    struct SceneGraph {
+      @verbatim (language="comment", text=
+        "Scene Graph Name")
+      string id;
+
+      @verbatim (language="comment", text=
+        "Root Link Name")
+      string root;
+
+      sequence<tesseract_msgs::msg::Link> links;
+
+      sequence<tesseract_msgs::msg::Joint> joints;
+
+      @verbatim (language="comment", text=
+        "List of links which are hidden")
+      sequence<string> invisible_links;
+
+      @verbatim (language="comment", text=
+        "List of links which have collision disabled")
+      sequence<string> disabled_collision_links;
+
+      @verbatim (language="comment", text=
+        "The allowed collision matrix")
+      sequence<tesseract_msgs::msg::AllowedCollisionEntry> acm;
+    };
+  };
+};

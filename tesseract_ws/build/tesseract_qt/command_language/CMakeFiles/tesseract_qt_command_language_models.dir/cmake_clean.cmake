@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/tesseract_qt_command_language_models.dir/include/tesseract_qt/command_language/models/moc_composite_instruction_model.cpp.o"
+  "CMakeFiles/tesseract_qt_command_language_models.dir/include/tesseract_qt/command_language/models/moc_composite_instruction_model.cpp.o.d"
+  "CMakeFiles/tesseract_qt_command_language_models.dir/src/models/cartesian_waypoint_standard_item.cpp.o"
+  "CMakeFiles/tesseract_qt_command_language_models.dir/src/models/cartesian_waypoint_standard_item.cpp.o.d"
+  "CMakeFiles/tesseract_qt_command_language_models.dir/src/models/composite_instruction_model.cpp.o"
+  "CMakeFiles/tesseract_qt_command_language_models.dir/src/models/composite_instruction_model.cpp.o.d"
+  "CMakeFiles/tesseract_qt_command_language_models.dir/src/models/composite_instruction_standard_item.cpp.o"
+  "CMakeFiles/tesseract_qt_command_language_models.dir/src/models/composite_instruction_standard_item.cpp.o.d"
+  "CMakeFiles/tesseract_qt_command_language_models.dir/src/models/instruction_standard_item.cpp.o"
+  "CMakeFiles/tesseract_qt_command_language_models.dir/src/models/instruction_standard_item.cpp.o.d"
+  "CMakeFiles/tesseract_qt_command_language_models.dir/src/models/joint_waypoint_standard_item.cpp.o"
+  "CMakeFiles/tesseract_qt_command_language_models.dir/src/models/joint_waypoint_standard_item.cpp.o.d"
+  "CMakeFiles/tesseract_qt_command_language_models.dir/src/models/move_instruction_standard_item.cpp.o"
+  "CMakeFiles/tesseract_qt_command_language_models.dir/src/models/move_instruction_standard_item.cpp.o.d"
+  "CMakeFiles/tesseract_qt_command_language_models.dir/src/models/null_instruction_standard_item.cpp.o"
+  "CMakeFiles/tesseract_qt_command_language_models.dir/src/models/null_instruction_standard_item.cpp.o.d"
+  "CMakeFiles/tesseract_qt_command_language_models.dir/src/models/null_waypoint_standard_item.cpp.o"
+  "CMakeFiles/tesseract_qt_command_language_models.dir/src/models/null_waypoint_standard_item.cpp.o.d"
+  "CMakeFiles/tesseract_qt_command_language_models.dir/src/models/set_analog_instruction_standard_item.cpp.o"
+  "CMakeFiles/tesseract_qt_command_language_models.dir/src/models/set_analog_instruction_standard_item.cpp.o.d"
+  "CMakeFiles/tesseract_qt_command_language_models.dir/src/models/set_tool_instruction_standard_item.cpp.o"
+  "CMakeFiles/tesseract_qt_command_language_models.dir/src/models/set_tool_instruction_standard_item.cpp.o.d"
+  "CMakeFiles/tesseract_qt_command_language_models.dir/src/models/state_waypoint_standard_item.cpp.o"
+  "CMakeFiles/tesseract_qt_command_language_models.dir/src/models/state_waypoint_standard_item.cpp.o.d"
+  "CMakeFiles/tesseract_qt_command_language_models.dir/src/models/timer_instruction_standard_item.cpp.o"
+  "CMakeFiles/tesseract_qt_command_language_models.dir/src/models/timer_instruction_standard_item.cpp.o.d"
+  "CMakeFiles/tesseract_qt_command_language_models.dir/src/models/vector_instruction_standard_item.cpp.o"
+  "CMakeFiles/tesseract_qt_command_language_models.dir/src/models/vector_instruction_standard_item.cpp.o.d"
+  "CMakeFiles/tesseract_qt_command_language_models.dir/src/models/wait_instruction_standard_item.cpp.o"
+  "CMakeFiles/tesseract_qt_command_language_models.dir/src/models/wait_instruction_standard_item.cpp.o.d"
+  "include/tesseract_qt/command_language/models/moc_composite_instruction_model.cpp"
+  "libtesseract_qt_command_language_models.pdb"
+  "libtesseract_qt_command_language_models.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/tesseract_qt_command_language_models.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

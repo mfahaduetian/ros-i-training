@@ -1,0 +1,272 @@
+[0.010s] Invoking command in '/home/ubuntu/ros2_ws/build/myworkcell_core': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/fake_ar_publisher:/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/fake_ar_publisher/lib:/home/ubuntu/ros2_ws/install/myworkcell_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ubuntu/ros2_ws/src/myworkcell_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/myworkcell_core
+[0.072s] -- The C compiler identification is GNU 11.3.0
+[0.132s] -- The CXX compiler identification is GNU 11.3.0
+[0.140s] -- Detecting C compiler ABI info
+[0.211s] -- Detecting C compiler ABI info - done
+[0.219s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.219s] -- Detecting C compile features
+[0.220s] -- Detecting C compile features - done
+[0.223s] -- Detecting CXX compiler ABI info
+[0.308s] -- Detecting CXX compiler ABI info - done
+[0.316s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.317s] -- Detecting CXX compile features
+[0.317s] -- Detecting CXX compile features - done
+[0.320s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.505s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.573s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.603s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.651s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.658s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.667s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.683s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.705s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.788s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.791s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.895s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.925s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.981s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.992s] -- Looking for pthread.h
+[1.069s] -- Looking for pthread.h - found
+[1.070s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.146s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.147s] -- Found Threads: TRUE  
+[1.342s] -- Found fake_ar_publisher: 0.0.0 (/home/ubuntu/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake)
+[1.800s] -- Found tf2_geometry_msgs: 0.25.2 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.818s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.819s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.819s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.273s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[3.062s] -- Found moveit_ros_planning_interface: 2.5.4 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[3.087s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[3.124s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[3.140s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[3.232s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[3.549s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[4.234s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[4.545s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[5.086s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[5.407s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.875s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.057s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.083s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[6.085s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.114s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[6.114s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.114s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.114s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.137s] -- Found PythonExtra: .so  
+[6.212s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[6.212s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[6.212s]   rosidl_target_interfaces()
+[6.212s] Call Stack (most recent call first):
+[6.212s]   CMakeLists.txt:39 (rosidl_target_interfaces)
+[6.213s] 
+[6.213s] [0m
+[6.213s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[6.213s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[6.213s]   rosidl_target_interfaces()
+[6.214s] Call Stack (most recent call first):
+[6.214s]   CMakeLists.txt:44 (rosidl_target_interfaces)
+[6.214s] 
+[6.214s] [0m
+[6.216s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.241s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.242s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.242s] -- Configured cppcheck include dirs: 
+[6.242s] -- Configured cppcheck exclude dirs and/or files: 
+[6.243s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.243s] -- Configured cpplint exclude dirs and/or files: 
+[6.244s] -- Added test 'lint_cmake' to check CMake code style
+[6.245s] -- Added test 'uncrustify' to check C / C++ code style
+[6.245s] -- Configured uncrustify additional arguments: 
+[6.245s] -- Added test 'xmllint' to check XML markup files
+[6.249s] -- Configuring done
+[6.316s] -- Generating done
+[6.320s] -- Build files have been written to: /home/ubuntu/ros2_ws/build/myworkcell_core
+[6.340s] Invoked command in '/home/ubuntu/ros2_ws/build/myworkcell_core' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/fake_ar_publisher:/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/fake_ar_publisher/lib:/home/ubuntu/ros2_ws/install/myworkcell_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ubuntu/ros2_ws/src/myworkcell_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/myworkcell_core
+[6.343s] Invoking command in '/home/ubuntu/ros2_ws/build/myworkcell_core': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/fake_ar_publisher:/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/fake_ar_publisher/lib:/home/ubuntu/ros2_ws/install/myworkcell_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/myworkcell_core -- -j4 -l4
+[6.392s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.402s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.411s] [  5%] Built target ament_cmake_python_symlink_myworkcell_core
+[6.742s] [  5%] Built target myworkcell_core__cpp
+[6.756s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.757s] [ 11%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.846s] running egg_info
+[6.847s] creating myworkcell_core.egg-info
+[6.848s] writing myworkcell_core.egg-info/PKG-INFO
+[6.848s] writing dependency_links to myworkcell_core.egg-info/dependency_links.txt
+[6.849s] writing top-level names to myworkcell_core.egg-info/top_level.txt
+[6.850s] writing manifest file 'myworkcell_core.egg-info/SOURCES.txt'
+[6.853s] reading manifest file 'myworkcell_core.egg-info/SOURCES.txt'
+[6.854s] writing manifest file 'myworkcell_core.egg-info/SOURCES.txt'
+[6.901s] [ 11%] Built target ament_cmake_python_build_myworkcell_core_egg
+[6.916s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.973s] [ 17%] [32mBuilding C object CMakeFiles/myworkcell_core__rosidl_generator_c.dir/rosidl_generator_c/myworkcell_core/srv/detail/localize_part__functions.c.o[0m
+[7.072s] [ 20%] [32m[1mLinking C shared library libmyworkcell_core__rosidl_generator_c.so[0m
+[7.128s] [ 20%] Built target myworkcell_core__rosidl_generator_c
+[7.142s] [ 22%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.258s] [ 25%] [32mBuilding CXX object CMakeFiles/myworkcell_core__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/myworkcell_core/srv/localize_part__type_support.cpp.o[0m
+[7.323s] [ 28%] [32mBuilding CXX object CMakeFiles/myworkcell_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/myworkcell_core/srv/detail/dds_fastrtps/localize_part__type_support.cpp.o[0m
+[7.422s] [ 31%] [32mBuilding CXX object CMakeFiles/myworkcell_core__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/myworkcell_core/srv/detail/localize_part__type_support.cpp.o[0m
+[7.658s] [ 34%] [32mBuilding CXX object CMakeFiles/myworkcell_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/myworkcell_core/srv/detail/localize_part__type_support_c.cpp.o[0m
+[7.726s] [ 37%] [32m[1mLinking CXX shared library libmyworkcell_core__rosidl_typesupport_cpp.so[0m
+[7.791s] [ 37%] Built target myworkcell_core__rosidl_typesupport_cpp
+[7.806s] [ 40%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.070s] [ 42%] [32m[1mLinking CXX shared library libmyworkcell_core__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.074s] [ 45%] [32m[1mLinking CXX shared library libmyworkcell_core__rosidl_typesupport_introspection_cpp.so[0m
+[8.173s] [ 45%] Built target myworkcell_core__rosidl_typesupport_introspection_cpp
+[8.188s] [ 48%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.195s] [ 48%] Built target myworkcell_core__rosidl_typesupport_fastrtps_cpp
+[8.249s] [ 51%] [32m[1mLinking CXX shared library libmyworkcell_core__rosidl_typesupport_fastrtps_c.so[0m
+[8.285s] [ 54%] [32mBuilding C object CMakeFiles/myworkcell_core__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/myworkcell_core/srv/detail/localize_part__type_support.c.o[0m
+[8.347s] [ 57%] [32m[1mLinking C shared library libmyworkcell_core__rosidl_typesupport_introspection_c.so[0m
+[8.354s] [ 57%] Built target myworkcell_core__rosidl_typesupport_fastrtps_c
+[8.386s] [ 57%] Built target myworkcell_core__rosidl_typesupport_introspection_c
+[8.490s] [ 60%] [32mBuilding CXX object CMakeFiles/myworkcell_core__rosidl_typesupport_c.dir/rosidl_typesupport_c/myworkcell_core/srv/localize_part__type_support.cpp.o[0m
+[8.525s] [ 62%] [32m[1mLinking CXX shared library libmyworkcell_core__rosidl_typesupport_c.so[0m
+[8.573s] [ 62%] Built target myworkcell_core__rosidl_typesupport_c
+[8.594s] [ 62%] Built target myworkcell_core
+[8.618s] [ 65%] [32mBuilding CXX object CMakeFiles/vision_node.dir/src/vision_node.cpp.o[0m
+[8.620s] [ 68%] [32mBuilding CXX object CMakeFiles/myworkcell_node.dir/src/myworkcell_node.cpp.o[0m
+[8.622s] [ 71%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.108s] In file included from [01m[K/home/ubuntu/ros2_ws/src/myworkcell_core/src/vision_node.cpp:10[m[K:
+[9.108s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[9.108s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[9.108s]       |  [01;35m[K^~~~~~~[m[K
+[9.406s] [ 71%] Built target myworkcell_core__py
+[9.435s] [ 74%] [32mBuilding C object CMakeFiles/myworkcell_core__rosidl_generator_py.dir/rosidl_generator_py/myworkcell_core/srv/_localize_part_s.c.o[0m
+[9.627s] [ 77%] [32m[1mLinking C shared library rosidl_generator_py/myworkcell_core/libmyworkcell_core__rosidl_generator_py.so[0m
+[9.693s] [ 77%] Built target myworkcell_core__rosidl_generator_py
+[9.723s] [ 80%] [32mBuilding C object CMakeFiles/myworkcell_core__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/myworkcell_core/_myworkcell_core_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.723s] [ 82%] [32mBuilding C object CMakeFiles/myworkcell_core__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/myworkcell_core/_myworkcell_core_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.910s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/myworkcell_core/myworkcell_core_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.925s] [ 88%] [32m[1mLinking C shared library rosidl_generator_py/myworkcell_core/myworkcell_core_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.975s] [ 88%] Built target myworkcell_core__rosidl_typesupport_introspection_c__pyext
+[9.988s] [ 88%] Built target myworkcell_core__rosidl_typesupport_fastrtps_c__pyext
+[10.006s] [ 91%] [32mBuilding C object CMakeFiles/myworkcell_core__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/myworkcell_core/_myworkcell_core_s.ep.rosidl_typesupport_c.c.o[0m
+[10.192s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/myworkcell_core/myworkcell_core_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.258s] [ 94%] Built target myworkcell_core__rosidl_typesupport_c__pyext
+[12.122s] [01m[K/home/ubuntu/ros2_ws/src/myworkcell_core/src/vision_node.cpp:[m[K In constructor ‘[01m[KLocalizer::Localizer()[m[K’:
+[12.122s] [01m[K/home/ubuntu/ros2_ws/src/myworkcell_core/src/vision_node.cpp:65:47:[m[K [01;35m[Kwarning: [m[K‘[01m[KLocalizer::last_msg_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[12.123s]    65 |   fake_ar_publisher::msg::ARMarker::SharedPtr [01;35m[Klast_msg_[m[K;
+[12.123s]       |                                               [01;35m[K^~~~~~~~~[m[K
+[12.123s] [01m[K/home/ubuntu/ros2_ws/src/myworkcell_core/src/vision_node.cpp:16:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Ktf2_ros::Buffer Localizer::buffer_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[12.123s]    16 |     tf2_ros::Buffer [01;35m[Kbuffer_[m[K;
+[12.123s]       |                     [01;35m[K^~~~~~~[m[K
+[12.123s] [01m[K/home/ubuntu/ros2_ws/src/myworkcell_core/src/vision_node.cpp:18:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[12.123s]    18 |   [01;35m[KLocalizer[m[K() : Node("vision_node"), last_msg_{nullptr}, buffer_(this->get_clock()), listener_(buffer_)
+[12.123s]       |   [01;35m[K^~~~~~~~~[m[K
+[19.807s] [ 97%] [32m[1mLinking CXX executable vision_node[0m
+[20.346s] [ 97%] Built target vision_node
+[21.543s] [100%] [32m[1mLinking CXX executable myworkcell_node[0m
+[21.962s] [100%] Built target myworkcell_node
+[21.974s] Invoked command in '/home/ubuntu/ros2_ws/build/myworkcell_core' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/fake_ar_publisher:/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/fake_ar_publisher/lib:/home/ubuntu/ros2_ws/install/myworkcell_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/myworkcell_core -- -j4 -l4
+[22.049s] Invoking command in '/home/ubuntu/ros2_ws/build/myworkcell_core': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/fake_ar_publisher:/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/fake_ar_publisher/lib:/home/ubuntu/ros2_ws/install/myworkcell_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/myworkcell_core
+[22.058s] -- Install configuration: ""
+[22.058s] -- Execute custom install script
+[22.059s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/ament_index/resource_index/rosidl_interfaces/myworkcell_core
+[22.068s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/msg/rosidl_generator_c__visibility_control.h
+[22.077s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/srv/detail/localize_part__functions.h
+[22.085s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/srv/detail/localize_part__struct.h
+[22.093s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/srv/detail/localize_part__type_support.h
+[22.101s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/srv/localize_part.h
+[22.109s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/environment/library_path.sh
+[22.117s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/environment/library_path.dsv
+[22.127s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[22.135s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/srv/detail/localize_part__rosidl_typesupport_fastrtps_c.h
+[22.143s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/srv/detail/localize_part__builder.hpp
+[22.151s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/srv/detail/localize_part__struct.hpp
+[22.159s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/srv/detail/localize_part__traits.hpp
+[22.167s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/srv/localize_part.hpp
+[22.175s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[22.183s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/srv/detail/localize_part__rosidl_typesupport_fastrtps_cpp.hpp
+[22.191s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[22.199s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/srv/detail/localize_part__rosidl_typesupport_introspection_c.h
+[22.207s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/include/myworkcell_core/myworkcell_core/srv/detail/localize_part__rosidl_typesupport_introspection_cpp.hpp
+[22.215s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/environment/pythonpath.sh
+[22.224s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/environment/pythonpath.dsv
+[22.232s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core-0.0.0-py3.10.egg-info/PKG-INFO
+[22.240s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core-0.0.0-py3.10.egg-info/SOURCES.txt
+[22.247s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core-0.0.0-py3.10.egg-info/dependency_links.txt
+[22.256s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core-0.0.0-py3.10.egg-info/top_level.txt
+[22.264s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/__init__.py
+[22.271s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/_myworkcell_core_s.ep.rosidl_typesupport_c.c
+[22.279s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/_myworkcell_core_s.ep.rosidl_typesupport_fastrtps_c.c
+[22.286s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/_myworkcell_core_s.ep.rosidl_typesupport_introspection_c.c
+[22.294s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/libmyworkcell_core__rosidl_generator_py.so
+[22.302s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/myworkcell_core_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[22.309s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/myworkcell_core_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[22.316s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/myworkcell_core_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[22.325s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/srv/__init__.py
+[22.333s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/srv/_localize_part.py
+[22.341s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/srv/_localize_part_s.c
+[22.349s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/myworkcell_core_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[22.349s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/myworkcell_core_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[22.350s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/myworkcell_core_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[22.350s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/srv/LocalizePart.idl
+[22.358s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/srv/LocalizePart.srv
+[22.366s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/srv/LocalizePart_Request.msg
+[22.374s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/srv/LocalizePart_Response.msg
+[22.382s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/lib/myworkcell_core/vision_node
+[22.390s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/lib/myworkcell_core/myworkcell_node
+[22.398s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/ament_index/resource_index/package_run_dependencies/myworkcell_core
+[22.406s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/ament_index/resource_index/parent_prefix_path/myworkcell_core
+[22.414s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/environment/ament_prefix_path.sh
+[22.424s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/environment/ament_prefix_path.dsv
+[22.432s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/environment/path.sh
+[22.441s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/environment/path.dsv
+[22.449s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/local_setup.bash
+[22.458s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/local_setup.sh
+[22.466s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/local_setup.zsh
+[22.475s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/local_setup.dsv
+[22.483s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/package.dsv
+[22.492s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/ament_index/resource_index/packages/myworkcell_core
+[22.501s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/rosidl_cmake-extras.cmake
+[22.509s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.518s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.528s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/ament_cmake_export_libraries-extras.cmake
+[22.537s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/ament_cmake_export_targets-extras.cmake
+[22.545s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[22.552s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[22.560s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/myworkcell_coreConfig.cmake
+[22.568s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/myworkcell_coreConfig-version.cmake
+[22.576s] -- Symlinking: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/package.xml
+[22.584s] -- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_generator_c.so
+[22.585s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_generator_c.so" to ""
+[22.585s] -- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_typesupport_fastrtps_c.so
+[22.585s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_typesupport_fastrtps_c.so" to ""
+[22.585s] -- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_typesupport_fastrtps_cpp.so
+[22.586s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_typesupport_fastrtps_cpp.so" to ""
+[22.586s] -- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_typesupport_introspection_c.so
+[22.586s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_typesupport_introspection_c.so" to ""
+[22.586s] -- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_typesupport_c.so
+[22.587s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_typesupport_c.so" to ""
+[22.587s] -- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_typesupport_introspection_cpp.so
+[22.588s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_typesupport_introspection_cpp.so" to ""
+[22.588s] -- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_typesupport_cpp.so
+[22.588s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_typesupport_cpp.so" to ""
+[22.626s] Listing '/home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core'...
+[22.627s] Compiling '/home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/__init__.py'...
+[22.627s] Listing '/home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/srv'...
+[22.627s] Compiling '/home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/srv/__init__.py'...
+[22.627s] Compiling '/home/ubuntu/ros2_ws/install/myworkcell_core/local/lib/python3.10/dist-packages/myworkcell_core/srv/_localize_part.py'...
+[22.632s] -- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_generator_py.so
+[22.632s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/myworkcell_core/lib/libmyworkcell_core__rosidl_generator_py.so" to ""
+[22.632s] -- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/export_myworkcell_core__rosidl_generator_cExport.cmake
+[22.632s] -- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/export_myworkcell_core__rosidl_generator_cExport-noconfig.cmake
+[22.633s] -- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/export_myworkcell_core__rosidl_typesupport_fastrtps_cExport.cmake
+[22.633s] -- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/export_myworkcell_core__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[22.633s] -- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/export_myworkcell_core__rosidl_generator_cppExport.cmake
+[22.633s] -- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/export_myworkcell_core__rosidl_typesupport_fastrtps_cppExport.cmake
+[22.633s] -- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/export_myworkcell_core__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[22.633s] -- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/myworkcell_core__rosidl_typesupport_introspection_cExport.cmake
+[22.633s] -- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/myworkcell_core__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[22.633s] -- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/myworkcell_core__rosidl_typesupport_cExport.cmake
+[22.634s] -- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/myworkcell_core__rosidl_typesupport_cExport-noconfig.cmake
+[22.634s] -- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/myworkcell_core__rosidl_typesupport_introspection_cppExport.cmake
+[22.634s] -- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/myworkcell_core__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[22.634s] -- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/myworkcell_core__rosidl_typesupport_cppExport.cmake
+[22.634s] -- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/myworkcell_core__rosidl_typesupport_cppExport-noconfig.cmake
+[22.634s] -- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/export_myworkcell_core__rosidl_generator_pyExport.cmake
+[22.634s] -- Installing: /home/ubuntu/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/export_myworkcell_core__rosidl_generator_pyExport-noconfig.cmake
+[22.639s] Invoked command in '/home/ubuntu/ros2_ws/build/myworkcell_core' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/fake_ar_publisher:/home/ubuntu/ros2_ws/install/myworkcell_moveit_config:/home/ubuntu/ros2_ws/install/myworkcell_support:/home/ubuntu/ros2_ws/install/myworkcell_core:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/fake_ar_publisher/lib:/home/ubuntu/ros2_ws/install/myworkcell_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/myworkcell_core

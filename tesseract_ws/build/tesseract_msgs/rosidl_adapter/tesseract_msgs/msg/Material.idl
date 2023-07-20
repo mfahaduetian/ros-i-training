@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tesseract_msgs/msg/Material.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/ColorRGBA.idl"
+
+module tesseract_msgs {
+  module msg {
+    struct Material {
+      string name;
+
+      string texture_filename;
+
+      std_msgs::msg::ColorRGBA color;
+
+      @verbatim (language="comment", text=
+        "Indicates if not valid (aka: nullptr)")
+      boolean empty;
+    };
+  };
+};

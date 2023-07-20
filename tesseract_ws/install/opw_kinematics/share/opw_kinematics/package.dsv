@@ -1,0 +1,9 @@
+source;share/opw_kinematics/hook/cmake_prefix_path.ps1
+source;share/opw_kinematics/hook/cmake_prefix_path.dsv
+source;share/opw_kinematics/hook/cmake_prefix_path.sh
+source;share/opw_kinematics/hook/pkg_config_path.ps1
+source;share/opw_kinematics/hook/pkg_config_path.dsv
+source;share/opw_kinematics/hook/pkg_config_path.sh
+source;share/opw_kinematics/hook/pkg_config_path_multiarch.ps1
+source;share/opw_kinematics/hook/pkg_config_path_multiarch.dsv
+source;share/opw_kinematics/hook/pkg_config_path_multiarch.sh

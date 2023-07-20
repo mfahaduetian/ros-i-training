@@ -1,0 +1,1 @@
+/home/ubuntu/tesseract_ws/build/snp_motion_planning/ament_cmake_environment_hooks/local_setup.zsh

@@ -1,0 +1,10 @@
+/home/ubuntu/tesseract_ws/build/snp_scanning/CMakeFiles/uninstall.dir
+/home/ubuntu/tesseract_ws/build/snp_scanning/CMakeFiles/snp_scanning_uninstall.dir
+/home/ubuntu/tesseract_ws/build/snp_scanning/CMakeFiles/open3d_sim_node.dir
+/home/ubuntu/tesseract_ws/build/snp_scanning/CMakeFiles/test.dir
+/home/ubuntu/tesseract_ws/build/snp_scanning/CMakeFiles/edit_cache.dir
+/home/ubuntu/tesseract_ws/build/snp_scanning/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/tesseract_ws/build/snp_scanning/CMakeFiles/list_install_components.dir
+/home/ubuntu/tesseract_ws/build/snp_scanning/CMakeFiles/install.dir
+/home/ubuntu/tesseract_ws/build/snp_scanning/CMakeFiles/install/local.dir
+/home/ubuntu/tesseract_ws/build/snp_scanning/CMakeFiles/install/strip.dir

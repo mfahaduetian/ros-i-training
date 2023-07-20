@@ -1,0 +1,14 @@
+source;share/osqp/hook/cmake_prefix_path.ps1
+source;share/osqp/hook/cmake_prefix_path.dsv
+source;share/osqp/hook/cmake_prefix_path.sh
+source;share/osqp/hook/ld_library_path_lib.ps1
+source;share/osqp/hook/ld_library_path_lib.dsv
+source;share/osqp/hook/ld_library_path_lib.sh
+source;share/osqp/hook/pkg_config_path.ps1
+source;share/osqp/hook/pkg_config_path.dsv
+source;share/osqp/hook/pkg_config_path.sh
+source;share/osqp/hook/pkg_config_path_multiarch.ps1
+source;share/osqp/hook/pkg_config_path_multiarch.dsv
+source;share/osqp/hook/pkg_config_path_multiarch.sh
+source;share/osqp/hook/ament_prefix_path.dsv
+source;share/osqp/hook/ros_package_path.dsv

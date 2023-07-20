@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tesseract_msgs/msg/ContactManagersPluginInfo.msg
+// generated code does not contain a copyright notice
+
+#include "tesseract_msgs/msg/PluginInfoContainer.idl"
+
+module tesseract_msgs {
+  module msg {
+    struct ContactManagersPluginInfo {
+      sequence<string> search_paths;
+
+      sequence<string> search_libraries;
+
+      tesseract_msgs::msg::PluginInfoContainer discrete_plugin_container;
+
+      tesseract_msgs::msg::PluginInfoContainer continuous_plugin_container;
+    };
+  };
+};

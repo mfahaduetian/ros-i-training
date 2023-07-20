@@ -1,0 +1,287 @@
+[0.035s] Invoking command in '/home/ubuntu/tesseract_ws/build/snp_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/tesseract_ws/install/industrial_reconstruction:/opt/ros/humble /usr/bin/cmake /home/ubuntu/tesseract_ws/src/snp_msgs -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/ubuntu/tesseract_ws/install/snp_msgs
+[0.349s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.773s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.921s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.983s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.985s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.995s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.018s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.042s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.259s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.285s] -- Found trajectory_msgs: 4.2.3 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[2.063s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.721s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.947s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.986s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.013s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.013s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.013s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.109s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.169s] -- Configuring done
+[3.422s] -- Generating done
+[3.426s] -- Build files have been written to: /home/ubuntu/tesseract_ws/build/snp_msgs
+[3.435s] Invoked command in '/home/ubuntu/tesseract_ws/build/snp_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/tesseract_ws/install/industrial_reconstruction:/opt/ros/humble /usr/bin/cmake /home/ubuntu/tesseract_ws/src/snp_msgs -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/ubuntu/tesseract_ws/install/snp_msgs
+[3.436s] Invoking command in '/home/ubuntu/tesseract_ws/build/snp_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/tesseract_ws/install/industrial_reconstruction:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/tesseract_ws/build/snp_msgs -- -j4 -l4
+[3.572s] Consolidate compiler generated dependencies of target snp_msgs__rosidl_generator_c
+[3.655s] [  1%] Building C object CMakeFiles/snp_msgs__rosidl_generator_c.dir/rosidl_generator_c/snp_msgs/msg/detail/tool_paths__functions.c.o
+[3.661s] [  3%] Built target snp_msgs__cpp
+[3.668s] [  4%] Building C object CMakeFiles/snp_msgs__rosidl_generator_c.dir/rosidl_generator_c/snp_msgs/msg/detail/tool_path__functions.c.o
+[3.780s] [  4%] Built target ament_cmake_python_symlink_snp_msgs
+[3.796s] Consolidate compiler generated dependencies of target snp_msgs__rosidl_typesupport_cpp
+[3.859s] Consolidate compiler generated dependencies of target snp_msgs__rosidl_typesupport_fastrtps_cpp
+[3.860s] [  6%] Building CXX object CMakeFiles/snp_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/snp_msgs/msg/tool_path__type_support.cpp.o
+[3.909s] [  7%] Building CXX object CMakeFiles/snp_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/snp_msgs/msg/detail/dds_fastrtps/tool_path__type_support.cpp.o
+[5.380s] [  9%] Building CXX object CMakeFiles/snp_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/snp_msgs/msg/detail/dds_fastrtps/tool_paths__type_support.cpp.o
+[5.387s] [ 11%] Building C object CMakeFiles/snp_msgs__rosidl_generator_c.dir/rosidl_generator_c/snp_msgs/srv/detail/execute_motion_plan__functions.c.o
+[6.045s] [ 12%] Building CXX object CMakeFiles/snp_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/snp_msgs/msg/tool_paths__type_support.cpp.o
+[6.872s] [ 14%] Building C object CMakeFiles/snp_msgs__rosidl_generator_c.dir/rosidl_generator_c/snp_msgs/srv/detail/generate_motion_plan__functions.c.o
+[7.072s] [ 15%] Building CXX object CMakeFiles/snp_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/snp_msgs/srv/detail/dds_fastrtps/execute_motion_plan__type_support.cpp.o
+[8.079s] [ 17%] Building CXX object CMakeFiles/snp_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/snp_msgs/srv/execute_motion_plan__type_support.cpp.o
+[8.205s] [ 19%] Building C object CMakeFiles/snp_msgs__rosidl_generator_c.dir/rosidl_generator_c/snp_msgs/srv/detail/generate_tool_paths__functions.c.o
+[8.933s] [ 20%] Building CXX object CMakeFiles/snp_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/snp_msgs/srv/detail/dds_fastrtps/generate_motion_plan__type_support.cpp.o
+[9.402s] [ 22%] Linking C shared library libsnp_msgs__rosidl_generator_c.so
+[9.926s] [ 23%] Built target snp_msgs__rosidl_generator_c
+[10.098s] [ 25%] Building CXX object CMakeFiles/snp_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/snp_msgs/srv/detail/dds_fastrtps/generate_tool_paths__type_support.cpp.o
+[10.363s] [ 26%] Building CXX object CMakeFiles/snp_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/snp_msgs/srv/generate_motion_plan__type_support.cpp.o
+[10.767s] [ 28%] Building CXX object CMakeFiles/snp_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/snp_msgs/srv/generate_tool_paths__type_support.cpp.o
+[12.732s] Consolidate compiler generated dependencies of target snp_msgs__rosidl_typesupport_introspection_cpp
+[12.878s] [ 30%] Building CXX object CMakeFiles/snp_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/snp_msgs/msg/detail/tool_path__type_support.cpp.o
+[13.034s] [ 31%] Linking CXX shared library libsnp_msgs__rosidl_typesupport_cpp.so
+[13.454s] [ 33%] Built target snp_msgs__rosidl_typesupport_cpp
+[13.668s] Consolidate compiler generated dependencies of target snp_msgs__rosidl_typesupport_fastrtps_c
+[13.843s] [ 34%] Building CXX object CMakeFiles/snp_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/snp_msgs/msg/detail/tool_path__type_support_c.cpp.o
+[13.973s] [ 36%] Linking CXX shared library libsnp_msgs__rosidl_typesupport_fastrtps_cpp.so
+[14.404s] running egg_info
+[14.435s] writing snp_msgs.egg-info/PKG-INFO
+[14.435s] writing dependency_links to snp_msgs.egg-info/dependency_links.txt
+[14.436s] writing top-level names to snp_msgs.egg-info/top_level.txt
+[14.440s] reading manifest file 'snp_msgs.egg-info/SOURCES.txt'
+[14.458s] writing manifest file 'snp_msgs.egg-info/SOURCES.txt'
+[14.711s] [ 36%] Built target ament_cmake_python_build_snp_msgs_egg
+[14.811s] [ 38%] Built target snp_msgs__rosidl_typesupport_fastrtps_cpp
+[16.308s] [ 39%] Building CXX object CMakeFiles/snp_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/snp_msgs/msg/detail/tool_paths__type_support_c.cpp.o
+[16.570s] [ 41%] Building CXX object CMakeFiles/snp_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/snp_msgs/msg/detail/tool_paths__type_support.cpp.o
+[18.052s] [ 42%] Building CXX object CMakeFiles/snp_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/snp_msgs/srv/detail/execute_motion_plan__type_support_c.cpp.o
+[19.576s] [ 44%] Building CXX object CMakeFiles/snp_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/snp_msgs/srv/detail/execute_motion_plan__type_support.cpp.o
+[19.708s] [ 46%] Building CXX object CMakeFiles/snp_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/snp_msgs/srv/detail/generate_motion_plan__type_support_c.cpp.o
+[21.603s] [ 47%] Building CXX object CMakeFiles/snp_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/snp_msgs/srv/detail/generate_tool_paths__type_support_c.cpp.o
+[21.609s] [ 49%] Building CXX object CMakeFiles/snp_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/snp_msgs/srv/detail/generate_motion_plan__type_support.cpp.o
+[23.349s] [ 50%] Linking CXX shared library libsnp_msgs__rosidl_typesupport_fastrtps_c.so
+[23.601s] [ 52%] Building CXX object CMakeFiles/snp_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/snp_msgs/srv/detail/generate_tool_paths__type_support.cpp.o
+[23.837s] [ 53%] Built target snp_msgs__rosidl_typesupport_fastrtps_c
+[25.045s] [ 55%] Linking CXX shared library libsnp_msgs__rosidl_typesupport_introspection_cpp.so
+[25.405s] [ 57%] Built target snp_msgs__rosidl_typesupport_introspection_cpp
+[25.487s] Consolidate compiler generated dependencies of target snp_msgs__rosidl_typesupport_c
+[25.589s] [ 58%] Building CXX object CMakeFiles/snp_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/snp_msgs/msg/tool_path__type_support.cpp.o
+[25.787s] [ 60%] Building CXX object CMakeFiles/snp_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/snp_msgs/srv/execute_motion_plan__type_support.cpp.o
+[26.031s] [ 61%] Building CXX object CMakeFiles/snp_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/snp_msgs/srv/generate_motion_plan__type_support.cpp.o
+[26.233s] [ 63%] Building CXX object CMakeFiles/snp_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/snp_msgs/srv/generate_tool_paths__type_support.cpp.o
+[26.474s] [ 65%] Building CXX object CMakeFiles/snp_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/snp_msgs/msg/tool_paths__type_support.cpp.o
+[26.665s] [ 66%] Linking CXX shared library libsnp_msgs__rosidl_typesupport_c.so
+[26.960s] [ 68%] Built target snp_msgs__rosidl_typesupport_c
+[27.044s] Consolidate compiler generated dependencies of target snp_msgs__rosidl_typesupport_introspection_c
+[27.141s] [ 69%] Building C object CMakeFiles/snp_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/snp_msgs/msg/detail/tool_path__type_support.c.o
+[27.386s] [ 71%] Building C object CMakeFiles/snp_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/snp_msgs/srv/detail/generate_motion_plan__type_support.c.o
+[27.740s] [ 73%] Building C object CMakeFiles/snp_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/snp_msgs/srv/detail/generate_tool_paths__type_support.c.o
+[27.987s] [ 74%] Building C object CMakeFiles/snp_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/snp_msgs/srv/detail/execute_motion_plan__type_support.c.o
+[28.238s] [ 76%] Building C object CMakeFiles/snp_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/snp_msgs/msg/detail/tool_paths__type_support.c.o
+[28.511s] [ 77%] Linking C shared library libsnp_msgs__rosidl_typesupport_introspection_c.so
+[28.668s] [ 79%] Built target snp_msgs__rosidl_typesupport_introspection_c
+[28.732s] [ 79%] Built target snp_msgs
+[28.795s] [ 80%] Built target snp_msgs__py
+[28.854s] Consolidate compiler generated dependencies of target snp_msgs__rosidl_generator_py
+[29.076s] [ 82%] Building C object CMakeFiles/snp_msgs__rosidl_generator_py.dir/rosidl_generator_py/snp_msgs/msg/_tool_path_s.c.o
+[29.760s] [ 84%] Building C object CMakeFiles/snp_msgs__rosidl_generator_py.dir/rosidl_generator_py/snp_msgs/srv/_generate_motion_plan_s.c.o
+[30.097s] [ 85%] Building C object CMakeFiles/snp_msgs__rosidl_generator_py.dir/rosidl_generator_py/snp_msgs/srv/_generate_tool_paths_s.c.o
+[30.407s] [ 87%] Building C object CMakeFiles/snp_msgs__rosidl_generator_py.dir/rosidl_generator_py/snp_msgs/srv/_execute_motion_plan_s.c.o
+[30.726s] [ 88%] Building C object CMakeFiles/snp_msgs__rosidl_generator_py.dir/rosidl_generator_py/snp_msgs/msg/_tool_paths_s.c.o
+[31.018s] [ 90%] Linking C shared library rosidl_generator_py/snp_msgs/libsnp_msgs__rosidl_generator_py.so
+[31.126s] [ 90%] Built target snp_msgs__rosidl_generator_py
+[31.166s] Consolidate compiler generated dependencies of target snp_msgs__rosidl_typesupport_fastrtps_c__pyext
+[31.199s] [ 92%] Building C object CMakeFiles/snp_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/snp_msgs/_snp_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[31.643s] [ 93%] Linking C shared library rosidl_generator_py/snp_msgs/snp_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[31.746s] [ 93%] Built target snp_msgs__rosidl_typesupport_fastrtps_c__pyext
+[31.787s] Consolidate compiler generated dependencies of target snp_msgs__rosidl_typesupport_c__pyext
+[31.823s] [ 95%] Building C object CMakeFiles/snp_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/snp_msgs/_snp_msgs_s.ep.rosidl_typesupport_c.c.o
+[32.294s] [ 96%] Linking C shared library rosidl_generator_py/snp_msgs/snp_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[32.419s] [ 96%] Built target snp_msgs__rosidl_typesupport_c__pyext
+[32.466s] Consolidate compiler generated dependencies of target snp_msgs__rosidl_typesupport_introspection_c__pyext
+[32.501s] [ 98%] Building C object CMakeFiles/snp_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/snp_msgs/_snp_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[32.950s] [100%] Linking C shared library rosidl_generator_py/snp_msgs/snp_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[33.070s] [100%] Built target snp_msgs__rosidl_typesupport_introspection_c__pyext
+[33.100s] Invoked command in '/home/ubuntu/tesseract_ws/build/snp_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/tesseract_ws/install/industrial_reconstruction:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/tesseract_ws/build/snp_msgs -- -j4 -l4
+[33.936s] Invoking command in '/home/ubuntu/tesseract_ws/build/snp_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/tesseract_ws/install/industrial_reconstruction:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/tesseract_ws/build/snp_msgs
+[33.958s] -- Install configuration: "RelWithDebInfo"
+[33.959s] -- Execute custom install script
+[33.960s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/ament_index/resource_index/rosidl_interfaces/snp_msgs
+[33.962s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/msg/detail/tool_path__functions.h
+[33.963s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/msg/detail/tool_path__struct.h
+[33.964s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/msg/detail/tool_path__type_support.h
+[33.964s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/msg/detail/tool_paths__functions.h
+[33.965s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/msg/detail/tool_paths__struct.h
+[33.965s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/msg/detail/tool_paths__type_support.h
+[33.966s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/msg/rosidl_generator_c__visibility_control.h
+[33.966s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/msg/tool_path.h
+[33.967s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/msg/tool_paths.h
+[33.967s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/detail/execute_motion_plan__functions.h
+[33.968s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/detail/execute_motion_plan__struct.h
+[33.968s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/detail/execute_motion_plan__type_support.h
+[33.968s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/detail/generate_motion_plan__functions.h
+[33.969s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/detail/generate_motion_plan__struct.h
+[33.969s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/detail/generate_motion_plan__type_support.h
+[33.970s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/detail/generate_tool_paths__functions.h
+[33.972s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/detail/generate_tool_paths__struct.h
+[33.972s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/detail/generate_tool_paths__type_support.h
+[33.973s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/execute_motion_plan.h
+[33.973s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/generate_motion_plan.h
+[33.973s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/generate_tool_paths.h
+[33.973s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/environment/library_path.sh
+[33.973s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/environment/library_path.dsv
+[33.974s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/msg/detail/tool_path__rosidl_typesupport_fastrtps_c.h
+[33.974s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/msg/detail/tool_paths__rosidl_typesupport_fastrtps_c.h
+[33.974s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[33.975s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/detail/execute_motion_plan__rosidl_typesupport_fastrtps_c.h
+[33.975s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/detail/generate_motion_plan__rosidl_typesupport_fastrtps_c.h
+[33.975s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/detail/generate_tool_paths__rosidl_typesupport_fastrtps_c.h
+[33.976s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/msg/detail/tool_path__builder.hpp
+[33.976s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/msg/detail/tool_path__struct.hpp
+[33.976s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/msg/detail/tool_path__traits.hpp
+[33.977s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/msg/detail/tool_paths__builder.hpp
+[33.977s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/msg/detail/tool_paths__struct.hpp
+[33.978s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/msg/detail/tool_paths__traits.hpp
+[33.978s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/msg/tool_path.hpp
+[33.978s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/msg/tool_paths.hpp
+[33.978s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/detail/execute_motion_plan__builder.hpp
+[33.978s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/detail/execute_motion_plan__struct.hpp
+[33.979s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/detail/execute_motion_plan__traits.hpp
+[33.979s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/detail/generate_motion_plan__builder.hpp
+[33.979s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/detail/generate_motion_plan__struct.hpp
+[33.979s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/detail/generate_motion_plan__traits.hpp
+[33.979s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/detail/generate_tool_paths__builder.hpp
+[33.980s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/detail/generate_tool_paths__struct.hpp
+[33.980s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/detail/generate_tool_paths__traits.hpp
+[33.980s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/execute_motion_plan.hpp
+[33.980s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/generate_motion_plan.hpp
+[33.980s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/generate_tool_paths.hpp
+[33.987s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/msg/detail/tool_path__rosidl_typesupport_fastrtps_cpp.hpp
+[33.987s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/msg/detail/tool_paths__rosidl_typesupport_fastrtps_cpp.hpp
+[33.988s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[33.988s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/detail/execute_motion_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[33.988s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/detail/generate_motion_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[33.988s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/detail/generate_tool_paths__rosidl_typesupport_fastrtps_cpp.hpp
+[33.989s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/msg/detail/tool_path__rosidl_typesupport_introspection_c.h
+[33.989s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/msg/detail/tool_paths__rosidl_typesupport_introspection_c.h
+[33.989s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[33.989s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/detail/execute_motion_plan__rosidl_typesupport_introspection_c.h
+[33.989s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/detail/generate_motion_plan__rosidl_typesupport_introspection_c.h
+[33.989s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/detail/generate_tool_paths__rosidl_typesupport_introspection_c.h
+[33.990s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/msg/detail/tool_path__rosidl_typesupport_introspection_cpp.hpp
+[33.990s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/msg/detail/tool_paths__rosidl_typesupport_introspection_cpp.hpp
+[33.990s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/detail/execute_motion_plan__rosidl_typesupport_introspection_cpp.hpp
+[33.990s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/detail/generate_motion_plan__rosidl_typesupport_introspection_cpp.hpp
+[33.990s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/include/snp_msgs/snp_msgs/srv/detail/generate_tool_paths__rosidl_typesupport_introspection_cpp.hpp
+[33.990s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/environment/pythonpath.sh
+[33.995s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/environment/pythonpath.dsv
+[33.996s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[33.996s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[33.996s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[33.997s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[33.998s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs/__init__.py
+[33.998s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs/_snp_msgs_s.ep.rosidl_typesupport_c.c
+[33.999s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs/_snp_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[33.999s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs/_snp_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[33.999s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs/libsnp_msgs__rosidl_generator_py.so
+[34.000s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs/msg/__init__.py
+[34.000s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs/msg/_tool_path.py
+[34.000s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs/msg/_tool_path_s.c
+[34.001s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs/msg/_tool_paths.py
+[34.001s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs/msg/_tool_paths_s.c
+[34.001s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs/snp_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[34.002s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs/snp_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[34.002s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs/snp_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[34.002s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs/srv/__init__.py
+[34.003s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs/srv/_execute_motion_plan.py
+[34.003s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs/srv/_execute_motion_plan_s.c
+[34.003s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs/srv/_generate_motion_plan.py
+[34.004s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs/srv/_generate_motion_plan_s.c
+[34.004s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs/srv/_generate_tool_paths.py
+[34.004s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs/srv/_generate_tool_paths_s.c
+[34.005s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs/snp_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[34.006s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs/snp_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[34.007s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs/snp_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[34.013s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/msg/ToolPath.idl
+[34.013s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/msg/ToolPaths.idl
+[34.014s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/srv/ExecuteMotionPlan.idl
+[34.014s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/srv/GenerateMotionPlan.idl
+[34.015s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/srv/GenerateToolPaths.idl
+[34.015s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/msg/ToolPath.msg
+[34.016s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/msg/ToolPaths.msg
+[34.016s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/srv/ExecuteMotionPlan.srv
+[34.016s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/srv/ExecuteMotionPlan_Request.msg
+[34.017s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/srv/ExecuteMotionPlan_Response.msg
+[34.018s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/srv/GenerateMotionPlan.srv
+[34.018s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/srv/GenerateMotionPlan_Request.msg
+[34.018s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/srv/GenerateMotionPlan_Response.msg
+[34.018s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/srv/GenerateToolPaths.srv
+[34.019s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/srv/GenerateToolPaths_Request.msg
+[34.019s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/srv/GenerateToolPaths_Response.msg
+[34.020s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/ament_index/resource_index/package_run_dependencies/snp_msgs
+[34.020s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/ament_index/resource_index/parent_prefix_path/snp_msgs
+[34.021s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/environment/ament_prefix_path.sh
+[34.021s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/environment/ament_prefix_path.dsv
+[34.022s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/environment/path.sh
+[34.022s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/environment/path.dsv
+[34.022s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/local_setup.bash
+[34.023s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/local_setup.sh
+[34.023s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/local_setup.zsh
+[34.024s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/local_setup.dsv
+[34.024s] -- Symlinking: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/package.dsv
+[34.050s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/ament_index/resource_index/packages/snp_msgs
+[34.050s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/cmake/rosidl_cmake-extras.cmake
+[34.050s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[34.050s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[34.050s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[34.051s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[34.051s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[34.051s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[34.051s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/cmake/snp_msgsConfig.cmake
+[34.057s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/cmake/snp_msgsConfig-version.cmake
+[34.058s] -- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/package.xml
+[34.058s] -- Installing: /home/ubuntu/tesseract_ws/install/snp_msgs/lib/libsnp_msgs__rosidl_generator_c.so
+[34.058s] -- Set runtime path of "/home/ubuntu/tesseract_ws/install/snp_msgs/lib/libsnp_msgs__rosidl_generator_c.so" to ""
+[34.058s] -- Installing: /home/ubuntu/tesseract_ws/install/snp_msgs/lib/libsnp_msgs__rosidl_typesupport_fastrtps_c.so
+[34.058s] -- Set runtime path of "/home/ubuntu/tesseract_ws/install/snp_msgs/lib/libsnp_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[34.058s] -- Installing: /home/ubuntu/tesseract_ws/install/snp_msgs/lib/libsnp_msgs__rosidl_typesupport_fastrtps_cpp.so
+[34.058s] -- Set runtime path of "/home/ubuntu/tesseract_ws/install/snp_msgs/lib/libsnp_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[34.058s] -- Installing: /home/ubuntu/tesseract_ws/install/snp_msgs/lib/libsnp_msgs__rosidl_typesupport_introspection_c.so
+[34.058s] -- Set runtime path of "/home/ubuntu/tesseract_ws/install/snp_msgs/lib/libsnp_msgs__rosidl_typesupport_introspection_c.so" to ""
+[34.058s] -- Installing: /home/ubuntu/tesseract_ws/install/snp_msgs/lib/libsnp_msgs__rosidl_typesupport_c.so
+[34.058s] -- Set runtime path of "/home/ubuntu/tesseract_ws/install/snp_msgs/lib/libsnp_msgs__rosidl_typesupport_c.so" to ""
+[34.059s] -- Installing: /home/ubuntu/tesseract_ws/install/snp_msgs/lib/libsnp_msgs__rosidl_typesupport_introspection_cpp.so
+[34.059s] -- Set runtime path of "/home/ubuntu/tesseract_ws/install/snp_msgs/lib/libsnp_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[34.060s] -- Installing: /home/ubuntu/tesseract_ws/install/snp_msgs/lib/libsnp_msgs__rosidl_typesupport_cpp.so
+[34.060s] -- Set runtime path of "/home/ubuntu/tesseract_ws/install/snp_msgs/lib/libsnp_msgs__rosidl_typesupport_cpp.so" to ""
+[34.126s] Listing '/home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs'...
+[34.126s] Compiling '/home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs/__init__.py'...
+[34.126s] Listing '/home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs/msg'...
+[34.126s] Listing '/home/ubuntu/tesseract_ws/install/snp_msgs/local/lib/python3.10/dist-packages/snp_msgs/srv'...
+[34.138s] -- Installing: /home/ubuntu/tesseract_ws/install/snp_msgs/lib/libsnp_msgs__rosidl_generator_py.so
+[34.138s] -- Set runtime path of "/home/ubuntu/tesseract_ws/install/snp_msgs/lib/libsnp_msgs__rosidl_generator_py.so" to ""
+[34.138s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/cmake/export_snp_msgs__rosidl_generator_cExport.cmake
+[34.138s] -- Installing: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/cmake/export_snp_msgs__rosidl_generator_cExport-relwithdebinfo.cmake
+[34.138s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/cmake/export_snp_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[34.139s] -- Installing: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/cmake/export_snp_msgs__rosidl_typesupport_fastrtps_cExport-relwithdebinfo.cmake
+[34.139s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/cmake/export_snp_msgs__rosidl_generator_cppExport.cmake
+[34.139s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/cmake/export_snp_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[34.139s] -- Installing: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/cmake/export_snp_msgs__rosidl_typesupport_fastrtps_cppExport-relwithdebinfo.cmake
+[34.139s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/cmake/snp_msgs__rosidl_typesupport_introspection_cExport.cmake
+[34.139s] -- Installing: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/cmake/snp_msgs__rosidl_typesupport_introspection_cExport-relwithdebinfo.cmake
+[34.139s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/cmake/snp_msgs__rosidl_typesupport_cExport.cmake
+[34.139s] -- Installing: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/cmake/snp_msgs__rosidl_typesupport_cExport-relwithdebinfo.cmake
+[34.139s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/cmake/snp_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[34.139s] -- Installing: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/cmake/snp_msgs__rosidl_typesupport_introspection_cppExport-relwithdebinfo.cmake
+[34.140s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/cmake/snp_msgs__rosidl_typesupport_cppExport.cmake
+[34.140s] -- Installing: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/cmake/snp_msgs__rosidl_typesupport_cppExport-relwithdebinfo.cmake
+[34.140s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/cmake/export_snp_msgs__rosidl_generator_pyExport.cmake
+[34.140s] -- Installing: /home/ubuntu/tesseract_ws/install/snp_msgs/share/snp_msgs/cmake/export_snp_msgs__rosidl_generator_pyExport-relwithdebinfo.cmake
+[34.149s] Invoked command in '/home/ubuntu/tesseract_ws/build/snp_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/tesseract_ws/install/industrial_reconstruction:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/tesseract_ws/build/snp_msgs

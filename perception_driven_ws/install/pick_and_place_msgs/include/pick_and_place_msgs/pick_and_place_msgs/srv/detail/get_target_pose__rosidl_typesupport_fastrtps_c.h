@@ -1,0 +1,1 @@
+/home/ubuntu/perception_driven_ws/build/pick_and_place_msgs/rosidl_typesupport_fastrtps_c/pick_and_place_msgs/srv/detail/get_target_pose__rosidl_typesupport_fastrtps_c.h

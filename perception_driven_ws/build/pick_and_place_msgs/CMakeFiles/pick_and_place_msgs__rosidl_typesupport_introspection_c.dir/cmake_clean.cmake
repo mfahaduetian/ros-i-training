@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/pick_and_place_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pick_and_place_msgs/action/detail/execute_grasp_move__type_support.c.o"
+  "CMakeFiles/pick_and_place_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pick_and_place_msgs/action/detail/execute_grasp_move__type_support.c.o.d"
+  "CMakeFiles/pick_and_place_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pick_and_place_msgs/srv/detail/get_target_pose__type_support.c.o"
+  "CMakeFiles/pick_and_place_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pick_and_place_msgs/srv/detail/get_target_pose__type_support.c.o.d"
+  "libpick_and_place_msgs__rosidl_typesupport_introspection_c.pdb"
+  "libpick_and_place_msgs__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/pick_and_place_msgs/action/detail/execute_grasp_move__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/pick_and_place_msgs/action/detail/execute_grasp_move__type_support.c"
+  "rosidl_typesupport_introspection_c/pick_and_place_msgs/srv/detail/get_target_pose__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/pick_and_place_msgs/srv/detail/get_target_pose__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/pick_and_place_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

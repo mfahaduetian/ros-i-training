@@ -1,0 +1,11 @@
+/home/ubuntu/perception_ws/build/lesson_perception/CMakeFiles/uninstall.dir
+/home/ubuntu/perception_ws/build/lesson_perception/CMakeFiles/lesson_perception_uninstall.dir
+/home/ubuntu/perception_ws/build/lesson_perception/CMakeFiles/perception_node.dir
+/home/ubuntu/perception_ws/build/lesson_perception/CMakeFiles/pcd_to_pointcloud.dir
+/home/ubuntu/perception_ws/build/lesson_perception/CMakeFiles/test.dir
+/home/ubuntu/perception_ws/build/lesson_perception/CMakeFiles/edit_cache.dir
+/home/ubuntu/perception_ws/build/lesson_perception/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/perception_ws/build/lesson_perception/CMakeFiles/list_install_components.dir
+/home/ubuntu/perception_ws/build/lesson_perception/CMakeFiles/install.dir
+/home/ubuntu/perception_ws/build/lesson_perception/CMakeFiles/install/local.dir
+/home/ubuntu/perception_ws/build/lesson_perception/CMakeFiles/install/strip.dir

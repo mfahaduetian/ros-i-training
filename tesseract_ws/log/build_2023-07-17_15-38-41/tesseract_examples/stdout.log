@@ -1,0 +1,45 @@
+[ 35%] Built target tesseract_examples
+[ 41%] Built target tesseract_examples_basic_cartesian_example
+[ 48%] Built target tesseract_examples_freespace_ompl_example
+[ 54%] Built target tesseract_examples_car_seat_example
+[ 61%] Built target tesseract_examples_freespace_hybrid_example
+[ 67%] Built target tesseract_examples_glass_upright_example
+[ 74%] Built target tesseract_examples_pick_and_place_example
+[ 80%] Built target tesseract_examples_puzzle_piece_auxillary_axes_example
+[ 87%] Built target tesseract_examples_online_planning_example
+[ 93%] Built target tesseract_examples_puzzle_piece_example
+[100%] Built target tesseract_examples_scene_graph_example
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/include/tesseract_examples
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/include/tesseract_examples/freespace_hybrid_example.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/include/tesseract_examples/puzzle_piece_auxillary_axes_example.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/include/tesseract_examples/example.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/include/tesseract_examples/car_seat_example.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/include/tesseract_examples/scene_graph_example.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/include/tesseract_examples/freespace_ompl_example.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/include/tesseract_examples/puzzle_piece_example.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/include/tesseract_examples/basic_cartesian_example.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/include/tesseract_examples/glass_upright_example.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/include/tesseract_examples/glass_upright_ompl_example.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/include/tesseract_examples/online_planning_example.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/include/tesseract_examples/pick_and_place_example.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/share/tesseract_examples/package.xml
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/lib/libtesseract_examples.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/bin/tesseract_examples_basic_cartesian_example
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/bin/tesseract_examples_car_seat_example
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/bin/tesseract_examples_freespace_hybrid_example
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/bin/tesseract_examples_freespace_ompl_example
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/bin/tesseract_examples_glass_upright_example
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/bin/tesseract_examples_online_planning_example
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/bin/tesseract_examples_pick_and_place_example
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/bin/tesseract_examples_puzzle_piece_auxillary_axes_example
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/bin/tesseract_examples_puzzle_piece_example
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/bin/tesseract_examples_scene_graph_example
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/lib/cmake/tesseract_examples/tesseract_examples-targets.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/lib/cmake/tesseract_examples/tesseract_examples-targets-noconfig.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/lib/cmake/tesseract_examples/tesseract_examples-config.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/lib/cmake/tesseract_examples/tesseract_examples-config-version.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/share/ament_index/resource_index/packages/tesseract_examples
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/share/tesseract_examples/hook/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/share/tesseract_examples/hook/ros_package_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_examples/share/tesseract_examples/hook/python_path.dsv

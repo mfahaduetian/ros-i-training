@@ -1,0 +1,54 @@
+[0.008s] Invoking command in '/home/ubuntu/perception_driven_ws/build/ur5_workcell_moveit2_config': AMENT_PREFIX_PATH=/home/ubuntu/perception_driven_ws/install/robot_workcell_support:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/perception_driven_ws/install/robot_workcell_support:/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble /usr/bin/cmake /home/ubuntu/perception_driven_ws/src/ur5_workcell_moveit2_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config
+[0.081s] -- The C compiler identification is GNU 11.3.0
+[0.140s] -- The CXX compiler identification is GNU 11.3.0
+[0.147s] -- Detecting C compiler ABI info
+[0.231s] -- Detecting C compiler ABI info - done
+[0.245s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.245s] -- Detecting C compile features
+[0.246s] -- Detecting C compile features - done
+[0.251s] -- Detecting CXX compiler ABI info
+[0.357s] -- Detecting CXX compiler ABI info - done
+[0.366s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.366s] -- Detecting CXX compile features
+[0.368s] -- Detecting CXX compile features - done
+[0.373s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.628s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.730s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.876s] -- Configuring done
+[0.876s] -- Generating done
+[0.878s] -- Build files have been written to: /home/ubuntu/perception_driven_ws/build/ur5_workcell_moveit2_config
+[0.886s] Invoked command in '/home/ubuntu/perception_driven_ws/build/ur5_workcell_moveit2_config' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/perception_driven_ws/install/robot_workcell_support:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/perception_driven_ws/install/robot_workcell_support:/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble /usr/bin/cmake /home/ubuntu/perception_driven_ws/src/ur5_workcell_moveit2_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config
+[0.887s] Invoking command in '/home/ubuntu/perception_driven_ws/build/ur5_workcell_moveit2_config': AMENT_PREFIX_PATH=/home/ubuntu/perception_driven_ws/install/robot_workcell_support:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/perception_driven_ws/install/robot_workcell_support:/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/perception_driven_ws/build/ur5_workcell_moveit2_config -- -j4 -l4
+[0.935s] Invoked command in '/home/ubuntu/perception_driven_ws/build/ur5_workcell_moveit2_config' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/perception_driven_ws/install/robot_workcell_support:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/perception_driven_ws/install/robot_workcell_support:/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/perception_driven_ws/build/ur5_workcell_moveit2_config -- -j4 -l4
+[0.959s] Invoking command in '/home/ubuntu/perception_driven_ws/build/ur5_workcell_moveit2_config': AMENT_PREFIX_PATH=/home/ubuntu/perception_driven_ws/install/robot_workcell_support:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/perception_driven_ws/install/robot_workcell_support:/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/perception_driven_ws/build/ur5_workcell_moveit2_config
+[0.967s] -- Install configuration: ""
+[0.968s] -- Execute custom install script
+[0.969s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/controllers.yaml
+[0.979s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/initial_positions.yaml
+[0.987s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/joint_limits.yaml
+[0.994s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/joint_names.yaml
+[1.003s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/kinematics.yaml
+[1.011s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/moveit_cpp.yaml
+[1.019s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/ompl_planning.yaml
+[1.027s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/planning_pipeline.yaml
+[1.035s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/planning_scene_monitor.yaml
+[1.042s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/ros_controllers.yaml
+[1.050s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/sensors.yaml
+[1.058s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/trajectory_execution.yaml
+[1.066s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config//config/ur5_workcell.srdf
+[1.075s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ament_index/resource_index/package_run_dependencies/ur5_workcell_moveit2_config
+[1.083s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ament_index/resource_index/parent_prefix_path/ur5_workcell_moveit2_config
+[1.091s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/environment/ament_prefix_path.sh
+[1.099s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/environment/ament_prefix_path.dsv
+[1.106s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/environment/path.sh
+[1.114s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/environment/path.dsv
+[1.122s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/local_setup.bash
+[1.130s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/local_setup.sh
+[1.138s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/local_setup.zsh
+[1.145s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/local_setup.dsv
+[1.153s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/package.dsv
+[1.160s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ament_index/resource_index/packages/ur5_workcell_moveit2_config
+[1.168s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/cmake/ur5_workcell_moveit2_configConfig.cmake
+[1.177s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/cmake/ur5_workcell_moveit2_configConfig-version.cmake
+[1.184s] -- Symlinking: /home/ubuntu/perception_driven_ws/install/ur5_workcell_moveit2_config/share/ur5_workcell_moveit2_config/package.xml
+[1.196s] Invoked command in '/home/ubuntu/perception_driven_ws/build/ur5_workcell_moveit2_config' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/perception_driven_ws/install/robot_workcell_support:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/perception_driven_ws/install/robot_workcell_support:/home/ubuntu/perception_ws/install/lesson_perception:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/perception_driven_ws/build/ur5_workcell_moveit2_config

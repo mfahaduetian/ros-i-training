@@ -1,0 +1,30 @@
+[ 50%] Built target trajopt_sqp
+[100%] Built target trajopt_sqp_callbacks
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sqp/share/trajopt_sqp/package.xml
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sqp/lib/libtrajopt_sqp.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sqp/lib/libtrajopt_sqp_callbacks.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sqp/lib/cmake/trajopt_sqp/trajopt_sqp-targets.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sqp/lib/cmake/trajopt_sqp/trajopt_sqp-targets-noconfig.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sqp/lib/cmake/trajopt_sqp/trajopt_sqp-config.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sqp/lib/cmake/trajopt_sqp/trajopt_sqp-config-version.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sqp/share/ament_index/resource_index/packages/trajopt_sqp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sqp/share/trajopt_sqp/hook/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sqp/share/trajopt_sqp/hook/ros_package_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sqp/share/trajopt_sqp/hook/python_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sqp/include/trajopt_sqp
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sqp/include/trajopt_sqp/callbacks
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sqp/include/trajopt_sqp/callbacks/joint_state_plotter.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sqp/include/trajopt_sqp/callbacks/wait_for_input.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sqp/include/trajopt_sqp/callbacks/clear_plotter.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sqp/include/trajopt_sqp/callbacks/cartesian_error_plotter.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sqp/include/trajopt_sqp/callbacks/collision_plotter.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sqp/include/trajopt_sqp/sqp_callback.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sqp/include/trajopt_sqp/types.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sqp/include/trajopt_sqp/expressions.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sqp/include/trajopt_sqp/ifopt_qp_problem.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sqp/include/trajopt_sqp/qp_solver.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sqp/include/trajopt_sqp/trust_region_sqp_solver.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sqp/include/trajopt_sqp/trajopt_qp_problem.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sqp/include/trajopt_sqp/osqp_eigen_solver.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/trajopt_sqp/include/trajopt_sqp/qp_problem.h

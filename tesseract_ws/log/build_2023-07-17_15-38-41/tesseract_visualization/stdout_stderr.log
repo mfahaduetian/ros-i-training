@@ -1,0 +1,28 @@
+[100%] Built target tesseract_visualization
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_visualization/share/tesseract_visualization/package.xml
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_visualization/lib/libtesseract_visualization.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_visualization/lib/cmake/tesseract_visualization/tesseract_visualization-targets.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_visualization/lib/cmake/tesseract_visualization/tesseract_visualization-targets-noconfig.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_visualization/lib/cmake/tesseract_visualization/tesseract_visualization-config.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_visualization/lib/cmake/tesseract_visualization/tesseract_visualization-config-version.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_visualization/share/ament_index/resource_index/packages/tesseract_visualization
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_visualization/share/tesseract_visualization/hook/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_visualization/share/tesseract_visualization/hook/ros_package_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_visualization/share/tesseract_visualization/hook/python_path.dsv
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_visualization/include/tesseract_visualization
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_visualization/include/tesseract_visualization/visualization_loader.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_visualization/include/tesseract_visualization/markers
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_visualization/include/tesseract_visualization/markers/marker.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_visualization/include/tesseract_visualization/markers/toolpath_marker.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_visualization/include/tesseract_visualization/markers/axis_marker.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_visualization/include/tesseract_visualization/markers/arrow_marker.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_visualization/include/tesseract_visualization/markers/geometry_marker.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_visualization/include/tesseract_visualization/markers/contact_results_marker.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_visualization/include/tesseract_visualization/trajectory_player.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_visualization/include/tesseract_visualization/ignition
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_visualization/include/tesseract_visualization/ignition/tesseract_ignition_visualization.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_visualization/include/tesseract_visualization/ignition/entity_manager.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_visualization/include/tesseract_visualization/ignition/conversions.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_visualization/include/tesseract_visualization/trajectory_interpolator.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_visualization/include/tesseract_visualization/visualization.h

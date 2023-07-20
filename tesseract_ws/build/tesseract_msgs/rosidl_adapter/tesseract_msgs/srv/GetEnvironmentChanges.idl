@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tesseract_msgs/srv/GetEnvironmentChanges.srv
+// generated code does not contain a copyright notice
+
+#include "tesseract_msgs/msg/EnvironmentCommand.idl"
+
+module tesseract_msgs {
+  module srv {
+    struct GetEnvironmentChanges_Request {
+      @verbatim (language="comment", text=
+        "The revision number from which your are requesting changes to the environment")
+      uint64 revision;
+    };
+    struct GetEnvironmentChanges_Response {
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "Name/Id of the environment")
+      string id;
+
+      @verbatim (language="comment", text=
+        "The revision number of the modified environment, these should match after applying commands to local copy of environment")
+      uint64 revision;
+
+      sequence<tesseract_msgs::msg::EnvironmentCommand> commands;
+    };
+  };
+};

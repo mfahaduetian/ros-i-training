@@ -1,0 +1,41 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from industrial_reconstruction_msgs/srv/StartReconstruction.srv
+// generated code does not contain a copyright notice
+
+#include "industrial_reconstruction_msgs/msg/RGBDImageParams.idl"
+#include "industrial_reconstruction_msgs/msg/TSDFVolumeParams.idl"
+
+module industrial_reconstruction_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "The settings below are only required if enable_tracking is set to true")
+    struct StartReconstruction_Request {
+      @verbatim (language="comment", text=
+        "The frame to be tracked")
+      string tracking_frame;
+
+      @verbatim (language="comment", text=
+        "The frame to recored the tracked_frame pose relative to")
+      string relative_frame;
+
+      @verbatim (language="comment", text=
+        "The minimum translation distance in meters required before recording another image")
+      float translation_distance;
+
+      @verbatim (language="comment", text=
+        "The minimum rotational distance required before recording another image")
+      float rotational_distance;
+
+      @verbatim (language="comment", text=
+        "Whether or not to do integration live, may cause loss of some data")
+      boolean live;
+
+      industrial_reconstruction_msgs::msg::TSDFVolumeParams tsdf_params;
+
+      industrial_reconstruction_msgs::msg::RGBDImageParams rgbd_params;
+    };
+    struct StartReconstruction_Response {
+      boolean success;
+    };
+  };
+};

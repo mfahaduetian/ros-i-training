@@ -1,0 +1,1 @@
+controller_manager:hardware_interface:industrial_reconstruction:joint_state_broadcaster:joint_state_publisher:joint_state_publisher_gui:joint_trajectory_controller:realsense2_camera:robot_state_publisher:rviz2:snp_application:snp_tpp:xacro

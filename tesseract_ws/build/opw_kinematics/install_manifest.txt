@@ -1,0 +1,16 @@
+/home/ubuntu/tesseract_ws/install/opw_kinematics/share/opw_kinematics/package.xml
+/home/ubuntu/tesseract_ws/install/opw_kinematics/lib/cmake/opw_kinematics/opw_kinematics-targets.cmake
+/home/ubuntu/tesseract_ws/install/opw_kinematics/lib/cmake/opw_kinematics/opw_kinematics-config.cmake
+/home/ubuntu/tesseract_ws/install/opw_kinematics/lib/cmake/opw_kinematics/opw_kinematics-config-version.cmake
+/home/ubuntu/tesseract_ws/install/opw_kinematics/share/ament_index/resource_index/packages/opw_kinematics
+/home/ubuntu/tesseract_ws/install/opw_kinematics/share/opw_kinematics/hook/ament_prefix_path.dsv
+/home/ubuntu/tesseract_ws/install/opw_kinematics/share/opw_kinematics/hook/ros_package_path.dsv
+/home/ubuntu/tesseract_ws/install/opw_kinematics/share/opw_kinematics/hook/python_path.dsv
+/home/ubuntu/tesseract_ws/install/opw_kinematics/include/opw_kinematics/opw_kinematics_impl.h
+/home/ubuntu/tesseract_ws/install/opw_kinematics/include/opw_kinematics/opw_parameters.h
+/home/ubuntu/tesseract_ws/install/opw_kinematics/include/opw_kinematics/opw_parameters_examples.h
+/home/ubuntu/tesseract_ws/install/opw_kinematics/include/opw_kinematics/opw_kinematics.h
+/home/ubuntu/tesseract_ws/install/opw_kinematics/include/opw_kinematics/opw_macros.h
+/home/ubuntu/tesseract_ws/install/opw_kinematics/include/opw_kinematics/opw_io.h
+/home/ubuntu/tesseract_ws/install/opw_kinematics/include/opw_kinematics/opw_utilities.h
+/home/ubuntu/tesseract_ws/install/opw_kinematics/lib/cmake/opw_kinematics/opw_kinematics_macros.cmake

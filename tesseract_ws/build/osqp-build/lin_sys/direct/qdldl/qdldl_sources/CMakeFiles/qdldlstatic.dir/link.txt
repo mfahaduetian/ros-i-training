@@ -1,0 +1,2 @@
+/usr/bin/ar qc out/libqdldlstatic.a CMakeFiles/qdldlstatic.dir/src/qdldl.c.o
+/usr/bin/ranlib out/libqdldlstatic.a

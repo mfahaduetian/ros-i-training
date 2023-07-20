@@ -1,0 +1,55 @@
+[  1%] [34m[1mAutomatic MOC for target qtadvanceddocking[0m
+[  1%] Built target qtadvanceddocking_autogen
+[ 33%] Built target qtadvanceddocking
+[ 34%] [34m[1mAutomatic MOC and UIC for target HideShowExample[0m
+[ 36%] [34m[1mAutomatic MOC and UIC for target SimpleExample[0m
+[ 37%] [34m[1mAutomatic MOC for target DeleteOnCloseTest[0m
+[ 39%] [34m[1mAutomatic MOC and UIC for target SidebarExample[0m
+[ 39%] Built target HideShowExample_autogen
+[ 39%] Built target DeleteOnCloseTest_autogen
+[ 39%] Built target SimpleExample_autogen
+[ 39%] Built target SidebarExample_autogen
+[ 40%] [34m[1mAutomatic MOC and UIC for target CentralWidgetExample[0m
+[ 42%] [34m[1mAutomatic MOC and UIC for target EmptyDockAreaExample[0m
+[ 43%] [34m[1mAutomatic MOC and UIC for target DockInDockExample[0m
+[ 44%] [34m[1mAutomatic MOC and UIC for target AdvancedDockingSystemDemo[0m
+[ 44%] Built target CentralWidgetExample_autogen
+[ 44%] Built target EmptyDockAreaExample_autogen
+[ 44%] Built target DockInDockExample_autogen
+[ 44%] Built target AdvancedDockingSystemDemo_autogen
+[ 50%] Built target HideShowExample
+[ 56%] Built target SidebarExample
+[ 60%] Built target DeleteOnCloseTest
+[ 66%] Built target SimpleExample
+[ 72%] Built target CentralWidgetExample
+[ 78%] Built target EmptyDockAreaExample
+[100%] Built target AdvancedDockingSystemDemo
+[ 89%] Built target DockInDockExample
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/FloatingWidgetTitleBar.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/ads_globals.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/DockAreaTabBar.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/DockAreaTitleBar.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/DockAreaTitleBar_p.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/DockAreaWidget.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/DockContainerWidget.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/DockManager.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/DockOverlay.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/DockSplitter.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/DockWidget.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/DockWidgetTab.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/DockingStateReader.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/DockFocusController.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/ElidingLabel.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/FloatingDockContainer.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/FloatingDragPreview.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/IconProvider.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/include/DockComponentsFactory.h
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/license/LICENSE
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/license/gnu-lgpl-v2.1.md
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/lib/libqtadvanceddocking.so.3.8.2
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/lib/libqtadvanceddocking.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/lib/cmake/qtadvanceddocking/adsTargets.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/lib/cmake/qtadvanceddocking/adsTargets-noconfig.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/lib/cmake/qtadvanceddocking/qtadvanceddockingConfig.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/qt_advanced_docking/lib/cmake/qtadvanceddocking/qtadvanceddockingConfigVersion.cmake

@@ -1,0 +1,41 @@
+[ 18%] Built target tesseract_monitoring_environment_interface
+[ 45%] Built target tesseract_monitoring_environment
+[ 63%] Built target tesseract_monitoring_environment_node
+[ 81%] Built target tesseract_monitoring_contacts
+[100%] Built target tesseract_monitoring_contacts_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/lib/tesseract_monitoring/tesseract_monitoring_contacts_node
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/lib/tesseract_monitoring/tesseract_monitoring_environment_node
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/include/tesseract_monitoring/constants.h
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/include/tesseract_monitoring/contact_monitor.h
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/include/tesseract_monitoring/current_state_monitor.h
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/include/tesseract_monitoring/environment_monitor.h
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/include/tesseract_monitoring/environment_monitor_interface.h
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/tesseract_monitoring/launch/contact_monitor.launch
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/tesseract_monitoring/launch/demo.launch
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/tesseract_monitoring/launch/environment_monitor.launch
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/tesseract_monitoring/environment/library_path.sh
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/tesseract_monitoring/environment/library_path.dsv
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/ament_index/resource_index/package_run_dependencies/tesseract_monitoring
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/ament_index/resource_index/parent_prefix_path/tesseract_monitoring
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/tesseract_monitoring/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/tesseract_monitoring/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/tesseract_monitoring/environment/path.sh
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/tesseract_monitoring/environment/path.dsv
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/tesseract_monitoring/local_setup.bash
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/tesseract_monitoring/local_setup.sh
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/tesseract_monitoring/local_setup.zsh
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/tesseract_monitoring/local_setup.dsv
+-- Symlinking: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/tesseract_monitoring/package.dsv
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/ament_index/resource_index/packages/tesseract_monitoring
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/tesseract_monitoring/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/tesseract_monitoring/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/tesseract_monitoring/cmake/tesseract_monitoringConfig.cmake
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/tesseract_monitoring/cmake/tesseract_monitoringConfig-version.cmake
+-- Up-to-date symlink: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/tesseract_monitoring/package.xml
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/lib/libtesseract_monitoring_environment.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/lib/libtesseract_monitoring_environment_interface.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/lib/libtesseract_monitoring_contacts.so
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/tesseract_monitoring/cmake/tesseract_monitoring-targetsExport.cmake
+-- Up-to-date: /home/ubuntu/tesseract_ws/install/tesseract_monitoring/share/tesseract_monitoring/cmake/tesseract_monitoring-targetsExport-noconfig.cmake

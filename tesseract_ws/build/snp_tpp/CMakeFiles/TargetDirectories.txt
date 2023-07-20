@@ -1,0 +1,13 @@
+/home/ubuntu/tesseract_ws/build/snp_tpp/CMakeFiles/uninstall.dir
+/home/ubuntu/tesseract_ws/build/snp_tpp/CMakeFiles/snp_tpp_uninstall.dir
+/home/ubuntu/tesseract_ws/build/snp_tpp/CMakeFiles/snp_tpp_mesh_modifier.dir
+/home/ubuntu/tesseract_ws/build/snp_tpp/CMakeFiles/snp_tpp_plugins.dir
+/home/ubuntu/tesseract_ws/build/snp_tpp/CMakeFiles/snp_tpp_widget.dir
+/home/ubuntu/tesseract_ws/build/snp_tpp/CMakeFiles/snp_tpp_app.dir
+/home/ubuntu/tesseract_ws/build/snp_tpp/CMakeFiles/test.dir
+/home/ubuntu/tesseract_ws/build/snp_tpp/CMakeFiles/edit_cache.dir
+/home/ubuntu/tesseract_ws/build/snp_tpp/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/tesseract_ws/build/snp_tpp/CMakeFiles/list_install_components.dir
+/home/ubuntu/tesseract_ws/build/snp_tpp/CMakeFiles/install.dir
+/home/ubuntu/tesseract_ws/build/snp_tpp/CMakeFiles/install/local.dir
+/home/ubuntu/tesseract_ws/build/snp_tpp/CMakeFiles/install/strip.dir

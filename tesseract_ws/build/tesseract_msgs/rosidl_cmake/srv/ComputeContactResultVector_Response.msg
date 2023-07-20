@@ -1,0 +1,3 @@
+
+ContactResultVector collision_result
+bool success

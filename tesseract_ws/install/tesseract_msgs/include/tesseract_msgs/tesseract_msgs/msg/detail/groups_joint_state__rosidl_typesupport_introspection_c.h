@@ -1,0 +1,1 @@
+/home/ubuntu/tesseract_ws/build/tesseract_msgs/rosidl_typesupport_introspection_c/tesseract_msgs/msg/detail/groups_joint_state__rosidl_typesupport_introspection_c.h

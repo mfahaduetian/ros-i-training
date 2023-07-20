@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tesseract_msgs/msg/Link.msg
+// generated code does not contain a copyright notice
+
+#include "tesseract_msgs/msg/CollisionGeometry.idl"
+#include "tesseract_msgs/msg/Inertial.idl"
+#include "tesseract_msgs/msg/VisualGeometry.idl"
+
+module tesseract_msgs {
+  module msg {
+    struct Link {
+      string name;
+
+      tesseract_msgs::msg::Inertial inertial;
+
+      sequence<tesseract_msgs::msg::VisualGeometry> visual;
+
+      sequence<tesseract_msgs::msg::CollisionGeometry> collision;
+    };
+  };
+};

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ubuntu/tesseract_ws/build/tesseract_monitoring/tesseract_monitoring_contacts_node" "/home/ubuntu/tesseract_ws/build/tesseract_monitoring/tesseract_monitoring_environment_node" "TARGETS" "tesseract_monitoring_contacts_node" "tesseract_monitoring_environment_node" "RUNTIME_DESTINATION" "lib/tesseract_monitoring")

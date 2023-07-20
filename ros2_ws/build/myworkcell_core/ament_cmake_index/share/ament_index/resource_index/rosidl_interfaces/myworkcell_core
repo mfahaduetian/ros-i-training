@@ -1,0 +1,4 @@
+srv/LocalizePart.idl
+srv/LocalizePart.srv
+srv/LocalizePart_Request.msg
+srv/LocalizePart_Response.msg

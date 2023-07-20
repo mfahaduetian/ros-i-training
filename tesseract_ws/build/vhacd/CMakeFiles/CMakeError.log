@@ -1,0 +1,180 @@
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eede8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_eede8.dir/build.make CMakeFiles/cmTC_eede8.dir/build
+gmake[1]: Entering directory '/home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eede8.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -o CMakeFiles/cmTC_eede8.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+    2 | #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_eede8.dir/build.make:78: CMakeFiles/cmTC_eede8.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_eede8/fast] Error 2
+
+
+File /home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_79fc3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_79fc3.dir/build.make CMakeFiles/cmTC_79fc3.dir/build
+gmake[1]: Entering directory '/home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_79fc3.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -o CMakeFiles/cmTC_79fc3.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+    2 | #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_79fc3.dir/build.make:78: CMakeFiles/cmTC_79fc3.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_79fc3/fast] Error 2
+
+
+File /home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_0 exist failed with the following output:
+Change Dir: /home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_26d63/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_26d63.dir/build.make CMakeFiles/cmTC_26d63.dir/build
+gmake[1]: Entering directory '/home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_26d63.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -o CMakeFiles/cmTC_26d63.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+    2 | #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_26d63.dir/build.make:78: CMakeFiles/cmTC_26d63.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_26d63/fast] Error 2
+
+
+File /home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_0
+  return ((int*)(&CL_VERSION_2_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_1_2 exist failed with the following output:
+Change Dir: /home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f9000/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f9000.dir/build.make CMakeFiles/cmTC_f9000.dir/build
+gmake[1]: Entering directory '/home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f9000.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -o CMakeFiles/cmTC_f9000.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+    2 | #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_f9000.dir/build.make:78: CMakeFiles/cmTC_f9000.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_f9000/fast] Error 2
+
+
+File /home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_2
+  return ((int*)(&CL_VERSION_1_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_1_1 exist failed with the following output:
+Change Dir: /home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1b2b6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1b2b6.dir/build.make CMakeFiles/cmTC_1b2b6.dir/build
+gmake[1]: Entering directory '/home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1b2b6.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -o CMakeFiles/cmTC_1b2b6.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+    2 | #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_1b2b6.dir/build.make:78: CMakeFiles/cmTC_1b2b6.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_1b2b6/fast] Error 2
+
+
+File /home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_1
+  return ((int*)(&CL_VERSION_1_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_1_0 exist failed with the following output:
+Change Dir: /home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1a740/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1a740.dir/build.make CMakeFiles/cmTC_1a740.dir/build
+gmake[1]: Entering directory '/home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1a740.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -o CMakeFiles/cmTC_1a740.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+    2 | #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_1a740.dir/build.make:78: CMakeFiles/cmTC_1a740.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_1a740/fast] Error 2
+
+
+File /home/ubuntu/tesseract_ws/build/vhacd/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_0
+  return ((int*)(&CL_VERSION_1_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

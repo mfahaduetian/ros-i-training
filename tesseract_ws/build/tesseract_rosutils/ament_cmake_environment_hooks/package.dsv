@@ -1,0 +1,4 @@
+source;share/tesseract_rosutils/local_setup.bash
+source;share/tesseract_rosutils/local_setup.dsv
+source;share/tesseract_rosutils/local_setup.sh
+source;share/tesseract_rosutils/local_setup.zsh

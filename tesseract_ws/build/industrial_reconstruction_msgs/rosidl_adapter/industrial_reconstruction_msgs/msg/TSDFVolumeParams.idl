@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from industrial_reconstruction_msgs/msg/TSDFVolumeParams.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+
+module industrial_reconstruction_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "See Open3d ScalableTSDFVolume for more details #" "\n"
+      "" "\n"
+      "Means a single voxel size in meters for TSDF volume. Example: 4.0m / 512.0 = 0.0078125m" "\n"
+      "Lowering this value makes a high-resolution TSDF volume, but the" "\n"
+      "integration result can be susceptible to depth noise")
+    struct TSDFVolumeParams {
+      @verbatim (language="comment", text=
+        "Recommended default: 0.01")
+      float voxel_length;
+
+      @verbatim (language="comment", text=
+        "Specifies the truncation value for the signed distance function (SDF)" "\n"
+        "Recommended default: 0.04")
+      float sdf_trunc;
+
+      geometry_msgs::msg::Vector3 min_box_values;
+
+      geometry_msgs::msg::Vector3 max_box_values;
+    };
+  };
+};

@@ -1,0 +1,505 @@
+[0.041s] Invoking command in '/home/ubuntu/tesseract_ws/build/Taskflow': /usr/bin/cmake --build /home/ubuntu/tesseract_ws/build/Taskflow -- -j4 -l4
+[0.069s] /usr/bin/cmake -S/home/ubuntu/tesseract_ws/src/taskflow -B/home/ubuntu/tesseract_ws/build/Taskflow --check-build-system CMakeFiles/Makefile.cmake 0
+[0.093s] /usr/bin/cmake -E cmake_progress_start /home/ubuntu/tesseract_ws/build/Taskflow/CMakeFiles /home/ubuntu/tesseract_ws/build/Taskflow//CMakeFiles/progress.marks
+[0.118s] /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+[0.126s] gmake[1]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.126s] /usr/bin/gmake  -f examples/CMakeFiles/simple.dir/build.make examples/CMakeFiles/simple.dir/depend
+[0.127s] /usr/bin/gmake  -f examples/CMakeFiles/attach_data.dir/build.make examples/CMakeFiles/attach_data.dir/depend
+[0.134s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.134s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow/examples/CMakeFiles/simple.dir/DependInfo.cmake --color=
+[0.135s] /usr/bin/gmake  -f examples/CMakeFiles/async.dir/build.make examples/CMakeFiles/async.dir/depend
+[0.139s] /usr/bin/gmake  -f examples/CMakeFiles/subflow_async.dir/build.make examples/CMakeFiles/subflow_async.dir/depend
+[0.141s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.141s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow/examples/CMakeFiles/attach_data.dir/DependInfo.cmake --color=
+[0.147s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.148s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow/examples/CMakeFiles/async.dir/DependInfo.cmake --color=
+[0.152s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.153s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow/examples/CMakeFiles/subflow_async.dir/DependInfo.cmake --color=
+[0.160s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.160s] /usr/bin/gmake  -f examples/CMakeFiles/simple.dir/build.make examples/CMakeFiles/simple.dir/build
+[0.172s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.172s] gmake[2]: Nothing to be done for 'examples/CMakeFiles/simple.dir/build'.
+[0.172s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.183s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.184s] /usr/bin/gmake  -f examples/CMakeFiles/async.dir/build.make examples/CMakeFiles/async.dir/build
+[0.186s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.187s] /usr/bin/gmake  -f examples/CMakeFiles/attach_data.dir/build.make examples/CMakeFiles/attach_data.dir/build
+[0.195s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.196s] gmake[2]: Nothing to be done for 'examples/CMakeFiles/async.dir/build'.
+[0.196s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.212s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.212s] gmake[2]: Nothing to be done for 'examples/CMakeFiles/attach_data.dir/build'.
+[0.212s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.212s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.212s] /usr/bin/gmake  -f examples/CMakeFiles/subflow_async.dir/build.make examples/CMakeFiles/subflow_async.dir/build
+[0.223s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.224s] gmake[2]: Nothing to be done for 'examples/CMakeFiles/subflow_async.dir/build'.
+[0.224s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.230s] [  2%] Built target simple
+[0.232s] /usr/bin/gmake  -f examples/CMakeFiles/observer.dir/build.make examples/CMakeFiles/observer.dir/depend
+[0.247s] [  4%] Built target async
+[0.249s] /usr/bin/gmake  -f examples/CMakeFiles/subflow.dir/build.make examples/CMakeFiles/subflow.dir/depend
+[0.252s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.253s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow/examples/CMakeFiles/observer.dir/DependInfo.cmake --color=
+[0.253s] [  6%] Built target attach_data
+[0.255s] /usr/bin/gmake  -f examples/CMakeFiles/fibonacci.dir/build.make examples/CMakeFiles/fibonacci.dir/depend
+[0.267s] [  8%] Built target subflow_async
+[0.267s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.267s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow/examples/CMakeFiles/subflow.dir/DependInfo.cmake --color=
+[0.269s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.269s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow/examples/CMakeFiles/fibonacci.dir/DependInfo.cmake --color=
+[0.269s] /usr/bin/gmake  -f examples/CMakeFiles/condition.dir/build.make examples/CMakeFiles/condition.dir/depend
+[0.281s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.281s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow/examples/CMakeFiles/condition.dir/DependInfo.cmake --color=
+[0.285s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.285s] /usr/bin/gmake  -f examples/CMakeFiles/observer.dir/build.make examples/CMakeFiles/observer.dir/build
+[0.305s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.305s] gmake[2]: Nothing to be done for 'examples/CMakeFiles/observer.dir/build'.
+[0.305s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.312s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.313s] /usr/bin/gmake  -f examples/CMakeFiles/subflow.dir/build.make examples/CMakeFiles/subflow.dir/build
+[0.313s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.324s] /usr/bin/gmake  -f examples/CMakeFiles/fibonacci.dir/build.make examples/CMakeFiles/fibonacci.dir/build
+[0.334s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.334s] /usr/bin/gmake  -f examples/CMakeFiles/condition.dir/build.make examples/CMakeFiles/condition.dir/build
+[0.335s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.335s] gmake[2]: Nothing to be done for 'examples/CMakeFiles/subflow.dir/build'.
+[0.335s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.342s] [ 10%] Built target observer
+[0.344s] /usr/bin/gmake  -f examples/CMakeFiles/multi_condition.dir/build.make examples/CMakeFiles/multi_condition.dir/depend
+[0.344s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.344s] gmake[2]: Nothing to be done for 'examples/CMakeFiles/condition.dir/build'.
+[0.344s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.348s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.348s] gmake[2]: Nothing to be done for 'examples/CMakeFiles/fibonacci.dir/build'.
+[0.348s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.360s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.360s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow/examples/CMakeFiles/multi_condition.dir/DependInfo.cmake --color=
+[0.366s] [ 13%] Built target subflow
+[0.367s] /usr/bin/gmake  -f examples/CMakeFiles/switch_case.dir/build.make examples/CMakeFiles/switch_case.dir/depend
+[0.375s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.375s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow/examples/CMakeFiles/switch_case.dir/DependInfo.cmake --color=
+[0.398s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.399s] /usr/bin/gmake  -f examples/CMakeFiles/multi_condition.dir/build.make examples/CMakeFiles/multi_condition.dir/build
+[0.399s] [ 15%] Built target fibonacci
+[0.401s] /usr/bin/gmake  -f examples/CMakeFiles/do_while_loop.dir/build.make examples/CMakeFiles/do_while_loop.dir/depend
+[0.415s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.415s] gmake[2]: Nothing to be done for 'examples/CMakeFiles/multi_condition.dir/build'.
+[0.416s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.416s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.416s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow/examples/CMakeFiles/do_while_loop.dir/DependInfo.cmake --color=
+[0.421s] [ 17%] Built target condition
+[0.422s] /usr/bin/gmake  -f examples/CMakeFiles/while_loop.dir/build.make examples/CMakeFiles/while_loop.dir/depend
+[0.427s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.440s] /usr/bin/gmake  -f examples/CMakeFiles/switch_case.dir/build.make examples/CMakeFiles/switch_case.dir/build
+[0.446s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.446s] /usr/bin/gmake  -f examples/CMakeFiles/do_while_loop.dir/build.make examples/CMakeFiles/do_while_loop.dir/build
+[0.447s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.447s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow/examples/CMakeFiles/while_loop.dir/DependInfo.cmake --color=
+[0.448s] [ 19%] Built target multi_condition
+[0.449s] /usr/bin/gmake  -f examples/CMakeFiles/if_else.dir/build.make examples/CMakeFiles/if_else.dir/depend
+[0.458s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.459s] gmake[2]: Nothing to be done for 'examples/CMakeFiles/switch_case.dir/build'.
+[0.459s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.462s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.462s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow/examples/CMakeFiles/if_else.dir/DependInfo.cmake --color=
+[0.464s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.464s] gmake[2]: Nothing to be done for 'examples/CMakeFiles/do_while_loop.dir/build'.
+[0.464s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.492s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.492s] /usr/bin/gmake  -f examples/CMakeFiles/if_else.dir/build.make examples/CMakeFiles/if_else.dir/build
+[0.505s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.505s] [ 21%] Built target switch_case
+[0.505s] gmake[2]: Nothing to be done for 'examples/CMakeFiles/if_else.dir/build'.
+[0.505s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.506s] /usr/bin/gmake  -f examples/CMakeFiles/nested_if_else.dir/build.make examples/CMakeFiles/nested_if_else.dir/depend
+[0.507s] [ 23%] Built target do_while_loop
+[0.508s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.510s] /usr/bin/gmake  -f examples/CMakeFiles/while_loop.dir/build.make examples/CMakeFiles/while_loop.dir/build
+[0.517s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.517s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow/examples/CMakeFiles/nested_if_else.dir/DependInfo.cmake --color=
+[0.528s] /usr/bin/gmake  -f examples/CMakeFiles/visualization.dir/build.make examples/CMakeFiles/visualization.dir/depend
+[0.535s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.535s] gmake[2]: Nothing to be done for 'examples/CMakeFiles/while_loop.dir/build'.
+[0.535s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.542s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.542s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow/examples/CMakeFiles/visualization.dir/DependInfo.cmake --color=
+[0.543s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.544s] /usr/bin/gmake  -f examples/CMakeFiles/nested_if_else.dir/build.make examples/CMakeFiles/nested_if_else.dir/build
+[0.546s] [ 26%] Built target if_else
+[0.548s] /usr/bin/gmake  -f examples/CMakeFiles/reduce.dir/build.make examples/CMakeFiles/reduce.dir/depend
+[0.558s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.558s] gmake[2]: Nothing to be done for 'examples/CMakeFiles/nested_if_else.dir/build'.
+[0.558s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.563s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.563s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow/examples/CMakeFiles/reduce.dir/DependInfo.cmake --color=
+[0.580s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.580s] /usr/bin/gmake  -f examples/CMakeFiles/visualization.dir/build.make examples/CMakeFiles/visualization.dir/build
+[0.587s] [ 28%] Built target while_loop
+[0.588s] /usr/bin/gmake  -f examples/CMakeFiles/parallel_for.dir/build.make examples/CMakeFiles/parallel_for.dir/depend
+[0.607s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.607s] gmake[2]: Nothing to be done for 'examples/CMakeFiles/visualization.dir/build'.
+[0.607s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.610s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.614s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow/examples/CMakeFiles/parallel_for.dir/DependInfo.cmake --color=
+[0.615s] [ 30%] Built target nested_if_else
+[0.616s] /usr/bin/gmake  -f examples/CMakeFiles/parallel_sort.dir/build.make examples/CMakeFiles/parallel_sort.dir/depend
+[0.617s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.617s] /usr/bin/gmake  -f examples/CMakeFiles/reduce.dir/build.make examples/CMakeFiles/reduce.dir/build
+[0.624s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.624s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow/examples/CMakeFiles/parallel_sort.dir/DependInfo.cmake --color=
+[0.626s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.626s] gmake[2]: Nothing to be done for 'examples/CMakeFiles/reduce.dir/build'.
+[0.626s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.652s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.652s] /usr/bin/gmake  -f examples/CMakeFiles/parallel_sort.dir/build.make examples/CMakeFiles/parallel_sort.dir/build
+[0.671s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.671s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.671s] [ 32%] Built target visualization
+[0.671s] /usr/bin/gmake  -f examples/CMakeFiles/parallel_for.dir/build.make examples/CMakeFiles/parallel_for.dir/build
+[0.672s] gmake[2]: Nothing to be done for 'examples/CMakeFiles/parallel_sort.dir/build'.
+[0.672s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.676s] /usr/bin/gmake  -f examples/CMakeFiles/parallel_pipeline.dir/build.make examples/CMakeFiles/parallel_pipeline.dir/depend
+[0.680s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.680s] gmake[2]: Nothing to be done for 'examples/CMakeFiles/parallel_for.dir/build'.
+[0.681s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.684s] [ 34%] Built target reduce
+[0.694s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.694s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow/examples/CMakeFiles/parallel_pipeline.dir/DependInfo.cmake --color=
+[0.700s] /usr/bin/gmake  -f examples/CMakeFiles/parallel_scalable_pipeline.dir/build.make examples/CMakeFiles/parallel_scalable_pipeline.dir/depend
+[0.710s] [ 36%] Built target parallel_sort
+[0.711s] /usr/bin/gmake  -f examples/CMakeFiles/parallel_text_pipeline.dir/build.make examples/CMakeFiles/parallel_text_pipeline.dir/depend
+[0.714s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.716s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow/examples/CMakeFiles/parallel_scalable_pipeline.dir/DependInfo.cmake --color=
+[0.723s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.723s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow/examples/CMakeFiles/parallel_text_pipeline.dir/DependInfo.cmake --color=
+[0.733s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.734s] /usr/bin/gmake  -f examples/CMakeFiles/parallel_pipeline.dir/build.make examples/CMakeFiles/parallel_pipeline.dir/build
+[0.737s] [ 39%] Built target parallel_for
+[0.745s] /usr/bin/gmake  -f examples/CMakeFiles/parallel_graph_pipeline.dir/build.make examples/CMakeFiles/parallel_graph_pipeline.dir/depend
+[0.753s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.753s] gmake[2]: Nothing to be done for 'examples/CMakeFiles/parallel_pipeline.dir/build'.
+[0.753s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.754s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.754s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow/examples/CMakeFiles/parallel_graph_pipeline.dir/DependInfo.cmake --color=
+[0.761s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.761s] /usr/bin/gmake  -f examples/CMakeFiles/parallel_scalable_pipeline.dir/build.make examples/CMakeFiles/parallel_scalable_pipeline.dir/build
+[0.783s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.784s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.784s] /usr/bin/gmake  -f examples/CMakeFiles/parallel_text_pipeline.dir/build.make examples/CMakeFiles/parallel_text_pipeline.dir/build
+[0.784s] gmake[2]: Nothing to be done for 'examples/CMakeFiles/parallel_scalable_pipeline.dir/build'.
+[0.784s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.787s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.791s] [ 41%] Built target parallel_pipeline
+[0.792s] /usr/bin/gmake  -f examples/CMakeFiles/parallel_graph_pipeline.dir/build.make examples/CMakeFiles/parallel_graph_pipeline.dir/build
+[0.799s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.799s] gmake[2]: Nothing to be done for 'examples/CMakeFiles/parallel_text_pipeline.dir/build'.
+[0.799s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.801s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.801s] gmake[2]: Nothing to be done for 'examples/CMakeFiles/parallel_graph_pipeline.dir/build'.
+[0.801s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.805s] /usr/bin/gmake  -f examples/CMakeFiles/parallel_taskflow_pipeline.dir/build.make examples/CMakeFiles/parallel_taskflow_pipeline.dir/depend
+[0.829s] [ 43%] Built target parallel_scalable_pipeline
+[0.831s] /usr/bin/gmake  -f examples/CMakeFiles/run.dir/build.make examples/CMakeFiles/run.dir/depend
+[0.832s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.832s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow/examples/CMakeFiles/parallel_taskflow_pipeline.dir/DependInfo.cmake --color=
+[0.836s] [ 45%] Built target parallel_graph_pipeline
+[0.837s] /usr/bin/gmake  -f examples/CMakeFiles/run_and_wait.dir/build.make examples/CMakeFiles/run_and_wait.dir/depend
+[0.839s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.840s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow/examples/CMakeFiles/run.dir/DependInfo.cmake --color=
+[0.852s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.853s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow/examples/CMakeFiles/run_and_wait.dir/DependInfo.cmake --color=
+[0.856s] [ 47%] Built target parallel_text_pipeline
+[0.857s] /usr/bin/gmake  -f examples/CMakeFiles/runtime.dir/build.make examples/CMakeFiles/runtime.dir/depend
+[0.864s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.864s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow/examples/CMakeFiles/runtime.dir/DependInfo.cmake --color=
+[0.875s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.875s] /usr/bin/gmake  -f examples/CMakeFiles/parallel_taskflow_pipeline.dir/build.make examples/CMakeFiles/parallel_taskflow_pipeline.dir/build
+[0.883s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.884s] gmake[2]: Nothing to be done for 'examples/CMakeFiles/parallel_taskflow_pipeline.dir/build'.
+[0.884s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.896s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.896s] /usr/bin/gmake  -f examples/CMakeFiles/run.dir/build.make examples/CMakeFiles/run.dir/build
+[0.910s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.910s] /usr/bin/gmake  -f examples/CMakeFiles/runtime.dir/build.make examples/CMakeFiles/runtime.dir/build
+[0.913s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.915s] /usr/bin/gmake  -f examples/CMakeFiles/run_and_wait.dir/build.make examples/CMakeFiles/run_and_wait.dir/build
+[0.920s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.920s] gmake[2]: Nothing to be done for 'examples/CMakeFiles/run.dir/build'.
+[0.920s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.936s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.936s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.936s] gmake[2]: Nothing to be done for 'examples/CMakeFiles/runtime.dir/build'.
+[0.936s] gmake[2]: Nothing to be done for 'examples/CMakeFiles/run_and_wait.dir/build'.
+[0.936s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.936s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.937s] [ 50%] Built target parallel_taskflow_pipeline
+[0.944s] /usr/bin/gmake  -f examples/CMakeFiles/composition.dir/build.make examples/CMakeFiles/composition.dir/depend
+[0.959s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.959s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow/examples/CMakeFiles/composition.dir/DependInfo.cmake --color=
+[0.961s] [ 52%] Built target run_and_wait
+[0.962s] /usr/bin/gmake  -f examples/CMakeFiles/limited_concurrency.dir/build.make examples/CMakeFiles/limited_concurrency.dir/depend
+[0.965s] [ 54%] Built target run
+[0.969s] /usr/bin/gmake  -f examples/CMakeFiles/cancel.dir/build.make examples/CMakeFiles/cancel.dir/depend
+[0.970s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.970s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow/examples/CMakeFiles/limited_concurrency.dir/DependInfo.cmake --color=
+[0.974s] [ 56%] Built target runtime
+[0.976s] /usr/bin/gmake  -f examples/CMakeFiles/cancel_async.dir/build.make examples/CMakeFiles/cancel_async.dir/depend
+[0.982s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.982s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow/examples/CMakeFiles/cancel.dir/DependInfo.cmake --color=
+[0.983s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[0.983s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/examples /home/ubuntu/tesseract_ws/build/Taskflow/examples/CMakeFiles/cancel_async.dir/DependInfo.cmake --color=
+[1.006s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.006s] /usr/bin/gmake  -f examples/CMakeFiles/limited_concurrency.dir/build.make examples/CMakeFiles/limited_concurrency.dir/build
+[1.013s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.013s] /usr/bin/gmake  -f examples/CMakeFiles/composition.dir/build.make examples/CMakeFiles/composition.dir/build
+[1.023s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.023s] /usr/bin/gmake  -f examples/CMakeFiles/cancel_async.dir/build.make examples/CMakeFiles/cancel_async.dir/build
+[1.028s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.028s] gmake[2]: Nothing to be done for 'examples/CMakeFiles/composition.dir/build'.
+[1.028s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.029s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.029s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.029s] gmake[2]: Nothing to be done for 'examples/CMakeFiles/limited_concurrency.dir/build'.
+[1.029s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.035s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.035s] gmake[2]: Nothing to be done for 'examples/CMakeFiles/cancel_async.dir/build'.
+[1.035s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.035s] /usr/bin/gmake  -f examples/CMakeFiles/cancel.dir/build.make examples/CMakeFiles/cancel.dir/build
+[1.060s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.060s] gmake[2]: Nothing to be done for 'examples/CMakeFiles/cancel.dir/build'.
+[1.060s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.066s] [ 58%] Built target composition
+[1.071s] /usr/bin/gmake  -f unittests/CMakeFiles/utility.dir/build.make unittests/CMakeFiles/utility.dir/depend
+[1.077s] [ 60%] Built target limited_concurrency
+[1.079s] /usr/bin/gmake  -f unittests/CMakeFiles/tsq.dir/build.make unittests/CMakeFiles/tsq.dir/depend
+[1.080s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.080s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow/unittests/CMakeFiles/utility.dir/DependInfo.cmake --color=
+[1.090s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.090s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow/unittests/CMakeFiles/tsq.dir/DependInfo.cmake --color=
+[1.096s] [ 63%] Built target cancel_async
+[1.097s] /usr/bin/gmake  -f unittests/CMakeFiles/basics.dir/build.make unittests/CMakeFiles/basics.dir/depend
+[1.120s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.120s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow/unittests/CMakeFiles/basics.dir/DependInfo.cmake --color=
+[1.124s] [ 65%] Built target cancel
+[1.125s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.125s] /usr/bin/gmake  -f unittests/CMakeFiles/tsq.dir/build.make unittests/CMakeFiles/tsq.dir/build
+[1.126s] /usr/bin/gmake  -f unittests/CMakeFiles/asyncs.dir/build.make unittests/CMakeFiles/asyncs.dir/depend
+[1.134s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.134s] gmake[2]: Nothing to be done for 'unittests/CMakeFiles/tsq.dir/build'.
+[1.134s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.134s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.134s] /usr/bin/gmake  -f unittests/CMakeFiles/utility.dir/build.make unittests/CMakeFiles/utility.dir/build
+[1.143s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.143s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow/unittests/CMakeFiles/asyncs.dir/DependInfo.cmake --color=
+[1.149s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.149s] gmake[2]: Nothing to be done for 'unittests/CMakeFiles/utility.dir/build'.
+[1.149s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.153s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.154s] /usr/bin/gmake  -f unittests/CMakeFiles/basics.dir/build.make unittests/CMakeFiles/basics.dir/build
+[1.180s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.180s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.180s] gmake[2]: Nothing to be done for 'unittests/CMakeFiles/basics.dir/build'.
+[1.180s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.180s] /usr/bin/gmake  -f unittests/CMakeFiles/asyncs.dir/build.make unittests/CMakeFiles/asyncs.dir/build
+[1.183s] [ 67%] Built target tsq
+[1.184s] [ 69%] Built target utility
+[1.191s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.191s] gmake[2]: Nothing to be done for 'unittests/CMakeFiles/asyncs.dir/build'.
+[1.192s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.196s] /usr/bin/gmake  -f unittests/CMakeFiles/subflows.dir/build.make unittests/CMakeFiles/subflows.dir/depend
+[1.210s] /usr/bin/gmake  -f unittests/CMakeFiles/control_flow.dir/build.make unittests/CMakeFiles/control_flow.dir/depend
+[1.219s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.220s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow/unittests/CMakeFiles/subflows.dir/DependInfo.cmake --color=
+[1.220s] [ 71%] Built target basics
+[1.221s] /usr/bin/gmake  -f unittests/CMakeFiles/semaphores.dir/build.make unittests/CMakeFiles/semaphores.dir/depend
+[1.224s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.224s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow/unittests/CMakeFiles/control_flow.dir/DependInfo.cmake --color=
+[1.233s] [ 73%] Built target asyncs
+[1.235s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.235s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow/unittests/CMakeFiles/semaphores.dir/DependInfo.cmake --color=
+[1.235s] /usr/bin/gmake  -f unittests/CMakeFiles/movable.dir/build.make unittests/CMakeFiles/movable.dir/depend
+[1.247s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.247s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow/unittests/CMakeFiles/movable.dir/DependInfo.cmake --color=
+[1.259s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.259s] /usr/bin/gmake  -f unittests/CMakeFiles/control_flow.dir/build.make unittests/CMakeFiles/control_flow.dir/build
+[1.267s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.268s] /usr/bin/gmake  -f unittests/CMakeFiles/subflows.dir/build.make unittests/CMakeFiles/subflows.dir/build
+[1.273s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.273s] gmake[2]: Nothing to be done for 'unittests/CMakeFiles/control_flow.dir/build'.
+[1.273s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.276s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.284s] /usr/bin/gmake  -f unittests/CMakeFiles/semaphores.dir/build.make unittests/CMakeFiles/semaphores.dir/build
+[1.285s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.285s] gmake[2]: Nothing to be done for 'unittests/CMakeFiles/subflows.dir/build'.
+[1.285s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.294s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.298s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.298s] gmake[2]: Nothing to be done for 'unittests/CMakeFiles/semaphores.dir/build'.
+[1.298s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.298s] /usr/bin/gmake  -f unittests/CMakeFiles/movable.dir/build.make unittests/CMakeFiles/movable.dir/build
+[1.312s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.312s] gmake[2]: Nothing to be done for 'unittests/CMakeFiles/movable.dir/build'.
+[1.313s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.315s] [ 76%] Built target control_flow
+[1.320s] /usr/bin/gmake  -f unittests/CMakeFiles/cancellation.dir/build.make unittests/CMakeFiles/cancellation.dir/depend
+[1.329s] [ 78%] Built target subflows
+[1.330s] /usr/bin/gmake  -f unittests/CMakeFiles/algorithms.dir/build.make unittests/CMakeFiles/algorithms.dir/depend
+[1.330s] [ 80%] Built target semaphores
+[1.332s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.333s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow/unittests/CMakeFiles/cancellation.dir/DependInfo.cmake --color=
+[1.333s] /usr/bin/gmake  -f unittests/CMakeFiles/compositions.dir/build.make unittests/CMakeFiles/compositions.dir/depend
+[1.339s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.339s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow/unittests/CMakeFiles/algorithms.dir/DependInfo.cmake --color=
+[1.344s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.345s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow/unittests/CMakeFiles/compositions.dir/DependInfo.cmake --color=
+[1.351s] [ 82%] Built target movable
+[1.353s] /usr/bin/gmake  -f unittests/CMakeFiles/traversals.dir/build.make unittests/CMakeFiles/traversals.dir/depend
+[1.360s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.360s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow/unittests/CMakeFiles/traversals.dir/DependInfo.cmake --color=
+[1.369s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.369s] /usr/bin/gmake  -f unittests/CMakeFiles/cancellation.dir/build.make unittests/CMakeFiles/cancellation.dir/build
+[1.374s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.374s] /usr/bin/gmake  -f unittests/CMakeFiles/algorithms.dir/build.make unittests/CMakeFiles/algorithms.dir/build
+[1.388s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.388s] /usr/bin/gmake  -f unittests/CMakeFiles/compositions.dir/build.make unittests/CMakeFiles/compositions.dir/build
+[1.392s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.392s] gmake[2]: Nothing to be done for 'unittests/CMakeFiles/cancellation.dir/build'.
+[1.393s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.396s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.396s] gmake[2]: Nothing to be done for 'unittests/CMakeFiles/algorithms.dir/build'.
+[1.396s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.400s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.408s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.408s] gmake[2]: Nothing to be done for 'unittests/CMakeFiles/compositions.dir/build'.
+[1.408s] /usr/bin/gmake  -f unittests/CMakeFiles/traversals.dir/build.make unittests/CMakeFiles/traversals.dir/build
+[1.412s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.425s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.425s] gmake[2]: Nothing to be done for 'unittests/CMakeFiles/traversals.dir/build'.
+[1.425s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.453s] [ 84%] Built target algorithms
+[1.454s] /usr/bin/gmake  -f unittests/CMakeFiles/sorting.dir/build.make unittests/CMakeFiles/sorting.dir/depend
+[1.454s] [ 86%] Built target cancellation
+[1.455s] /usr/bin/gmake  -f unittests/CMakeFiles/pipelines.dir/build.make unittests/CMakeFiles/pipelines.dir/depend
+[1.455s] [ 89%] Built target compositions
+[1.461s] /usr/bin/gmake  -f unittests/CMakeFiles/scalable_pipelines.dir/build.make unittests/CMakeFiles/scalable_pipelines.dir/depend
+[1.465s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.466s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow/unittests/CMakeFiles/sorting.dir/DependInfo.cmake --color=
+[1.469s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.470s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow/unittests/CMakeFiles/pipelines.dir/DependInfo.cmake --color=
+[1.476s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.477s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow/unittests/CMakeFiles/scalable_pipelines.dir/DependInfo.cmake --color=
+[1.491s] [ 91%] Built target traversals
+[1.492s] /usr/bin/gmake  -f unittests/CMakeFiles/runtimes.dir/build.make unittests/CMakeFiles/runtimes.dir/depend
+[1.503s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.504s] cd /home/ubuntu/tesseract_ws/build/Taskflow && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/tesseract_ws/src/taskflow /home/ubuntu/tesseract_ws/src/taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow /home/ubuntu/tesseract_ws/build/Taskflow/unittests /home/ubuntu/tesseract_ws/build/Taskflow/unittests/CMakeFiles/runtimes.dir/DependInfo.cmake --color=
+[1.516s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.517s] /usr/bin/gmake  -f unittests/CMakeFiles/sorting.dir/build.make unittests/CMakeFiles/sorting.dir/build
+[1.521s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.522s] /usr/bin/gmake  -f unittests/CMakeFiles/scalable_pipelines.dir/build.make unittests/CMakeFiles/scalable_pipelines.dir/build
+[1.525s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.539s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.539s] /usr/bin/gmake  -f unittests/CMakeFiles/pipelines.dir/build.make unittests/CMakeFiles/pipelines.dir/build
+[1.539s] gmake[2]: Nothing to be done for 'unittests/CMakeFiles/sorting.dir/build'.
+[1.539s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.539s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.539s] gmake[2]: Nothing to be done for 'unittests/CMakeFiles/scalable_pipelines.dir/build'.
+[1.539s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.552s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.552s] gmake[2]: Nothing to be done for 'unittests/CMakeFiles/pipelines.dir/build'.
+[1.556s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.556s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.556s] /usr/bin/gmake  -f unittests/CMakeFiles/runtimes.dir/build.make unittests/CMakeFiles/runtimes.dir/build
+[1.570s] gmake[2]: Entering directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.571s] gmake[2]: Nothing to be done for 'unittests/CMakeFiles/runtimes.dir/build'.
+[1.571s] gmake[2]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.578s] [ 93%] Built target scalable_pipelines
+[1.592s] [ 95%] Built target pipelines
+[1.600s] [ 97%] Built target sorting
+[1.616s] [100%] Built target runtimes
+[1.617s] gmake[1]: Leaving directory '/home/ubuntu/tesseract_ws/build/Taskflow'
+[1.617s] /usr/bin/cmake -E cmake_progress_start /home/ubuntu/tesseract_ws/build/Taskflow/CMakeFiles 0
+[1.643s] Invoked command in '/home/ubuntu/tesseract_ws/build/Taskflow' returned '0': /usr/bin/cmake --build /home/ubuntu/tesseract_ws/build/Taskflow -- -j4 -l4
+[2.085s] Invoking command in '/home/ubuntu/tesseract_ws/build/Taskflow': /usr/bin/cmake --install /home/ubuntu/tesseract_ws/build/Taskflow
+[2.107s] -- Install configuration: "Release"
+[2.108s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow
+[2.108s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/cuda
+[2.108s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/cuda/cuda_execution_policy.hpp
+[2.108s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/cuda/cuda_memory.hpp
+[2.108s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/cuda/cuda_meta.hpp
+[2.109s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/cuda/cuda_pool.hpp
+[2.109s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/cuda/cuda_capturer.hpp
+[2.109s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/cuda/cuda_optimizer.hpp
+[2.109s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/cuda/cuda_device.hpp
+[2.109s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/cuda/cuda_stream.hpp
+[2.110s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/cuda/cuda_error.hpp
+[2.110s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/cuda/cuda_task.hpp
+[2.110s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/cuda/algorithm
+[2.110s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/cuda/algorithm/find.hpp
+[2.110s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/cuda/algorithm/for_each.hpp
+[2.110s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/cuda/algorithm/scan.hpp
+[2.110s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/cuda/algorithm/merge.hpp
+[2.111s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/cuda/algorithm/sort.hpp
+[2.111s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/cuda/algorithm/reduce.hpp
+[2.111s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/cuda/algorithm/transpose.hpp
+[2.111s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/cuda/algorithm/transform.hpp
+[2.111s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/cuda/algorithm/matmul.hpp
+[2.111s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/cuda/cuda_graph.hpp
+[2.111s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/cuda/cudaflow.hpp
+[2.111s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/taskflow.hpp
+[2.112s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/dsl
+[2.112s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/dsl/dsl.hpp
+[2.112s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/dsl/task_analyzer.hpp
+[2.112s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/dsl/type_list.hpp
+[2.112s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/dsl/task_trait.hpp
+[2.112s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/dsl/connection.hpp
+[2.112s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/dsl/meta_macro.hpp
+[2.112s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/dsl/tuple_utils.hpp
+[2.112s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/dsl/task_dsl.hpp
+[2.112s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/core
+[2.117s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/core/taskflow.hpp
+[2.117s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/core/task.hpp
+[2.117s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/core/observer.hpp
+[2.117s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/core/executor.hpp
+[2.117s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/core/notifier.hpp
+[2.117s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/core/worker.hpp
+[2.118s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/core/tsq.hpp
+[2.118s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/core/declarations.hpp
+[2.118s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/core/flow_builder.hpp
+[2.118s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/core/error.hpp
+[2.118s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/core/semaphore.hpp
+[2.118s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/core/environment.hpp
+[2.118s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/core/graph.hpp
+[2.118s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/core/executor-module-opt.hpp
+[2.118s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/core/topology.hpp
+[2.118s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/algorithm
+[2.119s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/algorithm/pipeline.hpp
+[2.119s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/algorithm/for_each.hpp
+[2.119s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/algorithm/sort.hpp
+[2.119s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/algorithm/reduce.hpp
+[2.119s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/algorithm/critical.hpp
+[2.119s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/algorithm/transform.hpp
+[2.119s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/utility
+[2.119s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/utility/stream.hpp
+[2.119s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/utility/uuid.hpp
+[2.119s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/utility/iterator.hpp
+[2.119s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/utility/singleton.hpp
+[2.120s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/utility/traits.hpp
+[2.120s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/utility/math.hpp
+[2.120s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/utility/small_vector.hpp
+[2.120s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/utility/os.hpp
+[2.120s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/utility/object_pool.hpp
+[2.120s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/sycl
+[2.120s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/sycl/syclflow.hpp
+[2.120s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/sycl/algorithm
+[2.120s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/sycl/algorithm/reduce.hpp
+[2.120s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/sycl/algorithm/sycl_transform.hpp
+[2.121s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/sycl/algorithm/sycl_for_each.hpp
+[2.121s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/sycl/sycl_graph.hpp
+[2.121s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/sycl/sycl_execution_policy.hpp
+[2.121s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/sycl/sycl_task.hpp
+[2.121s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/include/taskflow/sycl/sycl_meta.hpp
+[2.121s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/lib/cmake/Taskflow/TaskflowTargets.cmake
+[2.121s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/lib/cmake/Taskflow/TaskflowConfig.cmake
+[2.121s] -- Up-to-date: /home/ubuntu/tesseract_ws/install/Taskflow/lib/cmake/Taskflow/TaskflowConfigVersion.cmake
+[2.121s] Invoked command in '/home/ubuntu/tesseract_ws/build/Taskflow' returned '0': /usr/bin/cmake --install /home/ubuntu/tesseract_ws/build/Taskflow
